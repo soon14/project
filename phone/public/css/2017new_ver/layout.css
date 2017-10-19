@@ -1,0 +1,62 @@
+/* 门票 列表页 */
+.map_list{ position:fixed; bottom:0; width:100%; border-top:1px solid #ccc; background-color:rgba(255,255,255,0.7);}
+.map_list li{padding:10px;}
+.map_list .ticket-pic{ position:relative; width:160px; height:100px; float: left;}
+.map_list .ticket-pic .ticket-txt{ position:absolute; bottom:0; width:100%; height:25px; line-height:25px; color:#FFF; text-align:center; background-color:rgba(0,0,0,0.3);}
+.map_list .ticket-pic .tip {
+    position: absolute;
+    top: 0;
+    left: .5rem;
+    font-size: .8rem;
+    color: #FFF;
+    background: #fe6400;
+    padding: 3px 8px;
+}
+.map_list .ticket-pic img{width:160px;height:100px;}
+.map_list .ticket-info{position:relative; padding-left:170px;}
+.map_list .ticket-tit{font-size:1rem;height: 24px; line-height:24px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.map_list .ticket-address{font-size:.8rem; color: #666;height: 24px;line-height:24px; margin-bottom:3px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.map_list .ticket-servicetag{margin-bottom:5px;}
+.map_list .ticket-servicetag span{ display:inline-block; background:#fdbf0e; height:20px; font-size:.8rem; line-height:20px; color:#FFF; padding:0 10px; border-radius:20px;}
+.map_list .ticket_price {color: #666; font-size:.8rem;}
+.map_list .ticket_price strong{font-size:1.1rem; margin: 0 2px; font-weight: 400; color: #ff7d13;}
+.map_list .ticket_price dfn{vertical-align: 8px; color: #ff7d13;vertical-align: 0;font-style: normal;}
+.map_list .ticket_price span{ margin-left:10px;}
+
+/* 特产/人文历史 列表页 */
+.Dest-list-head{ height:45px;  background:#2299ee;}
+.Dest-list-head .head-title{ position:relative; line-height:45px; font-size:1.2rem; padding-left:5.2rem; color:#FFF;}
+.Dest-list-head .head-title i{ position:absolute; top:8px; left:3rem; width:30px; height:30px; background:url(../images/tit-ico011.png); background-size:30px;}
+.Dest-list-head .head-title .small{ font-size:.8rem; color:#FFF; padding-left:10px;}
+.Dest-list-head a.back-page{ position:absolute; display:block; left:.5rem; top:.5rem; width:2.1rem; height:2.1rem; background:url(../images/back-page.png); background-size:2rem;}
+
+.Dest-list-body .listItem li{float:left;width:50%; }
+.Dest-list-body .listItem a{ display:block; padding:10px;}
+.Dest-list-body .listItem .list-img{ position:relative;}
+.Dest-list-body .listItem .list-img .pic{width:100%;border: 1px solid #eaeaea;}
+.Dest-list-body .listItem .list-img .pic img{width:100%;}
+.Dest-list-body .listItem .list-title{ position:absolute; bottom:0; width:100%; text-align:center; padding:5px; color:#FFF; font-size:1.2rem;white-space: nowrap;text-overflow: ellipsis;overflow: hidden; background-color:rgba(0,0,0,0.3)}
+.Dest-list-body .listItem .tip{ position:absolute; top:0; left:.5rem; font-size:.8rem;color:#FFF;  background:#fe6400; padding:3px 8px;}
+.Dest-list-body .listItem .city-from{text-align:center; color:#ff9000;   padding:5px; background:#e9e9e9; }
+
+/* 特产/人文历史 内容页 */
+.Dest-page-head .head-info{position:relative;}
+.Dest-page-head .head-pic img{ width:100%;}
+.Dest-page-head .page-name{position:absolute; top:.8rem; left:0; padding:0 1.2rem; border-radius:0 1.2rem 1.2rem 0; color:#FFF; font-size:1.5rem; background-color:rgba(0,0,0,0.3);background-color:rgba(0,0,0,0.3); }
+.Dest-page-head .page-name span{margin-right:10px; font-size:1.5rem;}
+.Dest-page-head .page-nav{ height:15px; background:#fdbf0e; color:#594200; text-align:center;}
+.Dest-page-head .PageNav-fixed{ position:fixed; height:45px; line-height:45px; font-size:1.1rem; top:0; width:100%;}
+
+.Dest-page-title .page-title{position:relative; font-size:1.5rem;margin-bottom:10px; height:4rem; line-height:4rem; padding-left:3rem;background-color: #f0f0f0;}
+.Dest-page-title .PageTitle-fixed{ position:fixed;width:100%; left:0;box-shadow: 0px 3px 5px #e3e3e3; border-bottom:1px solid #cdcdcd;}
+.Dest-page-title .page-title span{ padding-left:1rem;}
+.Dest-page-title .page-title i{ position:absolute; left:.5rem; top:.5rem;width:2.8rem; height:2.8rem; background:url(../images/tit-ico07.png) no-repeat; background-size:2.8rem;}
+.Dest-page-title .page-title i.techan{background:url(../images/tit-ico11.png) no-repeat; background-size:2.8rem;}
+
+.Dest-page-body{ padding:0 1rem;}
+.Dest-page-body .page-article p{margin-left:3rem; font-size:.8rem; line-height:1.5rem; padding-bottom:10px; }
+
+
+
+
+

@@ -1,0 +1,365 @@
+/* CSS通用样式库 */
+html {
+	font-family: sans-serif;font-family: "Microsoft YaHei" ! important;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	margin: 0; 
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+	display: block;
+}
+audio, canvas, progress, video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+div, form, img, ul, ol, li, dl, dt, dd {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: left;
+}
+img {
+	vertical-align: top;
+	border-width: 0;
+}
+input, textarea, select {
+	font-family: arial;
+}
+table, td, tr, tt {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+ul, ol {
+	padding-left: 0;
+	list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	text-align: left;
+}
+p {
+    margin: 0 0 10px;
+}
+em {
+	font-style: normal;
+	font-weight: normal;
+}
+i{font-style: normal; margin:0; padding:0;}
+dfn{font-style: normal; margin:0; padding:0;}
+b{font-style: normal; margin:0; padding:0;}
+/* Link */
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #ff9a00;
+	text-decoration: none;
+}
+a:active {
+	color: #666;
+	text-decoration: none;
+}
+/** 容器框架 开始 **/
+.container {
+	width:1180px;
+	margin-right: auto;
+	margin-left: auto; zoom:1;
+}
+
+
+/** 容器框架 结束 **/
+
+
+/** 浮动 **/
+.left {
+  float: left !important;
+}
+.right {
+  float: right !important;
+}
+/** 清除浮动 **/
+.clearfix{ clear:both;}
+
+.hide {
+  display: none !important;
+}
+.show { 
+  
+}
+/** 布局框架 **/
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+	background: #999;
+	overflow: hidden;
+}
+.col-md-p {
+	padding: 15px;
+}
+.col-md-1, .col-sm-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6 {
+	position: relative;
+	min-height: 1px;
+	float: left;
+}
+.col-md-6 {
+	width: 16.66666667%;
+}
+.col-md-5 {
+	width: 20%;
+}
+.col-md-4 {
+	width: 25%;
+}
+.col-md-3 {
+	width: 33.33333333%;
+}
+.col-md-2 {
+	width: 50%;
+}
+.col-md-1 {
+	width: 100%;
+}
+/** 文字定义 **/
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.text-center {
+	text-align: center;
+}
+.text-justify {
+	text-align: justify;
+}
+.text-nowrap {
+	white-space: nowrap;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+.J-top{margin-top:20px}.fixed{position:fixed}.Color-fafafa{background:#fafafa}.notebox{height:66px}#commonHead{position:absolute;top:0;left:0;height:65px;z-index:999;width:100%;background:#fff;-moz-box-shadow:0 1px 3px rgba(0,0,0,.2);-webkit-box-shadow:0 1px 3px rgba(0,0,0,.2);box-shadow:0 1px 3px rgba(0,0,0,.2);border-bottom:1px solid #d6d6d6}#commonWarp{width:1180px;height:66px;margin:0
+auto}#commonHead
+.logo{background:url(/res/images/common/aittoTravel-ico.png) no-repeat}#commonHead
+.logo{width:200px;height:55px;margin-top:8px;float:left;background-position:0 0}#commonHead
+.nav{padding-left:250px}#commonHead .nav
+li{float:left;height:63px;line-height:63px}#commonHead .nav li
+a{display:block;padding:0
+15px;color:#333}#commonHead .nav li a:hover{border-bottom:3px solid #2577e3;color:#2577e3}#commonHead .nav li.current>a{color:#fff;background:#3385ff;text-decoration:none;border-bottom:3px solid #3385ff}#commonHead .nav li.current>a:hover{color:#fff;border-bottom:none;border-bottom:3px solid #3385ff}#commonHead .login-info{float:right;width:300px}#commonHead
+.userLogin{float:left;font-size:14px;line-height:66px;line-height:66px;margin-right:15px}#commonHead .userLogin
+span{font-size:14px;padding:0
+5px}#commonHead .login-info .head-user{position:relative;width:42px;height:66px;float:left;margin-right:15px}#commonHead .login-info .user-ico{width:32px;height:32px;background:url(/res/images/common/aittoTravel-ico.png) no-repeat 0 -260px;margin-top:16px}#commonHead .login-info .icon-caret-down{width:8px;height:4px;position:absolute;top:30px;background:url(/res/images/common/aittoTravel-ico.png) no-repeat -80px -260px;right:0}#commonHead .login-info .head-code{position:relative;width:42px;height:66px;float:left}#commonHead .login-info .code-ico{width:32px;height:32px;background:url(/res/images/common/aittoTravel-ico.png) no-repeat -40px -260px;margin-top:16px}#commonHead .login-info .icon-caret-down{width:8px;height:4px;position:absolute;top:30px;background:url(/res/images/common/aittoTravel-ico.png) no-repeat -80px -260px;right:0}.drop-trigger
+.dropdown{background:#fff;display:none;border:1px
+solid #e6e6e6;border-top:none;right:-1px;z-index:3;position:absolute;top:65px}.drop-trigger .dropdown .drop-tit{height:40px;line-height:40px;font-size:14px;text-align:center;color:#FFF;background:#ff9d00}.drop-trigger .dropdown .drop-con{padding:15px}.drop-trigger .dropdown
+.WeChat{background:url(/res/images/common/aittoTravel-ico.png) no-repeat 0 -80px;width:130px;height:130px}.drop-trigger .dropdown
+.TopMenu{width:150px}.dropdown-menu{width:200px}.dropdown-menu
+li{height:36px;font-size:14px;line-height:36px;color:#666;position:relative;vertical-align:top}.dropdown-menu
+a{display:block;text-align:center}.dropdown-menu a:hover{background:#eee}.dropdown-menu
+i{width:16px;height:16px;line-height:30px;position:absolute;top:10px;left:40px;display:inline-block}.dropdown-menu .icon-home
+i{background:url(/res/images/common/aittoTravel-ico.png) no-repeat -184px -80px}.dropdown-menu .icon-order
+i{background:url(/res/images/common/aittoTravel-ico.png) no-repeat -184px -126px}.dropdown-menu .icon-writenotes
+i{background:url(/res/images/common/aittoTravel-ico.png) no-repeat -184px -344px}.dropdown-menu .icon-jifen
+i{background:url(/res/images/common/aittoTravel-ico.png) no-repeat -184px -217px}.dropdown-menu .icon-Personal
+i{background:url(/res/images/common/aittoTravel-ico.png) no-repeat -184px -262px}.dropdown-menu .icon-traveller
+i{background:url(/res/images/common/aittoTravel-ico.png) no-repeat -184px -306px}.dropdown-menu .icon-logout
+i{background:url(/res/images/common/aittoTravel-ico.png) no-repeat -184px -380px}.J-con-nav{height:45px;float:left}.J-con-nav
+li{float:left;display:inline-block;height:45px;position:relative;line-height:45px}.J-con-nav li
+a{display:block;color:#666;padding:0
+20px;background:#eee;margin-right:10px;min-width:50px;text-align:center;text-decoration:none}.J-con-nav a:hover{background:#ddd}.J-con-nav li.current>a{color:#fff;background:#84b9f4;text-decoration:none}.J-con-nav .down-arrow{display:block;position:absolute;top:45px;width:9px;height:5px;z-index:999;background:url(/res/images/common/aittoTravel-ico.png) -15px -320px no-repeat;left:50%;margin-left:-9px}.J-con-navM{float:none;text-align:center}.J-con-navM
+li{float:none;display:inline-block;height:45px;position:relative;line-height:45px}.pages{float:right;margin:20px
+0}.pages
+#Pagination{float:left;overflow:hidden}.pages #Pagination
+.pagination{height:42px;text-align:right;font-family: \u5b8b\u4f53,Arial}.pages #Pagination .pagination a, .pages #Pagination .pagination
+span{float:left;margin-right:5px;display:inline;width:40px;height:40px;line-height:40px;text-align:center;border:1px
+solid #e6e6e6;background:#f6f6f6;color:#666;font-family: \u5b8b\u4f53,Arial;font-size:14px;cursor:pointer}.pages #Pagination .pagination
+.current{background:#3385ff;border:1px
+solid #3385ff;color:#fff}.pages #Pagination .pagination .uPrevpage, .pages #Pagination .pagination
+.next{float:left;width:80px;height:40px;line-height:40px;border:1px
+solid #e6e6e6;background:#f6f6f6;color:#666;cursor:pointer}.pages #Pagination .pagination .prev i, .pages #Pagination .pagination .next
+i{display:inline-block;width:4px;height:11px;margin-right:5px;background:url(/res/css/images/icon.fw.png) no-repeat}.pages #Pagination .pagination .prev
+i{background-position:-144px -1px;*background-position:-144px -4px}.pages #Pagination .pagination .next
+i{background-position:-156px -1px;*background-position:-156px -4px}.pages #Pagination .pagination .pagination-break{padding:11px
+5px;border:none;background:none;cursor:default}.pages
+.searchPage{float:left;padding:8px
+0}.pages .searchPage .page-sum{padding:11px
+13px;color:#999;font-family: \u5b8b\u4f53,Arial;font-size:14px}.pages .searchPage .page-go{padding:8px
+0;color:#999;font-family: \u5b8b\u4f53,Arial;font-size:14px;padding:10px
+0\9;*padding:6px
+0}.pages .searchPage .page-go
+input{width:21px;height:20px;margin:0
+5px;padding-left:5px;border:1px
+solid #e4e4e4}.pages .searchPage .page-btn{margin:9px
+0 5px 5px;padding:2px
+5px;background:#3385ff;border-radius:2px;color:#fff;font-family:Arial,'Microsoft YaHei';font-size:14px;text-decoration:none}.BreadCrumb{margin-left:10px;background:#fafafa}.BreadCrumb
+ul{width:1180px;margin:0
+auto}.BreadCrumb
+a{color:#666}.BreadCrumb i.icon-gt{font-style:normal;font-family:simsun;color:#333;display:inline-block;width:25px;text-align:center}.BreadCrumb
+em{width:10px;height:10px;margin-left:5px;background:url(/res/images/common/aittoTravel-ico.png) no-repeat 0px -317px;display:inline-block}.BreadCrumb
+li{float:left;font-size:12px;padding:10px
+0;text-align:center;position:relative}.BreadCrumb li.current>a{color:#ff7000;text-decoration:none}.Termini-City{background:#FFF;border:1px
+solid #e5e5e5;position:absolute;top:30px;padding:10px}.Termini-City
+ul{width:360px;height:60px}.Termini-City
+li{display:inline-block;float:left;width:60px;height:20px;line-height:20px}.Termini-City.arrow
+b{position:absolute;left:-6px;top:2px;width:0;height:0;border-bottom:6px solid #fff;border-left:6px dashed transparent;border-right:9px dashed transparent;font-size:0;overflow:hidden}.tab-pane{display:none}.active{display:block}.footer{background:#3c3c3c}.footer-box{height:145px;position:relative}.footer-link{border-top:1px solid #5f5f5f;padding:15px
+0;border-bottom:1px solid #5f5f5f}.footer-top{padding:30px
+0}.footer-l
+h2{border-left:1px solid #c2c2c2;padding-left:15px;font-size:14px;margin-bottom:10px;color:#c2c2c2}.footer-l
+p{font-size:14px;color:#c2c2c2;margin:0;height:25px;line-height:25px}.footer-l .ab-list
+a{background:url(/res/images/list-a.png) no-repeat 0 center;padding-left:15px;font-size:14px;display:block;height:25px;line-height:25px;color:#c2c2c2}.footer-l .dh-list{width:190px}.footer-l .dh-list
+a{background:url(/res/images/list-a.png) no-repeat 0 center;width:75px;display:block;float:left;padding-left:15px;font-size:14px;height:25px;line-height:25px;color:#c2c2c2}.footer-l
+span{color:#F60}.footer-l
+li{float:left;margin-right:60px}.footer-r
+.code{float:left;margin-right:15px}.footer-r .code
+p{text-align:center}.footer-r .code
+h3{font-size:12px;text-align:center;color:#c2c2c2}.footer-r{float:right}.footer-link
+a{padding:0
+10px;font-size:12px;color:#c2c2c2}.footer-bottom{text-align:center;padding:15px
+0}.footer-bottom
+p{text-align:left;width:550px;background:url(/res/images/footer-logo.png) no-repeat;padding-left:185px;margin:0
+auto;font-size:12px;color:#c2c2c2;line-height:22px}.J-navbar
+li{position:relative;float:left;width:20%;height:46px;margin-right:-1px}.J-navbar li:last-child{border-right:none}.J-navbar .J-btn-text{display:block;padding-top:40px;height:16px;line-height:16px;color:#FFF;font-size:14px;text-align:center}.J-navbar
+i{position:absolute;display:block;top:5px;left:50%;margin-left:-12px;width:30px;height:30px}.J-navbar .J-ico01{background:url(/res/images/common/aittoTravel-ico.png) no-repeat 0 -460px}.J-navbar .J-ico02{background:url(/res/images/common/aittoTravel-ico.png) no-repeat -40px -460px}.J-navbar .J-ico03{background:url(/res/images/common/aittoTravel-ico.png) no-repeat -80px -460px}.J-navbar .J-ico04{background:url(/res/images/common/aittoTravel-ico.png) no-repeat -120px -460px}.J-navbar .J-ico05{background:url(/res/images/common/aittoTravel-ico.png) no-repeat -160px -460px}.toolbar-item-b{position:fixed;bottom:255px;margin-right:-650px;right:50%}.toolbar-item-a{position:fixed;right:50%;bottom:20px;height:auto;margin-right:-650px;display:none;z-index:10}.toolbar-item-top{display:none;margin-bottom:-1px;position:relative}.mfw-toolbar
+.toolbtn{width:50px;height:50px;display:block;cursor:pointer;text-align:center;background-color:#c7def1;position:relative}.toolbar-item-top
+i{background:url(/res/images/common/aittoTravel-ico.png) no-repeat;display:inline-block}.toolbar-item-top .icon-top{width:21px;height:12px;background-position:0 -340px;margin-top:19px}.code-box{display:none;position:absolute;top:-130px;left:-165px;background:#036;width:160px;height:180px;border:1px
+solid #e5e5e5}.toolbar-item-code .drop-tit{height:40px;line-height:40px;font-size:14px;text-align:center;color:#FFF;background:#ff9d00}.toolbar-item-code{margin-bottom:2px;position:relative}.toolbar-item-code
+i{background:url(/res/images/common/aittoTravel-ico.png) no-repeat;display:inline-block}.toolbar-item-code .icon-code{width:22px;height:22px;background-position:-60px -340px;margin-top:15px}.mfw-toolbar a:hover{background:#3385ff}.toolbar-item-code
+.WeChat{background:url(/res/images/common/aittoTravel-ico.png) no-repeat 20px -75px #FFf;width:160px;height:140px}.category{margin-bottom:20px;border:1px
+solid #e0e0e0;background:#FFF}.top-category{border-bottom:1px solid #e0e0e0;overflow:hidden;padding:0
+10px;line-height:40px;font-size: .8em;clear:both;background:#f7f7f7}.top-category
+strong{color:#3385ff;padding:0
+5px}.top-category span, .top-category
+i{color:#6e6e6e;float:left;margin:10px
+5px;line-height:28px;height:28px}.top-category
+dnf{color:#f80;padding:0
+2px;font-family:Arial,Helvetica,sans-serif;font-size:1.2em}.top-category .del-all{color:#00a4ff;float:right;line-height:28px;height:28px;margin:10px
+5px}.top-category span.crumb-select-item{background:#FFF;position:relative;float:left;height:26px;line-height:26px;font-size:12px;vertical-align:top;padding:0
+15px 0 0px;cursor:pointer;border:1px
+solid #f80}.top-category span.crumb-select-item
+i{float:none;margin:0;display:block;position:absolute;width:25px;text-align:center;height:26px;line-height:26px;right:0;top:0;background:url(/res/images/common/aittoTravel-ico.png) no-repeat 8px -372px #f80}.top-category span.crumb-select-item
+b{color:#424242;font-weight:normal;display:inline-block;padding-left:5px}.top-category span.crumb-select-item
+em{padding:0
+5px 0 5px;margin-right:10px}.top-category span.crumb-select-item em, .top-category span.crumb-select-item
+i{font-style:normal}.by-category .show-more{position:absolute;color:#00a4ff;right:10px;top:17px;width:70px;padding:0;text-align:right;cursor:pointer}.by-category
+a{display:block}.by-category .show-more
+i{background:none;float:none;display:inline-block;font-size:16px;width:10px;height:10px;margin-left:5px}.by-category .show-more .icon-angle-up{background:url(/res/images/common/aittoTravel-ico.png) no-repeat -1px -590px}.by-category .show-more .icon-angle-down{background:url(/res/images/common/aittoTravel-ico.png) no-repeat -1px -579px}.by-category
+b{font-weight:normal;float:left;background:#3385ff;color:#fff;padding:2px
+8px;border-radius:3px}.by-category
+ul{padding-left:10px;overflow:hidden}.by-category
+table{border-collapse:collapse;margin:-1px;margin-left:0}.by-category .td-tit{font-weight:bold;border-right:1px solid #e0e0e0;width:130px}.by-category
+td{position:relative;font-size: .8em;padding:15px
+20px;color:#979797;border-bottom:1px solid #e0e0e0}.by-category
+li{float:left;display:block;margin-right:15px;margin-top:2px;margin-bottom:5px}.by-category li
+a{padding:2px
+10px}.by-category .current>a{background:#3385ff;border-radius:3px;color:#FFF}.by-category li a:hover{background:#79c1ea;border-radius:3px;color:#FFF}.more-category{margin:0
+20px;text-align:center}.more-category
+span{color:#00a4ff;display:inline-block;cursor:pointer}.more-category
+i{display:inline-block;margin-left:5px;width:10px;height:10px}.more-category .icon-angle-down{background:url(/res/images/common/aittoTravel-ico.png) no-repeat -1px 2px}.more-category .icon-angle-up{background:url(/res/images/common/aittoTravel-ico.png) no-repeat -1px -10px}.ctd-comment{margin-top:20px}.ctd-comment
+h2{height:48px;margin-bottom:20px}.ctd-comment h2
+em{height:48px;width:168px;background:url(/res/images/common/aittoTravel-ico.png) no-repeat 0 -400px;display:block;margin-left:30px}.ebmc-content{margin:10px
+30px 20px 30px;border-bottom:1px dotted #CCC}.ebmc-content .ebm-title{color:#333;font-size:18px;padding:5px
+0 15px 0;line-height:20px;height:20px}.nchcomments-box
+.nchimg{float:left}.nchcomments-box .nchimg
+img{width:60px;height:60px;border-radius:50%}.nchtextarea .tip-icon--left-sangle{width:7px;height:9px;background:url(/res/images/common/aittoTravel-ico.png) no-repeat 0 -490px;position:absolute;top:16px;left:-6px}.nchcomments-box
+.nchtextarea{width:610px;height:88px}.nch-box
+.nchtextarea{width:760px;height:88px}.checkbox{width:760px}.checkbox
+h4{font-size:14px;height:30px;color:#f80}.nchcomments-box
+.nchtextarea{border:1px
+solid #ccc;background:#fff;position:relative;margin-bottom:10px}.nchcomments-box .nchtextarea
+textarea{border:0;outline:0;font-size:14px;resize:none;width:590px;height:58px;padding:5px
+10px 0px;line-height:20px;box-shadow:none}.nchtextarea .tbmac-tip{position:absolute;right:0px;bottom:3px}.nchtextarea .tbmac-tip{display:inline-block;font-size:12px;color:#999;margin-right:14px}.nchtextarea .tbmac-tip
+b{color:#666;font-weight:normal}.nchtextarea .tbmac-tip
+em{color:#f30}.ebmc-content .ebmc-info{text-align:right;font-size:0;height:26px;margin-bottom:15px}.ebmc-content .ebmc-info .ebmc-button{font-size:12px;display:inline-block;height:26px;line-height:26px;background-color:#F80;color:#FFF;text-decoration:none;padding:0
+19px;border-radius:2px}.ebmc-content .ebmc-info .ec-button
+a{color:#FFF}.ctd-comment{background:#FFF;padding-top:20px}.ctd-comment
+ul{padding:0px
+30px 20px 30px}.ctd-comment
+li{border-bottom:1px dotted #CCC;padding:10px
+0;margin-bottom:10px}.ctd-comment .user-img{width:60px;height:60px;float:left}.ctd-comment .user-img
+img{width:60px;height:60px;border-radius:50%}.ctd-comment .textarea-box{padding-left:70px;font-size:14px}.ctd-comment .textarea-box
+span{display:block}.ctd-comment .comments-name{color:#333;margin-bottom:8px}.ctd-comment .comments-h2{color:#676767;margin:10px
+0}.ctd-comment .comments-time{color:#999}.Color-fff{background:#fff}.search-container{position:absolute;bottom:35px;left:50%;margin-left:-290px;width:580px;z-index:5}.search-group{padding:10px
+15px;background-color:#000;background-color:rgba(0,0,0,.6);border-radius:4px}.search-group
+.searchtab{color:#fff;font-size:14px;padding-bottom:10px}.search-group .searchtab
+li{float:left;margin-right:20px;display:inline;margin-right:30px;cursor:pointer}.search-group .searchtab .tab-selected
+i{background-position:-60px -550px !important}.search-group .searchtab
+i{float:left;margin:3px
+5px 0 0;width:16px;height:16px;background-image:url(/res/images/common/aittoTravel-ico.png);background-position:-60px -520px !important}.search-group .search-wrapper{float:left;width:500px}.search-group .search-input{height:46px;overflow:hidden}.search-group .search-input
+input{height:36px}.search-group .search-input
+input{width:470px;padding:0
+10px 0 20px;font-size:14px;line-height:36px}.search-group .search-button{float:left;margin-left:6px;width:40px;height:40px}.search-group .search-button
+a{display:block;height:40px;background-color:#ff9d00;border-radius:4px;text-align:center}.search-group .icon-search{display:inline-block;margin-top:8px;width:24px;height:24px;background-image:url(/res/images/common/aittoTravel-ico.png);background-position:0 -520px !important;overflow:hidden;vertical-align:top}.searchPlace-box{position:absolute;top:0px;left:70px;width:310px;height:400px;z-index:999}.search-place{padding:10px
+15px;background-color:#000;background-color:rgba(0,0,0,.6)}.search-place
+.searchtab{color:#fff;font-size:18px;padding-bottom:10px}.search-place .search-wrapper{float:left;width:230px}.search-place .search-input{height:46px;overflow:hidden}.search-place .search-input
+input{height:36px}.search-place .search-input
+input{width:280px;padding:0
+20px 0 20px;font-size:14px;line-height:36px}.search-place .search-button{float:left;margin-left:10px;width:40px;height:40px}.search-place .search-button
+a{display:block;height:40px;background-color:#ff9d00;border-radius:4px;text-align:center}.search-place .icon-search{display:inline-block;margin-top:8px;width:24px;height:24px;background-image:url(/res/images/common/aittoTravel-ico.png);background-position:0 -520px !important;overflow:hidden;vertical-align:top}.place-search-hot{font-size:14px;margin-top:5px;line-height:16px}.place-search-hot
+h4{font-size:16px;color:#FFF;position:relative;margin-right:10px;padding-left:40px;font-weight:bold}.place-search-hot h4
+i{width:30px;height:30px;position:absolute;top:-3px;left:2px;margin-right:10px;display:inline-block;background:url(/res/images/common/aittoTravel-ico.png) no-repeat}.place-search-hot .md
+i{background-position:-40px -680px}.place-search-hot .zt
+i{background-position:-80px -680px}.place-search-hot .sj
+i{background-position:-120px -680px}.place-search-hot .jl
+i{background-position:-160px -680px}.place-search-hot
+li{padding:5px
+0px;border-bottom:1px dotted #676767;line-height:25px}.place-search-hot
+a{margin-right:10px;display:inline-block;color:#fff}.connected-carousels{position:relative}.connected-carousels
+.stage{margin:0
+auto;position:relative}.connected-carousels
+.carousel{overflow:hidden;position:relative}.connected-carousels .carousel
+ul{width:20000em;position:relative;list-style:none;margin:0;padding:0}.connected-carousels .carousel-stage
+li{float:left}.connected-vertical
+.stag{width:1180px}.connected-vertical .carousel-stage{height:400px;background:url(/res/images/index/nopic.png) center center no-repeat #eee;width:100%}.connected-vertical .carousel-stage
+img{width:1180px}.connected-vertical
+.navigation{z-index:888;position:absolute;top:50px;right:20px}.connected-vertical .carousel-navigation{height:380px;width:115px;position:relative}.connected-vertical .carousel-navigation
+li{cursor:pointer;margin-bottom:10px}.connected-vertical .carousel-navigation li
+img{display:block;width:105px;height:65px;border:2px
+solid #FFF}.connected-vertical .carousel-navigation li.active
+img{border-color:#ff9d00}.connected-level
+.stag{width:800px}.connected-level .carousel-stage{height:300px;background:url(/res/images/index/nopic.png) center center no-repeat #eee;width:100%}.connected-level .carousel-stage
+img{width:800px}.connected-level1
+.stag{width:600px}.connected-level1 .carousel-stage{height:330px}.connected-level1 .carousel-stage
+img{height:330px;width:600px}.connected-level1
+.navigation{z-index:888;position:absolute;bottom:30px;left:50%;margin-left:-300px}.connected-level1 .carousel-navigation{height:70px;width:600px;position:relative}.connected-level1 .carousel-navigation
+li{cursor:pointer;float:left;margin-right:10px}.connected-level1 .carousel-navigation li
+img{display:block;width:105px;height:65px;border:2px
+solid #FFF}.connected-level1 .carousel-navigation li.active
+img{border-color:#ff9d00}.connected-level
+.navigation{z-index:888;position:absolute;bottom:30px;left:50%;margin-left:-300px}.connected-level .carousel-navigation{height:70px;width:600px;position:relative}.connected-level .carousel-navigation
+li{cursor:pointer;float:left;margin-right:10px}.connected-level .carousel-navigation li
+img{display:block;width:105px;height:65px;border:2px
+solid #FFF}.connected-level .carousel-navigation li.active
+img{border-color:#ff9d00}.ctd-head-city{background:#fff;height:150px;margin-bottom:20px;border-bottom:1px solid #e4e4e4}.ctd-head-city .ctd-title{margin:0
+0 20px;height:80px}.ctd-head-city .ctd-name{width:150px;float:left}.ctd-head-city .ctd-Season{padding-left:160px}.ctd-head-city .ctd-name
+h1{display:inline;margin-right:15px;font-weight:normal;font-size:40px;color:#333}.ctd-head-city .ctd-name
+.en{text-transform:uppercase;font-size:20px;color:#999;font-family:Arial,'Microsoft Yahei'}.ctd-head-city .ctd-Season
+.weather{font-size:12px;padding-top:20px;display:block;color:#999}.ctd-head-city .ctd-Season
+.month{display:block;color:#999;margin-top:10px}.ctd-head-city .ctd-Season .month
+em{color:#ff7000}.ctd-head-city .navbar-con{display:block;height:32px;color:#666;font-size:16px;line-height:32px}.ctd-head-city .navbar-con
+li{float:left;display:inline;margin-right:30px;font-size:16px;line-height:32px}.ctd-head-city .navbar-con
+a{display:block}.ctd-head-city .navbar-con .navbar-icon{float:left;width:32px;height:32px;margin-right:10px;background:url(/res/images/destination/icon-place-nav6.png) no-repeat;overflow:hidden}.ctd-head-city .navbar-con .city-guide
+i{background-position:0 0}.ctd-head-city .navbar-con .human-guide
+i{background-position:0 -40px}.ctd-head-city .navbar-con .map-guide
+i{background-position:0 -80px}.ctd-head-city .navbar-con .scenic-guide
+i{background-position:0 -120px}.ctd-head-city .navbar-con .hotel-guide
+i{background-position:0 -160px}.ctd-head-city .navbar-con .restaurant-guide
+i{background-position:0 -200px}.ctd-head-city .navbar-con .Specialty-guide
+i{background-position:0 -240px}.ctd-head-city .navbar-con .Raiders-guide
+i{background-position:0 -280px}.ctd-head-city .navbar-con .travels-guide
+i{background-position:0 -320px}.ctd-head-city .navbar-con .city-guide .navbar-btn:hover{text-decoration:none;color:#333;border-bottom:3px solid #aea181;padding-bottom:10px}.ctd-head-city .navbar-con .human-guide .navbar-btn:hover{text-decoration:none;color:#333;border-bottom:3px solid #ba7ae4;padding-bottom:10px}.ctd-head-city .navbar-con .map-guide .navbar-btn:hover{text-decoration:none;color:#333;border-bottom:3px solid #63c799;padding-bottom:10px}.ctd-head-city .navbar-con .scenic-guide .navbar-btn:hover{text-decoration:none;color:#333;border-bottom:3px solid #bada25;padding-bottom:10px}.ctd-head-city .navbar-con .hotel-guide .navbar-btn:hover{text-decoration:none;color:#333;border-bottom:3px solid #e7788e;padding-bottom:10px}.ctd-head-city .navbar-con .restaurant-guide .navbar-btn:hover{text-decoration:none;color:#333;border-bottom:3px solid #f07d6c;padding-bottom:10px}.ctd-head-city .navbar-con .Specialty-guide .navbar-btn:hover{text-decoration:none;color:#333;border-bottom:3px solid #ff9d00;padding-bottom:10px}.ctd-head-city .navbar-con .Raiders-guide .navbar-btn:hover{text-decoration:none;color:#333;border-bottom:3px solid #7cacf5;padding-bottom:10px}.ctd-head-city .navbar-con .travels-guide .navbar-btn:hover{text-decoration:none;color:#333;border-bottom:3px solid #f5c500;padding-bottom:10px}.head-search{float:left;width:130px;height:68px;position:relative}.head-search-wrapper{position:absolute;right:0;top:17px;width:130px;height:36px;-webkit-transition:width .5s ease 0s;transition:width .5s ease 0s}.head-searchform{height:36px;position:relative}.head-searchform
+input{border:1px
+solid #efefef;background-color:#efefef;width:108px;height:28px;padding:0
+10px;line-height:28px;font-size:14px;color:#666;border-radius:4px;-webkit-transition:width .5s ease 0s;transition:width .5s ease 0s}.head-search .icon-search{position:absolute;top:5px;right:5px;width:20px;height:20px;background-image:url(/res/images/common/header-sprites11.png);background-position:-30px -110px!important;overflow:hidden}.head-search-focus{width:402px}.head-search-focus .head-searchform
+input{width:380px;border-color:#ff9d00;box-shadow:0 0 3px rgba(255,157,0,.5);background-color:#fff}.head-search-focus .icon-search{background-position:-30px -140px!important}

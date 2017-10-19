@@ -1,0 +1,58 @@
+
+
+.active-box1 { display:none;
+	width: 100%;font-size:1em; 
+	height: 100%;
+	margin: 0 auto;		
+	position: fixed; top:0; left:0;
+	background: rgba(0, 0, 0, 0.70) none repeat scroll 0% 0%;
+	z-index:999;
+}
+.login5 {
+	width: 100%;
+	height: 40px;
+	position: relative;
+}
+
+.active-box2 { display:none;
+	width: 100%;font-size:1em; 
+	height: 100%;
+	margin: 0 auto;		
+	position: fixed; top:0; left:0;
+	background: rgba(0, 0, 0, 0.70) none repeat scroll 0% 0%;
+	z-index:999;
+}
+
+.login51 {
+	width: 90%;  background:#FFF; border-radius:10px;
+	margin: 0 auto; margin-top:100px;
+}
+.login51 h2{ height:40px; line-height:40px; text-align:center;  font-size:1.1em; border-bottom:1px solid #CCC;}
+.login51 p{font-size:1.1em; color:#666;text-align:center; height:80px; line-height:80px;}
+.login51 .close{ height:40px; line-height:40px; background:#00aaee; color:#fff; border-radius:5px; text-align:center;}
+.login51 .close a{ display:block; color:#FFF;}
+
+
+.active-info{ width:100%; bottom:0;}
+.active-info h3{ font-size:1em; padding-left:20px; color:#e22f48; height:30px; line-height:30px;}
+.active-info p{ padding:0px 30px 20px 30px; line-height:20px; font-size:.7em; margin:0;}
+.active-input input{border-radius:5px; border:none;height:30px; line-height:30px; width:100%; padding-left:10px;}
+.active-int{ width:80%; margin:0 auto;}
+.active-int2{  width:50%; }
+.active-int3{ height:30px; line-height:30px; width:40%;background:#e22f48;border-radius:5px; }
+.active-int3 a{ color:#FFF; font-size:.8em; display:block; text-align:center;}
+.active-input li{ text-align:center; margin-bottom:10px;}
+.active-input .button{ background:#e22f48;border-radius:5px;height:30px; line-height:30px; width:80%; margin:0 auto;}
+.active-input .button1{ background:#00c15b;border-radius:5px;height:30px; line-height:30px; width:80%; margin:0 auto;}
+.active-input .button-off{ background:#cccccc;border-radius:5px;height:30px; line-height:30px; width:80%; margin:0 auto;}
+.active-input .button-off a{ background:#cccccc; color:#898989;border-radius:5px;height:30px; line-height:30px; width:80%; margin:0 auto;}
+.active-input a{ color:#FFF; display:block; text-align:center;}
+
+
+.active-pay h2{ font-size:1em; text-align:center; height:40px; line-height:40px;  font-family:SimHei; }
+.price-pay{ font-size:3em; text-align:center; margin-bottom:10px; font-family:Arial, Helvetica, sans-serif;}
+.price-pay span{ display:inline-block; width:35px; height:35px;background:url('/phone/public/images/mitao/money3.png') no-repeat center 0; background-size:35px;}
+.price-txt{ background:#FFF; color:#888888;border-bottom:1px solid #CCC; padding:0 15px;border-top:1px solid #CCC;height:50px; line-height:50px;}
+.price-txt span{ float:right; color:#060606;font-family:SimHei; }
+.price-but{ width:85%; margin:0 auto; font-size:1.1em; margin-top:20px; text-align:center;  font-family:SimHei; height:50px; line-height:50px; border-radius:5px;  background:#45c018;}
+.price-but a{ display:block; color:#FFF;}

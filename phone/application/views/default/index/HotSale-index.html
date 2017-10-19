@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="email=no" />
+<title>站点名称</title>
+<!-- 基础框架 bootstrap CSS 文件 -->
+<link rel="stylesheet" type="text/css" href="../style/bootstrap.css" />
+<!-- 页面公用 public CSS 文件 -->
+<link rel="stylesheet" type="text/css" href="../style/public.css" />
+<!-- 布局版面 layout CSS 文件-->
+<link rel="stylesheet" type="text/css" href="style/HB_HotSale.css" />
+<link rel="stylesheet" type="text/css" href="../style/swiper.min.css" />
+<script src="../js/jquery-1.11.3.min.js"></script><!-- jQuery库 -->
+<script src="../js/swiper.min.js"></script><!-- 屏幕 -->
+</head>
+<body class="HB_HotSale">
+<!-- HB-商城 头部 -->
+<header id="HB_header">
+  <div class="HB_header_warp"> <a class="header_home" href="/"></a>
+    <h1>河北旅游网</h1>
+    <a class="header_person" href="#"></a> </div>
+    
+
+
+<!-- 产品详情页 幻灯 -->
+<div class="HB_banner">
+  
+  <div class="swiper-container swiper-container-horizontal">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="../test-img/pic05.jpeg"></div>
+      <div class="swiper-slide"><img src="../test-img/swiper01.jpg"></div>
+      <div class="swiper-slide"><img src="../test-img/swiper02.jpg"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination picnum swiper-pagination-fraction"><span class="swiper-pagination-current">4</span> / <span class="swiper-pagination-total">10</span></div>
+  </div>
+  <script>
+   $(document).ready(function() {
+	  putToper();
+	  desc_tabs();
+   });
+  </script> 
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+		height: 300,//你的slide高度
+        pagination: '.swiper-pagination',
+        paginationType: 'bullets'
+    });
+  </script> 
+</div>
+<div class="HB-class-tab clearfix"><div class="serch-box"><input type="text" placeholder="输入城市名、景点名进行搜索" ></div>
+  <ul>
+    <li><a href="#"><img src="images/active01.jpg"></a></li>
+    <li><a href="#"><img src="images/active02.jpg"></a></li>
+    <li><a href="#"><img src="images/active03.jpg"></a></li>
+  </ul>
+</div>
+</header>
+<!-- HB-商城 热门推荐 -->
+<section class="ui-SelfDriving-list">
+  <div class="HB-title-top">热门推荐<span>HOT</span></div>
+  <div class="actlist clearfix">
+    <div class="actbox_img"><img src="../test-img/pic04.jpg"><span class="tip">抢购</span></div>
+    <div class="actbox_con">
+      <h2>快乐成长，体验未来立秀宝儿童社会体验英语小镇</h2>
+      <p class="add">石家庄 距您80km</p>
+      <div class="price"><i class="paymoney">78</i><i class="dw">起</i><del>372元</del> <span class="Surplus">剩余100</span></div>
+      <div class="ptag ticke"><i class="on">门票</i><i>特惠</i><i>4A</i></div>
+    </div>
+  </div>
+  <div class="actlist clearfix">
+    <div class="actbox_img"><img src="../test-img/pic04.jpg"></div>
+    <div class="actbox_con">
+      <h2>快乐成长，体验未来立秀宝儿童社会体验英语小镇</h2>
+      <p class="add">石家庄 距您80km</p>
+      <div class="price"><i class="paymoney">78</i><i class="dw">起</i></div>
+      <div class="ptag ticke"><i class="on">门票</i><i>优惠</i><i>5A</i></div>
+    </div>
+  </div>
+  <div class="actlist clearfix">
+    <div class="actbox_img"><img src="../test-img/pic02.jpg"><span class="tip off">已过期</span></div>
+    <div class="actbox_con">
+      <h2>快乐成长，体验未来立秀宝儿童社会体验英语小镇</h2>
+      <p class="time">活动时间：2017.7.7</p>
+      <div class="price"><i class="paymoney">78</i><i class="dw">起</i></div>
+      <div class="ptag qinzi"><i class="on">亲子游</i><i>户外</i><i>6-12岁</i></div>
+    </div>
+  </div>
+  <div class="actlist clearfix">
+    <div class="actbox_img"><img src="../test-img/pic03.jpg"><span class="tip off">名额已满</span></div>
+    <div class="actbox_con">
+      <h2>快乐成长，体验未来立秀宝儿童社会体验英语小镇</h2>
+      <p class="time">自驾时间：2017.7.7</p>
+      <div class="price"><i class="paymoney">78</i><i class="dw">起</i></div>
+      <div class="ptag zijia"><i class="on">自驾游</i><i>两日</i><i>烤全羊</i></div>
+    </div>
+  </div>
+</section>
+</body>
+</html>

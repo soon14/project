@@ -1,0 +1,106 @@
+.foot-btn { position:fixed; width:100%; bottom:0; left:0; height:50px; }
+.btn-dui{ width:60%; float:right; height:50px; line-height:50px;}
+.btn-dui a{ color:#FFF; display:block; text-align:center; font-size:1.5em; background:#f5524b; border-left:1px solid #FFF;}
+.btn-dui span{ font-size:.7em;}
+.btn-zhu{ width:40%; float:left; height:50px; font-size:1.2em; line-height:50px; text-align:center; color:#FFF;background:#02c5b5;}
+
+.btn-fin{ width:60%; float:right; height:50px; line-height:50px;}
+.btn-fin a{ color:#e6e6e6; display:block; text-align:center; font-size:1.2em; background:#b2b2b2; border-left:1px solid #FFF;}
+.btn-fin span{ font-size:.7em;}
+
+.gift-con { padding:10px;  }
+.gift-con-b{background:#FFF;border-radius:0 0 8px 8px ; overflow:hidden;padding:5px 10px;}
+.gift-con p{  line-height:22px; color:#8b6300;}
+.gift-con img{ width:100%;border-radius:8px 8px 0 0; overflow:hidden;}
+.gift-con .price{ color:#1378c5;}
+.gift-con .price span{ font-size:1.8em; padding:0 3px;}
+
+.join-Prize-m{ background:url(/phone/public/images/activity/bg_02.jpg); background-size:100%; text-align:center; padding:10px 0 0 0;}
+.join-regular{ background:#0d2c49;  border-radius:10px; overflow:hidden;margin-bottom:5px;}
+.join-regular .conbox{padding:5px 15px 5px 15px;}
+.join-regular .conbox p{ color:#FFF; line-height:22px; font-size:.8em; margin-bottom:5px;}
+
+.regular-button{ background:#facb57; padding:3px; font-size:.8em; text-align:center; border-radius:8px; margin:0 auto 10px auto; width:50%;}
+.regular-button a{ color:#643f00; text-align:center;}
+
+
+/** Tab导航 开始 **/
+.tab-nav {
+	
+	height: 40px; position:fixed; width:100%; top:0; left:0; z-index:999;
+}
+.tab-nav ul li{ list-style-type:none;}
+.tab-nav li {
+	float: left; background:#f6f6f6;
+	height: 40px; width:50%; text-align:center;
+	line-height: 40px;
+}
+.tab-nav li a {
+	display: block;
+	color: #666;
+	padding: 0 20px;
+}
+.tab-nav a:hover {
+	text-decoration: none;
+}
+.tab-nav li.current>a {
+	color: #fff;
+	
+	background: #fa4f47;
+	text-decoration: none;
+}
+/** Tab内容 开始 **/
+.tab-content>.active {
+	display: block;
+}
+.tab-pane {
+	display: none;
+}
+.modal-header {position: relative;
+	min-height: 16.43px;
+	padding: 15px;
+	border-bottom: 1px solid #e5e5e5; background:#3098e1;
+}
+.modal-header h4{text-align:center; color:#fff;}
+.login-text {
+	width: 80%;
+	font-size: 14px;
+	line-height: 18px;
+	height: 18px;
+	color: #989fa9;
+	padding: 11px 0;
+	border: 1px solid #e0e0e0; padding-left:10px;
+	border-radius: 3px;
+}
+
+.exchange{ margin-top:50px;}
+.exchange h2{ margin:10px;}
+.exchange li{ background:#f0d7b1; position:relative; border:2px dashed #8f785f; padding:5px; margin:0 10px;margin-bottom:10px; border-radius:10px; }
+.exchange .num{ width:40px; float:left; margin-top:10px;}
+.exchange .num-cicle{ width:30px; height:30px; background:#fa4f47; line-height:30px; text-align:center; font:1.2em; color: #fff; border-radius:30px; font-family:Arial, Helvetica, sans-serif; margin:0 auto;}
+.exchange .peo{width:65px; float:left;}
+.exchange .peo img{ width:50px; height:50px;border-radius:50px; border:2px solid #fdecd2; }
+.exchange .txt{width:100%; font-size:.8em; color:#532e1b; }
+.exchange .txt p{ line-height:20px; padding:0; margin:0;}
+
+
+.exchange1{ margin-top:50px;}
+.exchange1 h2{ margin:10px;}
+.exchange1 li{ background:#fff;  position:relative; border:2px dashed #8f785f; padding:0 5px; margin:0 10px;margin-bottom:15px; border-radius:10px; }
+
+
+.join-box-m{  border-radius:5px; padding:5px; position:relative;  }
+.join-box-m-l{ width:30%; float:left;}
+.join-box-m-l img{ width:100%;}
+.join-box-m-r{ width:65%; float:right;}
+.join-box-m-r p{ padding:2px 5px; margin:0;color:#532e1b; }
+
+
+
+.join-name{ font-size:1.2em;}
+.join-price{ margin:10px 0;}
+.join-price span{font-size:1.2em;color:#fa4f47; padding:0 5px; m}
+.join-l{background:#fdecd2; width:48%; color:#532e1b;padding:5px 0; border-radius:10px; text-align:center; float:left; }
+.join-r{background:#fdecd2; width:48%;  color:#532e1b;padding:5px 0; border-radius:10px; text-align:center;float:right;}
+.join-gift{ background:#fa4f47; width:50%; height:30px; line-height:30px; margin:0 auto; color:#FFF; text-align:center; border-radius:0 0 10px 10px; }
+.join-btn{ position:absolute; top:5px; left:80%; z-index:999; padding-right:10px; z-index:555;}

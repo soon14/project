@@ -1,0 +1,981 @@
+@charset "utf-8";
+.st-hotel-home-top{
+	float:left;
+	width:1200px}
+.st-hotel-search{
+	float:left;
+	width:326px;
+	height:268px;
+	padding:25px 45px;
+	border:3px solid #00b7ee}
+.st-hotel-search .search-dl{
+	float:left;
+	width:326px;
+	height:32px;
+	margin-bottom:13px}
+.st-hotel-search .search-dl dt{
+	float:left;
+	color:#333;
+	width:64px;
+	height:32px;
+	line-height:32px;
+	padding-right:10px;
+	text-align:right;
+	font-size:14px}
+.st-hotel-search .search-dl dd{
+	float:left;
+	width:252px;
+	height:32px;
+	position:relative}
+.search-dl .h-text-search{
+	float:left;
+	width:245px;
+	height:30px;
+	line-height:30px;
+	padding-left:5px;
+	font-size:14px;
+	font-family:'微软雅黑';
+	border:1px solid #d2d2d2}
+.search-dl .date-ico{
+	background:url(../images/hotel-ico.png) no-repeat 228px -43px}
+.search-dl .up-ico{
+	background:url(../images/hotel-ico.png) no-repeat 230px -15px}
+.search-dl .down-ico{
+	background:url(../images/hotel-ico.png) no-repeat 230px 15px}
+.st-hotel-search .st-hs-btn{
+	float:left;
+	width:326px}
+.st-hotel-search .st-hs-btn a{
+	float:right;
+	color:#fff;
+	width:252px;
+	height:36px;
+	line-height:36px;
+	text-align:center;
+	font-size:16px;
+	background:#0082dd}
+
+.mdd-city-box{
+	display:none;
+	position:absolute;
+	left:0;
+	top:34px;
+	z-index:9999;
+	width:448px;
+	padding:5px 10px;
+	border:1px solid #d2d2d2;
+	background:#fff}
+.mdd-city-box .ss-mdd-tit{
+	float:left;
+	width:448px;
+	height:30px;}
+.mdd-city-box .ss-mdd-tit span{
+	color:#333;
+	float:left;
+	height:30px;
+	line-height:30px}
+.mdd-city-box .ss-mdd-tit i{
+	float:right;
+	width:10px;
+	height:30px;
+	cursor:pointer;
+	transition:all 0.3s;
+	-webkit-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	-mox-transition:all 0.3s;
+	background:url(../images/st-h-search-ico.png) center no-repeat}
+.mdd-city-box .ss-mdd-tit i:hover{
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	-mox-transform:rotate(180deg)}
+.mdd-city-box .ss-mdd-box{
+	float:left;
+	width:448px;
+	margin-top:5px}
+.mdd-city-box .ss-mdd-box .st-tabnav{
+	float:left;
+	width:448px;
+	height:27px}
+.mdd-city-box .ss-mdd-box .st-tabnav span{
+	float:left;
+	color:#7d7d7d;
+	width:55px;
+	height:27px;
+	line-height:27px;
+	text-align:center;
+	cursor:pointer;
+	margin-right:1px;
+	background:#eee}
+.mdd-city-box .ss-mdd-box .st-tabnav span.on{
+	color:#fff;
+	background:#00b7ee}
+.mdd-city-box .ss-mdd-box .st-tabcon{
+	float:left;
+	width:448px;
+	margin-top:5px}
+.mdd-city-box .ss-mdd-box .st-tabcon a{
+	float:left;
+	width:64px;
+	height:24px;
+	line-height:24px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis}
+.star-level-box{
+	display:none;
+	position:absolute;
+	left:0;
+	top:31px;
+	z-index:9999;
+	width:250px;
+	border:1px solid #d2d2d2;
+	background:#fff}
+.star-level-box span{
+	float:left;
+	width:240px;
+	height:30px;
+	line-height:30px;
+	padding:0 5px;
+	cursor:pointer;
+	font-size:14px}
+.star-level-box span:hover{
+	background:#f3f3f3}
+
+/*焦点图*/
+.st-hotel-slideBox{
+	float:right;
+	width:768px;
+	height:324px;
+	overflow:hidden;
+	position:relative}
+.st-hotel-slideBox .hd{
+	width:100%;
+	height:13px;
+	overflow:hidden;
+	position:absolute;
+	left:0;
+	bottom:10px;
+	z-index:1;
+	text-align:center}
+.st-hotel-slideBox .hd ul{
+	overflow:hidden;
+	zoom:1}
+.st-hotel-slideBox .hd ul li{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	margin-right:2px;
+	width:13px;
+	height:13px;
+	line-height:13px;
+	text-align:center;
+	background:#fff;
+	font-size:0;
+	vertical-align:top;
+	cursor:pointer;
+	border-radius:50%}
+.st-hotel-slideBox .hd ul li.on{
+	background:#76dfff;
+	color:#fff}
+.st-hotel-slideBox .bd{
+	position:relative;
+	height:100%;
+	z-index:0}
+.st-hotel-slideBox .bd li{
+	zoom:1;
+	vertical-align:middle}
+.st-hotel-slideBox .bd img{
+	width:768px;
+	height:324px;
+	display:block}
+
+.st-hotel-slideBox .prev,
+.st-hotel-slideBox .next{
+	position:absolute;
+	left:1%;
+	top:50%;
+	margin-top:-25px;
+	display:block;
+	width:32px;
+	height:40px;
+	background:url(../images/slider-arrow.png) -110px 5px no-repeat;
+	filter:alpha(opacity=50);
+	opacity:0.5}
+.st-hotel-slideBox .next{
+	left:auto;
+	right:1%;
+	background-position:8px 5px}
+.st-hotel-slideBox .prev:hover,
+.st-hotel-slideBox .next:hover{
+	filter:alpha(opacity=100);
+	opacity:1}
+.st-hotel-slideBox .prevStop{
+	display:none}
+.st-hotel-slideBox .nextStop{
+	display:none}
+
+.st-hotel-home-box{
+	float:left;
+	width:1200px;
+	margin-top:20px}
+.st-hotel-home-box .hotel-tit-ico{
+	float:left;
+	width:1200px;
+	height:40px;
+	border-bottom:1px solid #00b7ee}
+.st-hotel-home-box .hotel-tit-ico h3{
+	float:left;
+	color:#333;
+	height:40px;
+	line-height:40px;
+	font-size:18px;
+	padding-left:28px;
+	background:url(../images/hotel-ico.png) no-repeat}
+.st-hotel-home-box .hotel-tit-ico .hot-ico{
+	background-position:0 -173px}
+.st-hotel-home-box .hotel-tit-ico a.more{
+	color:#333;
+	float:right;
+	height:40px;
+	line-height:40px;
+	padding-left:17px;
+	font-size:14px;
+	background:url(../images/index-ico.png) no-repeat 0 15px}
+.st-hotel-home-box .hotel-tit-ico a:hover.more{
+	color:#f80;
+	background:url(../images/st-hover-ico.png) no-repeat 0 15px}
+.st-hotel-home-box .hotel-tit-ico .jx-ico{
+	background-position:0 -211px}
+.hotel-tj-box,
+.hotel-tj-box ul{
+	float:left;
+	width:1200px}
+.hotel-tj-box ul li{
+	float:left;
+	width:400px;
+	height:350px;
+	margin-top:20px;
+	position:relative}
+.hotel-tj-box ul li .pic{
+	float:left;
+	width:400px;
+	height:350px;
+	overflow:hidden}
+.hotel-tj-box ul li:hover .txt{
+	display:block}
+.hotel-tj-box ul li .txt{
+	display:none;
+	position:absolute;
+	left:0;
+	top:0;
+	width:400px;
+	height:350px;
+	background:url(../images/repeat-bg01.png) left top repeat}
+.hotel-tj-box ul li .txt a{
+	float:left;
+	width:400px;
+	height:350px}
+.hotel-tj-box ul li .txt i{
+	float:left;
+	width:30px;
+	height:30px;
+	margin:100px 0 50px 185px;
+	background:url(../images/hotel-ico.png) no-repeat 0 bottom}
+.hotel-tj-box ul li .txt p{
+	float:left;
+	color:#fff;
+	width:200px;
+	padding:10px 100px;
+	text-align:center}
+.hotel-tj-box ul li .txt p.price{
+	font-size:14px}
+.hotel-tj-box ul li .txt p.price span{
+	font-size:18px}
+
+.hotel-jx-box,
+.hotel-jx-box ul{ font-size:12px;
+	float:left;
+	width:1200px}
+.hotel-jx-box ul li{
+	float:left;
+	width:277px;
+	height:393px;
+	margin:20px 28px 8px 0;
+	overflow:hidden;
+	border:1px solid #d8d8d8;
+	border-radius:3px}
+.hotel-jx-box ul li.mr_0{
+	margin-right:0}
+.hotel-jx-box ul li .pic{
+	float:left;
+	width:277px;
+	height:195px;
+	overflow:hidden}
+.hotel-jx-box ul li .txt,
+.hotel-jx-box ul li .list,
+.hotel-jx-box ul li a.more-fx{
+	float:left;
+	width:249px;
+	margin:5px 14px 0}
+.hotel-jx-box ul li .txt p{
+	float:left;
+	color:#7d7d7d;
+	width:249px}
+.hotel-jx-box ul li .txt p.bt a{
+	float:left;
+	color:#333;
+	width:180px;
+	height:30px;
+	line-height:30px;
+	font-size:16px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis} 
+.hotel-jx-box ul li .txt p.bt a:hover{
+	color:#f60;
+	text-decoration:underline}
+.hotel-jx-box ul li .txt p.bt span{
+	float:right;
+	color:#eb6100;
+	width:69px;
+	height:30px;
+	line-height:30px;
+	text-align:right}
+.hotel-jx-box ul li .txt p.bt span b{
+	font-size:18px;
+	font-family:Arial;
+	font-weight:500}
+.hotel-jx-box ul li .txt p.num,
+.hotel-jx-box ul li .txt p.ads{
+	height:24px;
+	line-height:24px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis}
+.hotel-jx-box ul li .txt p.num span{
+	float:left;
+	margin-right:20px}
+.hotel-jx-box ul li .list a{
+	float:left;
+	width:249px;
+	height:34px;
+	line-height:34px;
+	border-bottom:1px solid #d8d8d8}
+.hotel-jx-box ul li .list a:hover{
+	background:#f3f3f3}
+.hotel-jx-box ul li .list a span{
+	float:left;
+	
+	height:34px;
+	padding-left:5px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis}
+.hotel-jx-box ul li .list a em{
+	float:right;
+	width:60px;
+	text-align:right;
+	padding-right:9px;
+	background:url(../images/arrow-right-ico.png) right no-repeat}
+.hotel-jx-box ul li a.more-fx{
+	color:#7d7d7d;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	margin-bottom:5px}
+.hotel-jx-box ul li a.more-fx:hover{
+	color:#00b7ee}
+
+/*酒店列表*/
+.st-hotellist-box{
+	float:left;
+	width:905px}
+.st-hotellist-con{
+	float:left;
+	width:905px}
+
+.hotel-list-con{
+	float:left;
+	width:905px}
+.hotel-list-con .list-child{
+	float:left;
+	width:893px;
+	padding:5px;
+	margin-top:15px;
+	position:relative;
+	border:1px solid #d8d8d8;
+	border-radius:3px}
+.hotel-list-con .list-child:hover{
+	border:1px solid #00b7ee}
+.hotel-list-con .list-child .hot-ico{
+	position:absolute;
+	left:-4px;
+	top:-4px;
+	width:67px;
+	height:65px;
+	background:url(../images/st-line-ico.png) no-repeat 0 -310px}
+.hotel-list-con .list-child .lc-image-text{
+	float:left;
+	width:893px;}
+.hotel-list-con .list-child .pic,
+.hotel-list-con .list-child .pic a,
+.hotel-list-con .list-child .pic a img{
+	float:left;
+	width:265px;
+	height:180px}
+.hotel-list-con .list-child .text{
+	float:left;
+	width:430px;
+	height:180px;
+	margin-left:30px;
+	overflow:hidden}
+.hotel-list-con .list-child .text p{
+	float:left;
+	width:430px;
+	overflow:hidden}
+.hotel-list-con .list-child .text .bt a{
+	float:left;
+	color:#333;
+	width:430px;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis}
+.hotel-list-con .list-child .text .bt a:hover{
+	color:#0082dd}
+.hotel-list-con .list-child .text .bt a img{
+	vertical-align:middle;
+	margin:-2px 0 0 5px}
+.hotel-list-con .list-child .text .attr span{
+	float:left;
+	color:#7d7d7d;
+	height:24px;
+	line-height:24px;
+	margin-right:35px}
+.hotel-list-con .list-child .text .js{
+	max-height:60px;
+	line-height:20px;
+	margin-top:10px}
+.hotel-list-con .list-child .text .ads{
+	color:#7d7d7d;
+	width:415px;
+	height:24px;
+	line-height:24px;
+	margin-top:10px;
+	padding-left:15px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	background:url(../images/hotel-ico.png) no-repeat 0 -144px}
+.hotel-list-con .list-child .lowest-jg{
+	float:right;
+	width:150px;
+	height:180px}
+.hotel-list-con .list-child .lowest-jg span{
+	float:left;
+	color:#f60;
+	width:150px;
+	margin-top:20px;
+	text-align:center}
+.hotel-list-con .list-child .lowest-jg span b{
+	font-size:22px;
+	padding:0 3px;
+	font-weight:500;
+	font-family:Arial}
+
+.roomtype-con{
+	float:left;
+	width:893px;
+	margin-top:5px}
+.roomtype-con .room-attr{
+	color:#333;
+	background:#f9f8f8}
+.roomtype-con .pl20{
+	float:left;
+	padding-left:20px}
+.roomtype-con .room-attr th{
+	text-align:center}
+.roomtype-con td{
+	border-top:1px solid #d8d8d8}
+.roomtype-con .yh{
+	color:#fc6000;
+	font-size:14px}
+.roomtype-con .booking-btn{
+	float:right;
+	color:#fff;
+	width:75px;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	margin-right:20px;
+	text-align:center;
+	border-radius:3px;
+	background:#ff8a00}
+.roomtype-con .booking-btn:hover{
+	background:#f60}
+.roomtype-con .type-tit{
+	float:left;
+	padding-left:20px;}
+.roomtype-con .pic-ico{
+	float:left;
+	width:14px;
+	height:12px;
+	margin:2px 0 0 5px;
+	background:url(../images/hotel-ico.png) no-repeat 0 -85px}
+
+.roomtype-sheshi{
+	float:left;
+	width:853px;
+	padding:15px 20px;
+	background:#fff4e4}
+.roomtype-sheshi .images-con{
+	float:left;
+	width:140px;
+	height:100px;
+	margin-right:50px;
+	position:relative}
+.roomtype-sheshi .images-con .show-pic{
+	float:left;
+	width:140px;
+	height:100px}
+.roomtype-sheshi .images-con .ck{
+	position:absolute;
+	left:0;
+	top:0;
+	color:#fff;
+	display:block;
+	width:140px;
+	height:100px;
+	line-height:130px;
+	text-align:center;
+	cursor:pointer;
+	background:url(../images/repeat-bg01.png) left repeat}
+.roomtype-sheshi .images-con .ck em{
+	padding-top:30px;
+	background:url(../images/images-ico.png) top center no-repeat}
+.roomtype-sheshi .type-attr{
+	float:left;
+	width:663px}
+.roomtype-sheshi .type-attr li{
+	float:left;
+	width:221px;
+	height:30px;
+	line-height:30px}
+
+.pic-fixed-box{
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:9999;
+	background:url(../images/repeat-bg01.png) left repeat}
+.zoom-images-box{
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:768px;
+	height:418px;
+	margin:-210px 0 0 -384px;
+	border:1px solid #312d29;
+	background:#fff}
+
+.hpic-slide{
+	float:left;
+	width:743px;
+	height:378px;
+	padding:0 0 0 25px}
+.hpic-slide .bd{
+	float:left;
+	width:456px;
+	margin-top:15px;
+	position:relative}
+.hpic-slide .bd h3{
+	float:left;
+	color:#333;
+	width:456px;
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+	border-bottom:1px solid #d8d8d8}
+.hpic-slide .bd ul{
+	float:left;
+	width:456px;
+	height:325px;
+	margin-top:13px}
+.hpic-slide .bd ul li,
+.hpic-slide .bd ul li img{
+	float:left;
+	width:456px;
+	height:325px;}
+
+
+.hpic-slide .hd{
+	float:right;
+	width:255px;
+	height:418px;
+	padding-left:10px;
+	background:#f7f7f7}
+.hpic-slide .hd .hp-closed{
+	float:left;
+	width:255px;
+	height:40px}
+.hpic-slide .hd .hp-closed span{
+	float:right;
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	background:url(../images/hp-closed.png) left no-repeat}
+.hpic-slide .hd ul{
+	float:left;
+	width:255px;
+	height:338px;
+	margin-top:15px;
+	overflow-y:auto}
+.hpic-slide .hd ul li{
+	float:left;
+	width:97px;
+	height:69px;
+	margin:13px 0 3px 13px}
+.hpic-slide .hd ul li img{
+	float:left;
+	width:93px;
+	height:65px;
+	border:2px solid #f7f7f7}
+.hpic-slide .hd ul li.on img{
+	border:2px solid #fc6000}
+
+.hpic-slide .prev,
+.hpic-slide .next{
+	position:absolute;
+	top:181px;
+	display:block;
+	width:29px;
+	height:71px;
+	filter:alpha(opacity=50);
+	opacity:0.5}
+.hpic-slide .prev{
+	left:0;
+	background:url(../images/imgSlideLeft.png) no-repeat;}
+.hpic-slide .next{
+	right:0;
+	background:url(../images/imgSlideRight.png) no-repeat;}
+.hpic-slide .prev:hover,
+.hpic-slide .next:hover{
+	filter:alpha(opacity=100);
+	opacity:1}
+.hpic-slide .prevStop,
+.hpic-slide .nextStop{
+	display:none}
+
+
+/*酒店详情页面*/
+.st-hotel-show{
+	float:left;
+	width:905px}
+.hotelshow-tw{
+	float:left;
+	width:869px;
+	padding:15px;
+	border:3px solid #d8d8d8}
+.focus-slide{
+	float:left;
+	width:460px}
+.imgnav{
+	position:relative;
+	margin:0 auto;
+	width:460px}
+#img{
+	z-index:10;
+	width:460px;
+	position:relative;
+	text-align:center}
+#img img{
+	height:325px;
+	display:none}
+#front{
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:10;
+	cursor:pointer;
+	width:230px;
+	height:325px;
+	background:url(../images/blank.gif)}
+#front a{
+	position:absolute;
+	left:10px;
+	top:127px;
+	display:block;
+	background:url(../images/imgSlideLeft.png) no-repeat;
+	width:29px;
+	height:71px;
+	display:none}
+#next{
+	position:absolute;
+	right:0px;
+	top:0px;
+	z-index:10;
+	cursor:pointer;
+	width:230px;
+	height:325px;
+	background:url(../images/blank.gif)}
+#next a{
+	position:absolute;
+	right:10px;
+	top:127px;
+	display:block;
+	background:url(../images/imgSlideRight.png) no-repeat;
+	width:29px;
+	height:71px;
+	display:none}
+#cbtn{
+	background:#fff;
+	position:relative;
+	height:70px;
+	margin-top:12px}
+#cbtn ul{
+	position:relative;
+	width:10000px;
+	height:70px}
+#cbtn ul li{
+	float:left;
+	padding:8px 3px 3px 3px;
+	width:90px;
+	height:59px;
+	cursor:pointer;
+	text-align:center;
+	margin-right:6px;
+	position:relative}
+#cbtn ul li img{
+	width:90px;
+	height:59px;
+	display:block}
+#cbtn li.hov{
+	background:url(../images/imgHoverBg.gif) no-repeat}
+.ctrl div{
+	clear:both}
+#cSlideUl{
+	width:402px;
+	height:70px;
+	overflow:hidden;
+	position:relative;
+	top:0;
+	margin:0 auto}
+.picSildeLeft{
+	cursor:pointer;
+	position:absolute;
+	top:6px;
+	left:0;
+	z-index:9}
+.picSildeRight{
+	cursor:pointer;
+	position:absolute;
+	top:6px;
+	right:0;
+	z-index:9}
+
+.cp-show-msg{
+	float:right;
+	width:394px}
+.cp-show-msg .hs-title{
+	float:left;
+	width:394px;
+	margin-bottom:10px}
+.cp-show-msg .hs-title h1{
+	float:left;
+	color:#333;
+	width:394px;
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis}
+.cp-show-msg .hs-title p{
+	float:left;
+	color:#7d7d7d;
+	width:380px;
+	height:24px;
+	line-height:24px;
+	font-size:14px;
+	padding-left:14px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	background:url(../images/hotel-ico.png) no-repeat 0 -144px}
+.cp-show-msg .price{
+	float:left;
+	width:394px;
+	height:40px;
+	margin-bottom:10px}
+.cp-show-msg .price span{
+	float:left;
+	color:#fc6000;
+	width:230px;
+	height:40px;
+	line-height:40px;
+	padding-left:10px;
+	font-size:14px;
+	background:#fff4e4}
+.cp-show-msg .price span b{
+	padding:0 3px;
+	font-size:24px;
+	font-weight:500;
+	font-family:Arial}
+.cp-show-msg .sl{
+	float:left;
+	width:394px;
+	margin-bottom:10px}
+.cp-show-msg .sl span{
+	color:#7d7d7d;
+	vertical-align:middle}
+.cp-show-msg .sl s{
+	color:#7d7d7d;
+	margin:0 20px;
+	text-decoration:none}
+.cp-show-msg .msg-ul{
+	float:left;
+	width:394px;
+	margin-top:20px}
+.cp-show-msg .msg-ul li{
+	float:left;
+	width:394px;
+	margin-bottom:10px;
+	font-size:14px}
+.cp-show-msg .msg-ul li.mb_0{
+	margin-bottom:0}
+.cp-show-msg .msg-ul li em{
+	float:left;
+	width:74px}
+.cp-show-msg .msg-ul li p{
+	float:left;
+	width:320px;
+	font-size:14px}
+.cp-show-msg .msg-ul li p img{
+	float:left;
+	margin:0 5px 5px 0}
+
+.hotelshow-con{
+	float:left;
+	width:905px;
+	margin-top:15px}
+.hotelshow-con .tabnav-list{
+	float:left;
+	width:905px;
+	border-bottom:2px solid #00b7ee;
+	background:#f8f8f8}
+.hotelshow-con .tabnav-list span{
+	color:#666;
+	float:left;
+	height:39px;
+	line-height:39px;
+	padding:0 10px;
+	font-size:14px;
+	cursor:pointer;
+	margin-right:-1px;
+	border:1px solid #eee;
+	border-bottom:0}
+.hotelshow-con .tabnav-list span.on{
+	color:#fff;
+	height:40px;
+	line-height:39px;
+	border:0;
+	background:#00b7ee}
+
+.tabbox-list{
+	float:left;
+	width:863px;
+	padding:0 20px 15px;
+	border:1px solid #d8d8d8;
+	border-top:0}
+.tabcon-list{
+	float:left;
+	width:863px;
+	margin-top:20px}
+.tabcon-list .list-tit{
+	float:left;
+	width:863px;
+	border-bottom:2px solid #00b7ee}
+.tabcon-list .list-tit strong{
+	float:left;
+	color:#fff;
+	width:92px;
+	height:27px;
+	line-height:27px;
+	padding-left:10px;
+	margin-bottom:-2px;
+	font-size:16px;
+	background:url(../images/list-tit-bg.png) left no-repeat}
+.tabcon-list .list-txt{
+	color:#666;
+	float:left;
+	width:833px;
+	line-height:24px;
+	padding:10px 15px 0;
+	font-size:14px}
+.tabcon-list .list-txt p{
+	margin-bottom:10px}
+.tabcon-list .list-txt img{
+	max-width:100%}
+
+.tabcon-list .roomtype-con{
+	width:863px}
+.tabcon-list .roomtype-sheshi{
+	width:823px}
+.tabcon-list .roomtype-sheshi .type-attr{
+	width:633px;}
+.tabcon-list .roomtype-sheshi .type-attr li{
+	width:211px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

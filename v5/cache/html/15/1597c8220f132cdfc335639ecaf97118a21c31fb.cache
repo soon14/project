@@ -1,0 +1,880 @@
+3600
+s:40486:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>承德京北第一草原一日游——承德旅游景点大全-旅游</title>
+  <!-- 页面公用 public CSS 文件 -->
+  <link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css" rel="stylesheet"  />
+  <link type="text/css" href="/min/?f=/res/css/mycss/strategy/Trategy.css" rel="stylesheet"  />
+  <script type="text/javascript"src="/min/?f=/res/js/common/jquery-1.11.3.min.js,/res/js/common/bootsAitto-min.js"></script>
+  <script type="text/javascript"src="/min/?f=/res/js/strategy/Trategy.js"></script>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?f968b43cd6404299f54d25d87c3bbe3a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script></head>
+<body class="Color-fafafa" >
+<!-- 登陆代码 开始 -->
+
+<link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css" rel="stylesheet"  />
+<header>
+    <div id="commonHead">
+        <div id="commonWarp">
+            <div class="logo" style="cursor:pointer;" onclick="window.location.href='http://www.aitto.net'" ></div>
+        <div class="nav">
+                <ul>
+                    <li class="current st-menu">
+                        <a href="/">首页                        </a>
+                    </li>
+                                                            <li class="st-menu"><a href="http://www.aitto.net/destination/">目的地</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/raiders/">攻略</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/notes/">游记</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/spots/">门票</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/lines/self">自驾游</a></li>
+                                        
+                </ul>
+            </div>
+              <div class="head-search">
+            <div class="head-search-wrapper">
+                <div class="head-searchform">
+                    <input id="_j_head_search_input" type="text" value="" placeholder="搜索攻略">
+                    <a role="button" href="javascript:" class="icon-search" id="_j_head_search_link" onclick=""></a> </div>
+            </div>
+        </div>
+                  <div class="login-info">
+                <div class="userLogin" id="loginstatus">
+                </div>
+                <div class="head-user drop-trigger" id="-j-head-user">
+                    <a class="" href="#">
+                        <div class="user-ico"></div>
+                        <i class="icon-caret-down"></i>
+                    </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">会员中心</h2>
+                        <div class="dropdown-menu" >
+                            <ul>
+                                <li class="icon-home"><a href="/member/"><i></i>会员首页</a></li>
+                                <li class="icon-order"><a href="/member/order/all"><i></i>我的订单</a></li>
+                                <li class="icon-writenotes"><a href="/member/index/mynotes"><i></i>我的游记</a></li>
+                                <li class="icon-jifen"><a href="/member/index/jifen"><i></i>我的积分</a></li>
+                                <li class="icon-Personal"><a href="/member/index/userinfo"><i></i>个人中心</a></li>
+                                <li class="icon-traveller"><a href="/member/index/linkman"><i></i>常用旅客</a></li>
+                                <li class="icon-logout"><a href="/member/login/loginout"><i></i>退出登录</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-code drop-trigger" id="-j-head-code" > <a class="" href="#">
+                        <div class="code-ico"></div>
+                        <i class="icon-caret-down"></i> </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+                        <div class="drop-con">
+                            <div class="WeChat"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</header>
+<script type="text/javascript">
+    //JQuery
+    $(document).ready(function(){
+        $(document).on("click",
+            function(e) {
+                isActive = $(e.target).parent().attr("class");
+                var  typeid= "4";
+                if (isActive=='head-searchform') {
+                    if(typeid==101){
+                          $(".head-search-focus").css('width',"345px");
+                          $(".head-search-focus .head-searchform input").css('width',"323px");
+                    }
+                    if(typeid==5){
+                        $(".head-search-focus").css('width',"285px");
+                        $(".head-search-focus .head-searchform input").css('width',"263px");
+                    }
+                }
+                else {
+                    if(typeid==101||typeid==5){
+                        $(".head-searchform input").css('width',"108px");
+                        $(".head-search-wrapper").css('width',"130px");
+                    }
+                    $(".head-search-wrapper").removeClass("head-search-focus");
+                }
+            })
+        $("#_j_head_search_input").click(function(){
+            $(".head-search-wrapper").addClass("head-search-focus");
+        });
+    });
+</script>
+<script type="text/javascript"src="/min/?f=/res/js/SuperSlide.min.js,/res/js/base.js,/res/js/common.js,/res/js/myjs/bootstrap.min.js,/res/js/myjs/jquery.select.js,/res/js/common/bootsAitto-min.js"></script>
+<script>
+    var SITEURL = "/";
+    function optionChecked(obj){
+        var typeid = $(obj).attr('data-id');
+        var durl = $(obj).attr('data-url');
+       // alert(typeid+"["+durl);
+        $("#typename").attr('data-id',typeid);
+        $("#typename").attr('data-url',durl);
+    }
+    //====================07.05  s
+    $("a[name=myorder]").click(function(){
+        var  url1 =SITEURL+'member/order/all';//SITEURL 为 '/'
+        var  url =SITEURL+'member/login?redirecturl='+url1;
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status==0){
+                    alert("请先登录");
+                   window.location.href =url;
+                }else{
+                    window.location.href =url1;
+                }
+            }
+        })
+    });
+    //====================07.05  e
+    $(".weixin").mouseover(function(){
+        //  $(this).addClass("hover");
+        $(this).children(".dropdown1").show()
+    });
+    $(".weixin").mouseout(function(){
+        // $(this).removeClass("hover");
+        $(this).children(".dropdown1").hide()
+    });
+   //
+    $(function(){
+        var typeid  = "4";
+        $("#_j_head_search_input").keydown(function(e){
+            if(e.keyCode==13){
+                $('#_j_head_search_link').click();
+            }
+        });
+        $(".searchmodel li:first").trigger('click');
+        //search
+        $('#_j_head_search_link').click(function(){
+            var keyword = $('#_j_head_search_input').val();
+            if(keyword == ''){
+                alert("请输入内容");
+                $("#_j_head_search_link").focus();
+                return false;
+            }
+//            var typeid = $("#typename").attr('data-id');
+//            var durl = $("#typename").attr('data-url');
+//            if(typeid==0 || typeid==8){//0  是全部  8是 签证
+//                var url = SITEURL+'search/cloudsearch?keyword='+encodeURIComponent(keyword)+"&typeid="+typeid;
+//            }else{
+//                var url = "http://www.aitto.net"+durl+'all?keyword='+encodeURIComponent(keyword);
+//            }
+            if(typeid==4){
+                var url = "http://www.aitto.net"+"/raiders/"+'all?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==101){
+                var url = "http://www.aitto.net"+"/notes/list"+'?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==5){
+                var url = "http://www.aitto.net"+"/spots/"+'all?keyword='+encodeURIComponent(keyword);
+            }
+            location.href = url;
+        })
+        //导航的选中状态
+        $(".st-menu a").each(function(){
+            $(".st-menu").removeClass('current');
+            var url= window.location.href;
+            // url=url.replace('index.php','');
+            //url=url.replace('index.html','');
+            var urlArr = url.split("/");
+            var ulink=$(this).attr("href");
+            var urlLinkArr = ulink.split("/");
+             //  定义目的地拼音
+            var pinyin  ="";
+            var  sss   = urlArr[3].split("?");
+            var   p    = sss[0];
+         console.log(urlArr[3]);
+        // console.log(urlLinkArr[3]);
+            if(urlArr[3]==urlLinkArr[3])
+            {
+                $(this).parents('li').addClass('current');
+                return false;
+            }else if(pinyin==p&&urlLinkArr[3]=='destination'&&pinyin.length!=''){
+                $(this).parents('li').addClass('current');
+                return false;
+            }
+            else{
+                if(urlArr[3]!='member'){
+                    $(".st-menu").first().addClass('current');
+                }
+            }
+        })
+        //登陆状态
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status){
+                    $txt = '<a class="dl" style="padding:0" href="javascript:;">你好,</a>';
+                    $txt+= '<a class="dl" href="/member/">'+data.user.nickname+'</a>';
+                    $txt+= '<a class="dl" href="/member/login/loginout">退出</a>';
+                    //$txt+= '<a class="dl" href="/member">个人中心</a>';
+                    $txt = '您好:<a href="/member/">'+data.user.nickname+'</a>';
+                }else{
+                    //$txt = '<a class="dl" href="/member/login">登录</a>';
+                    // $txt+= '<a class="zc" href="/member/register">免费注册</a>';
+                    $txt = '&nbsp;&nbsp;&nbsp;&nbsp;<a href="/member/login">登录</a> | <a href="/member/register">注册</a>';
+                }
+                $("#loginstatus").html($txt);
+            }
+        })
+    })
+</script>
+<script>
+    var s  = 3;
+</script><!-- 登陆代码 结束 -->
+<div class="notebox"></div>
+<section> 
+  <!-- 面包屑 开始 -->
+  <div  class="BreadCrumb">
+    <ul >
+      <li><a href="/">首页<i class="icon-gt">&gt;</i></a></li>
+      <li><a href="/raiders">攻略<i class="icon-gt">&gt;</i></a></li>
+      <li class="current"><a href="#">攻略正文</a></li>
+    </ul>
+    <div class="clearfix"></div>
+  </div>
+  <!--  面包屑 结束 --> 
+</section>
+<div class="ctd-TrategyFloat-nav">
+  <div class="nav-warp">
+    <div class="nav-title"> <span class="home"><a href="#"><em></em></a></span> <span class="nav-h2">承德京北第一草原一日游</span> </div>
+    <div class="ui-navArea-btn ">
+      <ul>
+        <li class="link-share bdsharebuttonbox" data-tag="share_1"><a href="javascript:;" class="ui-btn bds_more" title="一键分享" rel="nofollow" style="cursor:auto" data-cmd="more" onclick="shareStyle(this)" onmouseout="reStyle(this)" onmouseover="shareStyle(this)">&nbsp;分享</a></li>
+        <li class="link-like"><a href="javascript:" class="ui-btn link_like" data-link="2" data-id="466"><i></i><span class="ui-btn-text">喜欢<b>(0)</b></span></a></li>
+        <li class="link-comment" onclick="foc()"><a href="javascript:void (0)" class="ui-btn"><i></i><span class="ui-btn-text" >评论<b>(0)</b></span></a></li>
+        <li class="link-browse"><a href="javascript;" class="ui-btn"><i></i><span class="ui-btn-text">浏览<b>(103)</b></span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+  //  设置 页面的  划词 和图片分享
+  /*
+   百度 分享bdUrl 里面的地址不能拿带 http://www
+   亲测  火狐下 将按这个地址 跳转
+   */
+  window._bd_share_config={
+    common:{
+      bdText : "承德京北第一草原一日游",
+      bdDesc : "这攻略写得太棒了！",
+      bdUrl  : "aitto.net/raiders/show_459.html",
+      bdPic  : "aitto.net/new_uploads/2017/1010/2356b61ef9cbfc7108d274c992e51634.gif",
+      bdMini :2,
+      "onBeforeClick" :function(cmd,config){
+        //  user 在用户点击分享按钮时执行代码，更改配置。
+        //  cmd为分享目标id，config为当前设置，返回值为更新后的设置。
+      },
+      "onAfterClick" : function(cmd){
+        //在用户点击分享按钮后执行代码，cmd为分享目标id。可用于统计等
+      }
+    },
+    share:[{
+      tag : "share_1",
+      bdCustomStyle:"/res/css/mycss/strategy/TravelNotes2.css"
+    }
+    ],
+    image:{
+      viewList:'',
+      viewText:"分享到：",
+      viewSize:"24"},
+    selectShare:{
+      bdContainerClass:null,
+      bdSelectMiniList:["qzone","tsina","tqq","renren","weixin"]
+    }
+  };
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+  function shareStyle(th){
+    $(th).css({
+      'padding-left': '2px',
+      'width': '66px',
+      'height':"100%",
+      'margin' :"0px 0px",
+      'color' : 'white',
+      'float': 'left',
+      'font-size': '13px',
+      'line-height': '89px',
+      'background-image': 'url(/res/images/TravelNotes/travelNotes2.png)',
+      'background-repeat': 'no-repeat',
+      'background-position-x':  '28px',
+      'background-position-y': '5px'
+    })
+  }
+  function reStyle(th){
+    $(th).css({
+      'padding-left': '2px',
+      'width': '66px',
+      'height':"100%",
+      'margin' :"0px 0px",
+      'color' : '#666',
+      'float': 'left',
+      'font-size': '13px',
+      'line-height': '89px',
+      'background-image': 'url(/res/images/TravelNotes/travelNotes2.png)',
+      'background-repeat': 'no-repeat',
+      'background-position-x':  '28px',
+      'background-position-y': '-30px'
+    })
+  }
+</script>
+<div class="container">
+  <section>
+    <div class="ctd-head-TrategyNotes"><img src="/new_uploads/2017/1010/2356b61ef9cbfc7108d274c992e51634.gif" width="100%">
+      <div class="ctd-mask"></div>
+      <div class="ctd-info">
+        <div class="user-img"><img src="/new_uploads/2017/0209/010861c1a8a26e21408f8426a4c44c3d.jpg" ></div>
+        <div class="user-info">
+          <h2>承德京北第一草原一日游</h2>
+          <div class="user-bot">
+            <div class="user-l">
+              <span class="user-data">9/Oct.2017</span>
+              <span class="user-name">Andy</span>
+              <span class="user-lv">LV 8</span><span class="user-num">134篇攻略</span>
+            </div>
+            <div class="user-r">
+              <span class="link-box">
+<!--                <a class="link-share bds_more" href="javascript:;" > <i></i>分享 </a>-->
+                <a class="link-like link_like" href="javascript:;" data-id="466"  title="喜欢就点击一下"> <i></i>喜欢<span>0</span> </a>
+                <a class="link-comment" href="javascript:;"  title="我要评论" onclick="foc()"><i></i>评论<span>0</span></a>
+                <a class="link-browse" href="javascript:;"> <i></i> 浏览 <span>103</span> </a> </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="ctd-Travel-body">
+      <div class="ctd-Travel-nav">
+        <div class="sideToolbar">
+          <div class="sideCatalog">
+            <div class="ebn-button-box" style="display: block;bottom: -55px">
+              <a class="ebn-button ebn-button-up sideCatalog-up-disable" href="javascript:;"></a>
+              <a class="ebn-button ebn-button-down sideCatalog-down-enable"  href="javascript:;"></a>
+            </div>
+            <div class="ebn-Catalog"></div>
+            <div class="sideCatalog-catalog">
+              <dl>
+              </dl>
+            </div>
+            <!--<div class="ebn-tip ebn-tip-bottom" style="display: block;">
+            <div class="ebnt-point"><i></i></div>
+            <div class="ebnt-day"><i></i>大理环海铁佛寺驿</div>
+          </div>   --> 
+          </div>
+        </div>
+      </div>
+      <div class="ctd-Travel-article">
+        <div class="ctd-content">
+          <div class="ebma-chapter ebma-preface"> <a class="ebma-anchor0" href="#" id="p0"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">旅游概况</span></h4>
+            <ul class="Survey">
+              <li class="time"><i></i><span>目的地： 丰宁</span></li>
+              <li class="day"><i></i><span>出行天数： 1天</span></li>
+              <li class="cost"><i></i><span>人均花费： 100元</span></li>
+              <li class="people"><i></i><span>最佳出游时间：夏秋</span></li>
+              <li class="jingqu"><i></i><span>景点：京北第一草原</span> </li>
+              <div class="clearfix"></div>
+            </ul>
+          </div>
+          <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p1"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">景区简介</span></h4>
+            <div class="ebma-con">
+              <p><img src="/new_uploads/2017/1010/2f84cb6b52c164abb56ff0a1961bbac5.jpg" alt="" title=""/>​从承德出发前往位于丰宁县西北部的京北第一草原，欣赏美丽的草原风光。其距离承德市区大约200公里，自驾约3小时，人均消费约100元。</p>            </div>
+          </div>
+          <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p2"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">交通路线</span></h4>
+            <div class="ebma-con">
+              <p><img src="/new_uploads/2017/1009/7c6d729a29d82592955a669178318062.png" alt="" title=""/></p><p><strong>自驾路线：</strong></p><p>城区道路——张承高速——G111——S244——京北第一草原。全程约200公里，自驾约3小时。</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p4"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">玩什么</span></h4>
+          </div>
+          <div><p><img src="/new_uploads/2017/1010/3416fb43006dee35551fd4be43142928.png" alt="" title=""/></p><p>京北第一草原位于丰宁县西北部大滩镇，距承德市区250公里，距北京280公里，是距首都北京最近的天然草原，故名“京北第一草原”。</p><p><img src="/new_uploads/2017/1010/6509d43019435a3f0d9b593b2be9fdcc.jpg" alt="" title=""/></p><p>草原地处高原坝上，平均海拔1487米，是内蒙古高原南部边缘地带，总面积350平方公里。</p><p><img src="/new_uploads/2017/1011/21eed78ccfb498494e473a98f0f622bd.jpg" alt="" title=""/>​</p><p>夏日清凉无暑，最高气温不超过24℃，是避暑的理想去处。著名的滦河就发源于此地，潺潺的河水浇灌得这里碧草连天、百花争艳。</p><p><img src="/new_uploads/2017/1010/892dcd136bf5748eff26e9540b7a06ab.png" alt="" title=""/></p><p>这里自然资源十分丰富，金针花、野罂菜、干枝梅、金莲花，倍受人们喜爱。可食的山珍有雨后的蘑菇、甜酸的大黄梗和形似如意的山蕨菜。<br/></p><p><img src="/new_uploads/2017/1010/7e1af68928b78060f65a27790a6f6d76.png" alt="" title=""/></p><p>每年端午节前后百灵鸟在花草中产卵孵化，10月成百上千的南徙大雁在这里短栖。野兔、鼹鼠、狐、貉等草原动物，经常在坡地草丛中出没。蒙古语称此地为“海留图”，意为水草丰美的地方。</p><p><img src="/new_uploads/2017/1010/5c1942e43b19b77f09aca8aec31ca73f.png" alt="" title=""/></p><p>走进这片大草原，就会感受到那“草如毯、云如絮、风如情语、花如人面”的自然之美。置身高地仰望，似有天穹压落，云欲擦身之感。</p><p><img src="/new_uploads/2017/1010/56a9ccde3f92b39c20254fa7c8a2e282.jpg" alt="" title=""/></p><p>放眼沼泽、滩地组成的旷垠原野，氤氲流升，庶草摇曳，繁花铺地，禽鸟飞鸣，骏马奔驰。不由会唱起那首北朝民歌“天苍苍,，野茫茫，风吹草低见牛羊”。</p><p><img src="/new_uploads/2017/1010/3c2a4915e0f0174cd04cb333a7285a32.jpg" alt="" title=""/>​</p> </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p5"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">吃什么</span></h4>
+          </div>
+          <div><p>景区有不少农家院可供选择，游客可在农家院吃饭，烤全羊、手把羊肉等都是当地特色美食。</p><p><img src="/new_uploads/2017/1010/d8898deec91fb0dcd0e429b193155cf7.jpg" alt="" title=""/><img src="/new_uploads/2017/1010/baac64cf7fe16427a5fa8b992f29f8f4.png" alt="" title=""/>​</p> </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p6"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">买什么</span></h4>
+          </div>
+          <div><p>​承德杏仁、坝上榛子、坝上白蘑、坝上蕨菜、丰宁莜麦、金莲花等都为当地特产，可选择性购买。</p><p><img src="/new_uploads/2017/1010/7caf80a1f4c865f0051fb752f5f1378c.png" alt="" title=""/><img src="/new_uploads/2017/1010/29f9bb0cb811c2e6b41ef7d2fea86fd2.png" alt="" title=""/>​</p> </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p7"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">小贴士</span></h4>
+          </div>
+          <div><p>1、进入丰宁坝上草原无需门票；娱乐套票180元/人，包括飞斧、射箭、流星炮车、喷火神枪、激情转马、滑草、梦幻飞碟、蒙古人家、弹跳飞人、野战博击、疯狂斗牛、英雄战城、电子篮球等草原娱乐项目</p><p>2、每年的5~10月是丰宁坝上的旅游旺季。10月过后，丰宁坝上的住宿、餐饮等配套设施基本都停止营业。</p><p>3、老少皆宜，适合一家休闲游。</p><p>4、草原上昼夜温差较大，晚上气温低，建议多带一些厚衣服。</p><p><br/></p> </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p8"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">看别人怎么说</span></h4>
+          </div>
+          <div><p><img src="/new_uploads/2017/1010/bbb7257ac8dc522473392b4d4712f8ef.png" alt="" title=""/>​</p> </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p9"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">小编说</span></h4>
+          </div>
+          <div><p>这是离北京最近的草原，还不错，很凉爽，风景非常美丽，一望无际的大草原很是壮观，不过立秋以后都天气渐渐转凉，要带一件外套，早上和晚上比较凉。</p> </div>
+                              <div class="ctd-theend"></div>
+        </div>
+        <div class="ctd-comment">
+          <div class="TicketM-Tit"> <span> <i class="detail-icon-4"> 用户点评 </i> <i class="detail-icon-t"> </i> </span></div>
+          <div class="ebmc-content">
+            <div class="ebm-title">发表评论</div>
+            <div class="nchcomments-box">
+              <a title="" class="nchimg">
+                <img src="/uploads/main/allimg/20150923/20150923143441.jpg">
+              </a>
+              <div class="nchtextarea right">
+                <i class="tip-icon--left-sangle"></i>
+                <textarea class="ebmc-textarea" id="report_area" cols="30" rows="10" maxlength="500" placeholder="喜欢这篇攻略吗？说点什么吧..." onkeyup="zifu(this)"></textarea>
+                <span class="tbmac-tip tbmac-tip-normal">已输入<b><em>0</em>/500</b>字</span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="ebmc-info"> <a href="javascript:;" class="ebmc-button tj-btn">评论</a> </div>
+          </div>
+          <div class="ebmc-list">
+            <ul id="result_list">
+            </ul>
+            <div class="pages Pagination" >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ctd-Travel-sider">
+        <div class="notes-box">
+          <div class="side-box side-About">
+            <div class="wy-notice-img"><i></i><span>305</span>篇攻略</div>
+            <div class="wy-notice-btns">
+              <a href="/notes/WRITE/" class="Publish-Travels" rel="nofollow" target="-blank">
+                <i class="icon icon-publish"></i>发游记</a>
+              <a href="javascript:" rel="nofollow" id="com"><i class="icon icon-comments"></i>写点评</a>
+            </div>
+          </div>
+          <div class="side-box sid-Recommend">
+            <h4>河北全攻略</h4>
+            <ul>
+                            <li>
+                <a target="_blank" href="" title="承德京北第一草原一日游">
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/1010/795b71e88de53e90211e0060ad321d36.gif"/></div>
+                <div class="note-con">
+                  <h5>承德京北第一草原一日游</h5>
+                  <div class="note-name"><span>Andy</span>&nbsp;&nbsp;2017-10-09 </div>
+                </div>
+                </a>
+              </li>
+                            <li>
+                <a target="_blank" href="" title="张家口沽源塞外庄园一日游">
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/1009/db1977b305615506f59a213f57c3f69c.jpg"/></div>
+                <div class="note-con">
+                  <h5>张家口沽源塞外庄园一日游</h5>
+                  <div class="note-name"><span>艾小漠</span>&nbsp;&nbsp;2017-10-09 </div>
+                </div>
+                </a>
+              </li>
+                            <li>
+                <a target="_blank" href="" title="茅荆坝原始森林谷一日游">
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/1009/2c364b7d2f08e8aa51eabb7137bf33d9.gif"/></div>
+                <div class="note-con">
+                  <h5>茅荆坝原始森林谷一日游</h5>
+                  <div class="note-name"><span>Andy</span>&nbsp;&nbsp;2017-10-09 </div>
+                </div>
+                </a>
+              </li>
+                          </ul>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+</div>
+
+<div style="clear: both"></div>
+<div class="footer">
+  <!-- 网站底部 开始-->
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-r">
+        <div class="code">
+          <p><img src="/res/images/erweima.jpg"></p>
+          <h3>河北旅游网微信公众号</h3>
+        </div>
+        <div class="code">
+          <p><img src="/res/images/erweima2.jpg"></p>
+          <h3>米淘亲子游微信公众号</h3>
+        </div>
+      </div>
+      <ul class="footer-l">
+        <li>
+          <h2>联系我们</h2>
+          <p>全国统一客服电话：<span>0311-87885822</span></p>
+          <p>意见邮箱：3011930149@qq.com</p>
+        </li>
+        <li class="ab-list"><h2>关于我们</h2>
+                              <a href="http://www.aitto.net/servers/index_1.html">关于我们</a>
+                    <a href="http://www.aitto.net/servers/index_2.html">联系我们</a>
+                    <a href="http://www.aitto.net/servers/index_11.html">商务合作</a>
+                    
+        <li class="dh-list"><h2>站点导航</h2>
+                              <a href="http://www.aitto.net/destination/">目的地</a>
+                    <a href="http://www.aitto.net/raiders/">攻略</a>
+                    <a href="http://www.aitto.net/notes/">游记</a>
+                    <a href="http://www.aitto.net/spots/">门票</a>
+                    <a href="http://www.aitto.net/lines/self">自驾游</a>
+                    
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <span style="color:#c2c2c2;margin-bottom: 4px;display: inline-block;">友情连接：</span>
+    <div class="footer-link">
+      <p>
+            
+</p>
+    </div>
+    <div class="footer-bottom">
+      <p>2004-2016 © 河北旅游网 ™ aitto.net All rights reserved. Version v5.57 冀ICP备16007967号-1<br />
+        营业执照新出网证（京）字242号 </p>
+    </div>
+  </div>
+  <!-- 网站底部 结束-->
+</div>
+<!-- 网站置顶 开始-->
+<div class="mfw-toolbar toolbar-item-a" id="_j_mfwtoolbar" style="display: block;">
+  <div class="toolbar-item-code"><a class="toolbtn _j_code"> <i class="icon-code"></i> </a>
+    <div class="code-box">
+      <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+      <div class="WeChat"></div>
+    </div>
+  </div>
+  <div class="toolbar-item-top"> <a class="toolbtn _j_gotop"> <i class="icon-top"></i> </a> </div>
+</div>
+<!-- 网站置顶 结束-->
+<script>
+//登陆下拉
+$(document).ready(function(){
+  $(".drop").mouseover(function(){
+      $(this).addClass("hover");
+  $(this).next(".dropdown2").show()
+  });
+  $(".drop").mouseout(function(){
+      $(this).removeClass("hover");
+  $(this).next(".dropdown2").hide()
+  });
+});
+</script> 
+<input type="hidden" id="articleid" value="459">
+<input type="hidden" id="user" value=""/>
+<!----分页----->
+<input type="hidden" name="offset" id="offset" value="">
+<input type="hidden" name="page" id="page" value="1">
+<input type='hidden' id='next1' value="">
+<!----分页------->
+<script type="text/javascript" src="/res/js/layer/layer.js"></script>
+</body>
+</html>
+<script>
+  //  点击 评论
+  $("#com").click(function () {
+    foc();
+  });
+  function  foc(){
+    $("#report_area").focus();
+  }
+  /******
+   *  评论  是 按照  文章的id
+   *  喜欢是 按照 文章 的aid
+   */
+  $(".link_like").click(function(){
+    var  th  = this;
+    $.ajax({
+      type:"POST",
+      url:SITEURL+"member/login/ajax_is_login",
+      dataType:'json',
+      success:function(data){
+        if(data.status){//已经 登录
+          addlike(th);
+        }else{  //没有登录
+          layer.confirm('是否登录，将游记添加到收藏？', {
+            btn: ['是','否'] //按钮
+          }, function(){
+            var url  = window.location.href;//获取当前页面的地址
+            var login_url  =SITEURL+"member/login/?redirecturl="+url; //www.aitto.net/member/login/?redirecturl=
+            window.location.href=login_url;
+          }, function(){
+            // addlike(th);
+          });
+        }
+      }
+    })
+  });
+  function addlike(th){
+    var i  = 1 ;
+    var infoid  = $(th).attr("data-id");
+    var this_link = $(th).attr("data-link");
+    //  alert(infoid);
+    if(this_link=='2'){
+      var s  = $(th).find("span").find('b').text().replace('(',"").replace(")","");
+    }else{
+      var s  = $(th).find("span").text();
+    }
+    var arid = $("#articleid").val();
+    //alert(arid);
+    $.ajax({
+      type: "POST",
+      url: SITEURL+"article/ajax_add_like",
+      dataType:'json',
+      data: {l_num:s,arId:arid,infoid:infoid,typeid:'4'},
+      success:function(data){
+        if(this_link=='2'){
+          if(data.status){
+            layer.msg(data.msg);
+           // $(th).html("<i></i>取消喜欢<span>"+data.likenum+"</span>");
+            $(th).html("<i></i><span class='ui-btn-text'>取消喜欢<b>("+data.likenum+")</b></span>");
+          }else{
+            layer.msg(data.msg);
+           // $(th).html("<i></i>喜欢<span>"+data.likenum+"</span>");
+            $(th).html("<i></i><span class='ui-btn-text'>喜欢<b>("+data.likenum+")</b></span>");
+          }
+        }else{
+          if(data.status){
+            layer.msg(data.msg);
+            $(th).html("<i></i>取消喜欢<span>"+data.likenum+"</span>");
+          }else{
+            layer.msg(data.msg);
+            $(th).html("<i></i>喜欢<span>"+data.likenum+"</span>");
+          }
+        }
+      }
+    });
+  }
+  //提交问答
+  $(".tj-btn").click(function(){
+    var user      = $("#user").val();
+    // return false;
+    var urls      = window.location.href;//获取当前页面的地址 当做重定向地址
+    if(user.length==0){
+      var url = '/member/login/?redirecturl='+urls;//
+      window.location.href  =url ;
+    }else {
+      var articleid = "466";
+      var dockid = $("#dockid").val();
+      //var checkcode = $("#checkcode").val();
+      var typeid = 4;
+      //var nickname = $("#nickname").val();
+      var content = $("#report_area").val();
+      if (content.length < 5) {
+        if(content.length==0){
+          layer.msg('回复内容不能为空', {
+            icon: 5
+          })
+          return false;
+        }else{
+          layer.msg('至少五个字符', {
+            icon: 5
+          })
+          return false;
+        }
+      }
+      $.ajax({
+        type: 'POST',
+        url: SITEURL + 'article/ajax_add_comment',
+        data: {
+          articleid: articleid,
+          content: content,
+          typeid: typeid,
+          dockid: dockid
+        },
+        success: function (data) {
+          if (data == 1) {
+            layer.msg('验证码错误', {
+              icon: 5
+            })
+            //重新加载验证码
+            $("#imgcheckcode").attr('src', "/captcha?" + Math.random());
+          } else if (data == 3) {
+            layer.msg('回复成功', {
+              icon: 6,
+              time: 1500
+            });
+            location.reload();
+          } else {
+            layer.msg('回复失败,请联系管理员', {
+              icon: 5
+            })
+          }
+        }
+      })
+    }
+  })
+</script>
+<script>
+  function zifu(th){
+    var thisval=$(th).val().length*1;
+    var shengyu = 500-thisval;
+    if(shengyu>0) {
+      var html = "已输入<b><em>" + thisval + "</em>/" + shengyu + "</b>字";
+      $(th).next('span').html(html);
+    }else{
+      layer.msg('不能输入了', {
+        icon: 5
+      })
+      return false;
+    }
+  }
+</script>
+<script type="text/javascript">
+  var pagesize  = 5;//0;//0;//0;//每页的页数
+  $(document).ready(function(){
+    $(function () {
+      var  s ='';
+      //第一次加载数据
+      get_data(s);
+    });
+  });
+  function get_data(s) {
+    var offset    = $("#offset").val().length==""? 0:$("#offset").val();//  每页的开始 也是 limit 第1个参数
+    var articleid = "466";//    攻略 的 id
+    var typeid    = "4";//  模型的 id
+    $.ajax({
+      type: "POST",
+      url: SITEURL + 'article/ajax_get_comment',
+      async:false,
+      dataType: "json",
+      data: {pagesize:pagesize,offset:offset,articled:articleid,typeid:typeid},
+      success: function(data){
+        var page1      =$("#page").val()*1;//   当前页面
+        var itemHtml = "";
+        var pages    = "";
+        $("#result_list").empty();
+        $(".Pagination").empty();
+        if(s==''){
+        }else if(s=='pre'){
+          $("#page").val(page1*1-1);
+        }else if(s=='next'){
+          $("#page").val(page1*1+1);
+        }else{
+          $("#page").val(s*1);
+        }
+//        var  page3 =  $("#page").val()*1;//   当前页面
+//        var  p    = (page3-1)*pagesize;
+        if(data.length!=0){
+          for(var i=0;i<data.length;i++){
+            itemHtml +="<li>";
+              if(data[i].userlitpic==null){
+                    itemHtml +="<div class='user-img'><img src='/uploads/main/allimg/20150923/20150923143441.jpg'></div>";
+              }else{
+                itemHtml +="<div class='user-img'><img src='"+data[i].userlitpic+"'></div>";
+              }
+            if(data[i].nickname==null){
+              itemHtml +="<div class='textarea-box'> <span class='comments-name'>"+data[i].wx_nickname+"</span>";
+            }else{
+              itemHtml +="<div class='textarea-box'> <span class='comments-name'>"+data[i].nickname+"</span>";
+            }
+            itemHtml +="<span class='comments-h2'>"+data[i].content+"</span>";
+            itemHtml +="<span class='comments-time'>"+data[i].addtime+"</span></div>";
+            itemHtml +="</li>";
+          }
+        }else{
+          itemHtml +="<li>";
+          itemHtml +="没有相关数据";
+          itemHtml +="</li>";
+        }
+        var page2      =$("#page").val()*1;//   当前页面
+        //  定义 系数
+        var coefficient = Math.floor((page2-1)/pagesize);
+        //   定义 开始和结束 页面
+        var startpage    = coefficient*pagesize+1;
+        var endpage      = coefficient*pagesize+2;
+            endpage   =  endpage>data[0]['totalpage'] ? data[0]['totalpage'] : endpage;
+        if(data[0]['totalpage']!=0){
+          pages  +="<div id='Pagination'><div class='pagination'>";
+          pages  +="<a class='uPrevpage' onclick='page(1)'><i></i>首页</a>";
+          pages  += "<a class='uPrevpage' onclick='pre()'><i></i>上一页</a>";
+             for(var j=startpage;j<=endpage;j++){
+               pages  += "<a href='javascript:' onclick='page("+j+")' ";
+               if(page2==j) {
+                 pages += " class='current' ";
+               }
+               pages  += ">"+j+"</a>" ;
+             }
+          pages  += "<a class='next' onclick='next()'>下一页 <i></i></a>";
+          pages  += "<a class='next' onclick='page("+data[0]['totalpage']+")'>尾页 <i></i></a>";
+          pages  += "</div></div>";
+          pages  += "<div class='searchPage'>";
+          pages  += "<span class='page-sum'>共<strong class='allPage'>"+data[0]['totalpage']+"</strong>页</span>";
+          pages  += "<span class='page-go'>跳转<input type='text'>页</span>";
+          pages  += "<a href='javascript:;' class='page-btn' data-all='"+data[0]['totalpage']+"' onclick='skip(this)'>GO</a>";
+          pages  += "</div>&nbsp;&nbsp;";
+        }
+        $("#result_list").append(itemHtml);
+        $(".Pagination").append(pages);
+        $("#next1").val(data[0]['totalpage']);
+      }
+    });
+  }
+  function page(s){
+    var offset ="";
+    offset = (s*1-1) * pagesize;//  2 位每页显示数；
+    $("#offset").val(offset);
+    get_data(s);
+  }
+  function pre(){
+    var offset ="";
+    var s   ='pre';
+    var cur_page    = $("#page").val();
+    var prepage = cur_page*1-1;
+    if(prepage==0){
+      return false;
+    }else {
+      offset = (prepage - 1) * pagesize;//  2 位每页显示数；
+      $("#offset").val(offset);
+      get_data(s);
+    }
+  }
+  function next(){
+    var offset ="";
+    var s   ='next';
+    // var cur_page    = $(".on").attr("data-page");
+    var cur_page    = $("#page").val()*1;//attr("data-page");
+    var total    = $("#next1").val()*1;//("data-total")*1;
+    var nextpage = cur_page*1+1;
+    if(total+1<=nextpage){
+      return false;
+    }else{
+      offset =(nextpage-1)*pagesize;//  2 位每页显示数；
+      $("#offset").val(offset);
+      get_data(s);
+    }
+  }
+  /*
+    跳转
+   */
+  function  skip(th){
+       var  pages =  $(th).prev('span').find('input').val()*1;
+    if(!isNaN(pages)){
+      var  allpages = $(th).attr('data-all')*1;
+      if(pages<1){layer.msg('请输入 数字', {icon: 5  }); return false;}
+      if( pages >allpages){layer.msg('请输入 数字', {icon: 5  }); return false;}
+      page(pages);
+    }else{
+      layer.msg('请输入 数字', {
+        icon: 5
+      })
+    }
+  }
+</script>";

@@ -1,0 +1,129 @@
+/*米淘首页 幻灯*/
+.banner{margin-bottom:10px; position:relative;}
+
+.indexPage{ padding-bottom:10px;}
+/*米淘首页 标题*/
+.indexPage .mt-module-title{height:32px; margin-bottom:10px; line-height:32px;}
+.indexPage .mt-module-title .place {float:left; width:3px; height:32px; background:#3385ff;}
+.indexPage .mt-module-title h1{ padding-left:10px; font-size:18px; color:#3385ff; font-weight:bold;}
+
+/*米淘首页 图片列表*/
+.indexPage .mt-actList-box .actImg{position:relative;}
+.indexPage .mt-actList-box .actImg .price{position:absolute; bottom:40px; right:0; height:40px; padding:0 20px; line-height:40px; color:#fff; text-align:center; background:#ff931b;border-bottom-left-radius:25px; border-top-left-radius:25px;}
+.indexPage .mt-actList-box .actImg .price .paymoney{padding-left:15px; font-size:18px; background:url('/phone/public/images/mitao/money2.png') no-repeat 0 12px; background-size:12px auto;}
+.indexPage .mt-actList-box .actImg .price .dw{font-size:18px;}
+.indexPage .mt-actList-box .actImg .joincnt{position:absolute; left:0; top:20px; padding:5px 25px; text-align:center; color:#fff; background:rgba(0, 0, 0, 0.6); border-bottom-right-radius:25px; border-top-right-radius:25px;}
+.indexPage .mt-actList-box .actCon{padding:10px; border-bottom:1px solid #eee;}
+.indexPage .mt-actList-box .actCon h2{font-size:18px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-weight:bold !important;}
+.indexPage .mt-actList-box .actCon p{padding-top:10px; padding-right:50px; color:#999; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.indexPage .mt-actList-box .actCon .ptag{padding-top:10px;}
+.indexPage .mt-actList-box .actCon .ptag i{margin-right:20px; padding:0 10px; color:#8bc53f; line-height:18px; font-size:12px; border-radius:5px; border:solid 1px #8bc53f;}
+
+/*米淘详情 图片轮播*/
+.detailPage .mt_banner{position:relative;}
+.detailPage .mt_banner .ic_mark{position:absolute; right:15px; top:15px; background:url('/phone/public/images/mitao/fav_white.png') no-repeat right top; z-index:99; background-size:30px; width:45px; height:45px;}
+.detailPage .mt_banner .ic_mark2{background: url('/phone/public/images/mitao/fav_red.png') no-repeat right top;background-size:30px;}
+.detailPage .mt_banner {height:200px;}
+.detailPage .mt_banner .swiper-container{ height:200px;}
+.detailPage .mt_banner .picnum{width: 80px; height: 26px; line-height: 26px; text-align: center; margin: auto; left: 0; bottom: 20px; right: 0; font-size: 16px;background-color: rgba(0, 0, 0, 0.4);color: #fff;border-radius: 20px;}
+
+
+/*米淘详情 图片列表*/
+.detailPage .mt-module-title{height:40px; line-height:32px; margin-top:10px; border-bottom:1px solid #eee;}
+.detailPage .mt-module-title .place {width:3px; height:32px; background:#3385ff; float:left;}
+.detailPage .mt-module-title h1{ font-size:18px; padding-left:10px; font-weight:bold; color:#3385ff;}
+
+/*米淘详情 产品标题展示*/
+.detailPage .mt_title{padding:15px 15px 0 15px; color:#333; background:#fff; border-bottom:solid 1px #eee;}
+.detailPage .mt_title h2{font-size:18px; font-weight:bold !important;}
+.detailPage .mt_title .money{padding:0px 4px 0 15px; font-size:25px; color:#f75934; font-weight:bold; background:url('/phone/public/images/mitao/money.png') no-repeat left 15px; background-size:12px 13px;}
+.detailPage .mt_title .m_bot{height:50px; line-height:50px;}
+
+/*米淘详情 产品tag标签位*/
+.detailPage .mt_tags{padding:15px; color:#333; background:#fff; border-top:solid 1px #eee; border-bottom:solid 1px #eee;}
+.detailPage .mt_tags .botl{border-bottom:solid 1px #eee;}
+.detailPage .mt_tags .ico{height:30px; line-height:30px; padding-left:30px; background-repeat:no-repeat; background-position:0 5px; background-size:20px 20px;}
+.detailPage .mt_tags .ic_warn{background-image:url(/phone/public/images/mitao/ic_dongtai.png);}
+.detailPage .mt_tags .ic_child{background-image:url(/phone/public/images/mitao/ic_child.png)}
+.detailPage .mt_tags .ic_time{background-image:url(/phone/public/images/mitao/ic_time.png);}
+.detailPage .mt_tags .ic_add{background-image:url(/phone/public/images/mitao/ic_didian.png);}
+.detailPage .mt_tags .ic_tel{background-image:url(/phone/public/images/mitao/ic_tel.png);}
+.detailPage .mt_tags .ic_tel .tel a{color:#ffa541; margin-right:15px;}
+.detailPage .mt_tags .ic_warn{ height:auto; line-height:24px;}
+.detailPage .mt_tags .ic_warn p{ color:#999;}
+
+/*米淘详情 销售统计*/
+.detailPage .mt_Sale{padding:15px; color:#333; background:#fff; border-top:solid 1px #eee; border-bottom:solid 1px #eee;}
+.detailPage .mt_Sale .anum.ic_sale{background-image:url(/phone/public/images/mitao/ic_sale.png); background-repeat:no-repeat;background-size:20px 20px; padding-left:25px;}
+.detailPage .mt_Sale .anum a {color: #8bc53f;}
+.detailPage .mt_Sale .avbox img{float: left; margin-right: 15px; margin-top: 10px; width: 50px; height: 50px;}
+.detailPage .mt_Sale .avbox .av{border-radius: 100%;}
+
+/*米淘详情 套餐产品选择*/
+/*.detailPage .mt_product{padding:15px; color:#333; background:#fff; border-top:solid 1px #eee; border-bottom:solid 1px #eee;}*/
+/*.detailPage .mt_product .product_box{ position:relative; padding-bottom:5px; margin-bottom:10px;}*/
+/*.detailPage .mt_product .tit{font-size:16px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}*/
+/*.detailPage .mt_product .subtit{font-size: 14px;}*/
+/*.detailPage .mt_product .tinfo{font-size: 14px;color: #8bc53f;}*/
+/*.detailPage .mt_product .price{position:absolute;right: 5px;top: 10px;width: 60px;text-align: center;}*/
+/*.detailPage .mt_product .price .money{background: url(/phone/public/images/mitao/money.png) no-repeat 0 7px;background-size: 10px auto;padding: 0px 4px 0 15px;font-size: 20px;color: #f75934;font-weight: bold;}*/
+
+/** 米淘详情 详情、评价、留言选项卡 **/
+.detailPage .mt_desc .mt_desc_tabs{background:#FFF; border-top:1px solid #eee; border-bottom:1px solid #eee;}
+.detailPage .mt_desc .mt_desc_tabs.navFixed{ position:fixed; top:0; width:100%;box-shadow: 0px 3px 5px #e3e3e3;}
+
+.detailPage .mt_desc .mt_desc_tabs li{float:left; width:25%;}
+.detailPage .mt_desc .mt_desc_tabs li a{display:block; padding:10px 15px; text-align:center;}
+@media  screen and (max-width:330px){.detailPage .mt_desc .mt_desc_tabs li a{ padding:10px 5px;}}
+.detailPage .mt_desc .mt_desc_tabs li a:hover{color:#666;}
+.detailPage .mt_desc .mt_desc_tabs li.active>a{position:relative; color:#3385ff; border-bottom:2px solid #3385ff;}
+.detailPage .mt_desc .mt_desc_con .tab-pane{display:none;}
+.detailPage .mt_desc .mt_desc_con .active{display:block;}
+.detailPage .mt_desc .mt_desc_con .desc-Article{background:#FFF; padding:10px 15px;}
+.detailPage .mt_desc .mt_desc_con .desc-Article p{margin-bottom:10px; line-height:30px; font-size:16px;}
+
+/** 米淘详情 产品说明 **/
+.detailPage .mt_desc .disclaimer{padding:10px 20px !important; line-height:24px;}
+
+/** 米淘详情 评论 **/
+.detailPage .mt_desc .desc-comment{padding:10px 0px; background:#FFF;}
+.detailPage .desc-comment .comment-score{border-bottom:1px solid #eee; margin-bottom:20px; text-align:center; padding-bottom:10px;}
+.detailPage .comment-score .score{width:100px; height:20px; margin:0 5px; background:url(/phone/public/images/mitao/star_s_off.png) repeat-x left bottom; background-size:20px auto;}
+.detailPage .comment-score .score_in{float:left; height:20px; background:url(/phone/public/images/mitao/star_s_on.png) repeat-x left bottom; background-size:20px auto;}
+
+.detailPage .mt_desc .desc-comment .com_item .user-img{width:40px; height:40px; margin-right:10px; border-radius:100%;}
+.detailPage .mt_desc .desc-comment .com_item .user-name{ font-size:18px; font-weight:bold;}
+.detailPage .mt_desc .desc-comment .com_item .user-gender{height:18px; margin-left:10px; margin-bottom:5px; padding:0 10px; line-height:18px; font-size:12px; color:#fff; text-align:center;  border-radius:10px; font-weight:normal; vertical-align:middle; background:#ff931b;}
+.detailPage .mt_desc .desc-comment .com_item .user-com{margin:0 0 10px 50px; padding-bottom:20px; border-bottom:solid 1px #eee;}
+.detailPage .mt_desc .desc-comment .com_item .score{width:100px; height:20px; margin:0 5px; background:url(/phone/public/images/mitao/star_s_off.png) repeat-x left bottom; background-size:20px auto;}
+.detailPage .mt_desc .desc-comment .com_item .score_in{float:left; height:20px; background:url(/phone/public/images/mitao/star_s_on.png) repeat-x left bottom; background-size:20px auto;}
+.detailPage .mt_desc .desc-comment .com_item .com-data{padding:5px 10px 10px 0; overflow:hidden;}
+.detailPage .mt_desc .desc-comment .com_item .com-desc{padding:5px 10px 10px 0; overflow:hidden;}
+.detailPage .mt_desc .desc-comment .com_item .com-imgs img{float:left; width:80px; height:80px; margin:0 10px 10px 0;  border:solid 1px #eee;}
+.detailPage .mt_desc .desc-comment .com_item .com-product{ font-size:12px;}
+
+/** 米淘详情 联系我们 **/
+.detailPage .mt_desc .desc-code{ padding:10px 0px; background:#FFF;text-align:center;}
+.detailPage .mt_desc .desc-code img{ width:70%;}
+.detailPage .mt_desc .desc-code-tip{ height:30px; line-height:30px; text-align:center; font-size:18px;}
+.detailPage .mt_desc .desc-tel{ background:#8cc641; border-radius:20px; margin:10px auto; width:60%; color:#FFF; display:block; font-size:18px;}
+
+/* 米淘详情 底部预定按钮 */
+.detailPage .mt-botBtn{position:fixed; left:0; bottom:-1px; z-index:1; width:100%; background-color:rgba(255, 255, 255, 0.8); border-top:solid 1px #eee;}
+.detailPage .mt-botBtn .bot-btnl{float:left; padding-left:0; color:#eb6561; width:30%; height:50px; zoom:1; overflow:hidden; text-align:center;}
+.detailPage .mt-botBtn .bot-btnl i{float:left;}
+.detailPage .mt-botBtn .bot-btnl .icbtn{padding-top:30px; font-size:14px; width:50%;}
+.detailPage .mt-botBtn .ic-serve{background:url('/phone/public/images/mitao/icon_serve.png') no-repeat center 5px; background-size:auto auto; background-size:auto 25px; color:#000;}
+.detailPage .mt-botBtn .ic-share{background:url('/phone/public/images/mitao/icon_shared.png') no-repeat center 5px; background-size:auto auto; background-size:auto 25px; color:#000;}
+.detailPage .mt-botBtn .btn-pay{float:right; width:70%; height:50px; font-size:20px; color:#fff; line-height:50px; text-align:center; background:#ffa541;}
+
+/*米淘详情 套餐产品选择*/
+.detailPage .mt_product{padding:15px 15px 5px 15px; color:#333; background:#fff; border-top:solid 1px #eee; border-bottom:solid 1px #eee;}
+.detailPage .mt_product .product_box{ position:relative; padding-bottom:5px; margin-bottom:10px; border-bottom:solid 1px #eee;}
+.detailPage .mt_product .product_box:last-child{border-bottom: none; padding-bottom:5px; margin-bottom:0;}
+
+.detailPage .mt_product .price .money{background: url(../../images/ticket/money.png) no-repeat 0 9px;background-size: 10px auto;padding: 0px 4px 0 12px;font-size: 20px;color: #f75934;font-weight: bold;}
+.detailPage .mt_product .price del{ display:inline-block; background: url(../../images/ticket/money1.png) no-repeat 2px 5px; background-size: 9px auto;color:#CCC; }
+.detailPage .mt_product .price span{background: #8bc53f; padding:0 5px; margin-left:5px; border-radius:2px;
+    color: #fff;}
+.detailPage .mt_product .product_box .actbox_con {position: absolute;right:0px;bottom:10px; border-radius:5px; font-size:18px; padding:5px 15px; background:#f75934;  color:#fff;}

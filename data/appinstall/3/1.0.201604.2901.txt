@@ -1,0 +1,2 @@
+﻿plugins/supplier_finance/application/views/default/pc/drawcash/apply.php
+plugins/supplier_finance/application/views/default/pc/drawcash/list.php

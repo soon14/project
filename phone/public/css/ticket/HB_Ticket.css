@@ -1,0 +1,60 @@
+.HB_Ticket{ padding:0;}
+.HB_Ticket .HB_header_warp{ border-bottom:0;}
+
+.HB_Ticket  .serch-box{ background-color:#fff;   z-index:9999; text-align:center; border-bottom:1px solid #eaeaea; padding-bottom:10px;}
+.HB_Ticket  .serch-box input{ height:30px; line-height:30px; border:0;border-radius:30px; width:80%; margin:0 auto;background:url(../../images/ticket/search_index.png) #efefef no-repeat 96% 5px; background-size:20px; text-indent:10px;}
+
+
+.HB-class-tab{background:#FFF; border-bottom:1px solid #eee;border-top:1px solid #eee;}
+.HB-class-tab.navFixed{ position:fixed; top:0; width:100%;box-shadow: 0px 3px 5px #e3e3e3;}
+.HB-class-tab ul{ position:relative;}
+.HB-class-tab i {
+    position: absolute;
+    width: 20px;
+    right: 5px;
+    top: 15px;
+    height: 10px;
+    background: url(/phone/public/images/20170301/tit-down.png) no-repeat;
+    background-size: 20px 10px;
+}
+.HB-class-tab li{float:left; width:33.333%;}
+.HB-class-tab li a{display:block; border-right:1px solid #eee; padding:10px 15px; text-align:center;}
+.HB-class-tab li:last-child a{ border-right:0}
+.HB-class-tab li a:hover{color:#666;}
+.HB-class-tab li.active>a{position:relative; color:#3385ff; border-bottom:2px solid #3385ff;}
+.HB_Ticket .HB-Ticket-list .mt_desc_con .tab-pane{display:none;}
+.HB_Ticket .HB-Ticket-list .mt_desc_con .active{display:block;}
+
+
+/** 商城 热门推荐 **/
+.HB_Ticket .HB-Ticket-list{margin:10px 0; background:#FFF;}
+.HB_Ticket .HB-Ticket-list .actlist{margin-bottom:10px;padding: 10px;overflow: hidden; border-bottom: 1px solid #eee;background: #fff;}
+.HB_Ticket .HB-Ticket-list .actlist:last-child{margin-bottom:0;}
+.HB_Ticket .HB-Ticket-list .actbox_img{position:relative;float: left; width: 130px; height: 100px; margin-right: 10px;}
+.HB_Ticket .HB-Ticket-list .actbox_img img{float: left; width: 130px; height: 100px;}
+.HB_Ticket .HB-Ticket-list .actbox_img .tip{position:absolute; top:0; left:0; display:inline-block; padding:2px 5px; font-size:12px; background:#f75934; color:#FFF;}
+.HB_Ticket .HB-Ticket-list .actbox_img .tip.off{background:#f0f0f0; color:#000;}
+.HB_Ticket .HB-Ticket-list .actbox_con{position:relative; height:120px; padding-left:140px;}
+.HB_Ticket .HB-Ticket-list .actbox_con h2{margin-bottom:5px;font-size: 16px;}
+.HB_Ticket .HB-Ticket-list .actbox_con .ptag i{margin-right:5px; padding:1px 10px; color:#8bc53f; line-height:14px; font-size:12px; border-radius:2px; border:solid 1px #8bc53f;}
+.HB_Ticket .HB-Ticket-list .actbox_con .ptag.ticke i{border:1px solid #3385ff; color:#3385ff;}
+.HB_Ticket .HB-Ticket-list .actbox_con .ptag.ticke i.on{background:#3385ff;color:#fff;}
+.HB_Ticket .HB-Ticket-list .actbox_con .add{color:#9a9a9a; background: url(../../images/ticket/ic_didian.png) no-repeat;background-position: 0; padding-left:18px;
+background-size: 15px;}
+.HB_Ticket .HB-Ticket-list .actbox_con .time{color:#9a9a9a; background: url(../../images/index/ic_time.png) no-repeat;background-position: 0; padding-left:18px;
+background-size: 15px;}
+.HB_Ticket .HB-Ticket-list .actbox_con .price .paymoney{color:#f75934; padding-left:10px;font-size:22px; line-height:30px;background:url('../../images/ticket/money.png') no-repeat left 10px ;background-size:10px;}
+.HB_Ticket .HB-Ticket-list .actbox_con .price del{color:#9a9a9a; padding-left:5px;}
+.HB_Ticket .HB-Ticket-list .actbox_con .price .Surplus{float:right; padding-right:5px; padding-top:6px; color:#f75934;}
+.HB_Ticket .HB-Ticket-list .actbox_con .price .dw{color:#9a9a9a; padding-left:3px;}
+
+/** 排序框 **/
+.sort-box{ position:relative; height:140px; position: fixed; bottom:0; width:100%;background-color: rgba(0,0,0,.8);}
+.sort-box .close{ position:absolute; right:10px; top:10px; width:25px; height:25px; background: url(../../images/ticket/close.png) no-repeat; background-size:25px;}
+.sort-box h2{ font-size:16px; color:#FFF; padding-left:20px; margin:15px 0 10px 0;}
+.sort-box .sort-list li{ float:left; width:33.33%; height:30px; line-height:30px;}
+.sort-box .sort-list li a{ display:block; margin:0 auto; width:80%; text-align:center; background:#8bc53f; color:#FFF;}
+.sort-box .sort-btn{ text-align:center; padding-top:15px;  }
+.sort-box .sort-btn .btn{ padding:5px 40px;margin:0 10px;}
+.sort-box .sort-btn .btn.cancel{ background:#ccc; }
+.sort-box .sort-btn .btn.confirm{ background:#ff6600; color:#FFF; }

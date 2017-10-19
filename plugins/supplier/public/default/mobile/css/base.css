@@ -1,0 +1,67 @@
+@charset "utf-8";
+html{height:100%; font-size:100%}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { margin:0;padding:0;}
+body{ background:#eff0f4;color:#333;font-size:1em; min-width:320px;-webkit-tap-highlight-color:rgba(0,0,0,0); font-family:'microsoft yahei'; min-height: 100%;;box-sizing: border-box;}
+input,select,textarea{font-size:100%; font-family:'microsoft yahei'; outline:none; border:0}
+table{border-collapse:collapse;border-spacing:0;table-layout:fixed;}
+th{text-align:inherit;}
+fieldset,img{border:0;}
+ol,ul {list-style:none;}
+a:hover {text-decoration:none;}
+ins,a {text-decoration:none;outline: none;}
+i, em, b{font-style: normal;}
+*, *:before, *:after {-webkit-box-sizing: border-box;box-sizing: border-box}
+.fl{float:left}
+.fr{float:right}
+.clearfix:after{content:"";clear:both;display:block; height:0; overflow:hidden}
+.content{margin:0 auto; max-width:45rem}
+
+.header-top{
+	height:50px;
+	padding:0.5rem 0;
+	position:relative;
+	background:#f96332}
+.header-top .ht-back{
+	position:absolute;
+	left:1rem;
+	top:10px;
+	width:30px;
+	height:30px;
+	background:url(../images/ht-back-ico.png) left center no-repeat;
+	background-size:50% auto}
+.header-top .ht-h1{
+	color:#fff;
+	height:30px;
+	line-height:30px;
+	font-size:1rem;
+	text-align:center;
+	font-weight:500}
+.header-top .top-search{
+	position:absolute;
+	right:1rem;
+	top:10px;
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../images/Supplier-ico.png) no-repeat 0 -162px;
+	background-size:90% auto}
+
+
+@media screen and (min-width:320px){
+	html{font-size:14px}	
+}
+@media screen and (min-width:360px){
+	html{font-size:16px}	
+}
+@media screen and (min-width:420px){
+	html{font-size:18px}	
+}
+@media screen and (min-width:480px){
+	html{font-size:20px}	
+}
+@media screen and (min-width:640px){
+	html{font-size:22px}	
+}
+@media screen and (min-width:720px){
+	html{font-size:24px}	
+}

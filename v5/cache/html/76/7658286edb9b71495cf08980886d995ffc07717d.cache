@@ -1,0 +1,929 @@
+3600
+s:50884:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>赤城温泉、云顶乐园滑雪场、冰雪文化博物馆三日游——张家口旅游景区大全,张家口周边三日游,攻略-旅游</title>
+  <!-- 页面公用 public CSS 文件 -->
+  <link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css" rel="stylesheet"  />
+  <link type="text/css" href="/min/?f=/res/css/mycss/strategy/Trategy.css" rel="stylesheet"  />
+  <script type="text/javascript"src="/min/?f=/res/js/common/jquery-1.11.3.min.js,/res/js/common/bootsAitto-min.js"></script>
+  <script type="text/javascript"src="/min/?f=/res/js/strategy/Trategy.js"></script>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?f968b43cd6404299f54d25d87c3bbe3a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script></head>
+<body class="Color-fafafa" >
+<!-- 登陆代码 开始 -->
+
+<link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css" rel="stylesheet"  />
+<header>
+    <div id="commonHead">
+        <div id="commonWarp">
+            <div class="logo" style="cursor:pointer;" onclick="window.location.href='http://www.aitto.net'" ></div>
+        <div class="nav">
+                <ul>
+                    <li class="current st-menu">
+                        <a href="/">首页                        </a>
+                    </li>
+                                                            <li class="st-menu"><a href="http://www.aitto.net/destination/">目的地</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/raiders/">攻略</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/notes/">游记</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/spots/">门票</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/lines/self">自驾游</a></li>
+                                        
+                </ul>
+            </div>
+              <div class="head-search">
+            <div class="head-search-wrapper">
+                <div class="head-searchform">
+                    <input id="_j_head_search_input" type="text" value="" placeholder="搜索攻略">
+                    <a role="button" href="javascript:" class="icon-search" id="_j_head_search_link" onclick=""></a> </div>
+            </div>
+        </div>
+                  <div class="login-info">
+                <div class="userLogin" id="loginstatus">
+                </div>
+                <div class="head-user drop-trigger" id="-j-head-user">
+                    <a class="" href="#">
+                        <div class="user-ico"></div>
+                        <i class="icon-caret-down"></i>
+                    </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">会员中心</h2>
+                        <div class="dropdown-menu" >
+                            <ul>
+                                <li class="icon-home"><a href="/member/"><i></i>会员首页</a></li>
+                                <li class="icon-order"><a href="/member/order/all"><i></i>我的订单</a></li>
+                                <li class="icon-writenotes"><a href="/member/index/mynotes"><i></i>我的游记</a></li>
+                                <li class="icon-jifen"><a href="/member/index/jifen"><i></i>我的积分</a></li>
+                                <li class="icon-Personal"><a href="/member/index/userinfo"><i></i>个人中心</a></li>
+                                <li class="icon-traveller"><a href="/member/index/linkman"><i></i>常用旅客</a></li>
+                                <li class="icon-logout"><a href="/member/login/loginout"><i></i>退出登录</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-code drop-trigger" id="-j-head-code" > <a class="" href="#">
+                        <div class="code-ico"></div>
+                        <i class="icon-caret-down"></i> </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+                        <div class="drop-con">
+                            <div class="WeChat"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</header>
+<script type="text/javascript">
+    //JQuery
+    $(document).ready(function(){
+        $(document).on("click",
+            function(e) {
+                isActive = $(e.target).parent().attr("class");
+                var  typeid= "4";
+                if (isActive=='head-searchform') {
+                    if(typeid==101){
+                          $(".head-search-focus").css('width',"345px");
+                          $(".head-search-focus .head-searchform input").css('width',"323px");
+                    }
+                    if(typeid==5){
+                        $(".head-search-focus").css('width',"285px");
+                        $(".head-search-focus .head-searchform input").css('width',"263px");
+                    }
+                }
+                else {
+                    if(typeid==101||typeid==5){
+                        $(".head-searchform input").css('width',"108px");
+                        $(".head-search-wrapper").css('width',"130px");
+                    }
+                    $(".head-search-wrapper").removeClass("head-search-focus");
+                }
+            })
+        $("#_j_head_search_input").click(function(){
+            $(".head-search-wrapper").addClass("head-search-focus");
+        });
+    });
+</script>
+<script type="text/javascript"src="/min/?f=/res/js/SuperSlide.min.js,/res/js/base.js,/res/js/common.js,/res/js/myjs/bootstrap.min.js,/res/js/myjs/jquery.select.js,/res/js/common/bootsAitto-min.js"></script>
+<script>
+    var SITEURL = "/";
+    function optionChecked(obj){
+        var typeid = $(obj).attr('data-id');
+        var durl = $(obj).attr('data-url');
+       // alert(typeid+"["+durl);
+        $("#typename").attr('data-id',typeid);
+        $("#typename").attr('data-url',durl);
+    }
+    //====================07.05  s
+    $("a[name=myorder]").click(function(){
+        var  url1 =SITEURL+'member/order/all';//SITEURL 为 '/'
+        var  url =SITEURL+'member/login?redirecturl='+url1;
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status==0){
+                    alert("请先登录");
+                   window.location.href =url;
+                }else{
+                    window.location.href =url1;
+                }
+            }
+        })
+    });
+    //====================07.05  e
+    $(".weixin").mouseover(function(){
+        //  $(this).addClass("hover");
+        $(this).children(".dropdown1").show()
+    });
+    $(".weixin").mouseout(function(){
+        // $(this).removeClass("hover");
+        $(this).children(".dropdown1").hide()
+    });
+   //
+    $(function(){
+        var typeid  = "4";
+        $("#_j_head_search_input").keydown(function(e){
+            if(e.keyCode==13){
+                $('#_j_head_search_link').click();
+            }
+        });
+        $(".searchmodel li:first").trigger('click');
+        //search
+        $('#_j_head_search_link').click(function(){
+            var keyword = $('#_j_head_search_input').val();
+            if(keyword == ''){
+                alert("请输入内容");
+                $("#_j_head_search_link").focus();
+                return false;
+            }
+//            var typeid = $("#typename").attr('data-id');
+//            var durl = $("#typename").attr('data-url');
+//            if(typeid==0 || typeid==8){//0  是全部  8是 签证
+//                var url = SITEURL+'search/cloudsearch?keyword='+encodeURIComponent(keyword)+"&typeid="+typeid;
+//            }else{
+//                var url = "http://www.aitto.net"+durl+'all?keyword='+encodeURIComponent(keyword);
+//            }
+            if(typeid==4){
+                var url = "http://www.aitto.net"+"/raiders/"+'all?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==101){
+                var url = "http://www.aitto.net"+"/notes/list"+'?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==5){
+                var url = "http://www.aitto.net"+"/spots/"+'all?keyword='+encodeURIComponent(keyword);
+            }
+            location.href = url;
+        })
+        //导航的选中状态
+        $(".st-menu a").each(function(){
+            $(".st-menu").removeClass('current');
+            var url= window.location.href;
+            // url=url.replace('index.php','');
+            //url=url.replace('index.html','');
+            var urlArr = url.split("/");
+            var ulink=$(this).attr("href");
+            var urlLinkArr = ulink.split("/");
+             //  定义目的地拼音
+            var pinyin  ="";
+            var  sss   = urlArr[3].split("?");
+            var   p    = sss[0];
+         console.log(urlArr[3]);
+        // console.log(urlLinkArr[3]);
+            if(urlArr[3]==urlLinkArr[3])
+            {
+                $(this).parents('li').addClass('current');
+                return false;
+            }else if(pinyin==p&&urlLinkArr[3]=='destination'&&pinyin.length!=''){
+                $(this).parents('li').addClass('current');
+                return false;
+            }
+            else{
+                if(urlArr[3]!='member'){
+                    $(".st-menu").first().addClass('current');
+                }
+            }
+        })
+        //登陆状态
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status){
+                    $txt = '<a class="dl" style="padding:0" href="javascript:;">你好,</a>';
+                    $txt+= '<a class="dl" href="/member/">'+data.user.nickname+'</a>';
+                    $txt+= '<a class="dl" href="/member/login/loginout">退出</a>';
+                    //$txt+= '<a class="dl" href="/member">个人中心</a>';
+                    $txt = '您好:<a href="/member/">'+data.user.nickname+'</a>';
+                }else{
+                    //$txt = '<a class="dl" href="/member/login">登录</a>';
+                    // $txt+= '<a class="zc" href="/member/register">免费注册</a>';
+                    $txt = '&nbsp;&nbsp;&nbsp;&nbsp;<a href="/member/login">登录</a> | <a href="/member/register">注册</a>';
+                }
+                $("#loginstatus").html($txt);
+            }
+        })
+    })
+</script>
+<script>
+    var s  = 3;
+</script><!-- 登陆代码 结束 -->
+<div class="notebox"></div>
+<section> 
+  <!-- 面包屑 开始 -->
+  <div  class="BreadCrumb">
+    <ul >
+      <li><a href="/">首页<i class="icon-gt">&gt;</i></a></li>
+      <li><a href="/raiders">攻略<i class="icon-gt">&gt;</i></a></li>
+      <li class="current"><a href="#">攻略正文</a></li>
+    </ul>
+    <div class="clearfix"></div>
+  </div>
+  <!--  面包屑 结束 --> 
+</section>
+<div class="ctd-TrategyFloat-nav">
+  <div class="nav-warp">
+    <div class="nav-title"> <span class="home"><a href="#"><em></em></a></span> <span class="nav-h2">赤城温泉、云顶乐园滑雪场、冰雪文化博物馆三日游</span> </div>
+    <div class="ui-navArea-btn ">
+      <ul>
+        <li class="link-share bdsharebuttonbox" data-tag="share_1"><a href="javascript:;" class="ui-btn bds_more" title="一键分享" rel="nofollow" style="cursor:auto" data-cmd="more" onclick="shareStyle(this)" onmouseout="reStyle(this)" onmouseover="shareStyle(this)">&nbsp;分享</a></li>
+        <li class="link-like"><a href="javascript:" class="ui-btn link_like" data-link="2" data-id="294"><i></i><span class="ui-btn-text">喜欢<b>(1)</b></span></a></li>
+        <li class="link-comment" onclick="foc()"><a href="javascript:void (0)" class="ui-btn"><i></i><span class="ui-btn-text" >评论<b>(0)</b></span></a></li>
+        <li class="link-browse"><a href="javascript;" class="ui-btn"><i></i><span class="ui-btn-text">浏览<b>(5059)</b></span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+  //  设置 页面的  划词 和图片分享
+  /*
+   百度 分享bdUrl 里面的地址不能拿带 http://www
+   亲测  火狐下 将按这个地址 跳转
+   */
+  window._bd_share_config={
+    common:{
+      bdText : "赤城温泉、云顶乐园滑雪场、冰雪文化博物馆三日游",
+      bdDesc : "这攻略写得太棒了！",
+      bdUrl  : "aitto.net/raiders/show_289.html",
+      bdPic  : "aitto.net/new_uploads/2017/0118/56d268fdb7a5158dc0f030e543ec09dd.jpg",
+      bdMini :2,
+      "onBeforeClick" :function(cmd,config){
+        //  user 在用户点击分享按钮时执行代码，更改配置。
+        //  cmd为分享目标id，config为当前设置，返回值为更新后的设置。
+      },
+      "onAfterClick" : function(cmd){
+        //在用户点击分享按钮后执行代码，cmd为分享目标id。可用于统计等
+      }
+    },
+    share:[{
+      tag : "share_1",
+      bdCustomStyle:"/res/css/mycss/strategy/TravelNotes2.css"
+    }
+    ],
+    image:{
+      viewList:'',
+      viewText:"分享到：",
+      viewSize:"24"},
+    selectShare:{
+      bdContainerClass:null,
+      bdSelectMiniList:["qzone","tsina","tqq","renren","weixin"]
+    }
+  };
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+  function shareStyle(th){
+    $(th).css({
+      'padding-left': '2px',
+      'width': '66px',
+      'height':"100%",
+      'margin' :"0px 0px",
+      'color' : 'white',
+      'float': 'left',
+      'font-size': '13px',
+      'line-height': '89px',
+      'background-image': 'url(/res/images/TravelNotes/travelNotes2.png)',
+      'background-repeat': 'no-repeat',
+      'background-position-x':  '28px',
+      'background-position-y': '5px'
+    })
+  }
+  function reStyle(th){
+    $(th).css({
+      'padding-left': '2px',
+      'width': '66px',
+      'height':"100%",
+      'margin' :"0px 0px",
+      'color' : '#666',
+      'float': 'left',
+      'font-size': '13px',
+      'line-height': '89px',
+      'background-image': 'url(/res/images/TravelNotes/travelNotes2.png)',
+      'background-repeat': 'no-repeat',
+      'background-position-x':  '28px',
+      'background-position-y': '-30px'
+    })
+  }
+</script>
+<div class="container">
+  <section>
+    <div class="ctd-head-TrategyNotes"><img src="/new_uploads/2017/0118/56d268fdb7a5158dc0f030e543ec09dd.jpg" width="100%">
+      <div class="ctd-mask"></div>
+      <div class="ctd-info">
+        <div class="user-img"><img src="/uploads/2016/0622/a0ea06fff12b4877a91ea7ed33b87f57.png" ></div>
+        <div class="user-info">
+          <h2>赤城温泉、云顶乐园滑雪场、冰雪文化博物馆三日游</h2>
+          <div class="user-bot">
+            <div class="user-l">
+              <span class="user-data">23/Nov.2016</span>
+              <span class="user-name">飒飒</span>
+              <span class="user-lv">LV 8</span><span class="user-num">108篇攻略</span>
+            </div>
+            <div class="user-r">
+              <span class="link-box">
+<!--                <a class="link-share bds_more" href="javascript:;" > <i></i>分享 </a>-->
+                <a class="link-like link_like" href="javascript:;" data-id="294"  title="喜欢就点击一下"> <i></i>喜欢<span>1</span> </a>
+                <a class="link-comment" href="javascript:;"  title="我要评论" onclick="foc()"><i></i>评论<span>0</span></a>
+                <a class="link-browse" href="javascript:;"> <i></i> 浏览 <span>5059</span> </a> </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="ctd-Travel-body">
+      <div class="ctd-Travel-nav">
+        <div class="sideToolbar">
+          <div class="sideCatalog">
+            <div class="ebn-button-box" style="display: block;bottom: -55px">
+              <a class="ebn-button ebn-button-up sideCatalog-up-disable" href="javascript:;"></a>
+              <a class="ebn-button ebn-button-down sideCatalog-down-enable"  href="javascript:;"></a>
+            </div>
+            <div class="ebn-Catalog"></div>
+            <div class="sideCatalog-catalog">
+              <dl>
+              </dl>
+            </div>
+            <!--<div class="ebn-tip ebn-tip-bottom" style="display: block;">
+            <div class="ebnt-point"><i></i></div>
+            <div class="ebnt-day"><i></i>大理环海铁佛寺驿</div>
+          </div>   --> 
+          </div>
+        </div>
+      </div>
+      <div class="ctd-Travel-article">
+        <div class="ctd-content">
+          <div class="ebma-chapter ebma-preface"> <a class="ebma-anchor0" href="#" id="p0"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">旅游概况</span></h4>
+            <ul class="Survey">
+              <li class="time"><i></i><span>目的地： 赤城、崇礼</span></li>
+              <li class="day"><i></i><span>出行天数： 3天</span></li>
+              <li class="cost"><i></i><span>人均花费： 1000元</span></li>
+              <li class="people"><i></i><span>最佳出游时间：冬季</span></li>
+              <li class="jingqu"><i></i><span>景点：温泉、滑雪场、博物馆</span> </li>
+              <div class="clearfix"></div>
+            </ul>
+          </div>
+          <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p1"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">景区简介</span></h4>
+            <div class="ebma-con">
+              <p><img src="/new_uploads/2016/1123/0a100fbc918a7341b665d5733b2de33a.jpg" alt="" title=""/></p><p>从石家庄出发前往张家口赤城温泉、云顶滑雪场以及崇礼冰雪博物馆，三天两夜，人均消费约1000元。</p><p><strong>第一天：赤城温泉</strong></p><p>赤城温泉度假村位于赤城县城西7.5公里处，是一处以天然温泉著称的山谷。</p><p><img src="/new_uploads/2016/1123/839c69b11d5d7d846b42ee8c2570326e.jpg" alt="" title=""/></p><p><strong>第二天：云顶乐园滑雪场</strong></p><p>“云顶滑雪中心”位于河北省张家口市崇礼县境内，为中国最大的赏雪、玩雪、娱雪旅游圣地，也是您在银装素裹之中，滑雪赏冰、休闲娱乐的绝好去处。</p><p><img src="/new_uploads/2016/1123/e6761341f2f4b1d0aa155188a4a1c094.jpg" alt="" title=""/></p><p><strong>第三天：崇礼冰雪博物馆</strong></p><p>崇礼县冰雪博物馆投资4100万元，全馆建筑面积6000平米，共分为梦回远古雪域、见证滑雪发展、雪都成长实录、滑雪训练营地、领略冰雪风采、感受极致视听、冰雪体验场地、再游冰雪崇礼等八个部分。</p><p><img src="/new_uploads/2016/1123/a1b21d6c65e2ba1acc7dda3d04c16381.png" alt="" title=""/>​</p>            </div>
+          </div>
+          <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p2"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">交通路线</span></h4>
+            <div class="ebma-con">
+              <p><img src="/new_uploads/2016/1123/59a498f5a8d988d07d7b6a4e1689340d.png" alt="" title=""/>​</p><p><strong>自驾路线：</strong></p><p>从石家庄到赤城温泉：石家庄——京昆高速——张涿高速——京新高速——G110——S241——G112——汤泉路——赤城温泉，全程约460公里，自驾约6.5小时。</p><p>从赤城温泉到崇礼县城：汤泉路——S345——S242——梧桐大道——崇礼滑雪场。全程约80公里，自驾约1.5小时。</p><p>由于乘车不太方便，建议自驾前往。</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p4"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">时间安排</span></h4>
+          </div>
+          <div><p><strong>第一天：路上、赤城温泉度假村</strong></p><p>早上从石家庄出发，中午到达赤城温泉，下午可以泡温泉、游览附近景点，晚上入住赤城宾馆。</p><p><strong>第二天：云顶乐园滑雪场</strong></p><p>早起开车到云顶乐园滑雪场，开启一天快乐的滑雪生活，晚上入住在崇礼县城。</p><p><strong>第三天：冰雪博物馆、返程</strong></p><p>早餐后可参观崇礼冰雪文化博物馆，午餐后返程，结束愉快的旅程。</p><p><img src="/new_uploads/2016/1123/fa7bb341a7654d19d652b230be888ec7.jpg" alt="" title=""/>​</p> </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p5"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">DAY1：路上、赤城温泉</span></h4>
+          </div>
+          <div> </div>
+                              <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p5-0"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">玩什么</span></h4>
+            <div class="ebma-con">
+              <p>赤城温泉度假村位于赤城县城西7.5公里处，是一处以天然温泉著称的山谷。</p><p><img src="/new_uploads/2016/1123/0bec97b231b041bb7f8ed44241f4ea4c.jpg" alt="" title=""/><img src="/new_uploads/2016/1123/3186122acca4cc87f642e24144356c3b.jpg" alt="" title=""/></p><p>游客来此可以享受温泉、可以登山锻炼、观看人文古迹等，非常适合周末时休闲度假。</p><p><img src="/new_uploads/2016/1123/92b48bdb84e231d8dbf5e65ac2072467.jpg" alt="" title=""/></p><p>温泉度假村是一个整体的大景区，但泡温泉却并非是在景区的某一处。景区内现在大大小小开设了十几家温泉宾馆，泡温泉均是在宾馆内。</p><p><img src="/new_uploads/2016/1123/28c2b4ff6ffbb879231e4f6ceda820f4.png" alt="" title=""/>​</p><p>各个宾馆有设施不同的温泉游泳池、房间温泉泡池等，其中财政宾馆是当地的老牌宾馆，条件还不错，标间住宿一晚大约在200-300元，房间内可以洗浴温泉，宾馆的温泉游泳池收费大约几十元每人，推荐前去体验。</p><p><img src="/new_uploads/2016/1123/46714843b8057dee7bf1b59cd9be57b5.gif" alt="" title=""/><img src="/new_uploads/2016/1123/0f77d87c980322ced9c60fd0b73cba53.png" alt="" title=""/></p><p>除了在宾馆泡温泉外，度假村山谷的深处修建了登山栈道，小山不高，山间遍布树木，空气清新环境优美，适合清晨时步行游玩锻炼。</p><p><img src="/new_uploads/2016/1123/e9fa2188614b87f34af7b0cb8e766c5f.jpg" alt="" title=""/><img src="/new_uploads/2016/1123/da9df127c2a9930f0c94da1354f27da8.png" alt="" title=""/></p><p>度假村里还有瑞云禅寺、水母庙、咏归亭、碧霞祠等古迹和石碑，感兴趣的可以前去参观。</p><p><img src="/new_uploads/2016/1123/43259181cdfd7abefc65a6f9efb901e9.png" alt="" title=""/><img src="/new_uploads/2016/1123/5080bec607f4f42c79b967a4de15ee69.png" alt="" title=""/>​</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p5-1"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">吃什么</span></h4>
+            <div class="ebma-con">
+              <p>赤城温泉度假小镇有各种宾馆酒店，可根据自己的喜好自由选择。地方风味小吃有一窝丝、油炸糕、山药鱼、手把羊肉等，会使您大饱口福。</p><p>​<img src="/new_uploads/2016/1123/d7ac4fe25da0065b31e4a5c3242de967.png" alt="" title=""/>​</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p5-2"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">住哪里</span></h4>
+            <div class="ebma-con">
+              <p>住在赤城温泉度假村宾馆内，住宿费约在200—300元之间。<br/></p><p><img src="/new_uploads/2016/1123/53463e8df26634ba6fcf994abd4b0d1a.jpg" alt="" title=""/>​</p>            </div>
+          </div>
+                                        <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p6"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">DAY2：云顶乐园滑雪场</span></h4>
+          </div>
+          <div> </div>
+                              <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p6-0"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">玩什么</span></h4>
+            <div class="ebma-con">
+              <p>“云顶滑雪中心”位于河北省张家口市崇礼县境内，地处太行山和燕山交会的大马群山之中。是由马来西亚云顶集团与卓越集团投资兴建而成（云顶乐园之名由此而来）。</p><p><img src="/new_uploads/2016/1123/5d688203b09429de17284f8091c87dbe.png" alt="" title=""/><img src="/new_uploads/2016/1123/4f1e64b15635c92fcb4dd8eff7514195.png" alt="" title=""/></p><p>这里年平均气温只有3.3℃，积雪时间长达150天。</p><p><img src="/new_uploads/2016/1123/d55b0c1349391fc66327b2390cd7d1b3.png" alt="" title=""/><img src="/new_uploads/2016/1123/2064d15a289c85347b6d5c4b25acc1e3.png" alt="" title=""/></p><p>得天独厚的地理优势，为冰雪娱乐项目创造了绝佳条件，项目规划开发87条总长度约为70公里的滑雪道，总滑雪面积达262公顷，滑雪游客承载能力为19610人。</p><p><img src="/new_uploads/2016/1123/c1d901f0244013fa2345e4061778e0c7.png" alt="" title=""/><img src="/new_uploads/2016/1123/683e445b1aecf365a32143cb6e470c3e.png" alt="" title=""/></p><p>配套22条总长度约30公里的缆车，额定上坡承载能力（p/h）为32520人，合理容量为18270人。</p><p><img src="/new_uploads/2016/1123/7ad9a647f1d5f87292ef2b9333ffe670.png" alt="" title=""/><img src="/new_uploads/2016/1123/3c5e3e07341f8fb238b700dfd031c343.png" alt="" title=""/></p><p>建成后的“云顶滑雪中心”将会成为中国最大的赏雪、玩雪、娱雪旅游圣地，也是您在银装素裹之中，滑雪——赏冰、休闲娱乐的绝好去处。</p><p><img src="/new_uploads/2016/1123/7b3fbbbaf48909e961776c929f1cd425.jpg" alt="" title=""/>​</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p6-1"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">吃什么</span></h4>
+            <div class="ebma-con">
+              <p>张家口崇礼地处长城以北，饮食也接近东北和内蒙口味，熏肉、口蘑是到张家口必定要品尝的美食，马奶酒、烤全羊也是到张家口必不可少的美食。</p><p><img src="/new_uploads/2016/1123/d250c784c3133dc42e52ee06b7e56d20.jpg" alt="" title=""/>​</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p6-2"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">住哪里</span></h4>
+            <div class="ebma-con">
+              <p>晚上可入住在崇礼县城，各种高中低档的宾馆都有。</p><p><img src="/new_uploads/2016/1123/830b10f9d6112ba7a305ae395f48a00e.jpeg" alt="" title=""/>​</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p6-3"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">买什么</span></h4>
+            <div class="ebma-con">
+              <p>口蘑、蕨菜、贡米、大杏扁、牛奶葡萄、龙眼葡萄、长城干白干红葡萄酒、柴沟堡熏肉、怀安豆腐皮、鹦哥绿豆等都是张家口特产，可选择性购买。</p><p><img src="/new_uploads/2016/1123/7669cbb9314c9df653baa9e7f5fcb176.png" alt="" title=""/><img src="/new_uploads/2016/1123/a7c6dfa7d663f87995dbcad828de78dc.png" alt="" title=""/>​</p>            </div>
+          </div>
+                                        <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p7"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">DAY3：崇礼冰雪博物馆</span></h4>
+          </div>
+          <div> </div>
+                              <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p7-0"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">玩什么</span></h4>
+            <div class="ebma-con">
+              <p>崇礼县冰雪博物馆投资4100万元，全馆建筑面积6000平米，共分为梦回远古雪域、见证滑雪发展、雪都成长实录、滑雪训练营地、领略冰雪风采、感受极致视听、冰雪体验场地、再游冰雪崇礼等八个部分。</p><p><img src="/new_uploads/2016/1123/bb04659c9fdd986e4acadde9c4238405.png" alt="" title=""/><img src="/new_uploads/2016/1123/eaed62f3f69647ddc36a615eff85d1a3.png" alt="" title=""/></p><p>以崇礼县滑雪产业从零起步到逐步发展壮大的历程为主线，利用现代化展示技术和手段，通过文字、图片、音像、实物、互动多媒体及现代化艺术装置等新颖的形式，系统形象地展示了冰雪运动的起源、发展与成果；多元立体地展现了崇礼县滑雪产业所取得的巨大成果和丰富多彩的冰雪文化，是集观赏性、纪念性和教育性于一体的博物馆。</p><p><img src="/new_uploads/2016/1123/107ed6868c3568de1684c22f8538287a.png" alt="" title=""/><img src="/new_uploads/2016/1123/b2654a417534156efec7c57ba67cf352.png" alt="" title=""/></p><p>冰雪博物馆的落成，使冰雪文化和崇礼城市现代化建设更加紧密融合，对提升崇礼文化品位，促进崇礼社会经济又快又好发展，增进国际冰雪文化之间的交流具有十分重要的意义。</p><p><img src="/new_uploads/2016/1123/4a465d0f1545da261213984374982d0c.png" alt="" title=""/><img src="/new_uploads/2016/1123/bdcb54fc9e9788ca9baebedc9ac5dfaa.png" alt="" title=""/></p><p>崇礼冰雪博物馆，是在崇礼滑雪产业迅速发展的大潮中诞生的，也将伴随着崇礼滑雪产业的新发展而不断地得到充实、完善与提升。</p><p><img src="/new_uploads/2016/1123/a0f6baafb4406897afdc2d7496e7ccd0.png" alt="" title=""/><img src="/new_uploads/2016/1123/9883a2bdb9e1b135f3ea3f0535d77fa3.png" alt="" title=""/>​</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p7-1"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">吃什么</span></h4>
+            <div class="ebma-con">
+              <p>午餐可在县城内解决。</p><p><img src="/new_uploads/2016/1123/7a41f3aa6a1ca790a79e2d1216dc2ad0.png" alt="" title=""/>​</p>            </div>
+          </div>
+                                        <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p8"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">小贴士</span></h4>
+          </div>
+          <div><p>1、赤城温泉度假村免费开放，住宿度假村内各宾馆及泡温泉单独收费。</p><p>2、时间段不同，云顶滑雪场雪票价格也不同，从几百元到上千元不等。1.2米以下儿童免雪票费，1.2米到1.5米儿童半价；雪具租赁、观光缆车票需另付费。</p><p>3、崇礼冰雪博物馆门票60元。</p><p>4、崇礼一年四季都可以来，冬季最佳，既可泡温泉，又可获得极佳的滑雪体验。</p><p>5、由于冬季天气较冷，且有滑雪运动，所以不适合老人以及太小的孩子。</p><p>6、在刚开始泡温泉的时候不要一下子就进入温泉当中，否则会引起血压的快速上升，造成对心脏的负担。</p><p>7、选择与自己实际水平相适应的雪道滑行，始终控制自己的速度和动作，能够随时停下来以便避开其他人或物。</p> </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p9"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">看别人怎么说</span></h4>
+          </div>
+          <div><p><img src="/new_uploads/2016/1123/d5f416c94622e2e28a5378a14542f5c8.png" alt="" title=""/><img src="/new_uploads/2016/1123/0af502f354db40278c62495f5b7bbee6.png" alt="" title=""/></p><p><img src="/new_uploads/2016/1123/cf7410688e4d7d31646b2530419e7e1b.png" alt="" title=""/><img src="/new_uploads/2016/1123/1fad15bb5c4c5d4ba4533c7068449542.png" alt="" title=""/>​</p> </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p10"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">小编说</span></h4>
+          </div>
+          <div><p>​云顶滑雪场是我去过的最好的滑雪场了，价格也比较有良心。设施设备非常先进，有半封闭和全封闭的缆车，自动加热座椅，很舒适。山顶灯光无限，雪道特别棒，各种级别都适合，雪道的设计很有乐趣，雪质好的没法说，各个环节秩序井然，没有拥挤嘈杂的感觉，饮食饭菜都非常棒！总之各个方面都挺满意，在这里划过雪后别的滑雪场就感觉没意思了！</p><p>赤城温泉度假村里有好多家酒店，大多有温泉入户，带浴盆。也有单泡的那种，类似之前的大浴室。有几个泉眼，水温不同，有的泉水甚至可以直接喝。在温泉里泡一泡十分舒服。</p><p>对冰雪文化感兴趣的朋友一定要到冰雪博物馆参观一下，可以收获不少。</p> </div>
+                              <div class="ctd-theend"></div>
+        </div>
+        <div class="ctd-comment">
+          <div class="TicketM-Tit"> <span> <i class="detail-icon-4"> 用户点评 </i> <i class="detail-icon-t"> </i> </span></div>
+          <div class="ebmc-content">
+            <div class="ebm-title">发表评论</div>
+            <div class="nchcomments-box">
+              <a title="" class="nchimg">
+                <img src="/uploads/main/allimg/20150923/20150923143441.jpg">
+              </a>
+              <div class="nchtextarea right">
+                <i class="tip-icon--left-sangle"></i>
+                <textarea class="ebmc-textarea" id="report_area" cols="30" rows="10" maxlength="500" placeholder="喜欢这篇攻略吗？说点什么吧..." onkeyup="zifu(this)"></textarea>
+                <span class="tbmac-tip tbmac-tip-normal">已输入<b><em>0</em>/500</b>字</span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="ebmc-info"> <a href="javascript:;" class="ebmc-button tj-btn">评论</a> </div>
+          </div>
+          <div class="ebmc-list">
+            <ul id="result_list">
+            </ul>
+            <div class="pages Pagination" >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ctd-Travel-sider">
+        <div class="notes-box">
+          <div class="side-box side-About">
+            <div class="wy-notice-img"><i></i><span>305</span>篇攻略</div>
+            <div class="wy-notice-btns">
+              <a href="/notes/WRITE/" class="Publish-Travels" rel="nofollow" target="-blank">
+                <i class="icon icon-publish"></i>发游记</a>
+              <a href="javascript:" rel="nofollow" id="com"><i class="icon icon-comments"></i>写点评</a>
+            </div>
+          </div>
+          <div class="side-box sid-Recommend">
+            <h4>河北全攻略</h4>
+            <ul>
+                            <li>
+                <a target="_blank" href="" title="承德京北第一草原一日游">
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/1010/795b71e88de53e90211e0060ad321d36.gif"/></div>
+                <div class="note-con">
+                  <h5>承德京北第一草原一日游</h5>
+                  <div class="note-name"><span>Andy</span>&nbsp;&nbsp;2017-10-09 </div>
+                </div>
+                </a>
+              </li>
+                            <li>
+                <a target="_blank" href="" title="张家口沽源塞外庄园一日游">
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/1009/db1977b305615506f59a213f57c3f69c.jpg"/></div>
+                <div class="note-con">
+                  <h5>张家口沽源塞外庄园一日游</h5>
+                  <div class="note-name"><span>艾小漠</span>&nbsp;&nbsp;2017-10-09 </div>
+                </div>
+                </a>
+              </li>
+                            <li>
+                <a target="_blank" href="" title="茅荆坝原始森林谷一日游">
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/1009/2c364b7d2f08e8aa51eabb7137bf33d9.gif"/></div>
+                <div class="note-con">
+                  <h5>茅荆坝原始森林谷一日游</h5>
+                  <div class="note-name"><span>Andy</span>&nbsp;&nbsp;2017-10-09 </div>
+                </div>
+                </a>
+              </li>
+                          </ul>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+</div>
+
+<div style="clear: both"></div>
+<div class="footer">
+  <!-- 网站底部 开始-->
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-r">
+        <div class="code">
+          <p><img src="/res/images/erweima.jpg"></p>
+          <h3>河北旅游网微信公众号</h3>
+        </div>
+        <div class="code">
+          <p><img src="/res/images/erweima2.jpg"></p>
+          <h3>米淘亲子游微信公众号</h3>
+        </div>
+      </div>
+      <ul class="footer-l">
+        <li>
+          <h2>联系我们</h2>
+          <p>全国统一客服电话：<span>0311-87885822</span></p>
+          <p>意见邮箱：3011930149@qq.com</p>
+        </li>
+        <li class="ab-list"><h2>关于我们</h2>
+                              <a href="http://www.aitto.net/servers/index_1.html">关于我们</a>
+                    <a href="http://www.aitto.net/servers/index_2.html">联系我们</a>
+                    <a href="http://www.aitto.net/servers/index_11.html">商务合作</a>
+                    
+        <li class="dh-list"><h2>站点导航</h2>
+                              <a href="http://www.aitto.net/destination/">目的地</a>
+                    <a href="http://www.aitto.net/raiders/">攻略</a>
+                    <a href="http://www.aitto.net/notes/">游记</a>
+                    <a href="http://www.aitto.net/spots/">门票</a>
+                    <a href="http://www.aitto.net/lines/self">自驾游</a>
+                    
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <span style="color:#c2c2c2;margin-bottom: 4px;display: inline-block;">友情连接：</span>
+    <div class="footer-link">
+      <p>
+            
+</p>
+    </div>
+    <div class="footer-bottom">
+      <p>2004-2016 © 河北旅游网 ™ aitto.net All rights reserved. Version v5.57 冀ICP备16007967号-1<br />
+        营业执照新出网证（京）字242号 </p>
+    </div>
+  </div>
+  <!-- 网站底部 结束-->
+</div>
+<!-- 网站置顶 开始-->
+<div class="mfw-toolbar toolbar-item-a" id="_j_mfwtoolbar" style="display: block;">
+  <div class="toolbar-item-code"><a class="toolbtn _j_code"> <i class="icon-code"></i> </a>
+    <div class="code-box">
+      <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+      <div class="WeChat"></div>
+    </div>
+  </div>
+  <div class="toolbar-item-top"> <a class="toolbtn _j_gotop"> <i class="icon-top"></i> </a> </div>
+</div>
+<!-- 网站置顶 结束-->
+<script>
+//登陆下拉
+$(document).ready(function(){
+  $(".drop").mouseover(function(){
+      $(this).addClass("hover");
+  $(this).next(".dropdown2").show()
+  });
+  $(".drop").mouseout(function(){
+      $(this).removeClass("hover");
+  $(this).next(".dropdown2").hide()
+  });
+});
+</script> 
+<input type="hidden" id="articleid" value="289">
+<input type="hidden" id="user" value=""/>
+<!----分页----->
+<input type="hidden" name="offset" id="offset" value="">
+<input type="hidden" name="page" id="page" value="1">
+<input type='hidden' id='next1' value="">
+<!----分页------->
+<script type="text/javascript" src="/res/js/layer/layer.js"></script>
+</body>
+</html>
+<script>
+  //  点击 评论
+  $("#com").click(function () {
+    foc();
+  });
+  function  foc(){
+    $("#report_area").focus();
+  }
+  /******
+   *  评论  是 按照  文章的id
+   *  喜欢是 按照 文章 的aid
+   */
+  $(".link_like").click(function(){
+    var  th  = this;
+    $.ajax({
+      type:"POST",
+      url:SITEURL+"member/login/ajax_is_login",
+      dataType:'json',
+      success:function(data){
+        if(data.status){//已经 登录
+          addlike(th);
+        }else{  //没有登录
+          layer.confirm('是否登录，将游记添加到收藏？', {
+            btn: ['是','否'] //按钮
+          }, function(){
+            var url  = window.location.href;//获取当前页面的地址
+            var login_url  =SITEURL+"member/login/?redirecturl="+url; //www.aitto.net/member/login/?redirecturl=
+            window.location.href=login_url;
+          }, function(){
+            // addlike(th);
+          });
+        }
+      }
+    })
+  });
+  function addlike(th){
+    var i  = 1 ;
+    var infoid  = $(th).attr("data-id");
+    var this_link = $(th).attr("data-link");
+    //  alert(infoid);
+    if(this_link=='2'){
+      var s  = $(th).find("span").find('b').text().replace('(',"").replace(")","");
+    }else{
+      var s  = $(th).find("span").text();
+    }
+    var arid = $("#articleid").val();
+    //alert(arid);
+    $.ajax({
+      type: "POST",
+      url: SITEURL+"article/ajax_add_like",
+      dataType:'json',
+      data: {l_num:s,arId:arid,infoid:infoid,typeid:'4'},
+      success:function(data){
+        if(this_link=='2'){
+          if(data.status){
+            layer.msg(data.msg);
+           // $(th).html("<i></i>取消喜欢<span>"+data.likenum+"</span>");
+            $(th).html("<i></i><span class='ui-btn-text'>取消喜欢<b>("+data.likenum+")</b></span>");
+          }else{
+            layer.msg(data.msg);
+           // $(th).html("<i></i>喜欢<span>"+data.likenum+"</span>");
+            $(th).html("<i></i><span class='ui-btn-text'>喜欢<b>("+data.likenum+")</b></span>");
+          }
+        }else{
+          if(data.status){
+            layer.msg(data.msg);
+            $(th).html("<i></i>取消喜欢<span>"+data.likenum+"</span>");
+          }else{
+            layer.msg(data.msg);
+            $(th).html("<i></i>喜欢<span>"+data.likenum+"</span>");
+          }
+        }
+      }
+    });
+  }
+  //提交问答
+  $(".tj-btn").click(function(){
+    var user      = $("#user").val();
+    // return false;
+    var urls      = window.location.href;//获取当前页面的地址 当做重定向地址
+    if(user.length==0){
+      var url = '/member/login/?redirecturl='+urls;//
+      window.location.href  =url ;
+    }else {
+      var articleid = "294";
+      var dockid = $("#dockid").val();
+      //var checkcode = $("#checkcode").val();
+      var typeid = 4;
+      //var nickname = $("#nickname").val();
+      var content = $("#report_area").val();
+      if (content.length < 5) {
+        if(content.length==0){
+          layer.msg('回复内容不能为空', {
+            icon: 5
+          })
+          return false;
+        }else{
+          layer.msg('至少五个字符', {
+            icon: 5
+          })
+          return false;
+        }
+      }
+      $.ajax({
+        type: 'POST',
+        url: SITEURL + 'article/ajax_add_comment',
+        data: {
+          articleid: articleid,
+          content: content,
+          typeid: typeid,
+          dockid: dockid
+        },
+        success: function (data) {
+          if (data == 1) {
+            layer.msg('验证码错误', {
+              icon: 5
+            })
+            //重新加载验证码
+            $("#imgcheckcode").attr('src', "/captcha?" + Math.random());
+          } else if (data == 3) {
+            layer.msg('回复成功', {
+              icon: 6,
+              time: 1500
+            });
+            location.reload();
+          } else {
+            layer.msg('回复失败,请联系管理员', {
+              icon: 5
+            })
+          }
+        }
+      })
+    }
+  })
+</script>
+<script>
+  function zifu(th){
+    var thisval=$(th).val().length*1;
+    var shengyu = 500-thisval;
+    if(shengyu>0) {
+      var html = "已输入<b><em>" + thisval + "</em>/" + shengyu + "</b>字";
+      $(th).next('span').html(html);
+    }else{
+      layer.msg('不能输入了', {
+        icon: 5
+      })
+      return false;
+    }
+  }
+</script>
+<script type="text/javascript">
+  var pagesize  = 5;//0;//0;//0;//每页的页数
+  $(document).ready(function(){
+    $(function () {
+      var  s ='';
+      //第一次加载数据
+      get_data(s);
+    });
+  });
+  function get_data(s) {
+    var offset    = $("#offset").val().length==""? 0:$("#offset").val();//  每页的开始 也是 limit 第1个参数
+    var articleid = "294";//    攻略 的 id
+    var typeid    = "4";//  模型的 id
+    $.ajax({
+      type: "POST",
+      url: SITEURL + 'article/ajax_get_comment',
+      async:false,
+      dataType: "json",
+      data: {pagesize:pagesize,offset:offset,articled:articleid,typeid:typeid},
+      success: function(data){
+        var page1      =$("#page").val()*1;//   当前页面
+        var itemHtml = "";
+        var pages    = "";
+        $("#result_list").empty();
+        $(".Pagination").empty();
+        if(s==''){
+        }else if(s=='pre'){
+          $("#page").val(page1*1-1);
+        }else if(s=='next'){
+          $("#page").val(page1*1+1);
+        }else{
+          $("#page").val(s*1);
+        }
+//        var  page3 =  $("#page").val()*1;//   当前页面
+//        var  p    = (page3-1)*pagesize;
+        if(data.length!=0){
+          for(var i=0;i<data.length;i++){
+            itemHtml +="<li>";
+              if(data[i].userlitpic==null){
+                    itemHtml +="<div class='user-img'><img src='/uploads/main/allimg/20150923/20150923143441.jpg'></div>";
+              }else{
+                itemHtml +="<div class='user-img'><img src='"+data[i].userlitpic+"'></div>";
+              }
+            if(data[i].nickname==null){
+              itemHtml +="<div class='textarea-box'> <span class='comments-name'>"+data[i].wx_nickname+"</span>";
+            }else{
+              itemHtml +="<div class='textarea-box'> <span class='comments-name'>"+data[i].nickname+"</span>";
+            }
+            itemHtml +="<span class='comments-h2'>"+data[i].content+"</span>";
+            itemHtml +="<span class='comments-time'>"+data[i].addtime+"</span></div>";
+            itemHtml +="</li>";
+          }
+        }else{
+          itemHtml +="<li>";
+          itemHtml +="没有相关数据";
+          itemHtml +="</li>";
+        }
+        var page2      =$("#page").val()*1;//   当前页面
+        //  定义 系数
+        var coefficient = Math.floor((page2-1)/pagesize);
+        //   定义 开始和结束 页面
+        var startpage    = coefficient*pagesize+1;
+        var endpage      = coefficient*pagesize+2;
+            endpage   =  endpage>data[0]['totalpage'] ? data[0]['totalpage'] : endpage;
+        if(data[0]['totalpage']!=0){
+          pages  +="<div id='Pagination'><div class='pagination'>";
+          pages  +="<a class='uPrevpage' onclick='page(1)'><i></i>首页</a>";
+          pages  += "<a class='uPrevpage' onclick='pre()'><i></i>上一页</a>";
+             for(var j=startpage;j<=endpage;j++){
+               pages  += "<a href='javascript:' onclick='page("+j+")' ";
+               if(page2==j) {
+                 pages += " class='current' ";
+               }
+               pages  += ">"+j+"</a>" ;
+             }
+          pages  += "<a class='next' onclick='next()'>下一页 <i></i></a>";
+          pages  += "<a class='next' onclick='page("+data[0]['totalpage']+")'>尾页 <i></i></a>";
+          pages  += "</div></div>";
+          pages  += "<div class='searchPage'>";
+          pages  += "<span class='page-sum'>共<strong class='allPage'>"+data[0]['totalpage']+"</strong>页</span>";
+          pages  += "<span class='page-go'>跳转<input type='text'>页</span>";
+          pages  += "<a href='javascript:;' class='page-btn' data-all='"+data[0]['totalpage']+"' onclick='skip(this)'>GO</a>";
+          pages  += "</div>&nbsp;&nbsp;";
+        }
+        $("#result_list").append(itemHtml);
+        $(".Pagination").append(pages);
+        $("#next1").val(data[0]['totalpage']);
+      }
+    });
+  }
+  function page(s){
+    var offset ="";
+    offset = (s*1-1) * pagesize;//  2 位每页显示数；
+    $("#offset").val(offset);
+    get_data(s);
+  }
+  function pre(){
+    var offset ="";
+    var s   ='pre';
+    var cur_page    = $("#page").val();
+    var prepage = cur_page*1-1;
+    if(prepage==0){
+      return false;
+    }else {
+      offset = (prepage - 1) * pagesize;//  2 位每页显示数；
+      $("#offset").val(offset);
+      get_data(s);
+    }
+  }
+  function next(){
+    var offset ="";
+    var s   ='next';
+    // var cur_page    = $(".on").attr("data-page");
+    var cur_page    = $("#page").val()*1;//attr("data-page");
+    var total    = $("#next1").val()*1;//("data-total")*1;
+    var nextpage = cur_page*1+1;
+    if(total+1<=nextpage){
+      return false;
+    }else{
+      offset =(nextpage-1)*pagesize;//  2 位每页显示数；
+      $("#offset").val(offset);
+      get_data(s);
+    }
+  }
+  /*
+    跳转
+   */
+  function  skip(th){
+       var  pages =  $(th).prev('span').find('input').val()*1;
+    if(!isNaN(pages)){
+      var  allpages = $(th).attr('data-all')*1;
+      if(pages<1){layer.msg('请输入 数字', {icon: 5  }); return false;}
+      if( pages >allpages){layer.msg('请输入 数字', {icon: 5  }); return false;}
+      page(pages);
+    }else{
+      layer.msg('请输入 数字', {
+        icon: 5
+      })
+    }
+  }
+</script>";

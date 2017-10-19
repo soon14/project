@@ -1,0 +1,1003 @@
+3600
+s:45931:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>河北旅游景点大全_景点门票_景点介绍_景点图片-河北旅游网</title>
+    <meta name="keywords" content="河北旅游景点大全,旅游景点介绍,旅游景点图片"/>
+      <meta name="description" content="河北旅游网为旅游爱好者提供河北旅游景点大全,著名旅游景点介绍,旅游景点推荐,旅游景点图片等旅游信息。告诉你有哪些好玩的景点！"/>
+   <script>
+    window.SITEURL = "/";
+    window.CURRENCY_SYMBOL="￥";
+</script>  <link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css,/res/css/mycss/spot/Ticket.css" rel="stylesheet"  />
+  <script type="text/javascript"src="/min/?f=/res/js/common/jquery-1.11.3.min.js,/res/js/common/bootsAitto-min.js"></script>
+  <script>
+    $(document).ready(function () {
+     $('.ctd-ticket-scenic:eq(1)').find('div[class=ctd-tickets]:eq(0)').css('display','block');
+     $('.ctd-ticket-scenic:eq(2)').find('div[class=ctd-tickets]:eq(0)').css('display','block');
+    })
+        function change(th){
+          var  index = $(th).index();
+          $(th).parent().parent().siblings('div[class=ctd-tickets]').css({'display':'none'});
+          $(th).parent().parent().siblings('div[class=ctd-tickets]:eq('+index+')').css('display',"block")
+        }
+  </script>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?f968b43cd6404299f54d25d87c3bbe3a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script></head>
+<body>
+<!-- 登陆代码 开始 -->
+
+<link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css" rel="stylesheet"  />
+<header>
+    <div id="commonHead">
+        <div id="commonWarp">
+            <div class="logo" style="cursor:pointer;" onclick="window.location.href='http://www.aitto.net'" ></div>
+        <div class="nav">
+                <ul>
+                    <li class="current st-menu">
+                        <a href="/">首页                        </a>
+                    </li>
+                                                            <li class="st-menu"><a href="http://www.aitto.net/destination/">目的地</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/raiders/">攻略</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/notes/">游记</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/spots/">门票</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/lines/self">自驾游</a></li>
+                                        
+                </ul>
+            </div>
+              <div class="head-search">
+            <div class="head-search-wrapper">
+                <div class="head-searchform">
+                    <input id="_j_head_search_input" type="text" value="" placeholder="搜索门票">
+                    <a role="button" href="javascript:" class="icon-search" id="_j_head_search_link" onclick=""></a> </div>
+            </div>
+        </div>
+                  <div class="login-info">
+                <div class="userLogin" id="loginstatus">
+                </div>
+                <div class="head-user drop-trigger" id="-j-head-user">
+                    <a class="" href="#">
+                        <div class="user-ico"></div>
+                        <i class="icon-caret-down"></i>
+                    </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">会员中心</h2>
+                        <div class="dropdown-menu" >
+                            <ul>
+                                <li class="icon-home"><a href="/member/"><i></i>会员首页</a></li>
+                                <li class="icon-order"><a href="/member/order/all"><i></i>我的订单</a></li>
+                                <li class="icon-writenotes"><a href="/member/index/mynotes"><i></i>我的游记</a></li>
+                                <li class="icon-jifen"><a href="/member/index/jifen"><i></i>我的积分</a></li>
+                                <li class="icon-Personal"><a href="/member/index/userinfo"><i></i>个人中心</a></li>
+                                <li class="icon-traveller"><a href="/member/index/linkman"><i></i>常用旅客</a></li>
+                                <li class="icon-logout"><a href="/member/login/loginout"><i></i>退出登录</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-code drop-trigger" id="-j-head-code" > <a class="" href="#">
+                        <div class="code-ico"></div>
+                        <i class="icon-caret-down"></i> </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+                        <div class="drop-con">
+                            <div class="WeChat"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</header>
+<script type="text/javascript">
+    //JQuery
+    $(document).ready(function(){
+        $(document).on("click",
+            function(e) {
+                isActive = $(e.target).parent().attr("class");
+                var  typeid= "5";
+                if (isActive=='head-searchform') {
+                    if(typeid==101){
+                          $(".head-search-focus").css('width',"345px");
+                          $(".head-search-focus .head-searchform input").css('width',"323px");
+                    }
+                    if(typeid==5){
+                        $(".head-search-focus").css('width',"285px");
+                        $(".head-search-focus .head-searchform input").css('width',"263px");
+                    }
+                }
+                else {
+                    if(typeid==101||typeid==5){
+                        $(".head-searchform input").css('width',"108px");
+                        $(".head-search-wrapper").css('width',"130px");
+                    }
+                    $(".head-search-wrapper").removeClass("head-search-focus");
+                }
+            })
+        $("#_j_head_search_input").click(function(){
+            $(".head-search-wrapper").addClass("head-search-focus");
+        });
+    });
+</script>
+<script type="text/javascript"src="/min/?f=/res/js/SuperSlide.min.js,/res/js/base.js,/res/js/common.js,/res/js/myjs/bootstrap.min.js,/res/js/myjs/jquery.select.js,/res/js/common/bootsAitto-min.js"></script>
+<script>
+    var SITEURL = "/";
+    function optionChecked(obj){
+        var typeid = $(obj).attr('data-id');
+        var durl = $(obj).attr('data-url');
+       // alert(typeid+"["+durl);
+        $("#typename").attr('data-id',typeid);
+        $("#typename").attr('data-url',durl);
+    }
+    //====================07.05  s
+    $("a[name=myorder]").click(function(){
+        var  url1 =SITEURL+'member/order/all';//SITEURL 为 '/'
+        var  url =SITEURL+'member/login?redirecturl='+url1;
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status==0){
+                    alert("请先登录");
+                   window.location.href =url;
+                }else{
+                    window.location.href =url1;
+                }
+            }
+        })
+    });
+    //====================07.05  e
+    $(".weixin").mouseover(function(){
+        //  $(this).addClass("hover");
+        $(this).children(".dropdown1").show()
+    });
+    $(".weixin").mouseout(function(){
+        // $(this).removeClass("hover");
+        $(this).children(".dropdown1").hide()
+    });
+   //
+    $(function(){
+        var typeid  = "5";
+        $("#_j_head_search_input").keydown(function(e){
+            if(e.keyCode==13){
+                $('#_j_head_search_link').click();
+            }
+        });
+        $(".searchmodel li:first").trigger('click');
+        //search
+        $('#_j_head_search_link').click(function(){
+            var keyword = $('#_j_head_search_input').val();
+            if(keyword == ''){
+                alert("请输入内容");
+                $("#_j_head_search_link").focus();
+                return false;
+            }
+//            var typeid = $("#typename").attr('data-id');
+//            var durl = $("#typename").attr('data-url');
+//            if(typeid==0 || typeid==8){//0  是全部  8是 签证
+//                var url = SITEURL+'search/cloudsearch?keyword='+encodeURIComponent(keyword)+"&typeid="+typeid;
+//            }else{
+//                var url = "http://www.aitto.net"+durl+'all?keyword='+encodeURIComponent(keyword);
+//            }
+            if(typeid==4){
+                var url = "http://www.aitto.net"+"/raiders/"+'all?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==101){
+                var url = "http://www.aitto.net"+"/notes/list"+'?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==5){
+                var url = "http://www.aitto.net"+"/spots/"+'all?keyword='+encodeURIComponent(keyword);
+            }
+            location.href = url;
+        })
+        //导航的选中状态
+        $(".st-menu a").each(function(){
+            $(".st-menu").removeClass('current');
+            var url= window.location.href;
+            // url=url.replace('index.php','');
+            //url=url.replace('index.html','');
+            var urlArr = url.split("/");
+            var ulink=$(this).attr("href");
+            var urlLinkArr = ulink.split("/");
+             //  定义目的地拼音
+            var pinyin  ="";
+            var  sss   = urlArr[3].split("?");
+            var   p    = sss[0];
+         console.log(urlArr[3]);
+        // console.log(urlLinkArr[3]);
+            if(urlArr[3]==urlLinkArr[3])
+            {
+                $(this).parents('li').addClass('current');
+                return false;
+            }else if(pinyin==p&&urlLinkArr[3]=='destination'&&pinyin.length!=''){
+                $(this).parents('li').addClass('current');
+                return false;
+            }
+            else{
+                if(urlArr[3]!='member'){
+                    $(".st-menu").first().addClass('current');
+                }
+            }
+        })
+        //登陆状态
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status){
+                    $txt = '<a class="dl" style="padding:0" href="javascript:;">你好,</a>';
+                    $txt+= '<a class="dl" href="/member/">'+data.user.nickname+'</a>';
+                    $txt+= '<a class="dl" href="/member/login/loginout">退出</a>';
+                    //$txt+= '<a class="dl" href="/member">个人中心</a>';
+                    $txt = '您好:<a href="/member/">'+data.user.nickname+'</a>';
+                }else{
+                    //$txt = '<a class="dl" href="/member/login">登录</a>';
+                    // $txt+= '<a class="zc" href="/member/register">免费注册</a>';
+                    $txt = '&nbsp;&nbsp;&nbsp;&nbsp;<a href="/member/login">登录</a> | <a href="/member/register">注册</a>';
+                }
+                $("#loginstatus").html($txt);
+            }
+        })
+    })
+</script>
+<script>
+    var s  = 3;
+</script><!-- 登陆代码 结束 -->
+<div class="notebox"></div>
+<div class="ctd-head-box"> 
+  <!-- 图片相册上下切换开始 -->
+    <div class="ck-slide">
+    <ul class="ck-slide-wrapper">
+                  <li ><a href="http://www.aitto.net/spots/show_89.html"><img src="/new_uploads/2017/0707/2d315094b8b6bf3d26f474ef228ba005.jpg" width="100%" height="100%"></a></li>
+            <li style="display:none"><a href="http://www.aitto.net/spots/show_45.html"><img src="/new_uploads/2017/0707/623845035ff322964747faca94f0d567.jpg" width="100%" height="100%"></a></li>
+          </ul>
+    <a href="javascript:;" class="ctrl-slide ck-prev">上一张</a>
+    <a href="javascript:;" class="ctrl-slide ck-next">下一张</a>
+    <div class="ck-slidebox">
+      <div class="slideWrap">
+        <ul class="dot-wrap">
+                    <li class="current"><em>1</em></li>
+                    <li ><em>2</em></li>
+                  </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- js --> 
+  
+  
+  <!-- 图片相册上下切换结束 --> 
+    <!-- 搜索条 开始 -->
+  <div class="ticket-search-container">
+    <div class="search-group"> 
+      
+      <!-- 全部 begin -->
+      
+      <div class="ticket-search-hot">
+        <ul>
+          <li class="md hot-line">
+            <h4><i></i>目的地</h4>
+                                    <a href="/spots/shijiazhuang" style="color: #FFFFff">石家庄</a>
+                        <a href="/spots/chengde" style="color: #FFFFff">承德</a>
+                        <a href="/spots/zhangjiakou" style="color: #FFFFff">张家口</a>
+                        <a href="/spots/baoding" style="color: #FFFFff">保定</a>
+                        <a href="/spots/xingtai" style="color: #FFFFff">邢台</a>
+                        <a href="/spots/handan" style="color: #FFFFff">邯郸</a>
+                        <a href="/spots/tangshan" style="color: #FFFFff">唐山</a>
+                        <a href="/spots/langfang" style="color: #FFFFff">廊坊</a>
+                        <a href="/spots/hengshui" style="color: #FFFFff">衡水</a>
+                        <a href="/spots/cangzhou" style="color: #FFFFff">沧州</a>
+                        
+          </li>
+          <li class="zt hot-line">
+            <h4><i></i>主题</h4>
+                                    <a href="/spots/all-0-0-45-1" style="color: #FFFFff">游乐场</a>
+                        <a href="/spots/all-0-0-31-1" style="color: #FFFFff">周末游</a>
+                        <a href="/spots/all-0-0-4-1" style="color: #FFFFff">亲子</a>
+                        <a href="/spots/all-0-0-10-1" style="color: #FFFFff">古城古镇</a>
+                        <a href="/spots/all-0-0-29-1" style="color: #FFFFff">山水</a>
+                        <a href="/spots/all-0-0-2-1" style="color: #FFFFff">草原</a>
+                        <a href="/spots/all-0-0-32-1" style="color: #FFFFff">湖泊海洋</a>
+                        <a href="/spots/all-0-0-34-1" style="color: #FFFFff">漂流</a>
+                        <a href="/spots/all-0-0-33-1" style="color: #FFFFff">划船</a>
+                        <a href="/spots/all-0-0-46-1" style="color: #FFFFff">瀑布</a>
+                        
+          </li>
+          <li class="sj">
+            <h4><i></i>热门景区</h4>
+            <!------07.06 fengjishu  设置热门同网站首页热门景点一致 s------->
+                                                <a href="http://www.aitto.net/spots/show_32.html" target="_blank"> <span style='color:#FFFFFF'>赵州桥</span> </a>
+                        <a href="http://www.aitto.net/spots/show_7.html" target="_blank"> <span style='color:#FFFFFF'>抱犊寨</span> </a>
+                        <a href="http://www.aitto.net/spots/show_46.html" target="_blank"> <span style='color:#FFFFFF'>天桂山</span> </a>
+                        <a href="http://www.aitto.net/spots/show_59.html" target="_blank"> <span style='color:#FFFFFF'>前南峪</span> </a>
+                        <a href="http://www.aitto.net/spots/show_45.html" target="_blank"> <span style='color:#FFFFFF'>银河洞</span> </a>
+                        <a href="http://www.aitto.net/spots/show_57.html" target="_blank"> <span style='color:#FFFFFF'>空中花园</span> </a>
+                        <a href="http://www.aitto.net/spots/show_95.html" target="_blank"> <span style='color:#FFFFFF'>邢台峡谷群</span> </a>
+                                    
+            <!------07.06 fengjishu  e------->
+            </li>
+        </ul>
+      </div>
+      <!-- 全部 end -->
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <!-- 搜索条 结束 --> 
+</div>
+<div class="container">
+  <section>
+    <div class="ctd-ticket-subject">
+      <ul>
+                                <li><a href="http://www.aitto.net/spots/show_46.html"><img src="/new_uploads/2017/0506/794f0bb66f029d38b8f8ac22b3bede48.jpg"></a></li>
+                <li><a href="http://www.aitto.net/spots/show_47.html"><img src="/new_uploads/2017/0506/05b3d48aa0025cc5faa453c14ef2acf8.jpg"></a></li>
+                <li><a href="http://www.aitto.net/spots/show_56.html"><img src="/new_uploads/2017/0506/1b27da9614fa80f6a93a6bb839903e87.jpg"></a></li>
+                <li><a href="http://www.aitto.net/spots/show_45.html"><img src="/new_uploads/2017/0506/9f54a57c012b85a9e9a9ba4daa938752.jpg"></a></li>
+                
+        <div class="clearfix"></div>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <div class="ctd-ticket-TimeSale">
+      <div class="Ticket-title"><span>精选热卖</span>河北最热门的景区</div>
+      <div class="Ticket-Index-warp">
+        <ul>
+                              <li  onclick="window.location.href='http://www.aitto.net/spots/show_48.html'" style="cursor: pointer">
+            <div class="Ticket-IBox">
+              <div class="Ticket-IBut"><a href="http://www.aitto.net/spots/show_48.html"><img src="/res/images/spot/Ticket-IBut.png"></a></div>
+              <div class="Ticket-IPic">
+                <div class="MaskTit">
+                  <p>东方巨龟苑门票</p>
+                </div>
+                <div class="add"><i></i><span class="big">石家庄</span></div>
+                <img src="http://www.aitto.net/uploads/2016/0801/e85c1a9fdaea869573209b1abb766ee3.jpg"> </div>
+              <div class="Ticket-Iprice"> <dfn>抢购价:&nbsp;¥</dfn><span>59</span></div>
+            </div>
+          </li>
+                    <li  onclick="window.location.href='http://www.aitto.net/spots/show_7.html'" style="cursor: pointer">
+            <div class="Ticket-IBox">
+              <div class="Ticket-IBut"><a href="http://www.aitto.net/spots/show_7.html"><img src="/res/images/spot/Ticket-IBut.png"></a></div>
+              <div class="Ticket-IPic">
+                <div class="MaskTit">
+                  <p>石家庄鹿泉抱犊寨景区</p>
+                </div>
+                <div class="add"><i></i><span class="big">石家庄</span></div>
+                <img src="http://www.aitto.net/uploads/2016/0330/84e7c9eae8c3baf386e4dbb3b8c83713.jpg"> </div>
+              <div class="Ticket-Iprice"> <dfn>抢购价:&nbsp;¥</dfn><span>59</span></div>
+            </div>
+          </li>
+                    <li  onclick="window.location.href='http://www.aitto.net/spots/show_79.html'" style="cursor: pointer">
+            <div class="Ticket-IBox">
+              <div class="Ticket-IBut"><a href="http://www.aitto.net/spots/show_79.html"><img src="/res/images/spot/Ticket-IBut.png"></a></div>
+              <div class="Ticket-IPic">
+                <div class="MaskTit">
+                  <p>清东陵</p>
+                </div>
+                <div class="add"><i></i><span class="big">唐山</span></div>
+                <img src="http://www.aitto.net/new_uploads/2017/0315/bd006b565dd89138c13d6b75f316bd62.jpg"> </div>
+              <div class="Ticket-Iprice"> <dfn>电询</dfn></span></div>
+            </div>
+          </li>
+                    <li  onclick="window.location.href='http://www.aitto.net/spots/show_100.html'" style="cursor: pointer">
+            <div class="Ticket-IBox">
+              <div class="Ticket-IBut"><a href="http://www.aitto.net/spots/show_100.html"><img src="/res/images/spot/Ticket-IBut.png"></a></div>
+              <div class="Ticket-IPic">
+                <div class="MaskTit">
+                  <p>嶂石岩风景区门票</p>
+                </div>
+                <div class="add"><i></i><span class="big">石家庄</span></div>
+                <img src="http://www.aitto.net/new_uploads/2017/0712/8ae59539e2661aefd43d0f245ee41dd5.jpg"> </div>
+              <div class="Ticket-Iprice"> <dfn>抢购价:&nbsp;¥</dfn><span>60</span></div>
+            </div>
+          </li>
+                    
+          <div class="clearfix"></div>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section> 
+    <!-- 门票首页 推荐景点-->
+    <div class="ctd-ticket-scenic">
+      <div class="J-con-tit">
+        <h2>周<span>末</span>游</h2>
+        <div class="more"><a href="/spots/all">查看更多内容</a></div>
+      </div>
+      <div class="ctd-tickets">
+        <ul>
+                                        <li onclick="window.location.href='http://www.aitto.net/spots/show_48.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/uploads/2016/0801/e85c1a9fdaea869573209b1abb766ee3.jpg">
+                <div class="J-magazine">
+                  <p>石家庄</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">&yen;<i>59</i></p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">东方巨龟苑门票</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_100.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0712/8ae59539e2661aefd43d0f245ee41dd5.jpg">
+                <div class="J-magazine">
+                  <p>石家庄</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">&yen;<i>60</i></p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">嶂石岩风景区门票</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_63.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2016/1209/2deac91aaef393a19f393d094c365922.jpg">
+                <div class="J-magazine">
+                  <p>石家庄</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">&yen;<i>118</i></p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">平山西苑温泉门票</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section> 
+    <!-- 门票首页 推荐景点-->
+    <div class="ctd-ticket-scenic">
+      <div class="J-con-tit">
+        <h2>热门<span>目的</span>地</h2>
+        <ul class="J-con-nav" data-toggle="tabs" data-target="tab-content1">
+                    <li class="current" onclick='change(this)'><a href="javascript:void(0)">石家庄</a></li>
+                    <li  onclick='change(this)'><a href="javascript:void(0)">承德</a></li>
+                    <li  onclick='change(this)'><a href="javascript:void(0)">秦皇岛</a></li>
+                    <li  onclick='change(this)'><a href="javascript:void(0)">张家口</a></li>
+                  </ul>
+        <div class="more"><a href="/spots/all">查看更多内容</a></div>
+      </div>
+                  <div class="ctd-tickets" style="display: none">
+        <ul>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_48.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/uploads/2016/0801/e85c1a9fdaea869573209b1abb766ee3.jpg">
+                <div class="J-magazine">
+                  <p>石家庄</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">&yen;<i>59</i> </p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">东方巨龟苑门票</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_7.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/uploads/2016/0330/84e7c9eae8c3baf386e4dbb3b8c83713.jpg">
+                <div class="J-magazine">
+                  <p>石家庄</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">&yen;<i>59</i> </p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">石家庄鹿泉抱犊寨景区</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_60.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/uploads/2016/0818/e69897a9856c0e6feaa47fcff641be4d.jpg">
+                <div class="J-magazine">
+                  <p>石家庄</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">&yen;<i>4</i> </p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">河北地质大学地球科学博物馆</a></h2>
+                  <h3></h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                  </ul>
+      </div>
+      
+                  <div class="ctd-tickets" style="display: none">
+        <ul>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_207.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0921/a3c2d820794d518fa2fa5355d4927d73.jpg">
+                <div class="J-magazine">
+                  <p>承德</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">电询</p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">承德普陀宗乘之庙</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_206.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0921/a7b2dd05bba9f761c1ead1ad8056fd17.jpg">
+                <div class="J-magazine">
+                  <p>承德</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">电询</p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">承德京北第一草原</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_204.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0921/22ae44f708a702dae1be82cafe51f623.jpg">
+                <div class="J-magazine">
+                  <p>承德</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">电询</p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">茅荆坝原始森林谷</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                  </ul>
+      </div>
+      
+                  <div class="ctd-tickets" style="display: none">
+        <ul>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_179.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0920/e109d31965ffa34188e8ed924d2ebb3f.jpg">
+                <div class="J-magazine">
+                  <p>秦皇岛</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">电询</p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">黄金海岸翡翠岛</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_180.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0920/79187849b87f90e76ce3cf0f73c878b2.jpg">
+                <div class="J-magazine">
+                  <p>秦皇岛</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">电询</p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">秦皇岛野生动物园</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_181.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0920/64b0cc5b9759bdb2e0986793653691a9.jpg">
+                <div class="J-magazine">
+                  <p>秦皇岛</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">电询</p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">秦皇岛新澳海底世界</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                  </ul>
+      </div>
+      
+                  <div class="ctd-tickets" style="display: none">
+        <ul>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_223.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0921/2ecbf2e600aa4e1ecde9b8a5a2bd01c2.jpg">
+                <div class="J-magazine">
+                  <p>张家口</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">电询</p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">张家口大境门</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_222.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0921/539dcf8900ff56a622bd7cd22ee46635.jpg">
+                <div class="J-magazine">
+                  <p>张家口</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">电询</p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">张家口沽源塞外庄园</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_221.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0921/4cb4eb97e3cee3de37262635a16baa57.jpg">
+                <div class="J-magazine">
+                  <p>张家口</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">电询</p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">张家口金河口</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                  </ul>
+      </div>
+      
+          </div>
+  </section>
+  <section> 
+    <!-- 门票首页 推荐景点-->
+    <div class="ctd-ticket-scenic">
+      <div class="J-con-tit">
+        <h2>热门<span>主</span>题</h2>
+        <ul class="J-con-nav" data-toggle="tabs" data-target="tab-content1">
+                              <li class="current"  onclick='change(this)'><a href="javascript:void(0)">游乐场</a></li>
+                    <li  onclick='change(this)'><a href="javascript:void(0)">周末游</a></li>
+                    <li  onclick='change(this)'><a href="javascript:void(0)">亲子</a></li>
+                    <li  onclick='change(this)'><a href="javascript:void(0)">古城古镇</a></li>
+                    
+        </ul>
+        <div class="more"><a href="/spots/all">查看更多内容</a></div>
+      </div>
+                  <div class="ctd-tickets" style="display: none">
+        <ul>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_48.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/uploads/2016/0801/e85c1a9fdaea869573209b1abb766ee3.jpg">
+                <div class="J-magazine">
+                  <p>石家庄</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">&yen;<i>59</i> </p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">东方巨龟苑门票</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_56.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/uploads/2016/0803/633812ff67b2986e2ef1e6d2b13bf638.jpg">
+                <div class="J-magazine">
+                  <p>石家庄</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">&yen;<i>15</i> </p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">欢乐谷儿童成长主题乐园</a></h2>
+                  <h3></h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_54.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/uploads/2016/0803/2eef2b990848a57f25fe4609595cb740.jpg">
+                <div class="J-magazine">
+                  <p>石家庄</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">&yen;<i>25</i> </p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">藁城宫灯博物馆</a></h2>
+                  <h3></h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                  </ul>
+      </div>
+      
+                  <div class="ctd-tickets" style="display: none">
+        <ul>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_48.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/uploads/2016/0801/e85c1a9fdaea869573209b1abb766ee3.jpg">
+                <div class="J-magazine">
+                  <p>石家庄</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">&yen;<i>59</i> </p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">东方巨龟苑门票</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_100.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0712/8ae59539e2661aefd43d0f245ee41dd5.jpg">
+                <div class="J-magazine">
+                  <p>石家庄</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">&yen;<i>60</i> </p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">嶂石岩风景区门票</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_63.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2016/1209/2deac91aaef393a19f393d094c365922.jpg">
+                <div class="J-magazine">
+                  <p>石家庄</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">&yen;<i>118</i> </p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">平山西苑温泉门票</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                  </ul>
+      </div>
+      
+                  <div class="ctd-tickets" style="display: none">
+        <ul>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_48.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/uploads/2016/0801/e85c1a9fdaea869573209b1abb766ee3.jpg">
+                <div class="J-magazine">
+                  <p>石家庄</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">&yen;<i>59</i> </p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">东方巨龟苑门票</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_63.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2016/1209/2deac91aaef393a19f393d094c365922.jpg">
+                <div class="J-magazine">
+                  <p>石家庄</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">&yen;<i>118</i> </p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">平山西苑温泉门票</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_56.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/uploads/2016/0803/633812ff67b2986e2ef1e6d2b13bf638.jpg">
+                <div class="J-magazine">
+                  <p>石家庄</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">&yen;<i>15</i> </p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">欢乐谷儿童成长主题乐园</a></h2>
+                  <h3></h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                  </ul>
+      </div>
+      
+                  <div class="ctd-tickets" style="display: none">
+        <ul>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_79.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0315/bd006b565dd89138c13d6b75f316bd62.jpg">
+                <div class="J-magazine">
+                  <p>唐山</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">电询</p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">清东陵</a></h2>
+                  <h3>AAAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_92.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0316/df557e42ecebc08a6191b9320376880b.jpg">
+                <div class="J-magazine">
+                  <p>廊坊</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">电询</p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">天下第一城</a></h2>
+                  <h3>AAAA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li onclick="window.location.href='http://www.aitto.net/spots/show_90.html'" style="cursor: pointer">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0316/f6b4a0e23f3cb43bfdc519230d09aff1.jpg">
+                <div class="J-magazine">
+                  <p>衡水</p>
+                </div>
+              </div>
+              <div class="J-price">
+                <p class="price">电询</p>
+                <div class="ticket-tit">
+                  <h2><a href="javascript:;">宝云寺</a></h2>
+                  <h3>AA级景区</h3>
+                </div>
+              </div>
+            </div>
+          </li>
+                  </ul>
+      </div>
+      
+          </div>
+  </section>
+</div>
+
+<div style="clear: both"></div>
+<div class="footer">
+  <!-- 网站底部 开始-->
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-r">
+        <div class="code">
+          <p><img src="/res/images/erweima.jpg"></p>
+          <h3>河北旅游网微信公众号</h3>
+        </div>
+        <div class="code">
+          <p><img src="/res/images/erweima2.jpg"></p>
+          <h3>米淘亲子游微信公众号</h3>
+        </div>
+      </div>
+      <ul class="footer-l">
+        <li>
+          <h2>联系我们</h2>
+          <p>全国统一客服电话：<span>0311-87885822</span></p>
+          <p>意见邮箱：3011930149@qq.com</p>
+        </li>
+        <li class="ab-list"><h2>关于我们</h2>
+                              <a href="http://www.aitto.net/servers/index_1.html">关于我们</a>
+                    <a href="http://www.aitto.net/servers/index_2.html">联系我们</a>
+                    <a href="http://www.aitto.net/servers/index_11.html">商务合作</a>
+                    
+        <li class="dh-list"><h2>站点导航</h2>
+                              <a href="http://www.aitto.net/destination/">目的地</a>
+                    <a href="http://www.aitto.net/raiders/">攻略</a>
+                    <a href="http://www.aitto.net/notes/">游记</a>
+                    <a href="http://www.aitto.net/spots/">门票</a>
+                    <a href="http://www.aitto.net/lines/self">自驾游</a>
+                    
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <span style="color:#c2c2c2;margin-bottom: 4px;display: inline-block;">友情连接：</span>
+    <div class="footer-link">
+      <p>
+            
+</p>
+    </div>
+    <div class="footer-bottom">
+      <p>2004-2016 © 河北旅游网 ™ aitto.net All rights reserved. Version v5.57 冀ICP备16007967号-1<br />
+        营业执照新出网证（京）字242号 </p>
+    </div>
+  </div>
+  <!-- 网站底部 结束-->
+</div>
+<!-- 网站置顶 开始-->
+<div class="mfw-toolbar toolbar-item-a" id="_j_mfwtoolbar" style="display: block;">
+  <div class="toolbar-item-code"><a class="toolbtn _j_code"> <i class="icon-code"></i> </a>
+    <div class="code-box">
+      <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+      <div class="WeChat"></div>
+    </div>
+  </div>
+  <div class="toolbar-item-top"> <a class="toolbtn _j_gotop"> <i class="icon-top"></i> </a> </div>
+</div>
+<!-- 网站置顶 结束-->
+<script>
+//登陆下拉
+$(document).ready(function(){
+  $(".drop").mouseover(function(){
+      $(this).addClass("hover");
+  $(this).next(".dropdown2").show()
+  });
+  $(".drop").mouseout(function(){
+      $(this).removeClass("hover");
+  $(this).next(".dropdown2").hide()
+  });
+});
+</script> 
+</body>
+</html>
+<script type="text/javascript"src="/min/?f=/res/js/myjs/spot/bootstrap-Ticket.js"></script>
+<script>$('.ck-slide').ckSlide({autoPlay: true});</script>";

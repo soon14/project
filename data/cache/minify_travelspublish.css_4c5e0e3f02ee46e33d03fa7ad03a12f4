@@ -1,0 +1,65 @@
+#content{width:1180px;margin:0px
+auto}.none{display:none}.show{display:block}.youjiType{width:100%;overflow:hidden;padding-top:15px}.youjiType
+h3{font-size:20px}.longType{width:1200px;float:left;border-bottom:2px solid #ffc074;padding:15px
+0}.longType
+h3{color:#333;float:left;background:url(/res/images/myimages/onthisType.png) no-repeat 25px 0;line-height:30px;padding-left:70px}.longType
+p{font-size:12px;color:#999;float:left;line-height:30px;padding-left:20px}.youjiContent{width:100%;overflow:hidden;padding:40px
+0 0 0}.youjiLeft{width:960px;float:left}.youjiRight{width:210px;float:right;color:#999}.youjiContent{width:100%;overflow:hidden}.youjiLeft{width:960px;float:left;position:relative}.youjiRight{width:210px;float:right;color:#999}.youjiTit{width:100%;height:80px;margin:0;position:relative}.youjiTit
+input{float:right;height:42px;width:755px;font-size:18px;padding-left:10px;font-family:微软雅黑;border:solid 2px #DDD;margin-right:15px}.shengxiazi{color:#aeaeae;position:absolute;top:12px;left:904px}.youjiTitle{position:absolute;left:190px;color:#aeaeae;font-size:18px;top:12px;font-family:微软雅黑}.peo-ico{position:absolute;top:-25px;left:25px;border-radius:100%;width:90px;height:90px;overflow:hidden}.zhangjieTit{float:left;width:160px}.zhangjieSeed{width:160px;min-height:50px;line-height:50px;font-size:24px;cursor:pointer}.zhangjieSeed
+span{width:5px;height:50px;float:left}.zhangjieSeed
+h4{text-align:left;width:100%;height:50px;line-height:50px;text-indent:15px;margin-bottom:20px}.zhangjieSeed
+a{width:20px;float:right;height:20px;margin-top:15px;margin-right:10px;display:none}.active
+.ChildCatalog{display:block}.active
+.addChild{display:block}.zhangjieSeed .onthisSeed
+span{background:#f49f39}.zhangjieSeed .onthisSeed
+h4{background:#43AEE4;color:white}.zhangjieSeed .onthisSeed
+a{margin-right:15px;background:url(/res/images/myimages/newraidericon_01.png) no-repeat scroll -22px -22px}.zhangjieSeed
+.noOnthisSeed{background:#f0f0f0;margin-right:20px}.zhangjieSeed .noOnthisSeed
+span{background:#f0f0f0}.zhangjieSeed .noOnthisSeed
+h4{color:#333;background:#f0f0f0}.zhangjieSeed .noOnthisSeed
+a{background:url(/res/images/myimages/newraidericon_01.png) no-repeat scroll -22px -18px #f0f0f0}.noOnthisSeed
+a{background:url("http://img.17u.com/com/img/public/youji2014/newraidericon_01.png") no-repeat scroll -22px -18px #f0f0f0}.onthisSeed
+a{margin-top:17px;margin-right:25px;background:url("http://img.17u.com/com/img/public/youji2014/newraidericon_01.png") no-repeat scroll -22px -22px}.addChild{display:none;background:url(/res/images/myimages/addPng_03.png) 10px 13px no-repeat #80bc2b;margin-left:15px;width:125px;height:40px;line-height:40px;float:left;font-size:16px;margin-bottom:10px}.addChild
+a{width:80px;display:block;color:#fff;margin-top:0px;margin-right:0;padding-left:30px;float:left}.addChild a:hover{color:White;text-decoration:none}.addChild:hover{background:url(/res/images/myimages/newraidericon_02.png) no-repeat 10px 13px #61a600}.addChild a:link{color:#fff}.addMain{background:url(/res/images/myimages/addPng_03.png) 20px 18px no-repeat #80bc2b;width:145px;height:50px;line-height:50px;float:left;margin-top:20px;font-size:18px}.addMain
+a{color:#fff;padding-left:40px;float:left}.addMain a:link{color:#fff}.addMain a:hover{color:White;text-decoration:none}.addMain:hover{background:url(/res/images/myimages/newraidericon_02.png) #61a600 no-repeat 20px 18px}.MainCatalog{font-size:24px}.ChildCatalog{margin-left:15px;font-size:20px;display:none}.zhangjieBody{float:right;width:800px;overflow:hidden}.zhangjieA{float:left;width:770px;background:#f0f0f0;padding:15px;position:relative}.zhangjieBodyMain{overflow:hidden;margin-bottom:20px}.zhangjieBodyChild{overflow:hidden;margin-bottom:20px}.zhangjieBiaoti{overflow:hidden;position:relative}.zhangjieBiaoti
+input{width:756px;height:40px;font-family:微软雅黑;font-size:16px;padding-left:10px}.inputTit{width:800px;background:#ddf2ff;color:#0075c1;float:left;height:50px;display:block}.inputTit
+p{float:left;line-height:50px;font-size:18px;padding:0
+0 0 15px}.inputTit
+span{float:right;width:5px;height:50px;background:#2da1e7}.zjshengxiazi{color:#aeaeae;position:absolute;top:25px;left:745px}.articl
+.zhangjieA{display:block}.articl
+.inputTit{display:none}#zhezhao{position:absolute;z-index:99;left:0;top:0;width:100%;opacity:0.7;filter:alpha(opacity = 70);-moz-opacity:0.7}.tishiBox{width:500px;height:auto;background:#fff;margin-left:50%;left:-250px;position:fixed;z-index:1001}.tishiHead{height:46px;background:#2da1e7;float:left;width:500px;line-height:46px}.tishiHead
+span{font-size:16px;color:#fff;font-weight:bolder;float:left;padding:0
+10px}.tishiHead a , .tishiHead01 a ,.tishiHead02
+a{float:right;background:url(http://img.17u.com/com/img/public/youji2014/aaa_26.png);width:54px;height:46px}.tishiBody{width:360px;padding:10px
+20px;overflow:hidden;margin-left:50px;padding-bottom:40px}.tishiBody
+p{float:left;font-size:16px;line-height:30px;font-weight:500;padding:30px
+0px 20px 0px}.tishiBody p
+em{background:url(http://img.17u.com/com/img/public/youji/icons.png) no-repeat 2px 2px;width:18px;height:18px;overflow:hidden}.tishiBody
+a{float:left;width:84px;height:34px;line-height:34px;font-size:14px;color:#fff;background:#3b84ee;text-align:center;margin:10px
+0 0 130px}.txtBug{float:left;width:40px;height:38px;background:url(http://img.17u.com/com/img/17uBack/no_icon.png) no-repeat;padding:26px
+0px;margin-left:30px;margin-top:10px}.viewImg{float:left;position:relative;width:756px;height:300px;margin-top:20px;background:#fff;border:1px
+solid #dadada;overflow:hidden;margin-bottom:15px}.uploadBoxTop{border:3px
+dashed #e6e6e6;text-align:center;position:relative;margin:10px;height:270px;background:url(/res/images/myimages/image.png) 50% 40px no-repeat}.uploadBoxTop
+input{width:188px;height:60px;background:#333;position:absolute;left:290px;top:100px;opacity:0;filter:alpha(opacity=0);z-index:2}.uploadBtn
+label{display:block;height:100%;text-align:center;cursor:pointer}.uploadBtn{font-size:18px;background:#00b7ee;position:absolute;left:290px;top:100px;border-radius:3px;line-height:44px;padding:0
+30px;color:#fff;display:inline-block;margin:20px
+auto;cursor:pointer;box-shadow:0 1px 1px rgba(0, 0, 0, 0.1)}.uploadBoxTop
+span{text-align:center;display:block;position:absolute;left:180px;top:170px;color:#999;line-height:25px;font:normal 18px/36px 'Microsoft YaHei'}.uploadBoxTop
+a{color:#FFF}.savaDiv{overflow:hidden;width:100%;padding:30px
+0px 60px 0px}.savaDiv
+p{width:100%;overflow:hidden;font-size:14px;line-height:42px;padding:10px
+0;margin-left:200px}.savaButton{width:148px;height:42px;line-height:42px;color:#fff;background:#2da1e7;text-align:center;margin-right:10px;font-size:18px;float:left}.savaButton:hover{color:#fff;background-color:#0088da;text-decoration:none}.previewButton{width:148px;height:42px;line-height:42px;color:#fff;background:#f75a01;text-align:center;margin-right:10px;font-size:18px;float:left}.previewButton:hover{color:#fff;background-color:#e55300;text-decoration:none}.savaCG{margin-left:10px}.savaDiv
+a{color:#005bb5;text-decoration:none;outline:none}.savaDiv a:hover{color:#f60;text-decoration:none}.youjiMain{margin-top:10px}.youjitit .edui-icon{margin-left:5px;background:url(/res/images/img/Addpic.png) center no-repeat;display:block;width:20px;height:20px}.youjiEdit{width:100%;min-height:200px;background:#FFF;overflow:auto;border:1px
+solid #cecece;border-top:none;border-radius:0 0 4px 4px;line-height:25px}.youjitit{width:100%;padding:5px
+0;background-color:#fafafa;background-image:-moz-linear-gradient(top, #ffffff, #f2f2f2);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));background-image:-webkit-linear-gradient(top, #ffffff, #f2f2f2);background-image:-o-linear-gradient(top, #ffffff, #f2f2f2);background-image:linear-gradient(to bottom, #ffffff, #f2f2f2);background-repeat:repeat-x;border:1px
+solid #d4d4d4;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px 4px 0 0;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);*zoom:1;-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.065);-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.065);box-shadow:0 1px 4px rgba(0,0,0,0.065)}.borderBottom{border-bottom:1px solid #ddd}.shuoMingP{overflow:hidden;padding-bottom:10px;padding-left:10px}.shuoMingP
+p{font-size:12px;line-height:22px;padding:0
+0 12px 0;font-family: 宋体}.Form-group{margin-bottom:20px}.Form-group
+input{width:500px;height:30px;font-family: 微软雅黑;font-size:16px;padding-left:10px}.Form-group
+label{margin-right:10px;width:128px;height:30px;display:block}.Form-group
+.input_help{margin-left:5px;color:#0065bb}.Form-group .btn-box{margin-left:95px;margin-top:10px}.Form-group{width:100%}.Form-group .FormInfo .radio
+ul{margin:0px}.Form-group .FormInfo .radio .options>li{border-bottom:none;float:left;cursor:pointer;margin-right:20px}.Form-group .FormInfo .radio
+i{width:16px;height:16px;margin-right:5px;display:inline-block}.Form-group .FormInfo .radio .options > li .checkbox-icon{background:url(/res/images/myimages/bootstrap-ico.png) 0 -48px no-repeat}.Form-group .FormInfo .radio .options > li.checked .checkbox-icon{background:url(/res/images/myimages/bootstrap-ico.png) 0 -30px no-repeat}.Form-group .FormInfo .checkbox
+ul{margin:0px;padding:0px}.Form-group .FormInfo .checkbox .options>li{border-bottom:none;float:left;margin-right:20px;padding:5px
+0;cursor:pointer}.Form-group .FormInfo .checkbox .options
+i{width:16px;height:16px;display:inline-block}.Form-group .FormInfo .checkbox .options > li .checkbox-icon{background:url(/res/images/myimages/bootstrap-ico.png) 0 -82px no-repeat}.Form-group .FormInfo .checkbox .options > li.checked .checkbox-icon{background:url(/res/images/myimages/bootstrap-ico.png) 0 -66px no-repeat}

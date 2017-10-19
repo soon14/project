@@ -1,0 +1,3 @@
+
+[notify_url:20160721084056]
+[notify_url:20160721084056 appid=wxdf8497303505ae0d bank_type=CFT cash_fee=1 fee_type=CNY is_subscribe=Y mch_id=1327381201 nonce_str=s7z6k5h1invi548u3t9ixo2gju62vub4 openid=oyq3hvxjvrjPXkFL2g-Vgjl4OmcY out_trade_no=05615976873885 result_code=SUCCESS return_code=SUCCESS sign=C5FA61233478A123181F641C430B820A time_end=20160721084056 total_fee=1 trade_type=NATIVE transaction_id=4002132001201607219424356283]

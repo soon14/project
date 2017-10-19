@@ -1,0 +1,11 @@
+.bds_more{
+	padding-top: 2px;
+	width: 76px;
+	float: left;
+	font-size: 13px;
+	line-height: 89px;
+	background-image: url(/res/images/TravelNotes/TravelNotes.png);
+	background-repeat: no-repeat;
+	background-position-x:  28px;
+	background-position-y: -30px;
+}

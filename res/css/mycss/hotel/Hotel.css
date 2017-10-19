@@ -1,0 +1,1102 @@
+/* 2016-06-01 index */
+.J-banner {
+	height: 515px;
+	position: relative;
+	overflow: hidden;
+}
+.J-banner img {
+	width: 100%;
+}
+.s-form {
+	position: relative;
+	padding-top: 6px;
+}
+.banner .b-search .s-item {
+	float: left;
+	margin-left: 15px;
+ *margin-left: 8px;
+	position: relative;
+}
+.banner .b-search .s-option {
+	width: 109px;
+}
+.banner .b-search .s-input {
+	height: 24px;
+	line-height: 26px\0;
+	padding: 3px;
+	padding-left: 0;
+	border: none;
+	background-color: #fff;
+	color: #333;
+	outline: none;
+	overflow: hidden;
+}
+.banner .b-search .s-indate, .banner .b-search .s-outdate {
+	width: 89px;
+}
+
+.b-search {
+	width: 817px;
+	height: 80px;
+	margin: auto;
+	top: 370px;
+	position: absolute;
+	background: url(../../../images/hotel/hotel.png) no-repeat 0 -380px;
+	left: 50%;
+	margin-left: -409px;
+	font-size: 12px;
+	z-index: 1;
+}
+
+.s-item {
+	float: left;
+	margin-left: 15px;
+ *margin-left: 8px;
+	position: relative;
+}
+.s-type {
+	color: #fff;
+	line-height: 2.1em;
+}
+.s-wraper {
+	padding-left: 11px;
+	display: inline-block;
+	border-radius: 4px;
+	overflow: hidden;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	position: relative;
+}
+.s-wraper-active {
+ border-color: @blue;
+}
+.s-dest-wraper {
+	padding-left: 25px;
+	background:url(../../../images/hotel/hotel.png) no-repeat 0 -55px;
+}
+.s-count-wraper {
+}
+.s-checkin-wraper, .s-checkout-wraper {
+	padding-right: 23px;
+	background-position: 105px -125px;
+}
+
+.hotel-icons{background:url(../../../images/hotel/hotel.png) no-repeat #FFF 100% -52px;}
+.s-input {
+	height: 24px;
+	line-height: 26px\0;
+	padding: 3px;
+	padding-left: 0;
+	border: none;
+	background-color: #fff;
+	color: #333;
+	outline: none;
+	overflow: hidden;
+ &::-ms-clear {
+ display: none;
+}
+}
+.s-dest {
+	width: 184px;
+ // padding-left: 25px;
+ // border-left-width: 25px;
+	
+}
+.s-indate, .s-outdate {
+	width: 89px;
+}
+.s-count {
+	width: 49px;
+}
+.s-outdate {
+}
+.s-option {
+	width: 109px;
+}
+.s-submit {
+	width: 46px;
+	height: 46px;
+	margin-top: 8px;
+	margin-left: 2px;
+	display: inline-block;
+	background: url(../../../images/hotel/hotel.png) no-repeat 0 0;
+	border-radius: 50%;
+	transition: box-shadow ease .3s;
+	-moz-transition: box-shadow ease .3s;
+	-webkit-transition: box-shadow ease .3s;
+	-o-transition: box-shadow ease .3s;
+ &:hover {
+ box-shadow: 0 0 6px #A8A8A8;
+}
+}
+.banner .b-search .s-submit:hover {
+	-webkit-box-shadow: 0 0 6px #A8A8A8;
+	box-shadow: 0 0 6px #A8A8A8;
+}
+.banner .b-search .s-submit {
+	width: 46px;
+	height: 46px;
+	margin-top: 8px;
+	margin-left: 2px;
+	display: inline-block;
+	background-position: 0 0;
+	border-radius: 50%;
+	transition: box-shadow ease .3s;
+	-moz-transition: box-shadow ease .3s;
+	-webkit-transition: -webkit-box-shadow ease .3s;
+	-o-transition: box-shadow ease .3s;
+}
+/* 门票列表*/
+.ctd-ticketS-body {
+	padding-top: 10px;
+}
+/* 门票列表框架*/
+.ctd-ticketS-body .ctd-side {
+	width: 260px;
+	float: right;
+}
+.ctd-ticketS-body .ctd-main {
+	width: 900px;
+	float: left;
+}
+.ctd-ticket-list .ctd-ticket-booking {
+	 display: none
+}
+.ctd-ticket-list .listItem {
+	width: 100%;
+}
+.ctd-ticket-list li {
+	padding: 15px;
+	position: relative;
+	margin-bottom: 15px;
+	background: #FFF;
+}
+.ctd-ticket-list .listItem li:hover {
+	-webkit-box-shadow: 0 0 10px #ededed;
+	-moz-box-shadow: 0 0 10px #ededed;
+	box-shadow: 0 0 10px #ededed;
+	
+}
+.ctd-ticket-list .listItem li:hover h3 {
+	color: #ff9c00;
+}
+.ctd-ticket-list .listItem .pic {
+	width: 250px;
+	height: 180px;
+	position: relative;background: url(/res/images/index/nopic.png) center center no-repeat #eee;
+	float: left;
+	overflow: hidden;
+}
+.ctd-ticket-list .listItem .pic img {
+	height: 180px;
+}
+.ctd-ticket-list .listItem .info {
+	width: 390px;
+	float: left;
+	height: 180px;
+	position: relative;
+	font-size: 14px;
+	color: #999;
+}
+.ctd-ticket-list .listItem .Ticket-itemRight {
+	width: 200px;
+	float: right;
+}
+.ctd-ticket-list .listItem .ticke-line {
+	position: absolute;
+	right: 210px;
+	top: 0;
+}
+.ctd-ticket-list .listItem .Ticket-tit {
+	padding: 0px 20px;
+}
+.ctd-ticket-list .listItem .Ticket-tit h3 {
+	max-height: 60px;
+	height: auto;
+	font-size: 22px;
+	margin-bottom: 10px;
+	line-height: 26px;
+	color: #333;
+}
+.ctd-ticket-list .listItem .Ticket-address {
+	padding: 0px 20px;
+	position: relative;
+}
+.ctd-ticket-list .listItem .Ticket-address span {
+	padding-left: 20px;
+}
+.ctd-ticket-list .listItem .Ticket-address i {
+	width: 14px;
+	position: absolute;
+	top: 2px;
+	height: 19px;
+	background: url(../../../images/hotel/hotel.png) no-repeat -80px 0px;
+}
+.ctd-ticket-list .listItem .Ticket-servicetag {
+	padding: 0px 20px;
+}
+.ctd-ticket-list .listItem .Ticket-servicetag span {
+	border: 1px solid #00b081;
+	border-radius: 15px;
+	padding: 0;
+	display: inline;
+	color: #00b081;
+	padding: 0 10px;
+}
+.ctd-ticket-list .listItem .media-label {
+	margin: 10px 0;
+	padding: 0px 20px;
+}
+.ctd-ticket-list .listItem .media-label span {
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 12px;
+	padding: 5px 10px;
+	text-align: center;
+	color: #fff;
+}
+.ctd-ticket-list .listItem .media-label .h1 {
+	background-color: #6fd199;
+}
+.ctd-ticket-list .listItem .media-label .h2 {
+	background-color: #e7788e;
+}
+.ctd-ticket-list .listItem .Ticket-datebar {
+	margin: 0 20px;
+	position: absolute;
+	bottom: 0;
+	height: 35px;
+	line-height: 35px;
+	color: #666;
+	border-top: 1px dotted #eee;
+}
+.ctd-ticket-list .listItem .Ticket-datebar span {
+	padding-left: 25px;
+}
+.ctd-ticket-list .listItem .Ticket-datebar i {
+	width: 20px;
+	position: absolute;
+	top: 10px;
+	height: 20px;
+	background: url(../../../images/hotel/hotel.png) no-repeat -100px 0px;
+}
+.ctd-ticket-list .listItem .Ticket-price {
+	text-align: center;
+	bottom: 65px;
+	color: #999;
+}
+.ctd-ticket-list .listItem .Ticket-price em {
+	font-size: 40px;
+	color: #ff7362;
+	padding: 0 4px 0 12px;
+	font-weight: 300;
+	position: relative;
+	top: 3px;
+	vertical-align: 2px;
+}
+.ctd-ticket-list .listItem .Ticket-more {
+	position: absolute;
+	top: 160px;
+	right: 50px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.ctd-ticket-list .listItem .Ticket-more i {
+	width: 10px;
+	height: 10px;
+	margin-left: 5px;
+	display: inline-block;
+}
+.ctd-ticket-list .listItem .Ticket-more .icon-angle-up {
+	background: url(../../../images/hotel/hotel.png) no-repeat -1px -40px;
+}
+.ctd-ticket-list .listItem .Ticket-more .icon-angle-down {
+	background: url(../../../images/hotel/hotel.png) no-repeat -1px -30px;
+}
+.ctd-ticket-list .listItem .Ticket-btn {
+	width: 170px;
+	margin: 20px auto;
+	height: 56px;
+	background-color: #ff7362;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 56px;
+}
+.ctd-ticket-list .listItem .Ticket-btn a {
+	color: #FFF;
+	display: block;
+}
+
+.ctd-ticket-list .listItem .Ticket-btn1 {
+	width: 170px;
+	margin: 20px auto;
+	height: 56px;
+	background-color: #0bad72;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 56px;
+}
+.ctd-ticket-list .listItem .Ticket-btn1 a {
+	color: #FFF;
+	display: block;
+}
+
+/* 门票 侧边======================================================================== */
+
+.sid-Recommend {
+	background: #FFF;
+}
+.side-box {
+	background: #FFF;
+	margin-bottom: 10px;
+}
+.sid-Recommend h4 {
+	font-size: 18px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: normal;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 150px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+.sid-Recommend ul {
+	padding: 10px;
+}
+.sid-Recommend li { height:190px;
+	
+	border: 1px dotted #CCC;
+	margin-bottom: 15px
+}
+.sid-Recommend .note-img { position:relative;
+
+	width: 240px;
+	height: 150px;background: url(/res/images/index/nopic.png) center center no-repeat #eee;
+	overflow: hidden;
+}
+.sid-Recommend .note-img img {
+width: 240px;
+	height: 150px;
+}
+.sid-Recommend .note-con { 
+	
+}
+.sid-Recommend .note-price span{ float:right;color:#fff;}
+.sid-Recommend .note-price{position:absolute; bottom:0; width:100%;  background:url(../../../images/hotel/shawBg.png); color:#fff; line-height:30px; }
+.sid-Recommend .note-price strong{ padding-left:10px;}
+.sid-Recommend .note-price span{ text-align:center; width:80px; text-align:center;  background:#ff7467; color:#fff;}
+.sid-Recommend .note-price em{ font-size:22px;font-weight: bold;}
+.sid-Recommend  h5 { 
+	font-size: 18px;
+	line-height: 35px; height:35px; overflow:hidden; padding:0 10px; text-align:left;
+
+	
+}
+
+/* 列表搜索排序*/
+.ctd-sort-view {
+	height: 50px;
+	background: #FFF;
+	line-height: 50px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+}
+.ctd-sort-view li {
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	border-right: 1px solid #eee;
+}
+.ctd-sort-view a {
+	display: block;
+	padding: 0 20px;
+}
+.ctd-sort-view .current a {
+	background: #fd8800;
+	color: #FFF;
+}
+.ctd-sort-view a i {
+	margin-left: 5px;
+	width: 12px;
+	height: 7px;
+	background: url(../../../images/hotel/hotel.png) no-repeat -50px -30px;
+	display: inline-block;
+ *zoom: 1;
+ *display: inline;
+}
+.ctd-sort-view .current i {
+	background: url(../../../images/hotel/hotel.png) no-repeat -70px -30px;
+}
+.ctd-ticket-booking table {
+	padding: 0;
+	margin: 0; margin-top:5px;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	border-top: none;
+	background: #FFF;
+}
+.ctd-ticket-booking th {
+	padding: 10px 15px;
+	margin-bottom: 2px;
+	font-size: 14px;
+	color: #0065bb;
+	text-align: center;
+	font-weight: normal;
+	background: #f7f8fb;
+	border: 1px solid #ddd;
+}
+.ctd-ticket-booking td {
+	padding: 15px;
+	font-size: 14px;
+	color: #666;
+	border-top: 1px solid #ddd;
+	text-align: center;
+}
+.ctd-ticket-booking table .tab-peo {
+	border-right: 1px solid #ddd;
+}
+.ctd-ticket-booking table .tab-peo b {
+	font-weight: normal;
+	color: #0065bb;
+}
+/*表格展示/隐藏*/
+.ctd-ticket-booking .TableDetail-btn i {
+	background: url(../../../images/hotel/hotel.png) 0 -30px;
+	margin-left: 5px;
+	height: 7px;
+	width: 12px;
+	display: inline-block;
+}
+.ctd-ticket-booking .TableDetail-btn.on i {
+	background: url(../../../images/hotel/hotel.png) 0 -42px;
+	margin-left: 5px;
+	height: 7px;
+	width: 12px;
+	display: inline-block;
+}
+.ctd-ticket-booking .show-TableDetail {
+	display: none;
+}
+.ctd-ticket-booking .TableDetail-box {
+	position: relative;
+	border: 1px solid #badeeb;
+	background: #f0fbff;
+}
+.ctd-ticket-booking .TableDetail-box p {
+	color: #666;
+	font-size: .9em;
+	line-height: 22px;
+}
+.ctd-ticket-booking .TableDetail-box i.arrow {
+	position: absolute;
+	top: -8px;
+	left: 30px;
+	display: block;
+	width: 15px;
+	height: 8px;
+	background: url(../../../images/hotel/hotel.png) -16px -30px;
+}
+.ctd-ticket-booking .TableDetail-back {
+	background: #e8f9ff;
+	border-top: 1px solid #badeeb;
+	height: 30px;
+	color: #0066cc;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer
+}
+.ctd-ticket-booking .TableDetail-back i {
+	background: url(../../../images/hotel/hotel.png) 0 -42px;
+	margin-left: 5px;
+	height: 7px;
+	width: 12px;
+	display: inline-block;
+}
+.ctd-ticket-booking .TableDetail-pane {
+	padding: 10px;
+}
+.ctd-ticket-booking .booking-but {
+	background: #fa6362;
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 2px 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.ctd-ticket-booking .booking-but a {
+	color: #FFF;
+}
+
+.ctd-ticket-list .listItem .user-con {
+	height: 40px;padding: 10px 0 20px 20px;
+	line-height: 20px;
+	overflow: hidden;
+	color: #666666;
+}
+.ctd-ticket-list .listItem .user-line {
+	color: #666;	
+}
+.ctd-ticket-list .listItem .user-line span {
+	padding: 0 5px;
+}
+.ctd-ticket-list .listItem .user-line a {
+	color: #666;
+}
+.ctd-ticket-list .listItem .user-line a:hover {
+	color: #1ba8df;
+	text-decoration: none;
+}
+.ctd-ticket-list .listItem .count-line {
+	padding: 0px 20px;padding-top: 10px;
+}
+.ctd-ticket-list .listItem .count-line span {
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	padding: 0 20px 0 30px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ff9a00;
+	color: #8f8f8f;
+	display: inline-block;
+	border-radius: 15px;
+}
+.ctd-ticket-list .listItem .count-line i {
+	display: inline-block;
+	position: absolute;
+	top: 7px;
+	left: 8px;
+	background: url(../../../images/hotel/hotel.png);
+	margin-right: 5px;
+}
+.ctd-ticket-list .listItem .count-line .icon-pic i {
+	background-position: -20px -200px;
+	width: 16px;
+	height: 16px;
+}
+.ctd-ticket-list .listItem .count-line .icon-comment i {
+	background-position: -40px -200px;
+	width: 16px;
+	height: 16px;
+}
+
+/* 门票详情页======================================================================== */
+.ctd-head-Ticket {
+	background: #fff;
+	height: 100px;
+	border-bottom: 1px solid #e4e4e4;
+	margin-bottom: 20px;
+}
+/* 门票详情 头部 */
+.ctd-title {
+	position: relative;
+	height: 80px;
+}
+.ctd-title h1 {
+	line-height: 80px;
+	padding-top: 10px;
+	font-size: 1.8em;
+	font-weight: normal;
+	color: #333333
+}
+.ctd-title h1 em {
+	display: inline-block;
+	float: left;
+	width: 10px;
+	height: 80px;
+	margin-right: 20px;
+	background: #0ba6d6;
+}
+.ctd-title .J-level {
+	height: 22px;
+	font-size: 12px;
+	padding: 2px 10px;
+	line-height: 22px;
+	color: #FFF;
+	background: #096;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+.ctd-title .J-mode {
+	padding: 2px 10px;
+	height: 22px;
+	font-size: 12px;
+	line-height: 22px;
+	color: #FFF;
+	background: #ff6e5c;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.ctd-title .J-price {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 300px;
+}
+.ctd-title .J-priceB {
+	float: right;
+	height: 80px;
+	padding: 0 20px;
+	background: #ff6e5c;
+	border-left: 1px solid #FFF;
+	cursor: pointer;
+}
+.ctd-title .J-priceB a {
+	display: block;
+	margin-top: 15px;
+	font-size: 1.1em;
+	color: #FFF;
+}
+.ctd-title .J-priceM {
+	float: right;
+	height: 80px;
+	padding: 0 10px;
+	text-align: center;
+	line-height: 80px;
+	background: #0ba6d6;
+	color: #FFF;
+}
+.ctd-title .J-priceM i {
+	font-size: 1.2em;
+}
+.ctd-title .J-priceM dfn {
+	font-size: 1.2em;
+}
+.ctd-title .J-priceM b {
+	font-size: 2em;
+}
+.ctd-title .J-priceA {
+	float: right;
+	height: 80px;
+	width: 40px;
+	background: url(../../../images/hotel/hotel.png) no-repeat right -0px;
+}
+/** 门票简介 图片/文字展示 **/
+
+.ctd-ticket-show {
+	height: 330px;
+	margin-bottom: 20px;
+}
+.ctd-ticket-show-img {
+	width: 600px;
+	float: left;
+}
+.ctd-ticket-show-txt {background:url(../images/bg-tick.jpg);
+	width: 580px;
+	height: 330px;
+	position: relative;
+	float: right;
+}
+.ctd-ticket-show-mask {
+	height: 330px;
+	width: 580px;
+	background: rgba(0,0,0,.8);
+}
+.ctd-ticket-show-txt .tag {
+	width: 95px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 95px;
+	font-size: 1.3em;
+	line-height: 60px;
+	text-indent: 5px;
+	color: #413400;
+	background: url(../../../images/hotel/hotel.png) no-repeat -517px 0;
+}
+.ctd-ticket-show-txt .int {
+	position: absolute;
+	top: 20px;
+	padding: 10px 30px 10px 50px;
+	color: #FFF;
+	font-size: 14px;
+	line-height: 32px;
+}
+.ctd-ticket-show-txt .way {
+	position: absolute;
+	top: 170px; padding-top:10px; 
+	left: 20px; width:540px; 
+	margin-right: 20px;
+	color: #FFF;
+	border-top: 1px dashed #a9a9a9;
+}
+.ctd-ticket-show-txt .way i {
+	display: block;
+	float: left;
+	width: 20px;
+	height: 30px;
+	font-size: 1.5em;
+	margin-top: 5px; margin-left:20px;
+	background: url(../../../images/hotel/hotel.png) 0 0;
+}
+.ctd-ticket-show-txt .way .citytit {
+	padding-left: 50px;
+	line-height: 22px;
+}
+.ctd-ticket-show-txt .time {
+	position: absolute;
+	top: 215px;
+	left: 20px;
+	padding: 10px 20px;
+	margin-right: 20px;
+}
+.ctd-ticket-show-txt .time i {
+	display: block;
+	float: left;
+	width: 20px;
+	height: 30px;
+	font-size: 1.5em;
+	margin-top: 5px;
+	background: url(../../../images/hotel/hotel.png) -55px 0;
+}
+.ctd-ticket-show-txt .time .citytit {
+	padding-left: 40px;
+	line-height: 22px;
+	font-size: 24px;
+	text-align: center;
+	color: #e7c437;
+}
+.ctd-ticket-show-txt .preview-a {
+	position: absolute;
+	padding-top: 10px;
+	top: 270px;
+	left: 20px;
+	width: 540px;
+	color: #FFF;
+	border-top: 1px dashed #a9a9a9;
+}
+.ctd-ticket-show-txt .a-sales {
+	text-align: center;
+	float: left;
+	width: 33%;
+	text-align: center;
+	color: #e44c45;
+	border-right: 1px solid #999;
+}
+.ctd-ticket-show-txt .a-score {
+	text-align: center;
+	float: left;
+	width: 33%;
+	text-align: center;
+	color: #2577e3;
+	border-right: 1px solid #999;
+}
+.ctd-ticket-show-txt .a-judge {
+	text-align: center;
+	float: left;
+	width: 33%;
+	text-align: center;
+	color: #ff6c00;
+	/*//background: url(/res/images/img/fk-ico.png) 0 -195px no-repeat;*/
+}
+/** 门票价格展示 **/
+.ctd-ticket-booking {
+	margin-top: 20px;
+}
+.ctd-ticket-booking .tab-nav {
+	background: #FFF;
+	border: 1px solid #dddddd;
+	border-bottom: 2px solid #0ba6d6;
+}
+.ctd-ticket-booking .tab-nav ul {
+	overflow: auto;
+	padding: 0;
+	margin: 0;
+}
+.ctd-ticket-booking .tab-nav li {
+	float: left;
+	height: 48px;
+	line-height: 48px;
+	font-size: 1.2em;
+	border-right: 1px solid #dddddd;
+}
+.ctd-ticket-booking .tab-nav a {
+	display: block;
+	padding: 0 50px;
+}
+.ctd-ticket-booking .tab-nav .current {
+	background: #0ba6d6;
+}
+.ctd-ticket-booking .tab-nav .current a {
+	color: #FFF;
+}
+.ctd-ticket-booking table {
+	padding: 0;
+	margin: 0;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	border-top: none;
+	background: #FFF;
+}
+.ctd-ticket-booking th {
+	padding: 10px 15px;
+	margin-bottom: 2px;
+	font-size: 14px;
+	color: #0065bb;
+	text-align: center;
+	font-weight: normal;
+	background: #f7f8fb;
+	border: 1px solid #ddd;
+}
+.ctd-ticket-booking td {
+	padding: 15px;
+	font-size: 14px;
+	color: #666;
+	border-top: 1px solid #ddd;
+	text-align: center;
+}
+.ctd-ticket-booking table .tab-peo {
+	border-right: 1px solid #ddd;
+}
+.ctd-ticket-booking table .tab-peo b {
+	font-weight: normal;
+	color: #0065bb;
+}
+/*表格展示/隐藏*/
+.ctd-ticket-booking .TableDetail-btn i {
+	background: url(../../../images/hotel/hotel.png) 0 -30px;
+	margin-left: 5px;
+	height: 7px;
+	width: 12px;
+	display: inline-block;
+}
+.ctd-ticket-booking .TableDetail-btn.on i {
+	background: url(../../../images/hotel/hotel.png) 0 -42px;
+	margin-left: 5px;
+	height: 7px;
+	width: 12px;
+	display: inline-block;
+}
+.ctd-ticket-booking .show-TableDetail {
+	display: none;
+}
+.ctd-ticket-booking .TableDetail-box {
+	position: relative;
+	border: 1px solid #badeeb;
+	background: #f0fbff;
+}
+.ctd-ticket-booking .TableDetail-box p {
+	color: #666;
+	font-size: .9em;
+	line-height: 22px;
+}
+.ctd-ticket-booking .TableDetail-box i.arrow {
+	position: absolute;
+	top: -8px;
+	left: 30px;
+	display: block;
+	width: 15px;
+	height: 8px;
+	background: url(../../../images/hotel/hotel.png) -16px -30px;
+}
+.ctd-ticket-booking .TableDetail-back {
+	background: #e8f9ff;
+	border-top: 1px solid #badeeb;
+	height: 30px;
+	color: #0066cc;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer
+}
+.ctd-ticket-booking .TableDetail-back i {
+	background: url(../../../images/hotel/hotel.png) 0 -42px;
+	margin-left: 5px;
+	height: 7px;
+	width: 12px;
+	display: inline-block;
+}
+.ctd-ticket-booking .TableDetail-pane {
+	padding: 10px;
+}
+.ctd-ticket-booking .booking-but {
+	background: #fa6362;
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 2px 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.ctd-ticket-booking .booking-but a {
+	color: #FFF;
+}
+/* 门票内容 展示======================================================================== */
+/* 门票展示 框架*/
+.ctd-ticketS-body {
+	padding-top: 20px;
+}
+.ctd-ticketS-body .ctd-side {
+	width: 260px;
+	float: right;
+}
+.ctd-ticketS-body .ctd-main {
+	width: 900px;
+	float: left;
+}
+/* 菜单 浮动置顶/切换/锚点定位 开始*/
+#ctd-tickets-box { height:50px; margin-bottom:15px;
+}
+#ctd-tickets-box .ctdF-Case {
+	width: 100%;
+}
+#ctd-tickets-box .J-relative {
+	position: relative;
+}
+#ctd-tickets-box .J-fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background: rgba(255,255,255,0.95);
+	border-bottom: solid 1px #E4E4E4;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+#ctd-tickets-box .ctdF-nav {
+	width: 1180px;
+	margin: 0 auto;
+	height: 50px;
+	position: relative;
+	z-index: 99;
+	color: #fff;
+	line-height: 50px;
+}
+#ctd-tickets-box .J-relative ul {
+	background: #FFF;
+	border: 1px solid #dddddd;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	margin: 0 auto;
+	list-style-type: none;
+}
+#ctd-tickets-box .J-fixed ul {
+	border: 0px solid none;
+}
+#ctd-tickets-box .ctdF-nav ul li {
+	float: left;
+	font-size: 1.2em;
+	margin-left: -1px;
+}
+#ctd-tickets-box .ctdF-nav ul li a {
+	display: block;
+	padding: 0px 50px;
+	height: 50px;
+	line-height: 50px;
+	color: #666666;
+	border-right: 1px solid #ddd;
+	text-decoration: none;
+}
+#ctd-tickets-box .ctdF-nav ul li a:hover {
+	color: #F60;
+}
+#ctd-tickets-box .ctdF-nav ul li.current a {
+	color: #FFF;
+	border-right: 1px none;
+}
+#ctd-tickets-box .ctdF-nav li.current {
+	background: #0ba6d6;
+	color: #fff;
+}
+#ctd-tickets-box .ctdF-nav li.current a:hover {
+	background: #0ba6d6;
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+}
+#ctd-tickets-box .PresetBtn {
+	display: none;
+}
+#ctd-tickets-box .ctdF-nav .btn {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 90px;
+	padding: 8px 15px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	display: none;
+}
+#ctd-tickets-box .ctdF-nav .btn, a.btn {
+	display: inline-block;
+	float: right;
+	padding: 9px 29px;
+	border: 1px solid #f90;
+	border-radius: 5px;
+	background-color: #ff6b59;
+	font-size: 1.1em;
+	color: #fff;
+	line-height: 1em;
+	text-decoration: none;
+	zoom: 1;
+}
+/* 门票内容*/
+.ctd-content {
+	padding-top: 30px;
+	background: #FFF;
+}
+/* 门票章节*/
+.ctd-chapter {
+	margin-bottom: 30px;
+	position: relative;
+}
+.ctd-anchor0 {/* 锚点占位符*/
+	position: absolute;
+	display: block;
+	top: -60px;
+	height: 1px;
+}
+.ctd-chapter .ctd-con {
+	margin: 20px 0;
+	padding: 0 30px 0 50px;
+}
+.ctd-chapter .ctd-con p {
+	line-height: 30px;
+}
+.ctd-chapter .ticketM-tit {
+	display: block;
+	cursor: default;
+}
+.ctd-chapter .ticketM-tit span {
+	height: 48px;
+	display: block;
+	line-height: 48px;
+}
+.ctd-chapter .ticketM-tit i {
+	display: block;
+	float: left;
+	width: 80px;
+	height: 48px;
+	padding-left: 48px;
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+}
+.ctd-chapter .ticketM-tit .detail-icon-t {
+	background: url(../../../images/common/aittoTravel-ico.png) no-repeat 0 -400px;
+}
+i.detail-icon-1, i.detail-icon-2, i.detail-icon-3, i.detail-icon-4 {
+	background: url(../../../images/common/aittoTravel-ico.png) no-repeat #11a1de;
+}
+.ctd-chapter .ticketM-tit i.detail-icon-1 {
+	background-position: -155px -500px;
+}
+.ctd-chapter .ticketM-tit i.detail-icon-2 {
+	background-position: -155px -540px
+}
+.ctd-chapter .ticketM-tit i.detail-icon-3 {
+	background-position: -155px -580px
+}
+.ctd-chapter .ticketM-tit i.detail-icon-4 {
+	background-position: -155px -620px;
+}

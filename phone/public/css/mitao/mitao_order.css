@@ -1,0 +1,72 @@
+/*-------------- 订单 头部 ----------------*/
+.orderpage .mt_order_head{padding:10px; background:#8cc641;}
+.orderpage .mt_order_head h2{font-size:18px;font-weight:bold !important; color:#FFF;}
+.orderpage .mt_order_head .active-time{color:#FFF;}
+.orderpage .mt_order_title{height:40px;padding:0 10px;font-size:18px;color:#8cc641;line-height:40px;}
+
+/*-------------- 订单 活动时间 ----------------*/
+.orderpage .mt_order_time{ margin-bottom:10px;}
+.orderpage .mt_order_time .probox{margin:0 10px;border:solid 1px #8cc641; border-radius:10px; background-color:#fff; width:120px; height:40px; padding:10px; text-align:center; position:relative; overflow:hidden;}
+.orderpage .mt_order_time .probox .prochk{position:absolute; right:0; bottom:0; background: url(/phone/public/images/mitao/ic-prochk.png); background-size: auto 20px; width:24px; height:20px;}
+.orderpage .mt_order_time .probox .data{font-size:16px;}
+
+
+/*-------------- 订单 数量选择 ----------------*/
+.orderpage .mt_order_num{ margin-bottom:10px;}
+.orderpage .mt_order_num .pay-num{background:#FFF; width:100%; border-top: solid 1px #eee;border-bottom: solid 1px #eee;}
+.orderpage .mt_order_num .pay-num td{padding:5px;border-bottom: solid 1px #eee; text-align:center;}
+.orderpage .mt_order_num .pay-num .money{background: url(/phone/public/images/mitao/money.png) no-repeat 0 4px; padding-left:12px;color: #ff931b; font-size:16px; background-size:auto 12px;}
+
+/*-------------- 订单 数量选择 ----------------*/
+.orderpage .people_num{ width:100px; margin:0 auto;}
+.orderpage .people_num a{color:#333;display:inline-block;width:30px;height:30px;line-height:30px;vertical-align:middle;font-size:2rem;text-align:center;}
+.orderpage .people_num input{color:#333;width:20px;height:30px;line-height:30px;text-align:center;border:0;}
+.orderpage .people_num .sub{ background:url(/phone/public/images/mitao/jbtn_minus_orange.png) no-repeat; background-size:30px; }
+.orderpage .people_num .add{background:url(/phone/public/images/mitao/jbtn_plus.png) no-repeat; background-size:30px;}
+
+/*-------------- 订单 衣服选择 ----------------*/
+.orderpage  .mt_order_clothes{background:#FFF; width:100%; border-top: solid 1px #eee;border-bottom: solid 1px #eee;}
+.orderpage  .mt_order_clothes p{ padding:10px;}
+
+/*-------------- 订单联系人信息 填写 ----------------*/
+.orderpage .mt_order_Contacts{ margin-bottom:10px;}
+.orderpage .mt_order_Contacts .form-group{position:relative; margin-top:-1px;border: 1px solid #e8e8e8; background:#fff;}
+.orderpage .mt_order_Contacts .form-group label{position: absolute; left: 1rem; top: 0; display: block; width: 4rem; height: 4.5rem; line-height:4.5rem;}
+.orderpage .mt_order_Contacts .form-group input{width: 95%; border:none; padding-right:1rem; height: 4.5rem; text-indent: 4.5rem; text-align:left;}
+
+/*-------------- 订单 协议合同 ----------------*/
+.orderpage .chkon{ margin-bottom:10px;}
+.orderpage .chkon{background: url(/phone/public/images/mitao/checkbox_on_green.png) no-repeat left center; background-size: auto auto; background-size: 20px auto; margin:5px 10px; padding-left: 25px; line-height: 25px;}
+
+/*-------------- 订单 预定按钮 ----------------*/
+.orderpage .bot-btn{position:fixed; left:0;height: 50px;line-height:50px; bottom:-1px; z-index:1; width:100%; overflow:hidden;}
+.orderpage .bot-btn .btnl{width:40%; float:left;background-color:rgba(20,20,20,0.9); color:#fff;}
+.orderpage .bot-btn .btnr{width:60%; float:right; background: #ffaf44; font-size:20px; color:#fff; text-align:center;}
+.orderpage .bot-btn .btnl i{float:left;}
+.orderpage .bot-btn .btnl .total{padding-left:10px; font-size:18px;}
+.orderpage .bot-btn .btnl .totalprice{font-size:18px;color: #ff931b;margin-left: 10px;background-image: url(/phone/public/images/mitao/money2.png); background-repeat:no-repeat;background-size: 12px; padding-left:15px; background-position:0 18px;}
+
+.pageCheck{ padding:0;}
+/** 页面头部 **/
+.pageCheck .ui-page-header{position: relative; z-index: 9999; width:100%; height: 4.5rem; background: #fff;border-bottom:1px solid #e8e8e8; margin-bottom:-1px;}
+.pageCheck .ui-page-header h1{height: 4.5rem; font-size: 1.8rem; line-height: 4.5rem; text-align: center;}
+/** 页面头部 功能按钮 **/
+.pageCheck .ui-page-back{position: absolute; top: 50%; left: 1rem; width: 2rem; height: 2rem; margin-top: -1rem; background: url(/phone/public/images/mitao/ui-page-back.png) no-repeat; background-size: 2rem;}
+
+/** 个人中心 设置 导航菜单**/
+.pageCheck .ui-myAdmin-setNav{background:#FFF; border-top:1px solid #e8e8e8; border-bottom:1px solid #e8e8e8;}
+.pageCheck .ui-myAdmin-setNav a{display:block;}
+.pageCheck .ui-myAdmin-setNav ul li{position:relative; padding:1.2rem; font-size:1.5rem; border-top:1px solid #e8e8e8;}
+.pageCheck .ui-myAdmin-setNav ul li:first-child{border:none;}
+.pageCheck .ui-myAdmin-setNav .ui-page-in{display:inline-block; float:right; width:2rem; height:2rem; background: url(/phone/public/images/mitao/ui-page-in.png) no-repeat; background-size:2rem;}
+.pageCheck .ui-myAdmin-setNav .ui-server-tel{margin-left:1rem; color:#ef2f24;}
+.pageCheck .ui-myAdmin-setNav .ui-server-time{display:inline-block; float:right; margin-top:.2rem; margin-right:.2rem; font-size:1.4rem; color:#999;}
+
+/** 个人中心 设置 导航菜单**/
+.pageCheck .check-article{ background:#FFF;}
+.pageCheck .check-article .check-article-innner{ padding:15px;}
+.pageCheck .check-article .check-article-innner p{ line-height:26px; margin-bottom:10px;}
+
+/*-------------- 日历选择 ----------------*/
+
+

@@ -1,0 +1,929 @@
+3600
+s:50219:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>秦皇岛祖山、冰糖峪、金龙温泉三日游——秦皇岛旅游景区大全,秦皇岛周边三日游,攻略-旅游</title>
+  <!-- 页面公用 public CSS 文件 -->
+  <link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css" rel="stylesheet"  />
+  <link type="text/css" href="/min/?f=/res/css/mycss/strategy/Trategy.css" rel="stylesheet"  />
+  <script type="text/javascript"src="/min/?f=/res/js/common/jquery-1.11.3.min.js,/res/js/common/bootsAitto-min.js"></script>
+  <script type="text/javascript"src="/min/?f=/res/js/strategy/Trategy.js"></script>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?f968b43cd6404299f54d25d87c3bbe3a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script></head>
+<body class="Color-fafafa" >
+<!-- 登陆代码 开始 -->
+
+<link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css" rel="stylesheet"  />
+<header>
+    <div id="commonHead">
+        <div id="commonWarp">
+            <div class="logo" style="cursor:pointer;" onclick="window.location.href='http://www.aitto.net'" ></div>
+        <div class="nav">
+                <ul>
+                    <li class="current st-menu">
+                        <a href="/">首页                        </a>
+                    </li>
+                                                            <li class="st-menu"><a href="http://www.aitto.net/destination/">目的地</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/raiders/">攻略</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/notes/">游记</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/spots/">门票</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/lines/self">自驾游</a></li>
+                                        
+                </ul>
+            </div>
+              <div class="head-search">
+            <div class="head-search-wrapper">
+                <div class="head-searchform">
+                    <input id="_j_head_search_input" type="text" value="" placeholder="搜索攻略">
+                    <a role="button" href="javascript:" class="icon-search" id="_j_head_search_link" onclick=""></a> </div>
+            </div>
+        </div>
+                  <div class="login-info">
+                <div class="userLogin" id="loginstatus">
+                </div>
+                <div class="head-user drop-trigger" id="-j-head-user">
+                    <a class="" href="#">
+                        <div class="user-ico"></div>
+                        <i class="icon-caret-down"></i>
+                    </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">会员中心</h2>
+                        <div class="dropdown-menu" >
+                            <ul>
+                                <li class="icon-home"><a href="/member/"><i></i>会员首页</a></li>
+                                <li class="icon-order"><a href="/member/order/all"><i></i>我的订单</a></li>
+                                <li class="icon-writenotes"><a href="/member/index/mynotes"><i></i>我的游记</a></li>
+                                <li class="icon-jifen"><a href="/member/index/jifen"><i></i>我的积分</a></li>
+                                <li class="icon-Personal"><a href="/member/index/userinfo"><i></i>个人中心</a></li>
+                                <li class="icon-traveller"><a href="/member/index/linkman"><i></i>常用旅客</a></li>
+                                <li class="icon-logout"><a href="/member/login/loginout"><i></i>退出登录</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-code drop-trigger" id="-j-head-code" > <a class="" href="#">
+                        <div class="code-ico"></div>
+                        <i class="icon-caret-down"></i> </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+                        <div class="drop-con">
+                            <div class="WeChat"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</header>
+<script type="text/javascript">
+    //JQuery
+    $(document).ready(function(){
+        $(document).on("click",
+            function(e) {
+                isActive = $(e.target).parent().attr("class");
+                var  typeid= "4";
+                if (isActive=='head-searchform') {
+                    if(typeid==101){
+                          $(".head-search-focus").css('width',"345px");
+                          $(".head-search-focus .head-searchform input").css('width',"323px");
+                    }
+                    if(typeid==5){
+                        $(".head-search-focus").css('width',"285px");
+                        $(".head-search-focus .head-searchform input").css('width',"263px");
+                    }
+                }
+                else {
+                    if(typeid==101||typeid==5){
+                        $(".head-searchform input").css('width',"108px");
+                        $(".head-search-wrapper").css('width',"130px");
+                    }
+                    $(".head-search-wrapper").removeClass("head-search-focus");
+                }
+            })
+        $("#_j_head_search_input").click(function(){
+            $(".head-search-wrapper").addClass("head-search-focus");
+        });
+    });
+</script>
+<script type="text/javascript"src="/min/?f=/res/js/SuperSlide.min.js,/res/js/base.js,/res/js/common.js,/res/js/myjs/bootstrap.min.js,/res/js/myjs/jquery.select.js,/res/js/common/bootsAitto-min.js"></script>
+<script>
+    var SITEURL = "/";
+    function optionChecked(obj){
+        var typeid = $(obj).attr('data-id');
+        var durl = $(obj).attr('data-url');
+       // alert(typeid+"["+durl);
+        $("#typename").attr('data-id',typeid);
+        $("#typename").attr('data-url',durl);
+    }
+    //====================07.05  s
+    $("a[name=myorder]").click(function(){
+        var  url1 =SITEURL+'member/order/all';//SITEURL 为 '/'
+        var  url =SITEURL+'member/login?redirecturl='+url1;
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status==0){
+                    alert("请先登录");
+                   window.location.href =url;
+                }else{
+                    window.location.href =url1;
+                }
+            }
+        })
+    });
+    //====================07.05  e
+    $(".weixin").mouseover(function(){
+        //  $(this).addClass("hover");
+        $(this).children(".dropdown1").show()
+    });
+    $(".weixin").mouseout(function(){
+        // $(this).removeClass("hover");
+        $(this).children(".dropdown1").hide()
+    });
+   //
+    $(function(){
+        var typeid  = "4";
+        $("#_j_head_search_input").keydown(function(e){
+            if(e.keyCode==13){
+                $('#_j_head_search_link').click();
+            }
+        });
+        $(".searchmodel li:first").trigger('click');
+        //search
+        $('#_j_head_search_link').click(function(){
+            var keyword = $('#_j_head_search_input').val();
+            if(keyword == ''){
+                alert("请输入内容");
+                $("#_j_head_search_link").focus();
+                return false;
+            }
+//            var typeid = $("#typename").attr('data-id');
+//            var durl = $("#typename").attr('data-url');
+//            if(typeid==0 || typeid==8){//0  是全部  8是 签证
+//                var url = SITEURL+'search/cloudsearch?keyword='+encodeURIComponent(keyword)+"&typeid="+typeid;
+//            }else{
+//                var url = "http://www.aitto.net"+durl+'all?keyword='+encodeURIComponent(keyword);
+//            }
+            if(typeid==4){
+                var url = "http://www.aitto.net"+"/raiders/"+'all?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==101){
+                var url = "http://www.aitto.net"+"/notes/list"+'?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==5){
+                var url = "http://www.aitto.net"+"/spots/"+'all?keyword='+encodeURIComponent(keyword);
+            }
+            location.href = url;
+        })
+        //导航的选中状态
+        $(".st-menu a").each(function(){
+            $(".st-menu").removeClass('current');
+            var url= window.location.href;
+            // url=url.replace('index.php','');
+            //url=url.replace('index.html','');
+            var urlArr = url.split("/");
+            var ulink=$(this).attr("href");
+            var urlLinkArr = ulink.split("/");
+             //  定义目的地拼音
+            var pinyin  ="";
+            var  sss   = urlArr[3].split("?");
+            var   p    = sss[0];
+         console.log(urlArr[3]);
+        // console.log(urlLinkArr[3]);
+            if(urlArr[3]==urlLinkArr[3])
+            {
+                $(this).parents('li').addClass('current');
+                return false;
+            }else if(pinyin==p&&urlLinkArr[3]=='destination'&&pinyin.length!=''){
+                $(this).parents('li').addClass('current');
+                return false;
+            }
+            else{
+                if(urlArr[3]!='member'){
+                    $(".st-menu").first().addClass('current');
+                }
+            }
+        })
+        //登陆状态
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status){
+                    $txt = '<a class="dl" style="padding:0" href="javascript:;">你好,</a>';
+                    $txt+= '<a class="dl" href="/member/">'+data.user.nickname+'</a>';
+                    $txt+= '<a class="dl" href="/member/login/loginout">退出</a>';
+                    //$txt+= '<a class="dl" href="/member">个人中心</a>';
+                    $txt = '您好:<a href="/member/">'+data.user.nickname+'</a>';
+                }else{
+                    //$txt = '<a class="dl" href="/member/login">登录</a>';
+                    // $txt+= '<a class="zc" href="/member/register">免费注册</a>';
+                    $txt = '&nbsp;&nbsp;&nbsp;&nbsp;<a href="/member/login">登录</a> | <a href="/member/register">注册</a>';
+                }
+                $("#loginstatus").html($txt);
+            }
+        })
+    })
+</script>
+<script>
+    var s  = 3;
+</script><!-- 登陆代码 结束 -->
+<div class="notebox"></div>
+<section> 
+  <!-- 面包屑 开始 -->
+  <div  class="BreadCrumb">
+    <ul >
+      <li><a href="/">首页<i class="icon-gt">&gt;</i></a></li>
+      <li><a href="/raiders">攻略<i class="icon-gt">&gt;</i></a></li>
+      <li class="current"><a href="#">攻略正文</a></li>
+    </ul>
+    <div class="clearfix"></div>
+  </div>
+  <!--  面包屑 结束 --> 
+</section>
+<div class="ctd-TrategyFloat-nav">
+  <div class="nav-warp">
+    <div class="nav-title"> <span class="home"><a href="#"><em></em></a></span> <span class="nav-h2">秦皇岛祖山、冰糖峪、金龙温泉三日游</span> </div>
+    <div class="ui-navArea-btn ">
+      <ul>
+        <li class="link-share bdsharebuttonbox" data-tag="share_1"><a href="javascript:;" class="ui-btn bds_more" title="一键分享" rel="nofollow" style="cursor:auto" data-cmd="more" onclick="shareStyle(this)" onmouseout="reStyle(this)" onmouseover="shareStyle(this)">&nbsp;分享</a></li>
+        <li class="link-like"><a href="javascript:" class="ui-btn link_like" data-link="2" data-id="293"><i></i><span class="ui-btn-text">喜欢<b>(0)</b></span></a></li>
+        <li class="link-comment" onclick="foc()"><a href="javascript:void (0)" class="ui-btn"><i></i><span class="ui-btn-text" >评论<b>(0)</b></span></a></li>
+        <li class="link-browse"><a href="javascript;" class="ui-btn"><i></i><span class="ui-btn-text">浏览<b>(5320)</b></span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+  //  设置 页面的  划词 和图片分享
+  /*
+   百度 分享bdUrl 里面的地址不能拿带 http://www
+   亲测  火狐下 将按这个地址 跳转
+   */
+  window._bd_share_config={
+    common:{
+      bdText : "秦皇岛祖山、冰糖峪、金龙温泉三日游",
+      bdDesc : "这攻略写得太棒了！",
+      bdUrl  : "aitto.net/raiders/show_288.html",
+      bdPic  : "aitto.net/new_uploads/2016/1121/d1714c90cd0f9f199c0234e74fba3618.jpg",
+      bdMini :2,
+      "onBeforeClick" :function(cmd,config){
+        //  user 在用户点击分享按钮时执行代码，更改配置。
+        //  cmd为分享目标id，config为当前设置，返回值为更新后的设置。
+      },
+      "onAfterClick" : function(cmd){
+        //在用户点击分享按钮后执行代码，cmd为分享目标id。可用于统计等
+      }
+    },
+    share:[{
+      tag : "share_1",
+      bdCustomStyle:"/res/css/mycss/strategy/TravelNotes2.css"
+    }
+    ],
+    image:{
+      viewList:'',
+      viewText:"分享到：",
+      viewSize:"24"},
+    selectShare:{
+      bdContainerClass:null,
+      bdSelectMiniList:["qzone","tsina","tqq","renren","weixin"]
+    }
+  };
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+  function shareStyle(th){
+    $(th).css({
+      'padding-left': '2px',
+      'width': '66px',
+      'height':"100%",
+      'margin' :"0px 0px",
+      'color' : 'white',
+      'float': 'left',
+      'font-size': '13px',
+      'line-height': '89px',
+      'background-image': 'url(/res/images/TravelNotes/travelNotes2.png)',
+      'background-repeat': 'no-repeat',
+      'background-position-x':  '28px',
+      'background-position-y': '5px'
+    })
+  }
+  function reStyle(th){
+    $(th).css({
+      'padding-left': '2px',
+      'width': '66px',
+      'height':"100%",
+      'margin' :"0px 0px",
+      'color' : '#666',
+      'float': 'left',
+      'font-size': '13px',
+      'line-height': '89px',
+      'background-image': 'url(/res/images/TravelNotes/travelNotes2.png)',
+      'background-repeat': 'no-repeat',
+      'background-position-x':  '28px',
+      'background-position-y': '-30px'
+    })
+  }
+</script>
+<div class="container">
+  <section>
+    <div class="ctd-head-TrategyNotes"><img src="/new_uploads/2016/1121/d1714c90cd0f9f199c0234e74fba3618.jpg" width="100%">
+      <div class="ctd-mask"></div>
+      <div class="ctd-info">
+        <div class="user-img"><img src="/uploads/2016/0622/a0ea06fff12b4877a91ea7ed33b87f57.png" ></div>
+        <div class="user-info">
+          <h2>秦皇岛祖山、冰糖峪、金龙温泉三日游</h2>
+          <div class="user-bot">
+            <div class="user-l">
+              <span class="user-data">21/Nov.2016</span>
+              <span class="user-name">飒飒</span>
+              <span class="user-lv">LV 8</span><span class="user-num">108篇攻略</span>
+            </div>
+            <div class="user-r">
+              <span class="link-box">
+<!--                <a class="link-share bds_more" href="javascript:;" > <i></i>分享 </a>-->
+                <a class="link-like link_like" href="javascript:;" data-id="293"  title="喜欢就点击一下"> <i></i>喜欢<span>0</span> </a>
+                <a class="link-comment" href="javascript:;"  title="我要评论" onclick="foc()"><i></i>评论<span>0</span></a>
+                <a class="link-browse" href="javascript:;"> <i></i> 浏览 <span>5320</span> </a> </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="ctd-Travel-body">
+      <div class="ctd-Travel-nav">
+        <div class="sideToolbar">
+          <div class="sideCatalog">
+            <div class="ebn-button-box" style="display: block;bottom: -55px">
+              <a class="ebn-button ebn-button-up sideCatalog-up-disable" href="javascript:;"></a>
+              <a class="ebn-button ebn-button-down sideCatalog-down-enable"  href="javascript:;"></a>
+            </div>
+            <div class="ebn-Catalog"></div>
+            <div class="sideCatalog-catalog">
+              <dl>
+              </dl>
+            </div>
+            <!--<div class="ebn-tip ebn-tip-bottom" style="display: block;">
+            <div class="ebnt-point"><i></i></div>
+            <div class="ebnt-day"><i></i>大理环海铁佛寺驿</div>
+          </div>   --> 
+          </div>
+        </div>
+      </div>
+      <div class="ctd-Travel-article">
+        <div class="ctd-content">
+          <div class="ebma-chapter ebma-preface"> <a class="ebma-anchor0" href="#" id="p0"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">旅游概况</span></h4>
+            <ul class="Survey">
+              <li class="time"><i></i><span>目的地： 抚宁县、青龙县</span></li>
+              <li class="day"><i></i><span>出行天数： 3天</span></li>
+              <li class="cost"><i></i><span>人均花费： 800元</span></li>
+              <li class="people"><i></i><span>最佳出游时间：全年</span></li>
+              <li class="jingqu"><i></i><span>景点：冰糖峪、祖山、金龙温泉度假村</span> </li>
+              <div class="clearfix"></div>
+            </ul>
+          </div>
+          <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p1"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">景区简介</span></h4>
+            <div class="ebma-con">
+              <p><img src="/new_uploads/2016/1121/67731a92aaef15751fa7e23e37a1eca3.png" alt="" title=""/></p><p>从石家庄出发前往秦皇岛冰糖峪、祖山、金龙温泉度假村，三天两夜，人均消费800元。</p><p><strong>第一天：冰糖峪景区</strong></p><p>冰糖峪位于河北省秦皇岛抚宁县大新寨镇境内，有“南有九寨沟，北有冰塘峪”之美称。</p><p><img src="/new_uploads/2016/1121/8df95137a21e4c4897fc801e5f03a145.png" alt="" title=""/></p><p><strong>第二天：祖山风景区</strong></p><p>祖山位于秦皇岛青龙县境内，其最高峰为少女峰。这里山势非常雄伟，有很多奇石都形态各异，姿态万千。</p><p><img src="/new_uploads/2016/1121/06fb80a9ae35258859aaee2083387f83.jpg" alt="" title=""/></p><p><strong>第三天：金龙温泉度假村</strong></p><p>金龙温泉度假村内设有全天候天然温泉休闲中心，冲浪浴、泡泡浴、涌泉浴、水压按摩床应有尽有；还建有室内外大型特环游泳、豪华休闲厅、高档客房、健身房、乒乓球室、人工垂钓园及大型多功能厅。</p><p><img src="/new_uploads/2016/1121/76490fee8bbc85ab64df3255e3ceec42.jpg" alt="" title=""/>​</p>            </div>
+          </div>
+          <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p2"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">交通路线</span></h4>
+            <div class="ebma-con">
+              <p><img src="/new_uploads/2016/1121/610b9c29cac412201a4774333b2ad10f.png" alt="" title=""/></p><p><strong>自驾路线：</strong></p><p>石家庄——京石高速——荣乌高速——京沪高速——滨保高速——唐津高速——京哈高速——S261——冰糖峪——S261——石门寨连接线——金龙温泉度假村——组山线——祖山风景区。全程约560公里，自驾约6.5小时。</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p4"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">时间安排</span></h4>
+          </div>
+          <div><p><strong>第一天：路上、冰糖峪</strong><br/></p><p>早上从石家庄出发，中午到达冰糖峪景区，下午游览冰糖峪，晚上前往祖山风景区入住。</p><p><strong>第二天：祖山风景区</strong></p><p>早餐后游览祖山风景区，晚上入住在金龙温泉度假村。</p><p><strong>第三天：金龙温泉度假村、回程</strong></p><p>上午在金龙温泉度假村内游览、泡温泉，午餐后返回石家庄。</p><p><img src="/new_uploads/2016/1121/2492f028cb0d59bb8b53a8ed2cfccd03.jpg" alt="" title=""/>​</p> </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p5"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">DAY1：冰糖峪</span></h4>
+          </div>
+          <div> </div>
+                              <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p5-0"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">玩什么</span></h4>
+            <div class="ebma-con">
+              <p>冰糖峪位于河北省秦皇岛抚宁县大新寨镇境内，素有：“南有九寨沟，北有冰塘峪”之美称。<br/></p><p><img src="/new_uploads/2016/1121/0623e117a995a548fc111a529e7c1035.jpg" alt="" title=""/><img src="/new_uploads/2016/1121/7d5897640ec59b828bd5bd9720774319.jpg" alt="" title=""/></p><p>据说在那里夏天的冰糖里结了冰，冬天的冰糖里冒着热气，是个冬暖夏凉的胜地。名副其实是个天公缔造的景观，峡谷里都是藤林。</p><p><img src="/new_uploads/2016/1121/5a4c3e02a28f87b34baa8549fde76517.jpg" alt="" title=""/><img src="/new_uploads/2016/1121/252a75db8a21b590c5b40f0bc87a2024.jpg" alt="" title=""/></p><p>冰糖峪是一条山峰秀丽，环境优静的峡谷，置身其中有一种处于世外桃园的感觉。</p><p><img src="/new_uploads/2016/1121/2c4c257a4de6e365d1ad1be6d9478e0f.jpg" alt="" title=""/><img src="/new_uploads/2016/1121/c1bd9663883346c2035668aa1f4fa7a5.jpg" alt="" title=""/></p><p>让人惊奇的是此处还有一地址奇观憾为人知，在每年的四月下旬至七月下旬从地底下冷气向上冒出，在地面遇到湿气凝结成冰，每年夏天这里就是老乡的天然冰箱。</p><p><img src="/new_uploads/2016/1121/2eb5c26e30d96ca3da14f78bfdd1dd46.jpg" alt="" title=""/><img src="/new_uploads/2016/1121/9fa5c3c2a720f30b17e61ee1078fb7cf.jpg" alt="" title=""/></p><p>而到冬天，冰却消失的无影无踪，而从地下却冒出了温暖的湿气。</p><p><img src="/new_uploads/2016/1121/92ee680d6dae7beeecfaca2fa6bb9b6d.jpg" alt="" title=""/><img src="/new_uploads/2016/1121/201c1d906ec325619efeeb141b05371b.jpg" alt="" title=""/>​</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p5-1"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">吃什么</span></h4>
+            <div class="ebma-con">
+              <p>景区内有农家院，可在农家院就餐，老甏肉是抚宁地区的特色美食，建议品尝。<br/></p><p><img src="/new_uploads/2016/1121/5aa564570533c5b227f722a7967d4bb6.jpg" alt="" title=""/>​</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p5-2"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">住哪里</span></h4>
+            <div class="ebma-con">
+              <p>由于第二天要早起游览祖山景区，所以建议下午游玩完毕前往祖山风景区入住。</p><p><img src="/new_uploads/2016/1121/961cb372870d193145c3f4cb1407c2d3.jpg" alt="" title=""/>​</p>            </div>
+          </div>
+                                        <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p6"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">DAY2：祖山风景区</span></h4>
+          </div>
+          <div> </div>
+                              <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p6-0"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">玩什么</span></h4>
+            <div class="ebma-con">
+              <p>祖山位于秦皇岛青龙县境内，景区内有奇险的山景和明秀的水景，春天可以看到满山鲜花；夏天有潺潺的泉水；秋天则看满山红叶，景色非常绚丽；而冬天这里一片银装素裹的景色。</p><p><img src="/new_uploads/2016/1121/ff4de59e9039482d5d785c277f017102.jpg" alt="" title=""/></p><p>这里山势非常雄伟，有很多奇石都形态各异，姿态万千。</p><p><img src="/new_uploads/2016/1121/a3247c4d01fa6839e3ae0e80774b16f1.jpg" alt="" title=""/></p><p>祖山有东门、北门和西门三个门，东门是距秦皇岛最近的一个门。进门便是风景最美的十里画廊，这里两旁的山势峥嵘，奇峰迭出，这也是去祖山的游客首选的山门。</p><p><img src="/new_uploads/2016/1121/7ffe85b572c5b5d2336a581e9ea3ff90.jpg" alt="" title=""/></p><p>北门的景色相对东门逊色一些，从北门上去可直达景区中心望海寺景区。由于山路比较险，所以不允许自驾车进山，而且沿途景色平平。进北门后，景区内有观光车接送至北天门，游客可从此开始爬王母峰、天女峰。</p><p><img src="/new_uploads/2016/1121/fc94712a1e9912089ff88f9ee3a09d8f.png" alt="" title=""/></p><p>而祖山的西门，即花果山景区，虽然为祖山的一个分景区，但是单独售票。此处目前处于开发的初始阶段，游客较少。</p><p><img src="/new_uploads/2016/1121/5d87db8ba1d50830694a5ea913f94850.png" alt="" title=""/></p><p>景区内的景点很多，主要景点有十里画廊、天女木兰谷、情人谷、望海寺、天女云床、空中草原等。</p><p><img src="/new_uploads/2016/1121/459ba57993e5b39e54099126696f3cc6.jpg" alt="" title=""/></p><p>一日游可从东门开始玩起，景区内有观光车，可以步行，也可以坐观光车游览。一路可以看苇子峪长城、地质植物科普基地。</p><p><img src="/new_uploads/2016/1121/8b93c24fe74db80542a45a2ae1e73883.png" alt="" title=""/></p><p>之后从山下至山下一路的景色被誉为“十里画廊”，体力有限的游客可以在十里画廊坐缆车上下山，如果不愿坐缆车的，步行上山约3个多小时。</p><p><img src="/new_uploads/2016/1121/aa6e94fa8e30b0fd3d8eb7a6a929c474.png" alt="" title=""/></p><p>到达山上可在山上的祖山宾馆用餐，也可自带食物。</p><p><img src="/new_uploads/2016/1121/032a1b6fc59be5a73321fc2661216734.png" alt="" title=""/></p><p>午餐后，前往情人谷观八戒岩，之后一路可看万寿山、迎客松和无字碑，然后返程。</p><p><img src="/new_uploads/2016/1121/8d20a26bfb39ea64ab30d4152bc325cb.jpg" alt="" title=""/>​</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p6-1"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">吃什么</span></h4>
+            <div class="ebma-con">
+              <p>到达山上可在山上的祖山宾馆用餐，也可自带食物。</p><p><img src="/new_uploads/2016/1121/446ba2e5e0ed34201f3e7efc09fc1844.png" alt="" title=""/>​</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p6-2"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">住哪里</span></h4>
+            <div class="ebma-con">
+              <p>下午从祖山景区出来直接奔赴金龙温泉度假村，晚上入住在度假村内。<br/></p><p><img src="/new_uploads/2016/1121/bcb185b047e19e6f8785846668d75fcb.jpg" alt="" title=""/>​</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p6-3"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">买什么</span></h4>
+            <div class="ebma-con">
+              <p>该地板栗栽培历史悠久，果粒整齐、色泽新鲜、风味甘甜、糯性独特。<br/></p><p>​<img src="/new_uploads/2016/1121/b18e7157743a57f2ba753daca587d3ee.jpg" alt="" title=""/>​</p>            </div>
+          </div>
+                                        <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p7"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">DAY3：金龙温泉度假村</span></h4>
+          </div>
+          <div> </div>
+                              <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p7-0"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">玩什么</span></h4>
+            <div class="ebma-con">
+              <p style="white-space: normal;">金龙温泉度假村位于秦皇岛市抚宁县温泉堡，源水产自底下174米，出水温度42℃，属硫、硅、钠类矿物温泉，泉水是由数百年前的大气降水透过2公里的地壳断层，混入高热高压岩浆中，再经过反复渗透汇聚而形成。</p><p style="white-space: normal;"><img src="http://www.aitto.net/uploads/arcimgs/79361479707581.jpg" alt="" title=""/></p><p style="white-space: normal;">由于其富含特殊微量矿物质并具有强大的渗透性，因此，对各种皮肤病、心脑血管病、风温、糖尿病等具有明显疗效，在美化皮肤、养颜瘦身、舒缓神经等方面也被广泛应用。</p><p style="white-space: normal;"><img src="http://www.aitto.net/uploads/arcimgs/30571479707581.png" alt="" title=""/></p><p style="white-space: normal;">度假村内设有全天候天然温泉休闲中心，冲浪浴、泡泡浴、涌泉浴、水压按摩床应有尽有。</p><p style="white-space: normal;"><img src="http://www.aitto.net/uploads/arcimgs/36761479707581.jpg" alt="" title=""/></p><p style="white-space: normal;">还建有室内外大型特环游泳、豪华休闲厅、高档客房、健身房、乒乓球室、人工垂钓园及大型多功能厅。</p><p style="white-space: normal;"><img src="http://www.aitto.net/uploads/arcimgs/76591479707581.png" alt="" title=""/>​</p><p style="white-space: normal;">春可寻芳、夏可纳凉、秋可赏山、冬可踏雪，四季领略天然温泉的温情与浪漫！</p><p style="white-space: normal;"><img src="http://www.aitto.net/uploads/arcimgs/23351479707581.png" alt="" title=""/>​</p><p>​<br/></p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p7-1"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">吃什么</span></h4>
+            <div class="ebma-con">
+              <p style="white-space: normal;">度假村内有独树一帜的乡间野味餐厅，可同时接等200人就餐，可体验一番。</p><p style="white-space: normal;"><img src="http://www.aitto.net/uploads/arcimgs/67101479707599.jpg" alt="" title=""/>​</p>            </div>
+          </div>
+                                        <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p8"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">小贴士</span></h4>
+          </div>
+          <div><p>1、四季皆宜，各季风景不同。<br/></p><p>2、由于部分山势较陡，不适合老人小孩游览。</p><p>3、冰糖峪景区门票30元；祖山风景区门票80元，景区缆车单程60元，双程100元；金龙温泉度假村门票280元，含温泉以及住宿。</p><p>4、山中气温比平地低，建议带一些厚衣服。</p><p>5、患有高血压、心脏病等疾病以及孕妇等特殊人群不适合泡温泉，建议个人根据自己的体质选择性游玩。</p> </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p9"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">看别人怎么说</span></h4>
+          </div>
+          <div><p><img src="/new_uploads/2016/1121/bb7e9fdc1deb181957ab2e8de0339db0.png" alt="" title=""/><img src="/new_uploads/2016/1121/a9a2c60e4268bed37539b70614a1d007.png" alt="" title=""/></p><p><img src="/new_uploads/2016/1121/9235c2482b3c0907d2a99442d5dcd809.png" alt="" title=""/>​</p> </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p10"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">小编说</span></h4>
+          </div>
+          <div><p>冰糖峪景区有山有水，景色很美，老少皆宜，不愧是北方的九寨沟。冰糖峪的原始森林种类丰富、植物繁茂，山形千奇百怪、怪石林立，水色呈碧绿色，水质完全洁净，可以直接饮用。祖山风景区最大的亮点就是天女木兰花，属于国家重点保护植物，祖山海拔挺高，一千四百多米。风景非常不错，植被覆盖率比较高，空气清新，天然的氧吧。游览完名川秀水，在温泉堡的金龙温泉泡泡温泉、休息休息十分不错，欣赏着度假村内的优美风景，多日的疲劳也会一扫而光。</p><p><br/></p> </div>
+                              <div class="ctd-theend"></div>
+        </div>
+        <div class="ctd-comment">
+          <div class="TicketM-Tit"> <span> <i class="detail-icon-4"> 用户点评 </i> <i class="detail-icon-t"> </i> </span></div>
+          <div class="ebmc-content">
+            <div class="ebm-title">发表评论</div>
+            <div class="nchcomments-box">
+              <a title="" class="nchimg">
+                <img src="/uploads/main/allimg/20150923/20150923143441.jpg">
+              </a>
+              <div class="nchtextarea right">
+                <i class="tip-icon--left-sangle"></i>
+                <textarea class="ebmc-textarea" id="report_area" cols="30" rows="10" maxlength="500" placeholder="喜欢这篇攻略吗？说点什么吧..." onkeyup="zifu(this)"></textarea>
+                <span class="tbmac-tip tbmac-tip-normal">已输入<b><em>0</em>/500</b>字</span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="ebmc-info"> <a href="javascript:;" class="ebmc-button tj-btn">评论</a> </div>
+          </div>
+          <div class="ebmc-list">
+            <ul id="result_list">
+            </ul>
+            <div class="pages Pagination" >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ctd-Travel-sider">
+        <div class="notes-box">
+          <div class="side-box side-About">
+            <div class="wy-notice-img"><i></i><span>305</span>篇攻略</div>
+            <div class="wy-notice-btns">
+              <a href="/notes/WRITE/" class="Publish-Travels" rel="nofollow" target="-blank">
+                <i class="icon icon-publish"></i>发游记</a>
+              <a href="javascript:" rel="nofollow" id="com"><i class="icon icon-comments"></i>写点评</a>
+            </div>
+          </div>
+          <div class="side-box sid-Recommend">
+            <h4>河北全攻略</h4>
+            <ul>
+                            <li>
+                <a target="_blank" href="" title="承德京北第一草原一日游">
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/1010/795b71e88de53e90211e0060ad321d36.gif"/></div>
+                <div class="note-con">
+                  <h5>承德京北第一草原一日游</h5>
+                  <div class="note-name"><span>Andy</span>&nbsp;&nbsp;2017-10-09 </div>
+                </div>
+                </a>
+              </li>
+                            <li>
+                <a target="_blank" href="" title="张家口沽源塞外庄园一日游">
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/1009/db1977b305615506f59a213f57c3f69c.jpg"/></div>
+                <div class="note-con">
+                  <h5>张家口沽源塞外庄园一日游</h5>
+                  <div class="note-name"><span>艾小漠</span>&nbsp;&nbsp;2017-10-09 </div>
+                </div>
+                </a>
+              </li>
+                            <li>
+                <a target="_blank" href="" title="茅荆坝原始森林谷一日游">
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/1009/2c364b7d2f08e8aa51eabb7137bf33d9.gif"/></div>
+                <div class="note-con">
+                  <h5>茅荆坝原始森林谷一日游</h5>
+                  <div class="note-name"><span>Andy</span>&nbsp;&nbsp;2017-10-09 </div>
+                </div>
+                </a>
+              </li>
+                          </ul>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+</div>
+
+<div style="clear: both"></div>
+<div class="footer">
+  <!-- 网站底部 开始-->
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-r">
+        <div class="code">
+          <p><img src="/res/images/erweima.jpg"></p>
+          <h3>河北旅游网微信公众号</h3>
+        </div>
+        <div class="code">
+          <p><img src="/res/images/erweima2.jpg"></p>
+          <h3>米淘亲子游微信公众号</h3>
+        </div>
+      </div>
+      <ul class="footer-l">
+        <li>
+          <h2>联系我们</h2>
+          <p>全国统一客服电话：<span>0311-87885822</span></p>
+          <p>意见邮箱：3011930149@qq.com</p>
+        </li>
+        <li class="ab-list"><h2>关于我们</h2>
+                              <a href="http://www.aitto.net/servers/index_1.html">关于我们</a>
+                    <a href="http://www.aitto.net/servers/index_2.html">联系我们</a>
+                    <a href="http://www.aitto.net/servers/index_11.html">商务合作</a>
+                    
+        <li class="dh-list"><h2>站点导航</h2>
+                              <a href="http://www.aitto.net/destination/">目的地</a>
+                    <a href="http://www.aitto.net/raiders/">攻略</a>
+                    <a href="http://www.aitto.net/notes/">游记</a>
+                    <a href="http://www.aitto.net/spots/">门票</a>
+                    <a href="http://www.aitto.net/lines/self">自驾游</a>
+                    
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <span style="color:#c2c2c2;margin-bottom: 4px;display: inline-block;">友情连接：</span>
+    <div class="footer-link">
+      <p>
+            
+</p>
+    </div>
+    <div class="footer-bottom">
+      <p>2004-2016 © 河北旅游网 ™ aitto.net All rights reserved. Version v5.57 冀ICP备16007967号-1<br />
+        营业执照新出网证（京）字242号 </p>
+    </div>
+  </div>
+  <!-- 网站底部 结束-->
+</div>
+<!-- 网站置顶 开始-->
+<div class="mfw-toolbar toolbar-item-a" id="_j_mfwtoolbar" style="display: block;">
+  <div class="toolbar-item-code"><a class="toolbtn _j_code"> <i class="icon-code"></i> </a>
+    <div class="code-box">
+      <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+      <div class="WeChat"></div>
+    </div>
+  </div>
+  <div class="toolbar-item-top"> <a class="toolbtn _j_gotop"> <i class="icon-top"></i> </a> </div>
+</div>
+<!-- 网站置顶 结束-->
+<script>
+//登陆下拉
+$(document).ready(function(){
+  $(".drop").mouseover(function(){
+      $(this).addClass("hover");
+  $(this).next(".dropdown2").show()
+  });
+  $(".drop").mouseout(function(){
+      $(this).removeClass("hover");
+  $(this).next(".dropdown2").hide()
+  });
+});
+</script> 
+<input type="hidden" id="articleid" value="288">
+<input type="hidden" id="user" value=""/>
+<!----分页----->
+<input type="hidden" name="offset" id="offset" value="">
+<input type="hidden" name="page" id="page" value="1">
+<input type='hidden' id='next1' value="">
+<!----分页------->
+<script type="text/javascript" src="/res/js/layer/layer.js"></script>
+</body>
+</html>
+<script>
+  //  点击 评论
+  $("#com").click(function () {
+    foc();
+  });
+  function  foc(){
+    $("#report_area").focus();
+  }
+  /******
+   *  评论  是 按照  文章的id
+   *  喜欢是 按照 文章 的aid
+   */
+  $(".link_like").click(function(){
+    var  th  = this;
+    $.ajax({
+      type:"POST",
+      url:SITEURL+"member/login/ajax_is_login",
+      dataType:'json',
+      success:function(data){
+        if(data.status){//已经 登录
+          addlike(th);
+        }else{  //没有登录
+          layer.confirm('是否登录，将游记添加到收藏？', {
+            btn: ['是','否'] //按钮
+          }, function(){
+            var url  = window.location.href;//获取当前页面的地址
+            var login_url  =SITEURL+"member/login/?redirecturl="+url; //www.aitto.net/member/login/?redirecturl=
+            window.location.href=login_url;
+          }, function(){
+            // addlike(th);
+          });
+        }
+      }
+    })
+  });
+  function addlike(th){
+    var i  = 1 ;
+    var infoid  = $(th).attr("data-id");
+    var this_link = $(th).attr("data-link");
+    //  alert(infoid);
+    if(this_link=='2'){
+      var s  = $(th).find("span").find('b').text().replace('(',"").replace(")","");
+    }else{
+      var s  = $(th).find("span").text();
+    }
+    var arid = $("#articleid").val();
+    //alert(arid);
+    $.ajax({
+      type: "POST",
+      url: SITEURL+"article/ajax_add_like",
+      dataType:'json',
+      data: {l_num:s,arId:arid,infoid:infoid,typeid:'4'},
+      success:function(data){
+        if(this_link=='2'){
+          if(data.status){
+            layer.msg(data.msg);
+           // $(th).html("<i></i>取消喜欢<span>"+data.likenum+"</span>");
+            $(th).html("<i></i><span class='ui-btn-text'>取消喜欢<b>("+data.likenum+")</b></span>");
+          }else{
+            layer.msg(data.msg);
+           // $(th).html("<i></i>喜欢<span>"+data.likenum+"</span>");
+            $(th).html("<i></i><span class='ui-btn-text'>喜欢<b>("+data.likenum+")</b></span>");
+          }
+        }else{
+          if(data.status){
+            layer.msg(data.msg);
+            $(th).html("<i></i>取消喜欢<span>"+data.likenum+"</span>");
+          }else{
+            layer.msg(data.msg);
+            $(th).html("<i></i>喜欢<span>"+data.likenum+"</span>");
+          }
+        }
+      }
+    });
+  }
+  //提交问答
+  $(".tj-btn").click(function(){
+    var user      = $("#user").val();
+    // return false;
+    var urls      = window.location.href;//获取当前页面的地址 当做重定向地址
+    if(user.length==0){
+      var url = '/member/login/?redirecturl='+urls;//
+      window.location.href  =url ;
+    }else {
+      var articleid = "293";
+      var dockid = $("#dockid").val();
+      //var checkcode = $("#checkcode").val();
+      var typeid = 4;
+      //var nickname = $("#nickname").val();
+      var content = $("#report_area").val();
+      if (content.length < 5) {
+        if(content.length==0){
+          layer.msg('回复内容不能为空', {
+            icon: 5
+          })
+          return false;
+        }else{
+          layer.msg('至少五个字符', {
+            icon: 5
+          })
+          return false;
+        }
+      }
+      $.ajax({
+        type: 'POST',
+        url: SITEURL + 'article/ajax_add_comment',
+        data: {
+          articleid: articleid,
+          content: content,
+          typeid: typeid,
+          dockid: dockid
+        },
+        success: function (data) {
+          if (data == 1) {
+            layer.msg('验证码错误', {
+              icon: 5
+            })
+            //重新加载验证码
+            $("#imgcheckcode").attr('src', "/captcha?" + Math.random());
+          } else if (data == 3) {
+            layer.msg('回复成功', {
+              icon: 6,
+              time: 1500
+            });
+            location.reload();
+          } else {
+            layer.msg('回复失败,请联系管理员', {
+              icon: 5
+            })
+          }
+        }
+      })
+    }
+  })
+</script>
+<script>
+  function zifu(th){
+    var thisval=$(th).val().length*1;
+    var shengyu = 500-thisval;
+    if(shengyu>0) {
+      var html = "已输入<b><em>" + thisval + "</em>/" + shengyu + "</b>字";
+      $(th).next('span').html(html);
+    }else{
+      layer.msg('不能输入了', {
+        icon: 5
+      })
+      return false;
+    }
+  }
+</script>
+<script type="text/javascript">
+  var pagesize  = 5;//0;//0;//0;//每页的页数
+  $(document).ready(function(){
+    $(function () {
+      var  s ='';
+      //第一次加载数据
+      get_data(s);
+    });
+  });
+  function get_data(s) {
+    var offset    = $("#offset").val().length==""? 0:$("#offset").val();//  每页的开始 也是 limit 第1个参数
+    var articleid = "293";//    攻略 的 id
+    var typeid    = "4";//  模型的 id
+    $.ajax({
+      type: "POST",
+      url: SITEURL + 'article/ajax_get_comment',
+      async:false,
+      dataType: "json",
+      data: {pagesize:pagesize,offset:offset,articled:articleid,typeid:typeid},
+      success: function(data){
+        var page1      =$("#page").val()*1;//   当前页面
+        var itemHtml = "";
+        var pages    = "";
+        $("#result_list").empty();
+        $(".Pagination").empty();
+        if(s==''){
+        }else if(s=='pre'){
+          $("#page").val(page1*1-1);
+        }else if(s=='next'){
+          $("#page").val(page1*1+1);
+        }else{
+          $("#page").val(s*1);
+        }
+//        var  page3 =  $("#page").val()*1;//   当前页面
+//        var  p    = (page3-1)*pagesize;
+        if(data.length!=0){
+          for(var i=0;i<data.length;i++){
+            itemHtml +="<li>";
+              if(data[i].userlitpic==null){
+                    itemHtml +="<div class='user-img'><img src='/uploads/main/allimg/20150923/20150923143441.jpg'></div>";
+              }else{
+                itemHtml +="<div class='user-img'><img src='"+data[i].userlitpic+"'></div>";
+              }
+            if(data[i].nickname==null){
+              itemHtml +="<div class='textarea-box'> <span class='comments-name'>"+data[i].wx_nickname+"</span>";
+            }else{
+              itemHtml +="<div class='textarea-box'> <span class='comments-name'>"+data[i].nickname+"</span>";
+            }
+            itemHtml +="<span class='comments-h2'>"+data[i].content+"</span>";
+            itemHtml +="<span class='comments-time'>"+data[i].addtime+"</span></div>";
+            itemHtml +="</li>";
+          }
+        }else{
+          itemHtml +="<li>";
+          itemHtml +="没有相关数据";
+          itemHtml +="</li>";
+        }
+        var page2      =$("#page").val()*1;//   当前页面
+        //  定义 系数
+        var coefficient = Math.floor((page2-1)/pagesize);
+        //   定义 开始和结束 页面
+        var startpage    = coefficient*pagesize+1;
+        var endpage      = coefficient*pagesize+2;
+            endpage   =  endpage>data[0]['totalpage'] ? data[0]['totalpage'] : endpage;
+        if(data[0]['totalpage']!=0){
+          pages  +="<div id='Pagination'><div class='pagination'>";
+          pages  +="<a class='uPrevpage' onclick='page(1)'><i></i>首页</a>";
+          pages  += "<a class='uPrevpage' onclick='pre()'><i></i>上一页</a>";
+             for(var j=startpage;j<=endpage;j++){
+               pages  += "<a href='javascript:' onclick='page("+j+")' ";
+               if(page2==j) {
+                 pages += " class='current' ";
+               }
+               pages  += ">"+j+"</a>" ;
+             }
+          pages  += "<a class='next' onclick='next()'>下一页 <i></i></a>";
+          pages  += "<a class='next' onclick='page("+data[0]['totalpage']+")'>尾页 <i></i></a>";
+          pages  += "</div></div>";
+          pages  += "<div class='searchPage'>";
+          pages  += "<span class='page-sum'>共<strong class='allPage'>"+data[0]['totalpage']+"</strong>页</span>";
+          pages  += "<span class='page-go'>跳转<input type='text'>页</span>";
+          pages  += "<a href='javascript:;' class='page-btn' data-all='"+data[0]['totalpage']+"' onclick='skip(this)'>GO</a>";
+          pages  += "</div>&nbsp;&nbsp;";
+        }
+        $("#result_list").append(itemHtml);
+        $(".Pagination").append(pages);
+        $("#next1").val(data[0]['totalpage']);
+      }
+    });
+  }
+  function page(s){
+    var offset ="";
+    offset = (s*1-1) * pagesize;//  2 位每页显示数；
+    $("#offset").val(offset);
+    get_data(s);
+  }
+  function pre(){
+    var offset ="";
+    var s   ='pre';
+    var cur_page    = $("#page").val();
+    var prepage = cur_page*1-1;
+    if(prepage==0){
+      return false;
+    }else {
+      offset = (prepage - 1) * pagesize;//  2 位每页显示数；
+      $("#offset").val(offset);
+      get_data(s);
+    }
+  }
+  function next(){
+    var offset ="";
+    var s   ='next';
+    // var cur_page    = $(".on").attr("data-page");
+    var cur_page    = $("#page").val()*1;//attr("data-page");
+    var total    = $("#next1").val()*1;//("data-total")*1;
+    var nextpage = cur_page*1+1;
+    if(total+1<=nextpage){
+      return false;
+    }else{
+      offset =(nextpage-1)*pagesize;//  2 位每页显示数；
+      $("#offset").val(offset);
+      get_data(s);
+    }
+  }
+  /*
+    跳转
+   */
+  function  skip(th){
+       var  pages =  $(th).prev('span').find('input').val()*1;
+    if(!isNaN(pages)){
+      var  allpages = $(th).attr('data-all')*1;
+      if(pages<1){layer.msg('请输入 数字', {icon: 5  }); return false;}
+      if( pages >allpages){layer.msg('请输入 数字', {icon: 5  }); return false;}
+      page(pages);
+    }else{
+      layer.msg('请输入 数字', {
+        icon: 5
+      })
+    }
+  }
+</script>";

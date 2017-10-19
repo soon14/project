@@ -1,0 +1,191 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<meta id="viewport" name="viewport" content="width=540,user-scalable=no,target-densitydpi=high-dpi">
+	<script  src="/phone/public/js/jquery-1.11.3.min.js"></script>
+	<script>
+		var s;
+			$.ajax({
+				type:"POST",
+				url :"/phone/activity/getwxpama",
+				dataType:'json',
+				async:false,
+				success:function(data){
+                      s=data;
+//					$("#sig").val(dat)
+					alert(s.signature);
+
+				}
+			});
+	</script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+	<script>
+//		function GetQueryString(name)
+//		{
+//			var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+//			var r = window.location.search.substr(1).match(reg);
+//			if(r!=null)return  unescape(r[2]); return null;
+//		}
+////		var reg = new RegExp("(^|&)appId=([^&]*)(&|$)");
+////		var r = window.location.search.substr(1).match(reg);
+//		var  appId  = GetQueryString('appId');
+//		var  timestamp  = GetQueryString('timestamp');
+//		var  nonceStr  = GetQueryString('nonceStr');
+//		var  signature  = GetQueryString('signature');
+//		var  openid     =  GetQueryString('openid');
+      alert(s.signature);
+
+		wx.config({
+			debug: true,
+			appId:s.appId,
+			timestamp:s.timestamp,
+			nonceStr:s.nonceStr,
+			signature:s.signature,
+			jsApiList:['onMenuShareTimeline','onMenuShareAppMessage']
+			// 所有要调用的 API 都要加到这个列表中
+		});
+        wx.ready(function(){
+	//  1   为 分享朋友圈   2  分享 好友
+//			var  post = "POST";
+//			//var  openid   =GetQueryString('openid');
+//			var  thatpage =  "index";
+//			var  url = "/phone/activity/share";
+	wx.onMenuShareTimeline({
+		title: "集18片“红叶”秋山免费游",// 111
+		desc: "集18片“红叶”秋山免费游", // 分享描述
+		link: "http://www.aitto.net/phone/activity/index", // ''
+		imgUrl: 'http://www.aitto.net/phone/public/images/activity/share.jpg', // 分享图标
+		success: function () {
+//					var  data ={openid:openid,thatpage:thatpage,share_type:1};
+//					$.ajax({
+//						type:post,
+//						url :url,
+//						data:data
+//					})
+		},
+		cancel: function () {
+			// 用户取消分享后执行的回调函数
+
+		}
+	});
+	wx.onMenuShareAppMessage({
+		title: "集红叶秋山免费游", // 分享标题
+		desc: "河北旅游网集18片“红叶”免费游秋山活动，正在进行中!", // 分享描述
+		link: "http://www.aitto.net/phone/activity/index", // 分享链接
+		imgUrl: 'http://www.aitto.net/phone/public/images/activity/share.jpg', // 分享图标
+		type: 'link', // 分享类型,music、video或link，不填默认为link
+		dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+		success: function () {
+			// 用户确认分享后执行的回调函数
+//					var  data ={openid:openid,thatpage:thatpage,share_type:2};
+//					$.ajax({
+//						type:post,
+//						url :url,
+//						data:data
+//					})
+		},
+		cancel: function () {
+			// 用户取消分享后执行的回调函数
+
+		}
+	});
+})
+	</script>
+		<script data-main="js/main" src="require.js"></script>
+
+		<title>一个都不能死</title>
+		<style type="text/css">
+			body{
+		        margin:0px;
+		        padding:0px;
+		        overflow: hidden;
+		    }
+		</style>
+	<script>
+
+		function showAd(){
+		}
+		function hideAd(){
+		}
+	</script>
+		<!--<script type="text/javascript" src="http://www.wenzhangku.com/weixin/" charset="UTF-8"></script>
+		<script language="javascript">
+			var mebtnopenurl = 'http://mp.weixin.qq.com/s?__biz=MzA5NTMzMTgxMg==&mid=200040545&idx=1&sn=429ecbe3ae11cb5c7ad65a35a9a60be7#rd';
+			window.shareData = {
+		        "imgUrl": "http://www.wenzhangku.com/weixin/bunengsi/460.jpg",
+		        "timeLineLink": "/phone/activity/index",
+		        "tTitle": "一个都不能死",
+		        "tContent": "玩起来怎么都停不下来的啊！"
+		};
+
+
+		function dp_submitScore(m,t){
+		}
+
+		function dp_share(t){
+			document.title = t/1000+"秒！不行了，我都快变双重人格了！这游戏实在太虐心了！";
+			document.getElementById("share").style.display="";
+			window.shareData.tTitle = document.title;
+		}
+
+		function dp_share2(t){
+			document.title = t/1000+"秒！不行了，我都快变双重人格了！这游戏实在太虐心了！";
+			document.getElementById("share").style.display="";
+			window.shareData.tTitle = document.title;
+		}
+		function dp_Ranking(){
+			window.location=mebtnopenurl;
+		}
+
+		function showAd(){
+		}
+		function hideAd(){
+		}
+		document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+
+		    WeixinJSBridge.on('menu:share:appmessage', function(argv) {
+		        WeixinJSBridge.invoke('sendAppMessage', {
+		            "img_url": window.shareData.imgUrl,
+		            "link": window.shareData.timeLineLink,
+		            "desc": window.shareData.tContent,
+		            "title": window.shareData.tTitle
+		        }, function(res) {
+					alert('pengyou')
+		        	//document.location.href = mebtnopenurl;
+		        })
+		    });
+
+		    WeixinJSBridge.on('menu:share:timeline', function(argv) {
+		        WeixinJSBridge.invoke('shareTimeline', {
+		            "img_url": window.shareData.imgUrl,
+		            "img_width": "640",
+		            "img_height": "640",
+		            "link": window.shareData.timeLineLink,
+		            "desc": window.shareData.tContent,
+		            "title": window.shareData.tTitle
+		        }, function(res) {
+		        	//document.location.href = mebtnopenurl;
+		        });
+		    });
+		}, false);
+		</script>-->
+
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="main" src="main.js"></script></head>
+	<body>
+   <input type="hidden" name="ss" id='sig' value="">
+		<div style="text-align:center;">
+			<canvas id="linkScreen" width="1366" height="621" style="width: 1366px; height: 621px;">
+				很遗憾，您的浏览器不支持HTML5，请使用支持HTML5的浏览器。
+			</canvas>
+		</div>
+		<div id="share" style="display:none">
+		<img id="logo" width="100%" src="460.jpg" style="position:absolute;top:0;left:0;">
+		<img width="100%" src="2000.png" style="position:absolute;top:0;left:0;display:" onClick="document.getElementById(&#39;share&#39;).style.display=&#39;none&#39;;">
+		</div>
+
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,25 @@
+/* 公用 public CSS 文件 */
+html{font-size: 10px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+body{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px;padding: 0 0 50px 0; line-height: 1.42857143; color: #333;background: #f8f8f8;}
+a{color: #337ab7; text-decoration: none;}
+a:hover,a:focus{color: #23527c; background:transparent; text-decoration: none;}
+/* 流体框架 */
+.container-fluid{padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
+i{display: inline-block; font-style: normal;}
+
+.topl{border-top: solid 1px #eee;}
+.botl{border-bottom: solid 1px #eee;}
+.bgf{background-color: #fff;}
+.c9{color: #999 !important;}
+.red{color: #f75934;}
+.mt10{margin-top:10px;}
+.green{color: #8ac43e !important;}
+
+#HB_header{ position:relative; background:#FFF;}
+/*HB-商城页面 公共头部*/
+.HB_header_warp{position: relative; width:100%; top:0; height:4.5rem;  background-color:rgba(255, 255, 255, 0.98); border-bottom:1px solid #eaeaea;}
+.HB_header_warp .header_home{position:absolute; top:1rem; left:1rem; width: 2.5rem; height: 2.5rem; background: url('../../images/index/HB_home.png') no-repeat center; background-size: 2.5rem;}
+.HB_header_warp .header_person{position:absolute; top:1rem; right:1rem; width: 2.5rem; height: 2.5rem; background: url('../../images/index/HB_personal.png') no-repeat center; background-size: 2.5rem;}
+.HB_header_warp h1{font-size:2rem; color:#030303; text-align:center; line-height:4.5rem;}
+/*米淘前端页面 公共置顶*/
+.mt-totop{position: fixed; bottom: 60px; right: 10px;z-index: 99;width: 50px; height: 50px; background: url('../../images/mitao/top.png') no-repeat; background-size: auto auto; background-size: 50px;}

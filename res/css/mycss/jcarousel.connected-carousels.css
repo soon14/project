@@ -1,0 +1,182 @@
+/** 图片相册左右结构 开始 **/
+
+.connected-carousels{ width:100%; position:relative;}
+.stage {
+    width: 100%;
+    margin: 0px;
+	
+    position: relative;
+}
+
+.connected-carousels .photo-credits {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+    opacity: .66;
+}
+
+.connected-carousels .photo-credits a {
+    color: #fff;
+}
+
+/** Navigation container **/
+
+.connected-carousels .navigation {
+    width: 100px;
+    margin: 20px auto 0 auto;
+    position: absolute; top:10px; right:0;
+}
+
+/** Shared carousel styles **/
+
+.connected-carousels .carousel {
+    overflow: hidden;
+    position: relative;
+}
+
+.connected-carousels .carousel ul {
+    height: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.connected-carousels .carousel li {
+    float: left;
+}
+
+/** Stage carousel specific styles **/
+
+.connected-carousels .carousel-stage { width:80%;
+    height: 250px; overflow:hidden;
+}
+
+/** Navigation carousel specific styles **/
+
+
+.connected-carousels .carousel-navigation {
+    height: 186px; 
+    width: 110px; padding:0px;
+
+}
+
+.connected-carousels .carousel-navigation li {
+    cursor: pointer;
+}
+
+.connected-carousels .carousel-navigation li img {
+	 width:100px; height:56px;
+    display: block;
+    border: 3px solid #fff;
+}
+
+.connected-carousels .carousel-navigation li.active img {
+    border-color: #ffa901;
+}
+
+/** Stage carousel controls **/
+
+.connected-carousels .prev-stage,
+.connected-carousels .next-stage {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 305px;
+    height: 410px;
+    color: #fff;
+}
+
+.connected-carousels .prev-stage {
+    left: 0;
+}
+
+.connected-carousels .next-stage {
+    right: 0;
+}
+
+.connected-carousels .prev-stage.inactive,
+.connected-carousels .next-stage.inactive {
+    display: none;
+}
+
+.connected-carousels .prev-stage span,
+.connected-carousels .next-stage span {
+    display: none;
+    position: absolute;
+    top: 50%;
+    width: 30px; 
+    height: 30px;
+    text-align: center;
+    
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+
+}
+
+.connected-carousels .prev-stage span {
+    left: 20px;
+}
+
+.connected-carousels .next-stage span {
+    right: 20px;
+}
+
+.connected-carousels .prev-stage:hover span,
+.connected-carousels .next-stage:hover span {
+    display: block;
+}
+
+/** Navigation carousel controls **/
+
+.connected-carousels .prev-navigation
+{
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background:url(/res/images/img/fk-ico.png) no-repeat  0px -245px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 16px/29px Arial, sans-serif;
+
+}
+
+.connected-carousels .next-navigation {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background:url(/res/images/img/fk-ico.png) no-repeat 0px -275px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 16px/29px Arial, sans-serif;
+
+}
+
+.connected-carousels .prev-navigation {
+    left: 40px;
+    top: -30px;
+    text-indent: 6px;
+}
+
+.connected-carousels .next-navigation {
+    left: 40px;
+    top: 195px;
+    text-indent: 20px;
+}
+
+.connected-carousels .prev-navigation.inactive,
+.connected-carousels .next-navigation.inactive {
+    opacity: .3;
+    cursor: default;
+}
+
+/** 图片相册左右结构结束 **/

@@ -1,0 +1,76 @@
+.ui-active-box{margin-bottom: 1rem;}
+.ui-active-box ul{padding:0 .5rem;}
+.ui-active-box li{width: 50%;float: left;}
+.ui-active-box .inner-box{margin:.5rem;}
+.ui-active-info{margin: 1rem;
+padding:.5rem;
+border-radius:.5rem;background: #ffdf96;}
+.ui-info-top h2{text-align:center; font-weight:bold;color: #6d5725;
+font-size: 1.8rem;}
+.ui-info-top h2 span{padding:0 2rem; height:4rem; line-height:4rem; border-radius:4rem;background:#0062a3; color:#FFF; display: inline-block;}
+.ui-info-inner{padding: 1rem;background: #fff9e1}
+.ui-info-inner p{color: #a47c25;
+border-radius:.5rem;
+padding:.5rem;
+margin-bottom:.5rem;line-height: 2rem;}
+.ui-info-inner p span{background: #e2073d;
+padding:.2rem .5rem;
+border-radius:.5rem;color: #fff;
+margin-right:.5rem;}
+.ui-active-info .inner-tip{background: #e2073d;color: #fff;
+padding:.2rem 1rem;
+border-radius:.5rem;margin-top: 1rem;}
+.ui-table-enlist{margin: 1.5rem 0;}
+.ui-table-enlist h2{text-align:center; font-weight:bold;color: #6d5725;
+font-size: 1.8rem;}
+.ui-table-enlist h2 span{padding:0 2rem; height:4rem; line-height:4rem; border-radius:4rem;background:#0062a3; color:#FFF; display: inline-block;}
+.ui-table-enlist td{text-align: center;color: #6d5725;line-height: 3rem;}
+.ui-table-enlist img{width: 60%;}
+.ui-table-enlist .solid{border-right: 1px solid #c8a86f;}
+.ui-active-time{}
+.ui-active-time .line{position:absolute; top:5px; left:30%; height:90%;border-right:1px solid #0062a3;}
+.ui-active-time h2{padding-left:18%; font-weight:bold;color: #6d5725;
+font-size: 1.8rem;}
+.ui-active-time h2 span{padding:0 2rem; height:4rem; line-height:4rem; border-radius:4rem;background:#0062a3; color:#FFF; display: inline-block;}
+.ui-active-time ul{position:relative; margin:1rem 0;}
+.ui-active-time span{display:block; padding:0 2rem; color:#0062a3; font-weight:bold;}
+.ui-active-time li{position:relative; margin-bottom:1.5rem;}
+.ui-active-time .mainTitle{position:absolute; left:30%; margin-left:-.75rem; width:1.5rem; height:1.5rem; background:#0062a3; border-radius:1.5rem;}
+.ui-active-time .childTitle{position:absolute; left:30%;  margin-left:-13.5px; width:27px; height:27px; background: url(/phone/public/images/expedition/dot.png); border-radius:2.7rem;}
+.ui-active-time .ui-time-left{width:30%; float:left; text-align:right;}
+.ui-active-time .ui-time-right{width:70%; float:right; text-align:left;}
+.ui-btn-enlist{position:fixed; width:100%;bottom:1rem;}
+.ui-btn-enlist a{display:block; font-size:18px; width:80%;background:#03913f; border-radius:.5rem; color:#FFF; text-align:center; padding:1rem; margin:0 auto;}
+.ui-nocontent{height:5rem;}
+/** 模态窗口 **/
+.modal-page{overflow: hidden;height: 100%; position:fixed;}
+.modal{position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index:9998; background-color:rgba(0,0,0,0.5);}
+.modal-dialog{position:relative; top:100px;}
+.name-dialog{width: 90%; margin:0 auto; padding:1rem 0; background: #f8f8f8; border-radius: 5px;}
+.name-dialog .modal-hd{position:relative;}
+.name-dialog .modal-hd h3{padding: 10px 10px 5px 10px; font-size: 16px; font-weight: 500; color:#00aaee; text-align:center;}
+.name-dialog .modal-hd .close{position:absolute; top:0; right:10px; font-size: 30px; font-weight: 700; line-height: 1; color: #000; text-shadow: 0 1px 0 #fff; filter: alpha(opacity=20); opacity: .2;}
+.name-dialog .modal-hd button.close{-webkit-appearance: none; padding: 0; cursor: pointer; background: 0 0; border: 0;}
+.name-dialog .modal-bd{padding: 15px 15px; text-align: center;}
+.name-dialog .modal-fd{width:100%; height: 44px; margin-bottom:1rem;}
+.name-dialog .modal-fd .modal-btn{text-align:center; width:90%; margin:0 auto; height: 44px; border-radius:10px; line-height:44px; color: #0e90d2; background:#00aaee; color:#fff; font-size:18px;}
+.name-dialog .modal-fd .modal-btn span{display:inline-block;}
+.name-dialog .modal-fd .modal-btn .mod-l{padding-right:1rem; border-right:1px solid #54cbfa;}
+.name-dialog .modal-fd .modal-btn .mod-r{padding-left:1rem;}
+
+
+.point-dialog{width: 90%; margin:0 auto; padding:1rem 0; background: #f8f8f8; border-radius: 5px;}
+.point-dialog .modal-hd{position:relative;}
+.point-dialog .modal-hd h3{padding: 10px 10px 5px 10px; font-size: 20px; font-weight: 500; color:#00aaee; text-align:center;}
+.point-dialog .modal-hd .close{position:absolute; top:0; right:10px; font-size: 30px; font-weight: 700; line-height: 1; color: #000; text-shadow: 0 1px 0 #fff; filter: alpha(opacity=20); opacity: .2;}
+.point-dialog .modal-hd button.close{-webkit-appearance: none; padding: 0; cursor: pointer; background: 0 0; border: 0;}
+.point-dialog .modal-bd{padding: 15px 15px; line-height:24px; text-align: center;}
+
+
+/*----基础表单----*/
+.form-group{margin-bottom:15px; position:relative;}
+.form-group .controls{width:100%;}
+/*----表单 输入框----*/
+.form-group input{border: 1px solid #ccc;width: 100%; border-radius:5px; font-size: 14px; color: #555; background-color: #fff;}
+.form-group input:focus{border: 1px solid #66afe9; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(102,175,233,0.6); box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(102,175,233,0.6);}
+#username, #telphone, #password, #confirm_password, #agent, .submit{height: 45px; text-indent: 10px;}

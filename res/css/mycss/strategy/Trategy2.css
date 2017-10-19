@@ -1,0 +1,1150 @@
+/* 游记首页======================================================================== */
+.ck-slide { width: 1180px; height: 400px; margin: 0 auto;}
+.ck-slide ul.ck-slide-wrapper { height: 400px;}
+.ck-slide ul { margin: 0; padding: 0; list-style-type: none;}
+.ck-slide { position: relative; overflow: hidden;}
+.ck-slide ul.ck-slide-wrapper { position: absolute; top: 0; left: 0; z-index: 1; margin: 0; padding: 0;}
+.ck-slide ul.ck-slide-wrapper li { position: absolute;width: 1180px; height: 400px;  background: url(/res/images/index/nopic.png) center center no-repeat #eee; }
+.ck-slide .ck-prev, .ck-slide .ck-next { position: absolute; top: 50%; z-index: 2; width: 50px; height: 80px; margin-top: -35px;  opacity: .15; background: red; text-indent: -9999px; background-repeat: no-repeat; transition: opacity .2s linear 0s;}
+.ck-slide .ck-prev { left: 5px; background: url(../../../images/spot/prev.png) #000 50% no-repeat;}
+.ck-slide .ck-next { right: 5px; background: url(../../../images/spot/next.png) #000 50% no-repeat;}
+.ck-slidebox { position: absolute; left: 50%; bottom: 12px; z-index: 30;}
+.ck-slidebox ul { height: 20px; padding: 0 4px; border-radius: 8px; }
+.ck-slidebox ul li { float: left; height: 12px; margin: 4px 4px;}
+.ck-slidebox ul li em { display: block; width: 25px; height: 5px; border-radius:2px;  background-color: #fff; text-indent: -9999px; cursor: pointer;}
+.ck-slidebox ul li.current em { background-color: #fe6500;}
+.ck-slidebox ul li em:hover { background-color: #fe6500;}
+.ctd-sort-view a{ padding:0 15px;}
+
+/** 攻略-广告头部 **/
+.ctd-head-box {
+	position: relative;
+	width: 1180px;
+	margin: 0 auto;
+	height: 400px;
+	overflow: hidden;
+}
+.ctd-head-main {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+.ctd-head-main img{ width:1180px; height:400px;}
+.ctd-head-main .mtd-info {
+	position: absolute;
+	top: 50px;
+	left: 600px;
+	z-index: 888;
+	width: 550px;
+}
+.ctd-head-main .mtd-user-info h2 {
+	color: #FFF;
+	font-size: 32px;
+	margin-top: 10px;
+	text-shadow: 0px 1px 3px #333;
+}
+.ctd-head-main .mtd-user-info p{text-shadow: 0px 1px 3px #333;}
+.ctd-head-main .mtd-user-bot .mtd-user-name {
+	font-size: 14px;
+	color: #FFF;
+	text-shadow: 0px 1px 3px #333;
+}
+.ctd-head-main .mtd-location {
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFF;
+	margin-top: 10px;
+}
+.ctd-head-main .mtd-more {
+	color: #FFF;
+	font-size: 18px;
+}
+.ctd-head-main .mtd-more span {
+	border: 1px solid #fff;
+	border-radius: 15px;
+	font-size: 18px;
+	padding: 0;
+	display: inline;
+	color: #fff;
+	padding: 0 20px;text-shadow: 0px 1px 3px #333;
+}
+/** 攻略首页-热门攻略 */
+.M-Hot-Trategy {
+	margin-bottom: 20px;
+}
+.M-Hot-Trategy .ctd-title-bd {
+	margin-bottom: 20px;
+}
+.M-Hot-Trategy .ctd-title-bd h1 {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	position: relative;
+	font-size: 2em;
+	margin-bottom: 40px;
+}
+.M-Hot-Trategy .ctd-title-bd h1 span {
+	font-size: .5em;
+	color: #999;
+	padding-left: 10px;
+}
+.M-Hot-Trategy .ctd-title-bd .english {
+	position: absolute;
+	top: 28px;
+	left: 442px;
+	font-size: .5em;
+	color: #ff7708;
+}
+/** 攻略首页-热门攻略 列表 */
+.M-Hot-Trategy .ctd-Trategy-List ul {
+	margin-left: -20px;
+}
+.M-Hot-Trategy .ctd-Trategy-List .ctd-inner {
+	border: 1px solid #dddddd;
+	padding-bottom: 10px;
+}
+.M-Hot-Trategy .ctd-Trategy-List li {
+	width: 380px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	background: #fff;
+	float: left;
+}
+.M-Hot-Trategy .ctd-Trategy-List .J-img {background: url(/res/images/index/nopic.png) center center no-repeat #eee;
+	width: 380px;height: 250px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.M-Hot-Trategy .ctd-Trategy-List .J-img img {
+	width: 100%
+}
+.M-Hot-Trategy .ctd-Trategy-List .J-title {
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+}
+.M-Hot-Trategy .ctd-Trategy-List .J-title h2 {
+	color: #FFF;
+	line-height: 25px;
+	font-size: 16px;
+	padding: 0 15px
+}
+.M-Hot-Trategy .ctd-Trategy-List .J-title p {
+	color: #FFF;
+	height: 15px;
+	padding: 0 15px;
+	font-size: 12px;
+	line-height: 20px;
+}
+.M-Hot-Trategy .ctd-Trategy-List .J-shots {
+	margin-top: 20px;
+	width: 370px;
+
+
+	zoom: 1;
+}
+.M-Hot-Trategy .ctd-Trategy-List .J-shots .bshape {background: url(/res/images/index/nopic.png) center center no-repeat #eee; background-size:60%;
+	display: block;
+	float: left;
+	width: 85px;
+	height: 50px;
+	overflow: hidden;
+	margin-left: 7px;
+}
+.M-Hot-Trategy .ctd-Trategy-List .count {
+	margin-bottom: 4px;
+	font-size: 14px;
+	line-height: 18px;
+}
+.M-Hot-Trategy .ctd-Trategy-List .J-shots .last-child {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 82px;
+	height: 52px; background:#F60;
+
+	padding-top: 2px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #666;
+	text-align: center;
+}
+.M-Hot-Trategy .ctd-Trategy-List .last-child a{ color:#FFF; font-size:15px; line-height:20px; display:block;}
+/* 攻略首页 热门游记 */
+.M-Hot-TravelNotes {
+	margin-bottom: 20px;
+}
+.M-Hot-TravelNotes h1 {
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.M-Hot-TravelNotes .ctd-inner {
+	border: 1px solid #dddddd;
+	padding-bottom: 10px;
+}
+.M-Hot-TravelNotes ul {
+	margin-left: -20px;
+}
+.M-Hot-TravelNotes li {
+	width: 280px;
+	margin-left: 20px;
+	float: left;
+	position: relative;
+}
+.M-Hot-TravelNotes .J-img {
+	width: 278px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+.M-Hot-TravelNotes .J-img .tip {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	width: 40px;
+	height: 40px;
+	background: url(../../../images/trategy/TravelNotes.png) no-repeat 100% -320px;
+}
+.M-Hot-TravelNotes .J-img img {
+	height: 200px;
+}
+.M-Hot-TravelNotes .user {
+	position: absolute;
+	top: 180px;
+	left: 20px;
+}
+.M-Hot-TravelNotes .user-img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #FFF;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.M-Hot-TravelNotes .user-img img {
+	width: 50px;
+	height: 50px;
+}
+.M-Hot-TravelNotes .user-name {
+	padding-left: 60px;
+	padding-top: 25px;
+	color: #636363;
+}
+.M-Hot-TravelNotes .J-txt {
+	margin-top: 35px;
+	padding: 0 20px;
+}
+/* 游记列表页======================================================================== */
+/* 游记框架 */
+.ctd-TrategyNotes-body {
+}
+.ctd-TrategyNotes-body .ctd-side {
+	width: 260px;
+	float: right;
+}
+.ctd-TrategyNotes-body .ctd-main {
+	width: 900px;
+	float: left;
+}
+/* 游记列表-主 */
+.ctd-TrategyNotes-list h4 {
+	font-size: 22px;
+	color: #333;
+	height: 40px;
+	font-weight: normal;
+	position: relative;
+	padding-bottom: 1px;
+}
+.ctd-TrategyNotes-list h4 .more {
+	float: right;
+	color: #666;
+	font-size: 14px;
+	padding-top: 10px;
+}
+.ctd-TrategyNotes-list .listItem {
+	width: 100%;
+}
+.ctd-TrategyNotes-list li {
+	padding: 15px;
+	margin-bottom: 15px;
+	height: 180px;
+	background: #FFF;
+}
+.ctd-TrategyNotes-list .listItem li:hover {
+	-webkit-box-shadow: 0 0 10px #ededed;
+	-moz-box-shadow: 0 0 10px #ededed;
+	box-shadow: 0 0 10px #ededed;
+	background: #fafafa;
+}
+.ctd-TrategyNotes-list .listItem li:hover h3 {
+	color: #ff9c00;
+}
+.ctd-TrategyNotes-list .listItem .pic {background: url(/res/images/index/nopic.png) center center no-repeat #eee;
+	width: 250px;
+	height: 180px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.ctd-TrategyNotes-list .listItem .info {
+	padding-left: 270px;
+	position: relative;
+	font-size: 14px;
+	color: #999;
+}
+.ctd-TrategyNotes-list .listItem .pic img {
+	height: 180px;
+}
+.ctd-TrategyNotes-list .listItem .info h3 {
+	font-weight: normal;
+	font-size: 18px;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+.ctd-TrategyNotes-list .listItem .info h3 a {
+	color: #444;
+}
+.ctd-TrategyNotes-list .listItem h3 a:hover {
+	color: #1ba8df;
+	text-decoration: none;
+}
+.ctd-TrategyNotes-list .listItem .user-con {
+	height: 60px;
+	line-height: 20px;
+	overflow: hidden;
+	color: #666666;
+}
+.ctd-TrategyNotes-list .listItem .user-con span {
+	color: #999999;
+	margin-right: 3px;
+}
+.ctd-TrategyNotes-list .listItem .user-line {
+	color: #666;
+	padding-bottom: 5px;
+}
+.ctd-TrategyNotes-list .listItem .user-line span {
+	padding: 0 5px;
+}
+.ctd-TrategyNotes-list .listItem .user-line a {
+	color: #666;
+}
+.ctd-TrategyNotes-list .listItem .user-line a:hover {
+	color: #1ba8df;
+	text-decoration: none;
+}
+.ctd-TrategyNotes-list .listItem .count-line {
+	padding-top: 15px;
+}
+.ctd-TrategyNotes-list .listItem .count-line span {
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	padding: 0 20px 0 30px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ff9a00;
+	color: #8f8f8f;
+	display: inline-block;
+	border-radius: 15px;
+}
+.ctd-TrategyNotes-list .listItem .count-line i {
+	display: inline-block;
+	position: absolute;
+	top: 7px;
+	left: 8px;
+	background: url(../../../images/trategy/TravelNotes.png);
+	margin-right: 5px;
+}
+.ctd-TrategyNotes-list .listItem .count-line .icon-pic i {
+	background-position: -20px -300px;
+	width: 16px;
+	height: 16px;
+}
+.ctd-TrategyNotes-list .listItem .count-line .icon-comment i {
+	background-position: -40px -300px;
+	width: 16px;
+	height: 16px;
+}
+.ctd-TrategyNotes-list .listItem .count-line .icon-view {
+	padding-left: 35px;
+}
+.ctd-TrategyNotes-list .listItem .count-line .icon-view i {
+	background-position: -60px -300px;
+	width: 21px;
+	height: 16px;
+}
+/* 游记列表-侧边 */
+
+
+
+/* 门票 侧边======================================================================== */
+
+
+.side-box {
+	background: #FFF;
+	margin-bottom: 10px;
+}
+.side-border {
+	background: #FFF;
+	border: 1px solid #e5e5e5;
+	margin-bottom: 10px;/* 侧边-带边框 */
+}
+.side-About {
+	background: #FFF;
+	margin-bottom: 10px;
+	height: 110px;
+}
+.side-About .wy-notice-img {
+	padding: 10px 0 0 10px;
+	color: #999;
+	position: relative;
+}
+.side-About .wy-notice-img i {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	background: url(../../../images/trategy/TravelNotes.png) no-repeat 0 -370px;
+}
+.side-About .wy-notice-img span {
+	font-size: 24px;
+	color: #F60;
+	padding: 0 5px 0 35px;
+}
+.side-About .wy-notice-btns {
+	padding-top: 10px;
+}
+.side-About .wy-notice-btns a {
+	width: 115px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	float: left;
+	margin-left: 11px;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 3px;
+	text-decoration: none;
+	background: #FF8800;
+	font-size: 16px;
+}
+.side-About .wy-notice-btns a:hover {
+	background: #FF6600;
+}
+.side-About .wy-notice-btns .icon {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url(../../../images/trategy/TravelNotes.png) no-repeat;
+}
+.side-About .wy-notice-btns a .icon-publish {
+	background-position: -0px -338px;
+}
+.side-About .wy-notice-btns a .icon-comments {
+	background-position: -23px -338px;
+}
+.sid-Recommend h4 {
+	font-size: 18px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: normal;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 150px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+.sid-Recommend ul {
+	padding: 10px 10px 0 10px;
+}
+.sid-Recommend li {
+	height: 70px;
+	border-bottom: 1px dotted #CCC;
+	margin-bottom: 10px
+}
+.sid-Recommend li{*border-bottom-style:expression(this.nextSibling==null?'none':'solid'); /** 解决ie问题 **/}
+.sid-Recommend li:last-child{border-bottom-style:none;}
+.sid-Recommend .note-img {background: url(/res/images/index/nopic.png) center center no-repeat #eee; background-size:60%;
+	float: left;
+	width: 90px;
+	height: 60px;
+	overflow: hidden;
+}
+.sid-Recommend .note-img img {
+	width: 90px;
+	height: 60px;
+}
+.sid-Recommend .note-con {
+	padding-left: 100px;
+}
+.sid-Recommend .note-con h5 {
+	font-size: 14px;
+	line-height: 20px;
+	height: 40px;
+	color: #646464;
+	overflow: hidden;
+}
+.sid-Recommend .note-name {
+	font-size: 12px;
+	color: #999;
+	margin-top: 5px;
+}
+.sid-Recommend .note-name span {
+	color: #0087dd;
+}
+/* 游记详情页======================================================================== */
+/* 游记 框架 */
+.ctd-Travel-body {
+	width: 1180px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+.ctd-Travel-nav {
+	float: left;
+	width: 150px;
+	height: 433px;
+}
+.ctd-Travel-article {
+	background: #FFF;
+	float: left;
+	border-left: 2px solid #ddd;
+	border-right: 1px solid #ddd;
+	width: 750px;
+}
+.ctd-Travel-sider {
+	float: right;
+	width: 260px;
+}
+.TicketM-Tit {
+	display: block;
+	cursor: default;
+}
+.TicketM-Tit span {
+	height: 48px;
+	display: block;
+	line-height: 48px;
+}
+.TicketM-Tit i {
+	display: block;
+	float: left;
+	width: 80px;
+	height: 48px;
+	padding-left: 48px;
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+}
+.TicketM-Tit .detail-icon-t {
+	background: url(../../../images/trategy/aittoTravel-ico.png) no-repeat 0 -400px;
+}
+i.detail-icon-1, i.detail-icon-2, i.detail-icon-3, i.detail-icon-4 {
+	background: url(../../../images/trategy/aittoTravel-ico.png) no-repeat #11a1de;
+}
+.TicketM-Tit i.detail-icon-1 {
+	background-position: -155px -500px;
+}
+.TicketM-Tit i.detail-icon-2 {
+	background-position: -155px -540px
+}
+.TicketM-Tit i.detail-icon-3 {
+	background-position: -155px -580px
+}
+.TicketM-Tit i.detail-icon-4 {
+	background-position: -155px -620px;
+}
+/* 游记头部 */
+.ctd-head-TrategyNotes {
+	position: relative;
+	width: 100%;
+	height: 400px;background: url(/res/images/index/nopic.png) center center no-repeat #eee;
+	overflow: hidden;
+}
+.ctd-mask {
+	position: absolute;
+	bottom: 0px;
+	z-index: 555;
+	width: 100%;
+	width: 1180px;
+	height: 120px;
+	background: #000;
+	filter: Alpha(opacity=50);
+ *zoom: 1;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+.ctd-info {
+	position: absolute;
+	bottom: 0px;
+	z-index: 888;
+	width: 100%;
+}
+.ctd-info .user-img {
+	position: absolute;
+	bottom: 10px;
+	left: 15px;
+}
+.ctd-info .user-img img {
+	width: 100px;
+	margin-left: 10px;
+	height: 100px;
+	border-radius: 100%;
+}
+.ctd-info .user-info h2 {
+	color: #FFF;
+	font-size: 35px;
+}
+.ctd-info .user-info {
+	position: absolute;
+	bottom: 25px;
+	left: 150px;
+}
+.ctd-info .user-bot .user-data {
+	font-size: 24px;
+	color: #FFF;
+}
+.ctd-info .user-bot .user-l, .ctd-info .user-bot .user-r {
+	float: left;
+}
+.user-r {
+	margin-left: 30px;
+	margin-top: 7px;
+}
+.user-bot .user-name, .user-bot .user-lv, .user-bot .user-num {
+	font-size: 14px;
+	color: #FFF;
+	margin-left: 10px;
+}
+.link-box a {
+	color: #FFF;
+	padding-left: 30px;
+	float: left;
+	margin-right: 20px;
+	position: relative;
+}
+.link-box i {
+	width: 30px;
+	height: 27px;
+	position: absolute;
+	background: url(../../../images/trategy/TravelNotes.png) no-repeat;
+	top: -5px;
+	left: 0;
+	display: inline-block;
+}
+.link-share i {
+	background-position: -0px 0px;
+}
+.link-like i {
+	background-position: -80px 0px;
+}
+.link-comment i {
+	background-position: -160px 0px;
+}
+.link-browse i {
+	background-position: -240px 0px;
+}
+/* 游记 导航菜单 */
+.sideToolbar {
+	margin-top: 30px;
+	width: 150px;
+}
+.sideCatalog {
+	position: relative;
+	width: 150px;
+}
+.sideCatalog-catalog {
+	text-align: right;
+	width: 150px;
+	height: 133px;
+	overflow: hidden;
+	padding-right: 10px;
+	position: relative;
+	padding-bottom: 10px;
+}
+.sideCatalog-absolute {
+	position: absolute;
+	bottom: 0;
+}
+.sideCatalog-fixed {
+	margin-top: 47px;
+	position: fixed;
+	top: 60px;
+	left: auto;
+}
+.sideCatalog-catalog dl {
+	margin-bottom: 15px;
+	position: relative;
+}
+.sideCatalog-catalog .CatalogSd-main {
+	font-size: 14px;
+	height: 18px;
+	line-height: 12px;
+	text-align: right;
+	margin-top: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 140px;
+}
+.sideCatalog-catalog a {
+	color: #999;
+	display: inline-block;
+	height: 16px;
+	overflow: hidden;
+}
+.sideCatalog-catalog .CatalogSd-main a {
+	color: #333;
+}
+.sideCatalog-catalog dd.current a {
+	color: #ff9900
+}
+.sideCatalog-catalog .CatalogSd-child {
+	color: #999;
+	font-size: 12px;
+	height: 20px;
+	line-height: 18px;
+	text-align: right;
+	padding: 3px 0;
+	padding-right: 10px;
+}
+.ctd-content {
+	padding: 0 30px;
+}
+.ebma-preface {
+	padding-bottom: 20px;
+}
+.ebma-chapter {
+	position: relative;
+	padding-bottom: 25px;
+}
+.chapter-main {
+	border-top: 1px dotted #ccc;
+}
+.ebma-anchor0 {
+	position: absolute;
+	display: block;
+	top: -50px;
+	height: 1px;
+}
+.ebma-anchor1 {
+	position: absolute;
+	display: block;
+	top: -80px;
+	height: 1px;
+}
+.ebn-Catalog {
+	width: 100px;
+	height: 30px;
+	background: url(../../../images/trategy/TravelNotes.png) no-repeat -226px -270px;
+	margin-left: 70px;
+}
+.ebn-button-box {
+	bottom: -80px;
+	display: none;
+	height: 50px;
+	position: absolute;
+	right: 10px;
+	width: 25px;
+}
+.ebn-tip-bottom {
+	bottom: 0;
+}
+.ebn-tip {
+	margin-right: -14px;
+	padding-right: 10px;
+	position: absolute;
+	right: 10px;
+	text-align: right;
+	width: 140px;
+}
+.ebnt-point i {
+	display: inline-block;
+	background-image: url(http://pic.lvmama.com/img/v6/Trategys/Trategy-icon.png);
+	background-position: 236px -61px;
+	height: 10px;
+	width: 10px;
+	margin-left: 130px;
+	margin-right: 3px;
+}
+.ebn-tip-bottom .ebnt-day {
+	padding-bottom: 20px;
+}
+.ebnt-day {
+	font-size: 14px;
+	height: 25px;
+	overflow: hidden;
+	text-align: right;
+	color: #666;
+}
+.ebn-button {
+	display: block;
+	height: 25px;
+	width: 25px;
+}
+.sideCatalog-up-disable {
+	display: block;
+	height: 25px;
+	width: 25px;
+	background-image: url(../../../images/trategy/TravelNotes.png);
+	background-position: 0px -440px;
+}
+.sideCatalog-up-enable {
+	display: block;
+	height: 25px;
+	width: 25px;
+	background-image: url(../../../images/trategy/TravelNotes.png);
+	background-position: -40px -440px;
+}
+.sideCatalog-down-disable {
+	display: block;
+	height: 25px;
+	width: 25px;
+	background-image: url(../../../images/trategy/TravelNotes.png);
+	background-position: 0 -465px;
+}
+.sideCatalog-down-enable {
+	display: block;
+	height: 25px;
+	width: 25px;
+	background-image: url(../../../images/trategy/TravelNotes.png);
+	background-position: -40px -465px;
+}
+/* 游记内容 */
+.ctd-content .CatalogHd-main {
+	margin: 30px 0px 0px;
+	font-size: 26px;
+	line-height: 34px;
+	color: #333;
+	font-weight: normal;
+	position: relative;
+	padding-left: 14px;
+	width: 650px;
+	max-height: 72px;
+	overflow: hidden;
+}
+.ctd-content .CatalogHd-child {
+	background: #eee;
+	color: #00a7e1;
+	height: 30px;
+	line-height: 30px;
+	margin: 10px 0 10px 20px;
+	padding-left: 20px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.ctd-content h4 i {
+	display: inline-block;
+ *display: inline;
+ *zoom: 1;
+	width: 4px;
+	height: 34px;
+	background: #ff9900;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.ctd-content p {
+	font-size: 16px;
+	padding-left: 20px;
+	line-height: 32px;
+	word-break: break-all;
+	margin-top: 20px;
+}
+.ctd-content img {background: url(/res/images/index/nopic.png) center center no-repeat #eee;
+	max-width: 670px;
+	display: block;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.ebma-preface .Survey {
+	padding-left: 20px;
+	margin-top: 20px;
+}
+.ebma-preface .Survey li {
+	height: 30px;
+	line-height: 30px;
+	color: #444;
+	position: relative;
+}
+.ebma-preface .Survey i {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background: url(../../../images/trategy/TravelNotes.png) no-repeat;
+	position: absolute;
+	top: 8px;
+}
+.ebma-preface .Survey span {
+	padding-left: 30px
+}
+.ebma-preface .Survey .time i {
+	background-position: 0px -110px;
+}
+.ebma-preface .Survey .day i {
+	background-position: -40px -110px;
+}
+.ebma-preface .Survey .cost i {
+	background-position: -80px -110px;
+}
+.ebma-preface .Survey .people i {
+	background-position: -120px -110px;
+}
+.ebma-preface .Survey .jingqu i {
+	background-position: -160px -110px;
+}
+.ctd-theend {
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	width: 100%;
+	height: 83px;
+	margin: 0 auto;
+	background: url(../../../images/trategy/TravelNotes.png) no-repeat;
+	background-position: center -180px;
+	display: block;
+}
+/* 游记 内容 右边 */
+
+
+.ctd-Travel-sider .notes-box {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 260px;
+}
+.notes-box-fixed {
+	position: fixed;
+	top: 70px;
+	width: 260px;
+}
+.notes-box-absolute {
+	position: absolute;
+	bottom: 0;right: 0;
+}
+.ctd-Travel-sider .About-Trategy {
+	background: #FFF;
+	margin-bottom: 20px;
+	height: 110px;
+}
+.ctd-Travel-sider .Recommen-Trategy {
+	background: #FFF;
+}
+.ctd-Travel-sider .Recommen-Trategy h4 {
+	font-size: 18px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: normal;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 150px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+.ctd-Travel-sider .Recommen-Trategy ul {
+	padding: 10px;
+}
+.ctd-Travel-sider .Recommen-Trategy li {
+	height: 70px;
+	border-bottom: 1px dotted #CCC;
+	margin-bottom: 10px
+}
+.ctd-Travel-sider .Recommen-Trategy .note-img {
+	float: left;
+	width: 90px;
+	height: 60px;
+	overflow: hidden;
+}
+.ctd-Travel-sider .Recommen-Trategy .note-img img {
+	width: 90px;
+	height: 60px;
+}
+.ctd-Travel-sider .Recommen-Trategy .note-con {
+	padding-left: 100px;
+}
+.ctd-Travel-sider .Recommen-Trategy .note-con h5 {
+	font-size: 14px;
+	line-height: 20px;
+	height: 40px;
+	color: #646464;
+}
+.ctd-Travel-sider .Recommen-Trategy .note-name {
+	font-size: 12px;
+	color: #999;
+	margin-top: 5px;
+}
+.ctd-Travel-sider .Recommen-Trategy .note-name span {
+	color: #0087dd;
+}
+/* 游记 浮动导航 */
+.ctd-TrategyFloat-nav {
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 66px;
+	background: rgba(255,255,255,0.95);
+	border-bottom: solid 1px #E4E4E4;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	z-index: 999;
+}
+.ctd-TrategyFloat-nav .nav-warp {
+	width: 1180px;
+	margin: 0 auto;
+	position: relative;
+}
+.ctd-TrategyFloat-nav .nav-title .home {
+	background: #11a1de;
+	width: 66px;
+	height: 66px;
+	display: block;
+	float: left;
+}
+.ctd-TrategyFloat-nav .nav-title .home em {
+	margin: 0 auto;
+	margin-top: 25px;
+	display: block;
+	background: url(../../../images/trategy/TravelNotes.png) no-repeat -0px -80px;
+	width: 16px;
+	height: 16px;
+}
+.ctd-TrategyFloat-nav .nav-title .home a {
+	display: block;
+}
+.ctd-TrategyFloat-nav .nav-title .nav-h2 {
+	font-size: 20px;
+	padding-left: 20px;
+	float: left;
+	font-weight: normal;
+	height: 66px;
+	line-height: 66px;
+	color: #333;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn {
+	width: 301px;
+	float: right;
+	border-right: 1px dotted #ccc;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn a {
+	display: block;
+	height: 66px;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn .ui-btn {
+	position: relative;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	padding: 0;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn .ui-btn-inner {
+	display: block;
+	position: relative;
+	min-width: .75em;
+	font-size: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	zoom: 1;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li {
+	border-left: 1px dotted #ccc;
+	margin-left: -1px;
+	width: 75px;
+	display: inline-block;
+	height: 66px;
+	float: left;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn i {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	margin-left: -15px;
+	width: 40px;
+	height: 22px;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn .ui-btn-text {
+	display: block;
+	padding-top: 35px;
+	font-size: 14px;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-like b {
+	font-size: 12px;
+	font-weight: normal;
+	color: #2db2ff;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-comment b {
+	font-size: 12px;
+	font-weight: normal;
+	color: #8bd406;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-browse b {
+	font-size: 12px;
+	font-weight: normal;
+	color: #19d881;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-like:hover b {
+	color: #fff;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-comment:hover b {
+	color: #fff;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-browse:hover b {
+	color: #fff;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn a:hover {
+	color: #FFF;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-share:hover {
+	background: #ff7356;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-like:hover {
+	background: #31b3ff;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-comment:hover {
+	background: #abdf4b;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-browse:hover {
+	background: #06d577;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li i {
+	background: url(../../../images/trategy/TravelNotes.png) no-repeat;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-share i {
+	background-position: 0 -40px;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-like i {
+	background-position: -80px -40px;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-comment i {
+	background-position: -160px -40px;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-browse i {
+	background-position: -240px -40px;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-share i {
+	background-position: 0 -40px;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-share:hover i {
+	background-position: 0 -5px;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-like:hover i {
+	background-position: -80px -5px;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-comment:hover i {
+	background-position: -160px -5px;
+}
+.ctd-TrategyFloat-nav .ui-navArea-btn li.link-browse:hover i {
+	background-position: -240px -5px;
+}

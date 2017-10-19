@@ -1,0 +1,407 @@
+/** 容器框架 开始 **/
+.container-fluid {
+
+	margin-right: auto;
+	margin-left: auto
+}
+/** 容器框架 结束 **/
+
+/** 框架结构 开始 **/
+.gridbox-left-s{ width:20%; float:left;}
+.gridbox-right-b{ width:80%; float:right;}
+
+.gridbox-left-b{ width:80%; float:left;}
+.gridbox-right-s{ width:20%; float:right;}
+
+.gridbox-left{ width:20%; float:left;}
+.gridbox-mid{width:60%; float:left;}
+.gridbox-right{ width:20%; float:right;}
+/** 框架结构 结束 **/
+
+
+/** 百分比分列 开始 **/
+.col-md-2 {
+	width: 50%;
+	float: left;
+}
+.col-md-3 {
+	width: 33.3%;
+	float: left;
+}
+.col-md-4 {
+	width: 25%;
+	float: left;
+}
+/** 百分比分列 结束 **/
+
+
+/** 登陆开始 **/
+.commonhead {
+	background: #fafafa;
+	border-bottom: 1px solid #f1f1f1;
+
+}
+#topLogin {
+	float: left;
+}
+#topNav {
+	float: right;
+}
+#topNavPanel {
+	height: 28px;
+	margin: 0 auto;
+	line-height: 28px;
+}
+#topLogin .login {
+	margin-left: 5px;
+	color: #f60;
+}
+#topLogin .login, #topLogin .register {
+	padding: 0 5px;
+}
+#topLogin a, #topLogin > span {
+	color: #999;
+}
+#topNavPanel a {
+	display: inline-block;
+	color: #666;
+}
+#topNav a {
+	padding: 0 10px;
+	display: inline-block;
+}
+
+/** logo **/
+#pageheader .logo {
+	width: 210px;
+	float: left;
+	height: 90px;
+	text-align: center;
+	background: #F90;
+}
+#pageheader .serch-box {
+	width: 600px;
+	margin-left: 80px;
+	height: 90px;
+	float: left;
+	text-align: center;
+	background: #F90;
+}
+#pageheader .tel-box {
+	width: 200px;
+	height: 90px;
+	float: right;
+	text-align: center;
+	background: #F90;
+}
+
+
+
+
+
+
+
+
+/* 内页列表样式代码开始*/
+.newslist ul {
+    padding:15px;
+}
+.newslist li {
+    line-height:30px;	
+	height:30px;
+	padding-left:5px;
+	border-bottom:1px dashed #CCCCCC;
+	overflow:hidden;
+}
+.newslist a{
+    font-size: 14px;
+	margin-left:5px;
+}
+/* Link */
+.newslist a:link { color:#333; text-decoration:none;}
+.newslist a:visited {color:#333;text-decoration:none;}
+.newslist a:hover {color:#cd0200;text-decoration:none;}
+.newslist a:active {color:#333;text-decoration:none;}
+.pub_time {
+    font-size:12px;
+	font-family:"宋体";
+    color: #9c9c9c; 
+	float:right;
+}
+/* 内页列表样式代码结束*/
+
+
+
+/* 分页显示样式代码开始*/
+.uPageBox {height:auto; margin:10px 0;}
+.uPage {    
+    float: right;
+    font-family: "微软雅黑";
+  
+}
+.uPage a {
+    border: 1px solid #e1e1e1;
+    color: #333;    
+    float: left;
+    margin-right: 6px;
+    text-align: center; padding:5px 15px;
+	cursor:pointer;
+}
+.uPage a:hover {    
+	border: 1px solid #3da0e7;
+    color: #0065d2;
+    text-decoration: none;
+}
+.uPage .num.current {
+    background-color: #2577e3;
+    border: 1px solid #2577e3;
+    color: #fff;
+}
+.uPage .uPrevpage, .uPage .uNextpage {padding:5px 15px;
+
+}
+/* 三角 */
+.uPage i{ display:block;}
+.uPage .uPrevarrow{width:0; height:0; margin:3px auto 4px auto; border:7px solid; border-color: #ffffff #0061ba #ffffff #ffffff;}
+.uPage .uNextarrow{width:0; height:0; margin:3px auto 4px auto; border:7px solid; border-color: #ffffff #ffffff #ffffff #0061ba;}
+
+/* 分页显示样式代码结束*/
+
+
+/* 菜单显示/置顶切换 隐藏显示附加内容 开始*/
+#FloatCase {
+	width: 100%; filter:alpha(opacity=50);  
+      -moz-opacity:0.5;  
+      -khtml-opacity: 0.5;  
+      opacity: 0.5;  
+
+}
+.nav-fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.FloatWarp {
+	width: 100%;
+	margin: 0 auto;
+}
+.nav-return {
+	width: 80%;
+	margin: 0 auto;
+}
+#float-nav-box {	
+	height: 50px;
+	background: #f9f9f9;
+	border-bottom: 1px solid #2577e3;
+	position: relative;
+	z-index: 99;
+	color: #fff;
+	line-height: 50px;
+}
+#float-nav-box ul {
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	list-style-type: none;
+}
+#float-nav-box ul li {
+	float: left;
+margin：0px 5px;
+	border-right: 1px solid #fff;
+}
+#float-nav-box ul li a {
+	display: block;
+	padding: 0px 40px;
+	height: 50px;
+	line-height: 50px;
+	color: #666666;
+	border-right: 1px solid #dddddd;
+	text-decoration: none;
+}
+#float-nav-box ul li a:hover {
+	color: #F60;
+}
+#float-nav-box li.current a {
+	background: #2c9bf0;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-weight: 800;
+}
+#float-nav-box li.current a:hover {
+	background: #2c9bf0;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-weight: 800;
+}
+#pay-org-btn {display:none;}
+#pay-org-btn a {
+   display: block;
+	position: absolute;
+	top: 3px;
+	right: 5px;
+	bottom: 5px;
+	height: 38px;
+	padding: 3px 1em 0;
+	font: 18px/38px 'microsoft yahei';
+	color: #fff;
+	text-align: center;
+	background-color: #fb9125;
+	border-radius: 3px;
+	border: 1px solid #e08821;
+	box-shadow: inset 0 1px 0 0 #fcad5c;
+}
+#pay-org-btn a:link, a:visited {
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+}.info p{ padding-top:50px;}
+
+.main-top{ padding-top:50px; background:#6CC;}
+
+/*菜单显示/置顶切换 隐藏显示附加内容 结束*/
+
+
+/** 图片相册左右结构 开始 **/
+.connected-carousels {
+	width: 100%;
+	position: relative;
+}
+.stage {
+	width: 100%;
+	margin: 0px;
+	position: relative;
+}
+.connected-carousels .photo-credits {
+	position: absolute;
+	right: 15px;
+	bottom: 0;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+	opacity: .66;
+}
+.connected-carousels .photo-credits a {
+	color: #fff;
+}
+.connected-carousels .navigation {
+	width: 100px;
+	margin: 20px auto 0 auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.connected-carousels .carousel {
+	overflow: hidden;
+	position: relative;
+}
+.connected-carousels .carousel ul {
+	height: 20000em;
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.connected-carousels .carousel li {
+	float: left;
+}
+.connected-carousels .carousel-stage {
+	width: 80%;
+	height: 250px;
+	overflow: hidden;
+}
+.connected-carousels .carousel-navigation {
+	height: 186px;
+	width: 110px;
+	padding: 0px;
+}
+.connected-carousels .carousel-navigation li {
+	cursor: pointer;
+}
+.connected-carousels .carousel-navigation li img {
+	width: 100px;
+	height: 56px;
+	display: block;
+	border: 3px solid #fff;
+}
+.connected-carousels .carousel-navigation li.active img {
+	border-color: #ffa901;
+}
+.connected-carousels .prev-stage, .connected-carousels .next-stage {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 305px;
+	height: 410px;
+	color: #fff;
+}
+.connected-carousels .prev-stage {
+	left: 0;
+}
+.connected-carousels .next-stage {
+	right: 0;
+}
+.connected-carousels .prev-stage.inactive, .connected-carousels .next-stage.inactive {
+	display: none;
+}
+.connected-carousels .prev-stage span, .connected-carousels .next-stage span {
+	display: none;
+	position: absolute;
+	top: 50%;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+}
+.connected-carousels .prev-stage span {
+	left: 20px;
+}
+.connected-carousels .next-stage span {
+	right: 20px;
+}
+.connected-carousels .prev-stage:hover span, .connected-carousels .next-stage:hover span {
+	display: block;
+}
+.connected-carousels .prev-navigation {
+	display: block;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background: url(/res/images/phone/rosestrap-ico.png) no-repeat -100px 0px;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 16px/29px Arial, sans-serif;
+}
+.connected-carousels .next-navigation {
+	display: block;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background: url(/res/images/phone/rosestrap-ico.png) no-repeat -150px 0px;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 16px/29px Arial, sans-serif;
+}
+.connected-carousels .prev-navigation {
+	left: 40px;
+	top: -20px;
+	text-indent: 6px;
+}
+.connected-carousels .next-navigation {
+	left: 40px;
+	top: 195px;
+	text-indent: 20px;
+}
+.connected-carousels .prev-navigation.inactive, .connected-carousels .next-navigation.inactive {
+	opacity: .5;
+	cursor: default;
+}
+
+/** 图片相册左右结构结束 **/

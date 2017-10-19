@@ -1,0 +1,3 @@
+
+[notify_url:(Pay_Pc_WxPay)20160815142440]
+[notify_url:20160815142440 appid=wxdf8497303505ae0d bank_type=COMM_DEBIT cash_fee=1 fee_type=CNY is_subscribe=Y mch_id=1327381201 nonce_str=crhfwln6wxtn7kd7a3g42m3p6sbnpm0i openid=oyq3hv5bo624jLfbmyqcYd4XD2gk out_trade_no=05422610481719 result_code=SUCCESS return_code=SUCCESS sign=312A5A5920A9992D8AE45D9F4A4C3C74 time_end=20160815142439 total_fee=1 trade_type=NATIVE transaction_id=4004402001201608151397447265]

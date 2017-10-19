@@ -1,0 +1,11 @@
+rewrite ^/(uploads/.*?_\d+x\d+\.(jpg|gif|png|jpeg))$ /image/index.php?$1 last;
+rewrite ^/(?:v5|modules|system)\b.* /index.php/$0 last;
+if (!-f $request_filename){
+	set $rule_2 1$rule_2;
+}
+if ($uri !~ "^/(uploads|public|newtravel|phone|payment|min)(/)?"){
+	set $rule_2 2$rule_2;
+}
+if ($rule_2 = "21"){
+	rewrite /.* /index.php/$0;
+}

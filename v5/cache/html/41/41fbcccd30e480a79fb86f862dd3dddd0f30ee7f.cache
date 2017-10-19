@@ -1,0 +1,910 @@
+3600
+s:50302:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>保定古莲花池、清西陵二日游——保定旅游-旅游</title>
+  <!-- 页面公用 public CSS 文件 -->
+  <link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css" rel="stylesheet"  />
+  <link type="text/css" href="/min/?f=/res/css/mycss/strategy/Trategy.css" rel="stylesheet"  />
+  <script type="text/javascript"src="/min/?f=/res/js/common/jquery-1.11.3.min.js,/res/js/common/bootsAitto-min.js"></script>
+  <script type="text/javascript"src="/min/?f=/res/js/strategy/Trategy.js"></script>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?f968b43cd6404299f54d25d87c3bbe3a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script></head>
+<body class="Color-fafafa" >
+<!-- 登陆代码 开始 -->
+
+<link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css" rel="stylesheet"  />
+<header>
+    <div id="commonHead">
+        <div id="commonWarp">
+            <div class="logo" style="cursor:pointer;" onclick="window.location.href='http://www.aitto.net'" ></div>
+        <div class="nav">
+                <ul>
+                    <li class="current st-menu">
+                        <a href="/">首页                        </a>
+                    </li>
+                                                            <li class="st-menu"><a href="http://www.aitto.net/destination/">目的地</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/raiders/">攻略</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/notes/">游记</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/spots/">门票</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/lines/self">自驾游</a></li>
+                                        
+                </ul>
+            </div>
+              <div class="head-search">
+            <div class="head-search-wrapper">
+                <div class="head-searchform">
+                    <input id="_j_head_search_input" type="text" value="" placeholder="搜索攻略">
+                    <a role="button" href="javascript:" class="icon-search" id="_j_head_search_link" onclick=""></a> </div>
+            </div>
+        </div>
+                  <div class="login-info">
+                <div class="userLogin" id="loginstatus">
+                </div>
+                <div class="head-user drop-trigger" id="-j-head-user">
+                    <a class="" href="#">
+                        <div class="user-ico"></div>
+                        <i class="icon-caret-down"></i>
+                    </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">会员中心</h2>
+                        <div class="dropdown-menu" >
+                            <ul>
+                                <li class="icon-home"><a href="/member/"><i></i>会员首页</a></li>
+                                <li class="icon-order"><a href="/member/order/all"><i></i>我的订单</a></li>
+                                <li class="icon-writenotes"><a href="/member/index/mynotes"><i></i>我的游记</a></li>
+                                <li class="icon-jifen"><a href="/member/index/jifen"><i></i>我的积分</a></li>
+                                <li class="icon-Personal"><a href="/member/index/userinfo"><i></i>个人中心</a></li>
+                                <li class="icon-traveller"><a href="/member/index/linkman"><i></i>常用旅客</a></li>
+                                <li class="icon-logout"><a href="/member/login/loginout"><i></i>退出登录</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-code drop-trigger" id="-j-head-code" > <a class="" href="#">
+                        <div class="code-ico"></div>
+                        <i class="icon-caret-down"></i> </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+                        <div class="drop-con">
+                            <div class="WeChat"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</header>
+<script type="text/javascript">
+    //JQuery
+    $(document).ready(function(){
+        $(document).on("click",
+            function(e) {
+                isActive = $(e.target).parent().attr("class");
+                var  typeid= "4";
+                if (isActive=='head-searchform') {
+                    if(typeid==101){
+                          $(".head-search-focus").css('width',"345px");
+                          $(".head-search-focus .head-searchform input").css('width',"323px");
+                    }
+                    if(typeid==5){
+                        $(".head-search-focus").css('width',"285px");
+                        $(".head-search-focus .head-searchform input").css('width',"263px");
+                    }
+                }
+                else {
+                    if(typeid==101||typeid==5){
+                        $(".head-searchform input").css('width',"108px");
+                        $(".head-search-wrapper").css('width',"130px");
+                    }
+                    $(".head-search-wrapper").removeClass("head-search-focus");
+                }
+            })
+        $("#_j_head_search_input").click(function(){
+            $(".head-search-wrapper").addClass("head-search-focus");
+        });
+    });
+</script>
+<script type="text/javascript"src="/min/?f=/res/js/SuperSlide.min.js,/res/js/base.js,/res/js/common.js,/res/js/myjs/bootstrap.min.js,/res/js/myjs/jquery.select.js,/res/js/common/bootsAitto-min.js"></script>
+<script>
+    var SITEURL = "/";
+    function optionChecked(obj){
+        var typeid = $(obj).attr('data-id');
+        var durl = $(obj).attr('data-url');
+       // alert(typeid+"["+durl);
+        $("#typename").attr('data-id',typeid);
+        $("#typename").attr('data-url',durl);
+    }
+    //====================07.05  s
+    $("a[name=myorder]").click(function(){
+        var  url1 =SITEURL+'member/order/all';//SITEURL 为 '/'
+        var  url =SITEURL+'member/login?redirecturl='+url1;
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status==0){
+                    alert("请先登录");
+                   window.location.href =url;
+                }else{
+                    window.location.href =url1;
+                }
+            }
+        })
+    });
+    //====================07.05  e
+    $(".weixin").mouseover(function(){
+        //  $(this).addClass("hover");
+        $(this).children(".dropdown1").show()
+    });
+    $(".weixin").mouseout(function(){
+        // $(this).removeClass("hover");
+        $(this).children(".dropdown1").hide()
+    });
+   //
+    $(function(){
+        var typeid  = "4";
+        $("#_j_head_search_input").keydown(function(e){
+            if(e.keyCode==13){
+                $('#_j_head_search_link').click();
+            }
+        });
+        $(".searchmodel li:first").trigger('click');
+        //search
+        $('#_j_head_search_link').click(function(){
+            var keyword = $('#_j_head_search_input').val();
+            if(keyword == ''){
+                alert("请输入内容");
+                $("#_j_head_search_link").focus();
+                return false;
+            }
+//            var typeid = $("#typename").attr('data-id');
+//            var durl = $("#typename").attr('data-url');
+//            if(typeid==0 || typeid==8){//0  是全部  8是 签证
+//                var url = SITEURL+'search/cloudsearch?keyword='+encodeURIComponent(keyword)+"&typeid="+typeid;
+//            }else{
+//                var url = "http://www.aitto.net"+durl+'all?keyword='+encodeURIComponent(keyword);
+//            }
+            if(typeid==4){
+                var url = "http://www.aitto.net"+"/raiders/"+'all?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==101){
+                var url = "http://www.aitto.net"+"/notes/list"+'?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==5){
+                var url = "http://www.aitto.net"+"/spots/"+'all?keyword='+encodeURIComponent(keyword);
+            }
+            location.href = url;
+        })
+        //导航的选中状态
+        $(".st-menu a").each(function(){
+            $(".st-menu").removeClass('current');
+            var url= window.location.href;
+            // url=url.replace('index.php','');
+            //url=url.replace('index.html','');
+            var urlArr = url.split("/");
+            var ulink=$(this).attr("href");
+            var urlLinkArr = ulink.split("/");
+             //  定义目的地拼音
+            var pinyin  ="";
+            var  sss   = urlArr[3].split("?");
+            var   p    = sss[0];
+         console.log(urlArr[3]);
+        // console.log(urlLinkArr[3]);
+            if(urlArr[3]==urlLinkArr[3])
+            {
+                $(this).parents('li').addClass('current');
+                return false;
+            }else if(pinyin==p&&urlLinkArr[3]=='destination'&&pinyin.length!=''){
+                $(this).parents('li').addClass('current');
+                return false;
+            }
+            else{
+                if(urlArr[3]!='member'){
+                    $(".st-menu").first().addClass('current');
+                }
+            }
+        })
+        //登陆状态
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status){
+                    $txt = '<a class="dl" style="padding:0" href="javascript:;">你好,</a>';
+                    $txt+= '<a class="dl" href="/member/">'+data.user.nickname+'</a>';
+                    $txt+= '<a class="dl" href="/member/login/loginout">退出</a>';
+                    //$txt+= '<a class="dl" href="/member">个人中心</a>';
+                    $txt = '您好:<a href="/member/">'+data.user.nickname+'</a>';
+                }else{
+                    //$txt = '<a class="dl" href="/member/login">登录</a>';
+                    // $txt+= '<a class="zc" href="/member/register">免费注册</a>';
+                    $txt = '&nbsp;&nbsp;&nbsp;&nbsp;<a href="/member/login">登录</a> | <a href="/member/register">注册</a>';
+                }
+                $("#loginstatus").html($txt);
+            }
+        })
+    })
+</script>
+<script>
+    var s  = 3;
+</script><!-- 登陆代码 结束 -->
+<div class="notebox"></div>
+<section> 
+  <!-- 面包屑 开始 -->
+  <div  class="BreadCrumb">
+    <ul >
+      <li><a href="/">首页<i class="icon-gt">&gt;</i></a></li>
+      <li><a href="/raiders">攻略<i class="icon-gt">&gt;</i></a></li>
+      <li class="current"><a href="#">攻略正文</a></li>
+    </ul>
+    <div class="clearfix"></div>
+  </div>
+  <!--  面包屑 结束 --> 
+</section>
+<div class="ctd-TrategyFloat-nav">
+  <div class="nav-warp">
+    <div class="nav-title"> <span class="home"><a href="#"><em></em></a></span> <span class="nav-h2">保定古莲花池、清西陵二日游</span> </div>
+    <div class="ui-navArea-btn ">
+      <ul>
+        <li class="link-share bdsharebuttonbox" data-tag="share_1"><a href="javascript:;" class="ui-btn bds_more" title="一键分享" rel="nofollow" style="cursor:auto" data-cmd="more" onclick="shareStyle(this)" onmouseout="reStyle(this)" onmouseover="shareStyle(this)">&nbsp;分享</a></li>
+        <li class="link-like"><a href="javascript:" class="ui-btn link_like" data-link="2" data-id="176"><i></i><span class="ui-btn-text">喜欢<b>(0)</b></span></a></li>
+        <li class="link-comment" onclick="foc()"><a href="javascript:void (0)" class="ui-btn"><i></i><span class="ui-btn-text" >评论<b>(0)</b></span></a></li>
+        <li class="link-browse"><a href="javascript;" class="ui-btn"><i></i><span class="ui-btn-text">浏览<b>(1549)</b></span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+  //  设置 页面的  划词 和图片分享
+  /*
+   百度 分享bdUrl 里面的地址不能拿带 http://www
+   亲测  火狐下 将按这个地址 跳转
+   */
+  window._bd_share_config={
+    common:{
+      bdText : "保定古莲花池、清西陵二日游",
+      bdDesc : "这攻略写得太棒了！",
+      bdUrl  : "aitto.net/raiders/show_173.html",
+      bdPic  : "aitto.net/uploads/2016/1013/89a7d12a1817b863452957f1b6f8f374.jpg",
+      bdMini :2,
+      "onBeforeClick" :function(cmd,config){
+        //  user 在用户点击分享按钮时执行代码，更改配置。
+        //  cmd为分享目标id，config为当前设置，返回值为更新后的设置。
+      },
+      "onAfterClick" : function(cmd){
+        //在用户点击分享按钮后执行代码，cmd为分享目标id。可用于统计等
+      }
+    },
+    share:[{
+      tag : "share_1",
+      bdCustomStyle:"/res/css/mycss/strategy/TravelNotes2.css"
+    }
+    ],
+    image:{
+      viewList:'',
+      viewText:"分享到：",
+      viewSize:"24"},
+    selectShare:{
+      bdContainerClass:null,
+      bdSelectMiniList:["qzone","tsina","tqq","renren","weixin"]
+    }
+  };
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+  function shareStyle(th){
+    $(th).css({
+      'padding-left': '2px',
+      'width': '66px',
+      'height':"100%",
+      'margin' :"0px 0px",
+      'color' : 'white',
+      'float': 'left',
+      'font-size': '13px',
+      'line-height': '89px',
+      'background-image': 'url(/res/images/TravelNotes/travelNotes2.png)',
+      'background-repeat': 'no-repeat',
+      'background-position-x':  '28px',
+      'background-position-y': '5px'
+    })
+  }
+  function reStyle(th){
+    $(th).css({
+      'padding-left': '2px',
+      'width': '66px',
+      'height':"100%",
+      'margin' :"0px 0px",
+      'color' : '#666',
+      'float': 'left',
+      'font-size': '13px',
+      'line-height': '89px',
+      'background-image': 'url(/res/images/TravelNotes/travelNotes2.png)',
+      'background-repeat': 'no-repeat',
+      'background-position-x':  '28px',
+      'background-position-y': '-30px'
+    })
+  }
+</script>
+<div class="container">
+  <section>
+    <div class="ctd-head-TrategyNotes"><img src="/uploads/2016/1013/89a7d12a1817b863452957f1b6f8f374.jpg" width="100%">
+      <div class="ctd-mask"></div>
+      <div class="ctd-info">
+        <div class="user-img"><img src="/uploads/2016/0622/5408a1a5ba22ead46a3e3ae97bfcb0c2.jpg" ></div>
+        <div class="user-info">
+          <h2>保定古莲花池、清西陵二日游</h2>
+          <div class="user-bot">
+            <div class="user-l">
+              <span class="user-data">13/Oct.2016</span>
+              <span class="user-name">艾小漠</span>
+              <span class="user-lv">LV 7</span><span class="user-num">46篇攻略</span>
+            </div>
+            <div class="user-r">
+              <span class="link-box">
+<!--                <a class="link-share bds_more" href="javascript:;" > <i></i>分享 </a>-->
+                <a class="link-like link_like" href="javascript:;" data-id="176"  title="喜欢就点击一下"> <i></i>喜欢<span>0</span> </a>
+                <a class="link-comment" href="javascript:;"  title="我要评论" onclick="foc()"><i></i>评论<span>0</span></a>
+                <a class="link-browse" href="javascript:;"> <i></i> 浏览 <span>1549</span> </a> </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="ctd-Travel-body">
+      <div class="ctd-Travel-nav">
+        <div class="sideToolbar">
+          <div class="sideCatalog">
+            <div class="ebn-button-box" style="display: block;bottom: -55px">
+              <a class="ebn-button ebn-button-up sideCatalog-up-disable" href="javascript:;"></a>
+              <a class="ebn-button ebn-button-down sideCatalog-down-enable"  href="javascript:;"></a>
+            </div>
+            <div class="ebn-Catalog"></div>
+            <div class="sideCatalog-catalog">
+              <dl>
+              </dl>
+            </div>
+            <!--<div class="ebn-tip ebn-tip-bottom" style="display: block;">
+            <div class="ebnt-point"><i></i></div>
+            <div class="ebnt-day"><i></i>大理环海铁佛寺驿</div>
+          </div>   --> 
+          </div>
+        </div>
+      </div>
+      <div class="ctd-Travel-article">
+        <div class="ctd-content">
+          <div class="ebma-chapter ebma-preface"> <a class="ebma-anchor0" href="#" id="p0"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">旅游概况</span></h4>
+            <ul class="Survey">
+              <li class="time"><i></i><span>目的地： 保定</span></li>
+              <li class="day"><i></i><span>出行天数： 2天</span></li>
+              <li class="cost"><i></i><span>人均花费： 400元</span></li>
+              <li class="people"><i></i><span>最佳出游时间：全年</span></li>
+              <li class="jingqu"><i></i><span>景点：古莲花池、清西陵</span> </li>
+              <div class="clearfix"></div>
+            </ul>
+          </div>
+          <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p1"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">景区简介</span></h4>
+            <div class="ebma-con">
+              <p><img src="http://www.aitto.net/uploads/arcimgs/76161476338369.png" alt="" title="" style="white-space: normal;"/></p><p>​保定是我国历史文化名城，距离石家庄约150公里，驾车2.5小时；清西陵距离保定市区约100公里，驾车约2小时。</p>            </div>
+          </div>
+          <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p2"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">交通路线</span></h4>
+            <div class="ebma-con">
+              <p><img src="/uploads/2016/1013/8f8c12f99a2db203d9e3cc9d0764f184.png" alt="" title=""/>​</p><p><strong>自驾：</strong></p><p>上午从家出发，石家庄—绕城高速—京石高速—保定，全程约150公里，约2.5小时。</p><p>从保定市区到清西陵：乐凯北大街—京昆高速—涞涞高速，全程100公里，约2小时。</p><p>从清西陵到石家庄：京昆高速—张石高速连接线—石家庄，全程约230公里，约3小时。</p><p><strong>乘车：</strong></p><p>从石家庄有通往保定的客车以及火车，市内多路公交可到达古莲花池、直隶总督署；客运中心有发往易县的汽车（票价 25元左右），易县有直接到清西陵的车。</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p4"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">时间安排</span></h4>
+          </div>
+          <div><p><img src="/uploads/2016/1013/b41bb3f1faf4f30cfec0e4f82678647c.png" alt="" title=""/></p><p><strong>第一天：</strong></p><p>上午出发，中午达到保定市，午餐后游览古莲花池、直隶总督署，晚上入住市区酒店。 &nbsp;&nbsp;</p><p><strong>第二天 ：</strong></p><p>吃完早餐后，自驾前往清西陵景区，行程约2小时，下午返回石家庄。</p> </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p5"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">DAY1：古莲花池、直隶总督署</span></h4>
+          </div>
+          <div> </div>
+                              <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p5-0"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">玩什么</span></h4>
+            <div class="ebma-con">
+              <p>古莲花池，总面积为2.4万平方米，其中池水面积7900平方米，是保定八景之一，称“涟漪夏艳”，门票30元。<img src="/uploads/2016/1013/6440388af804ab15bee8aaac28747996.jpg" alt="" title=""/></p><p>古莲池不仅以“林泉幽邃，云物苍然”闻名，更因与莲池书院同处一址而声名远播。<img src="/uploads/2016/1013/bc861ff540cbf3c5539d4507687d65f5.png" alt="" title=""/></p><p>池水以中心岛为界分为南北两塘，蜿蜒曲折的东西二渠将两塘沟通一体。<img src="http://www.aitto.net/uploads/arcimgs/21461476343655.png" alt="" title=""/></p><p>南塘呈半月形，外围峭壁环峙，松柏滴翠。<img src="/uploads/2016/1013/b0becd799ffe42baab75e3f26a058cb5.jpg" alt="" title=""/></p><p>北塘呈不规则矩形，四周玉石堆岸，杨柳垂丝。<img src="http://www.aitto.net/uploads/arcimgs/28561476343655.jpg" alt="" title=""/></p><p>水心亭居其中，君子长生馆、藻咏厅、 观澜亭、濯锦亭、高芬轩、响琴榭等建筑和景点环池而设。<img src="http://www.aitto.net/uploads/arcimgs/96151476343655.jpg" alt="" title=""/></p><p>古莲花池还以碑刻众多而著称，有唐、宋、元、明、清各代碑刻近百通。<img src="/uploads/2016/1013/08d905b5778e8877eec22f87596ec5f4.jpg" alt="" title=""/><img src="/uploads/2016/1013/7d0170be9afaef100a9049f9a9215c5c.jpg" alt="" title=""/></p><p>园中诸景建制小巧玲珑，优雅别致，拙中见巧，朴中有奇，汇集了中国南北古建筑园林风格的精华。<img src="http://www.aitto.net/uploads/arcimgs/31931476343655.jpg" alt="" title=""/></p><p>古莲花池的对面就是直隶总督署，门票32元。<img src="/uploads/2016/1013/0b5a5b7e164fe7443149c9e95e24143b.png" alt="" title=""/></p><p>直隶总督署位于河北省保定市莲池区裕华路，是清代直隶总督的办公处所、直隶省的最高军政机关，也是我国现存的唯一一座最完整的清代省级衙署。<img src="http://www.aitto.net/uploads/arcimgs/20951476343655.jpg" alt="" title=""/></p><p>这座衙署起用于雍正七年，直到清王朝后废止,历经180多年的春秋岁月，风雨坎坷。<img src="http://www.aitto.net/uploads/arcimgs/48831476343655.png" alt="" title=""/></p><p>它亲眼目睹了清政府由兴盛转向衰败的历史，见证了一个朝代的终结。<img src="/uploads/2016/1013/7ca62fb4a36a1d8ea574401daa5a9507.png" alt="" title=""/></p><p>整个署衙，院落分明。虽然百余年风雨如晦,但是依然透露着一股威严肃杀。<img src="http://www.aitto.net/uploads/arcimgs/7181476343655.png" alt="" title=""/></p><p>它承袭了典型的北方衙署建筑风貌，其格局严格按照清朝关于省级衙署的规制修建的。<img src="http://www.aitto.net/uploads/arcimgs/69351476343655.png" alt="" title=""/></p><p>整座衙署建筑座北朝南，分东、中、西三个建筑群路，主体建筑在中路，共五进院落。&nbsp;<img src="/uploads/2016/1013/7ca3e0120fd901a5a9ca588724aab29d.png" alt="" title=""/></p><p>其中，最显威严的是总督大堂。堂案上摆放着硕大的总督印，屏风上的仙鹤彰显着一品大员的尊荣。<img src="http://www.aitto.net/uploads/arcimgs/15561476343655.png" alt="" title=""/></p><p>风雨二百载，沧桑两世纪。这座古衙也用一砖一瓦、一墙一阁记录着河北的历史和文化。</p><p><img src="http://www.aitto.net/uploads/2016/1013/de4bb4a38af877a12297f96478e26e43.png" alt="" title="" style="white-space: normal;"/></p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p5-1"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">住哪里</span></h4>
+            <div class="ebma-con">
+              <p><img src="/uploads/2016/1013/0bdeaf9826bf483ba3622220df99cd4d.png" alt="" title=""/></p><p>保定市住宿条件非常成熟，有各种档次的的酒店、宾馆、旅馆、招待所可供选择。</p><p>周边的怡商快捷酒店、蕴升酒店、如家快捷酒店、有家客栈等都是不错的选择，有各种档次的房间可选，关键是离景点近。</p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p5-2"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">吃什么</span></h4>
+            <div class="ebma-con">
+              <p><img src="http://www.aitto.net/uploads/arcimgs/44241476344695.png" alt="" title="" style="white-space: normal;"/></p><p>保定亦有美食城之称，当地的各种特色美食让人垂涎欲滴。其中，最著名的就是保定驴肉火烧了，大街小巷到处都可看到卖驴肉火烧的餐馆、小摊。<img src="/uploads/2016/1013/04d0bb81eaaafc38bba35054b41723eb.jpg" alt="" title=""/></p><p>槐茂酱菜、保定马家鸡、牛肉罩饼等也十分有名，好吃不贵。</p><p><img src="http://www.aitto.net/uploads/arcimgs/39201476344695.png" alt="" title="" style="white-space: normal;"/></p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p5-3"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">买什么</span></h4>
+            <div class="ebma-con">
+              <p>保定铁球，俗称健身球，不仅是娱乐工具，而且具有健身功能。<img src="/uploads/2016/1013/f34e238a1f3948b25072ef0a151e21fa.jpg" alt="" title=""/></p><p>保定面酱，始产于清康熙十年，距今已有近400年历史，质量优良，久负盛名，是理想的烹饪调料。<img src="http://www.aitto.net/uploads/arcimgs/20211476347076.jpg" alt="" title=""/></p><p>高碑店豆腐丝，色正味香，丝条整齐，色泽乳白，味道咸香，最宜佐酒下饭。<img src="http://www.aitto.net/uploads/arcimgs/28711476347076.png" alt="" title=""/></p>            </div>
+          </div>
+                                        <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p6"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">DAY2：清西陵</span></h4>
+          </div>
+          <div> </div>
+                              <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p6-0"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">玩什么</span></h4>
+            <div class="ebma-con">
+              <p><img src="http://www.aitto.net/uploads/arcimgs/30251508383540.jpg" alt="" title="" style="white-space: normal;"/></p><p>清西陵共有14座陵寝，帝陵4座：泰陵（雍正皇帝）、昌陵（嘉庆皇帝）、慕陵（道光皇帝）、崇陵（光绪皇帝）；后陵3座：泰东陵、昌西陵、慕东陵；妃陵3座，其他陵寝4座（怀王陵、公主陵、阿哥陵、王爷陵等）。<img src="/uploads/2016/1013/70b85ff269db71eebc261e94d764f223.png" alt="" title=""/></p><p>共葬有4个皇帝、9个皇后、56个妃嫔以及王公、公主等70多人。<img src="http://www.aitto.net/uploads/arcimgs/58041508383540.png" alt="" title=""/></p><p>清西陵陵区内各陵园共用祖山、石牌坊、大红门，周围均用风水围墙和火道、界桩围绕。<img src="http://www.aitto.net/uploads/arcimgs/82261508383540.png" alt="" title=""/></p><p>各帝陵神道均与主陵神道相接，后陵神道与本朝帝陵神道相接，形成枝状的神道网络。<img src="http://www.aitto.net/uploads/arcimgs/40171508383540.png" alt="" title=""/></p><p>整个清西陵陵区以清世宗雍正帝的泰陵为中心，西面分布着清仁宗昌陵和清宣宗慕陵，东面分布着清德宗崇陵、溥仪墓以及阿哥、公主园寝和永福寺等建筑。<img src="/uploads/2016/1013/0d00b1dded500f965d604a2e646f73b4.png" alt="" title=""/></p><p>清世宗泰陵，居于清西陵陵区的中心位置，是清西陵中建筑最早、规模最大的一座。<img src="http://www.aitto.net/uploads/arcimgs/80401508383540.png" alt="" title=""/></p><p>泰东陵内安葬的是雍正帝熹妃、乾隆帝生母孝圣宪皇后，位于泰陵东北约1公里处的东正峪，是清西陵3座皇后陵中规模最大的一座。<img src="http://www.aitto.net/uploads/arcimgs/15441508383540.png" alt="" title=""/></p><p>清仁宗昌陵是嘉庆帝和孝淑睿皇后喜塔腊氏的陵寝，位于泰陵以西2里，以一条神道与泰陵相接，是西陵中唯一有神道与主陵相接的陵墓。<img src="http://www.aitto.net/uploads/arcimgs/20371508383540.png" alt="" title=""/></p><p>昌西陵内安葬着嘉庆帝的第二任皇后孝和睿皇后，在宝顶月台前面，神道上的第七块石板是块回音石，站在上面说话，可以听到宏亮的回音。<img src="http://www.aitto.net/uploads/arcimgs/40451508383540.png" alt="" title=""/></p><p>清宣宗慕陵位于昌陵西15公里处的龙泉峪，其规模小，没有方城、明楼、大碑亭、石象牲等建筑，但工程重量之坚固，则超过泰、昌二陵。<img src="http://www.aitto.net/uploads/arcimgs/21351508383540.png" alt="" title=""/></p><p>慕东陵为道光帝孝静成皇后的陵寝，位于慕陵东北方的双峰岫，原本是慕陵妃园寝。<img src="/uploads/2016/1013/c59856a529c82a97379147c4720dd752.png" alt="" title=""/><img src="/uploads/2016/1013/9bdaca645c9642ff0cbc1ab65c5a0802.png" alt="" title=""/></p><p>清崇陵位于泰陵的东南面约4公里的金龙峪，是我国现存帝陵中最后的一座，地宫中合葬着光绪帝和隆裕皇后。<img src="http://www.aitto.net/uploads/arcimgs/43321508383540.png" alt="" title=""/></p><p>除了以上几座陵墓外，清西陵内还有其他很多座陵园，其中有嘉庆皇帝的昌陵、甄嬛原型圣孝皇后所在的泰东陵等都比较著名，虽未开放参观，但可以在外面品味建筑，感怀历史的沧桑巨变。园区内种植了大面积的松树，如今都已古木参天，而且这里的游人不多，环境非常清幽，是摄影访古的好地方。<img src="/new_uploads/2017/1019/640db552a00a7eb69f93cca312106c03.png" alt="" title=""/></p><p>一天时间可以走马观花参观完以上所有景点，但深度游玩或摄影爱好者则需两天或者分两次前来，在大红门和泰陵附近有多家农家乐，价格都比较实惠，一个房间大约几十块，可以在此住宿或用餐。<img src="/new_uploads/2017/1019/b8dd4f4b25b569f5dd92c2e103799ced.png" alt="" title=""/></p><p>最后不得不说的是，清西陵规模很大，游览时比较消耗体力，建议备足零食和饮水；游览之前建议了解一下关于清朝皇家陵墓的背景知识，可以在参观时有更深的理解和收获。<img src="/new_uploads/2017/1019/a238ca8b8076f724903d60558ae727e5.png" alt="" title=""/></p>            </div>
+          </div>
+                    <div class="ebma-chapter chapter-child"> <a class="ebma-anchor1" href="#" id="p6-1"></a>
+            <h4 class="CatalogHd-child"><span class="head-con">吃什么</span></h4>
+            <div class="ebma-con">
+              <p>午饭可以在景区内吃自带食品，或者晚些时候出来到景区外面的餐馆吃。<img src="/new_uploads/2017/1019/1a605ad0e7bd2f34106093cb24590b48.png" alt="" title=""/></p>            </div>
+          </div>
+                                        <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p7"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">小贴士</span></h4>
+          </div>
+          <div><p style="white-space: normal;">​1、4月-10月为保定旅游的最佳季节。</p><p style="white-space: normal;">2、古莲花池门票30元，直隶总督署门票32元，清西陵门票通票120元，若有学生证、老年证、导游证的记得带上，可以优惠。</p><p style="white-space: normal;">3、老少皆宜，比较放松的旅游景点。</p><p style="white-space: normal;">​4、游览之前建议了解一下关于清朝皇家陵墓的背景知识，可以在参观时有更深的理解和收获。</p><p><br/></p> </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p8"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">看别人怎么说</span></h4>
+          </div>
+          <div><p><img src="/uploads/2016/1013/fb00f127bc2fe570b0424ebeb6b0ec20.png" alt="" title=""/><img src="/uploads/2016/1013/3300e09c17badf342f59ec131525b6f6.png" alt="" title=""/><img src="/uploads/2016/1013/a1eae457a9c0b4c37917bf25aeac29dd.png" alt="" title=""/></p> </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p9"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">小编说</span></h4>
+          </div>
+          <div><p>保定离石家庄不远，古莲花池内的荷花盛开时很艳丽，小桥流水、曲径通幽，它对面就是直隶总督署，里边威严肃穆，可以了解到好多历史知识。第二天到清西陵参观，虽然比起清东陵来规模小了一些，但也是十分的壮观，里边的建筑无不让人称奇。</p> </div>
+                              <div class="ctd-theend"></div>
+        </div>
+        <div class="ctd-comment">
+          <div class="TicketM-Tit"> <span> <i class="detail-icon-4"> 用户点评 </i> <i class="detail-icon-t"> </i> </span></div>
+          <div class="ebmc-content">
+            <div class="ebm-title">发表评论</div>
+            <div class="nchcomments-box">
+              <a title="" class="nchimg">
+                <img src="/uploads/main/allimg/20150923/20150923143441.jpg">
+              </a>
+              <div class="nchtextarea right">
+                <i class="tip-icon--left-sangle"></i>
+                <textarea class="ebmc-textarea" id="report_area" cols="30" rows="10" maxlength="500" placeholder="喜欢这篇攻略吗？说点什么吧..." onkeyup="zifu(this)"></textarea>
+                <span class="tbmac-tip tbmac-tip-normal">已输入<b><em>0</em>/500</b>字</span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="ebmc-info"> <a href="javascript:;" class="ebmc-button tj-btn">评论</a> </div>
+          </div>
+          <div class="ebmc-list">
+            <ul id="result_list">
+            </ul>
+            <div class="pages Pagination" >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ctd-Travel-sider">
+        <div class="notes-box">
+          <div class="side-box side-About">
+            <div class="wy-notice-img"><i></i><span>305</span>篇攻略</div>
+            <div class="wy-notice-btns">
+              <a href="/notes/WRITE/" class="Publish-Travels" rel="nofollow" target="-blank">
+                <i class="icon icon-publish"></i>发游记</a>
+              <a href="javascript:" rel="nofollow" id="com"><i class="icon icon-comments"></i>写点评</a>
+            </div>
+          </div>
+          <div class="side-box sid-Recommend">
+            <h4>河北全攻略</h4>
+            <ul>
+                            <li>
+                <a target="_blank" href="" title="承德京北第一草原一日游">
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/1010/795b71e88de53e90211e0060ad321d36.gif"/></div>
+                <div class="note-con">
+                  <h5>承德京北第一草原一日游</h5>
+                  <div class="note-name"><span>Andy</span>&nbsp;&nbsp;2017-10-09 </div>
+                </div>
+                </a>
+              </li>
+                            <li>
+                <a target="_blank" href="" title="张家口沽源塞外庄园一日游">
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/1009/db1977b305615506f59a213f57c3f69c.jpg"/></div>
+                <div class="note-con">
+                  <h5>张家口沽源塞外庄园一日游</h5>
+                  <div class="note-name"><span>艾小漠</span>&nbsp;&nbsp;2017-10-09 </div>
+                </div>
+                </a>
+              </li>
+                            <li>
+                <a target="_blank" href="" title="茅荆坝原始森林谷一日游">
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/1009/2c364b7d2f08e8aa51eabb7137bf33d9.gif"/></div>
+                <div class="note-con">
+                  <h5>茅荆坝原始森林谷一日游</h5>
+                  <div class="note-name"><span>Andy</span>&nbsp;&nbsp;2017-10-09 </div>
+                </div>
+                </a>
+              </li>
+                          </ul>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+</div>
+
+<div style="clear: both"></div>
+<div class="footer">
+  <!-- 网站底部 开始-->
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-r">
+        <div class="code">
+          <p><img src="/res/images/erweima.jpg"></p>
+          <h3>河北旅游网微信公众号</h3>
+        </div>
+        <div class="code">
+          <p><img src="/res/images/erweima2.jpg"></p>
+          <h3>米淘亲子游微信公众号</h3>
+        </div>
+      </div>
+      <ul class="footer-l">
+        <li>
+          <h2>联系我们</h2>
+          <p>全国统一客服电话：<span>0311-87885822</span></p>
+          <p>意见邮箱：3011930149@qq.com</p>
+        </li>
+        <li class="ab-list"><h2>关于我们</h2>
+                              <a href="http://www.aitto.net/servers/index_1.html">关于我们</a>
+                    <a href="http://www.aitto.net/servers/index_2.html">联系我们</a>
+                    <a href="http://www.aitto.net/servers/index_11.html">商务合作</a>
+                    
+        <li class="dh-list"><h2>站点导航</h2>
+                              <a href="http://www.aitto.net/destination/">目的地</a>
+                    <a href="http://www.aitto.net/raiders/">攻略</a>
+                    <a href="http://www.aitto.net/notes/">游记</a>
+                    <a href="http://www.aitto.net/spots/">门票</a>
+                    <a href="http://www.aitto.net/lines/self">自驾游</a>
+                    
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <span style="color:#c2c2c2;margin-bottom: 4px;display: inline-block;">友情连接：</span>
+    <div class="footer-link">
+      <p>
+            
+</p>
+    </div>
+    <div class="footer-bottom">
+      <p>2004-2016 © 河北旅游网 ™ aitto.net All rights reserved. Version v5.57 冀ICP备16007967号-1<br />
+        营业执照新出网证（京）字242号 </p>
+    </div>
+  </div>
+  <!-- 网站底部 结束-->
+</div>
+<!-- 网站置顶 开始-->
+<div class="mfw-toolbar toolbar-item-a" id="_j_mfwtoolbar" style="display: block;">
+  <div class="toolbar-item-code"><a class="toolbtn _j_code"> <i class="icon-code"></i> </a>
+    <div class="code-box">
+      <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+      <div class="WeChat"></div>
+    </div>
+  </div>
+  <div class="toolbar-item-top"> <a class="toolbtn _j_gotop"> <i class="icon-top"></i> </a> </div>
+</div>
+<!-- 网站置顶 结束-->
+<script>
+//登陆下拉
+$(document).ready(function(){
+  $(".drop").mouseover(function(){
+      $(this).addClass("hover");
+  $(this).next(".dropdown2").show()
+  });
+  $(".drop").mouseout(function(){
+      $(this).removeClass("hover");
+  $(this).next(".dropdown2").hide()
+  });
+});
+</script> 
+<input type="hidden" id="articleid" value="173">
+<input type="hidden" id="user" value=""/>
+<!----分页----->
+<input type="hidden" name="offset" id="offset" value="">
+<input type="hidden" name="page" id="page" value="1">
+<input type='hidden' id='next1' value="">
+<!----分页------->
+<script type="text/javascript" src="/res/js/layer/layer.js"></script>
+</body>
+</html>
+<script>
+  //  点击 评论
+  $("#com").click(function () {
+    foc();
+  });
+  function  foc(){
+    $("#report_area").focus();
+  }
+  /******
+   *  评论  是 按照  文章的id
+   *  喜欢是 按照 文章 的aid
+   */
+  $(".link_like").click(function(){
+    var  th  = this;
+    $.ajax({
+      type:"POST",
+      url:SITEURL+"member/login/ajax_is_login",
+      dataType:'json',
+      success:function(data){
+        if(data.status){//已经 登录
+          addlike(th);
+        }else{  //没有登录
+          layer.confirm('是否登录，将游记添加到收藏？', {
+            btn: ['是','否'] //按钮
+          }, function(){
+            var url  = window.location.href;//获取当前页面的地址
+            var login_url  =SITEURL+"member/login/?redirecturl="+url; //www.aitto.net/member/login/?redirecturl=
+            window.location.href=login_url;
+          }, function(){
+            // addlike(th);
+          });
+        }
+      }
+    })
+  });
+  function addlike(th){
+    var i  = 1 ;
+    var infoid  = $(th).attr("data-id");
+    var this_link = $(th).attr("data-link");
+    //  alert(infoid);
+    if(this_link=='2'){
+      var s  = $(th).find("span").find('b').text().replace('(',"").replace(")","");
+    }else{
+      var s  = $(th).find("span").text();
+    }
+    var arid = $("#articleid").val();
+    //alert(arid);
+    $.ajax({
+      type: "POST",
+      url: SITEURL+"article/ajax_add_like",
+      dataType:'json',
+      data: {l_num:s,arId:arid,infoid:infoid,typeid:'4'},
+      success:function(data){
+        if(this_link=='2'){
+          if(data.status){
+            layer.msg(data.msg);
+           // $(th).html("<i></i>取消喜欢<span>"+data.likenum+"</span>");
+            $(th).html("<i></i><span class='ui-btn-text'>取消喜欢<b>("+data.likenum+")</b></span>");
+          }else{
+            layer.msg(data.msg);
+           // $(th).html("<i></i>喜欢<span>"+data.likenum+"</span>");
+            $(th).html("<i></i><span class='ui-btn-text'>喜欢<b>("+data.likenum+")</b></span>");
+          }
+        }else{
+          if(data.status){
+            layer.msg(data.msg);
+            $(th).html("<i></i>取消喜欢<span>"+data.likenum+"</span>");
+          }else{
+            layer.msg(data.msg);
+            $(th).html("<i></i>喜欢<span>"+data.likenum+"</span>");
+          }
+        }
+      }
+    });
+  }
+  //提交问答
+  $(".tj-btn").click(function(){
+    var user      = $("#user").val();
+    // return false;
+    var urls      = window.location.href;//获取当前页面的地址 当做重定向地址
+    if(user.length==0){
+      var url = '/member/login/?redirecturl='+urls;//
+      window.location.href  =url ;
+    }else {
+      var articleid = "176";
+      var dockid = $("#dockid").val();
+      //var checkcode = $("#checkcode").val();
+      var typeid = 4;
+      //var nickname = $("#nickname").val();
+      var content = $("#report_area").val();
+      if (content.length < 5) {
+        if(content.length==0){
+          layer.msg('回复内容不能为空', {
+            icon: 5
+          })
+          return false;
+        }else{
+          layer.msg('至少五个字符', {
+            icon: 5
+          })
+          return false;
+        }
+      }
+      $.ajax({
+        type: 'POST',
+        url: SITEURL + 'article/ajax_add_comment',
+        data: {
+          articleid: articleid,
+          content: content,
+          typeid: typeid,
+          dockid: dockid
+        },
+        success: function (data) {
+          if (data == 1) {
+            layer.msg('验证码错误', {
+              icon: 5
+            })
+            //重新加载验证码
+            $("#imgcheckcode").attr('src', "/captcha?" + Math.random());
+          } else if (data == 3) {
+            layer.msg('回复成功', {
+              icon: 6,
+              time: 1500
+            });
+            location.reload();
+          } else {
+            layer.msg('回复失败,请联系管理员', {
+              icon: 5
+            })
+          }
+        }
+      })
+    }
+  })
+</script>
+<script>
+  function zifu(th){
+    var thisval=$(th).val().length*1;
+    var shengyu = 500-thisval;
+    if(shengyu>0) {
+      var html = "已输入<b><em>" + thisval + "</em>/" + shengyu + "</b>字";
+      $(th).next('span').html(html);
+    }else{
+      layer.msg('不能输入了', {
+        icon: 5
+      })
+      return false;
+    }
+  }
+</script>
+<script type="text/javascript">
+  var pagesize  = 5;//0;//0;//0;//每页的页数
+  $(document).ready(function(){
+    $(function () {
+      var  s ='';
+      //第一次加载数据
+      get_data(s);
+    });
+  });
+  function get_data(s) {
+    var offset    = $("#offset").val().length==""? 0:$("#offset").val();//  每页的开始 也是 limit 第1个参数
+    var articleid = "176";//    攻略 的 id
+    var typeid    = "4";//  模型的 id
+    $.ajax({
+      type: "POST",
+      url: SITEURL + 'article/ajax_get_comment',
+      async:false,
+      dataType: "json",
+      data: {pagesize:pagesize,offset:offset,articled:articleid,typeid:typeid},
+      success: function(data){
+        var page1      =$("#page").val()*1;//   当前页面
+        var itemHtml = "";
+        var pages    = "";
+        $("#result_list").empty();
+        $(".Pagination").empty();
+        if(s==''){
+        }else if(s=='pre'){
+          $("#page").val(page1*1-1);
+        }else if(s=='next'){
+          $("#page").val(page1*1+1);
+        }else{
+          $("#page").val(s*1);
+        }
+//        var  page3 =  $("#page").val()*1;//   当前页面
+//        var  p    = (page3-1)*pagesize;
+        if(data.length!=0){
+          for(var i=0;i<data.length;i++){
+            itemHtml +="<li>";
+              if(data[i].userlitpic==null){
+                    itemHtml +="<div class='user-img'><img src='/uploads/main/allimg/20150923/20150923143441.jpg'></div>";
+              }else{
+                itemHtml +="<div class='user-img'><img src='"+data[i].userlitpic+"'></div>";
+              }
+            if(data[i].nickname==null){
+              itemHtml +="<div class='textarea-box'> <span class='comments-name'>"+data[i].wx_nickname+"</span>";
+            }else{
+              itemHtml +="<div class='textarea-box'> <span class='comments-name'>"+data[i].nickname+"</span>";
+            }
+            itemHtml +="<span class='comments-h2'>"+data[i].content+"</span>";
+            itemHtml +="<span class='comments-time'>"+data[i].addtime+"</span></div>";
+            itemHtml +="</li>";
+          }
+        }else{
+          itemHtml +="<li>";
+          itemHtml +="没有相关数据";
+          itemHtml +="</li>";
+        }
+        var page2      =$("#page").val()*1;//   当前页面
+        //  定义 系数
+        var coefficient = Math.floor((page2-1)/pagesize);
+        //   定义 开始和结束 页面
+        var startpage    = coefficient*pagesize+1;
+        var endpage      = coefficient*pagesize+2;
+            endpage   =  endpage>data[0]['totalpage'] ? data[0]['totalpage'] : endpage;
+        if(data[0]['totalpage']!=0){
+          pages  +="<div id='Pagination'><div class='pagination'>";
+          pages  +="<a class='uPrevpage' onclick='page(1)'><i></i>首页</a>";
+          pages  += "<a class='uPrevpage' onclick='pre()'><i></i>上一页</a>";
+             for(var j=startpage;j<=endpage;j++){
+               pages  += "<a href='javascript:' onclick='page("+j+")' ";
+               if(page2==j) {
+                 pages += " class='current' ";
+               }
+               pages  += ">"+j+"</a>" ;
+             }
+          pages  += "<a class='next' onclick='next()'>下一页 <i></i></a>";
+          pages  += "<a class='next' onclick='page("+data[0]['totalpage']+")'>尾页 <i></i></a>";
+          pages  += "</div></div>";
+          pages  += "<div class='searchPage'>";
+          pages  += "<span class='page-sum'>共<strong class='allPage'>"+data[0]['totalpage']+"</strong>页</span>";
+          pages  += "<span class='page-go'>跳转<input type='text'>页</span>";
+          pages  += "<a href='javascript:;' class='page-btn' data-all='"+data[0]['totalpage']+"' onclick='skip(this)'>GO</a>";
+          pages  += "</div>&nbsp;&nbsp;";
+        }
+        $("#result_list").append(itemHtml);
+        $(".Pagination").append(pages);
+        $("#next1").val(data[0]['totalpage']);
+      }
+    });
+  }
+  function page(s){
+    var offset ="";
+    offset = (s*1-1) * pagesize;//  2 位每页显示数；
+    $("#offset").val(offset);
+    get_data(s);
+  }
+  function pre(){
+    var offset ="";
+    var s   ='pre';
+    var cur_page    = $("#page").val();
+    var prepage = cur_page*1-1;
+    if(prepage==0){
+      return false;
+    }else {
+      offset = (prepage - 1) * pagesize;//  2 位每页显示数；
+      $("#offset").val(offset);
+      get_data(s);
+    }
+  }
+  function next(){
+    var offset ="";
+    var s   ='next';
+    // var cur_page    = $(".on").attr("data-page");
+    var cur_page    = $("#page").val()*1;//attr("data-page");
+    var total    = $("#next1").val()*1;//("data-total")*1;
+    var nextpage = cur_page*1+1;
+    if(total+1<=nextpage){
+      return false;
+    }else{
+      offset =(nextpage-1)*pagesize;//  2 位每页显示数；
+      $("#offset").val(offset);
+      get_data(s);
+    }
+  }
+  /*
+    跳转
+   */
+  function  skip(th){
+       var  pages =  $(th).prev('span').find('input').val()*1;
+    if(!isNaN(pages)){
+      var  allpages = $(th).attr('data-all')*1;
+      if(pages<1){layer.msg('请输入 数字', {icon: 5  }); return false;}
+      if( pages >allpages){layer.msg('请输入 数字', {icon: 5  }); return false;}
+      page(pages);
+    }else{
+      layer.msg('请输入 数字', {
+        icon: 5
+      })
+    }
+  }
+</script>";

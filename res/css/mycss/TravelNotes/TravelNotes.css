@@ -1,0 +1,1161 @@
+/* 游记首页======================================================================== */
+/** 游记-广告头部 **/
+.ctd-head-box {
+	position: relative;
+	width: 1180px;
+	margin: 0 auto;
+	height: 400px; margin-bottom:20px;
+	overflow: hidden;
+}
+.ctd-head-main {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+.ctd-head-main .mtd-info {
+	position: absolute;
+	top: 220px;
+	z-index: 888;
+	width: 100%;
+}
+.ctd-head-main .mtd-user-info h2 {
+	color: #FFF;
+	font-size: 35px;
+	text-shadow: 0px 1px 3px #333;
+}
+.ctd-head-main .mtd-user-info {
+	position: absolute;
+	bottom: 100px;
+	left: 50px;
+}
+.ctd-head-main .mtd-user-bot .mtd-user-data {
+	font-size: 24px;
+	text-shadow: 0px 1px 3px #333;
+	color: #FFF;
+}
+.ctd-head-main .mtd-user-bot .mtd-user-name, .mtd-user-bot .mtd-user-lv, .mtd-user-bot .mtd-user-num {
+	font-size: 14px;
+	color: #FFF;
+	margin-left: 10px;
+	text-shadow: 1px 1px 3px #333;
+}
+
+/** 游记首页-热门游记 **/
+/** 热门游记-头部 **/
+.ctd-TravelNotes-top h1 {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	position: relative;
+	font-size: 2em;
+	margin-bottom: 40px;
+}
+.ctd-TravelNotes-top .english {
+	position: absolute;
+	top: 28px;
+	left: 465px;
+	font-size: .5em;
+	color: #ff7708;
+}
+.ctd-TravelNotes-top h1 span {
+	font-size: .5em;
+	color: #999;
+	padding-left: 10px;
+}
+/** 热门游记-列表 **/
+.ctd-travelsM-list {
+	width: 1180px;
+	overflow: hidden;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.ctd-travelsM-list .J-inner {
+	border: 1px solid #f6f6f6;
+	padding-bottom: 10px;
+}
+.ctd-travelsM-list ul {
+	margin-left: -20px;
+	position: relative;
+	zoom: 1;
+}
+.ctd-travelsM-list li {
+	width: 380px;
+	float: left;
+	margin-left: 20px;
+}
+.ctd-travelsM-list .J-img {
+	height: 240px;
+	width: 380px;
+	overflow: hidden;
+	position: relative;
+}
+.ctd-travelsM-list .J-day {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	padding: 10px;
+	background: #009cdd;
+}
+.ctd-travelsM-list .J-day .day {
+	color: #FFF;
+	font-size: 18px;
+	height: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: center;
+}
+.ctd-travelsM-list .J-day .num {
+	display: block;
+	color: #FFF;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 26px;
+}
+.ctd-travelsM-list .user-name {
+	position: absolute;
+	bottom: 100px;
+	width: 100%;
+	left: 0;
+	color: #FFF;
+	text-align: center;
+	text-shadow: 1px 1px 0px #666;
+	font-size: 18px;
+	height: 30px;
+	line-height: 30px;
+}
+.ctd-travelsM-list .user-img {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -40px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 2px solid #FFF;
+}
+.ctd-travelsM-list .user-img img {
+	width: 80px;
+	height: 80px
+}
+.ctd-travelsM-list .J-tit {
+	padding: 10px 10px 0 10px;
+}
+.ctd-travelsM-list .J-tit h3 {
+	font-size: 16px;
+	margin: 5px 0;
+	color: #333;
+}
+.ctd-travelsM-list .J-tit p {
+	font-size: 14px;
+	color: #999;
+	padding: 0;
+	margin-top: 10px;
+}
+.ctd-travelsM-list .data {
+	float: right;
+	font-size: 14px;
+	color: #999
+}
+.ctd-travelsM-list .J-report {
+	padding: 0 10px;
+	height: 30px;
+	line-height: 30px;
+}
+.ctd-travelsM-list .J-report i {
+	position: absolute;
+	display: inline-block;
+	zoom: 1;
+}
+.ctd-travelsM-list .J-report .icon-view, .ctd-travelsM-list .J-report .icon-comment {
+	padding-left: 22px;
+	font-size: 14px;
+	position: relative;
+	margin-right: 10px;
+	color: #00b4ff;
+}
+.ctd-travelsM-list .J-report .icon-view i {
+	width: 20px;
+	height: 16px;
+	background: url(../images/Destination.png) -40px -183px;
+	top: 3px;
+	left: 0;
+}
+.ctd-travelsM-list .J-report .icon-comment i {
+	width: 20px;
+	height: 16px;
+	background: url(../images/Destination.png) -60px -183px;
+	top: 5px;
+	left: 0;
+}
+/* 游记列表-主 */
+.ctd-TravelMain-list h4 { border-bottom:1px solid #f6f6f6;
+	font-size: 22px;
+	color: #333;
+	height: 40px;
+	font-weight: normal;
+	position: relative;
+	padding-bottom: 1px;
+}
+.ctd-TravelMain-list h4 span{ display:inline-block;height: 40px; line-height:40px; border-bottom:2px solid #fdbf0e;}
+.ctd-TravelMain-list h4 .more {
+	float: right;
+	color: #666;
+	font-size: 14px;
+	padding-top: 10px;
+}
+.ctd-TravelMain-list .listItem {
+	width: 100%;
+}
+.ctd-TravelMain-list li {
+	padding: 15px 0;
+	margin-bottom: 15px;
+	height: 180px;
+	background: #FFF;
+}
+
+.ctd-TravelMain-list .listItem .pic {
+	width: 250px;
+	height: 180px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.ctd-TravelMain-list .listItem .info {
+	padding-left: 270px;
+	/*position: relative;*/
+	font-size: 14px;
+	color: #999;
+}
+.ctd-TravelMain-list .listItem .pic img {
+	height: 180px;
+}
+.ctd-TravelMain-list .listItem .info h3 {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+.ctd-TravelMain-list .listItem .info h3 a {
+	color: #444;
+}
+.ctd-TravelMain-list .listItem h3 a:hover {
+	color: #1ba8df;
+	text-decoration: none;
+}
+.ctd-TravelMain-list .listItem .user-con {
+	height: 60px;
+	line-height: 20px;
+	overflow: hidden;
+	color: #666666;
+}
+.ctd-TravelMain-list .listItem .user-con span {
+	color: #999999;
+	margin-right: 3px;
+}
+.ctd-TravelMain-list .listItem .user-line {
+	color: #666;
+	padding-bottom: 5px;
+}
+.ctd-TravelMain-list .listItem .user-line span {
+	padding: 0 5px;
+}
+.ctd-TravelMain-list .listItem .user-line a {
+	color: #666;
+}
+.ctd-TravelMain-list .listItem .user-line a:hover {
+	color: #1ba8df;
+	text-decoration: none;
+}
+.ctd-TravelMain-list .listItem .count-line {
+	padding-top: 15px;
+}
+.ctd-TravelMain-list .listItem .count-line span {
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	padding: 0 20px 0 30px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ff9a00;
+	color: #8f8f8f;
+	display: inline-block;
+	border-radius: 15px;
+}
+.ctd-TravelMain-list .listItem .count-line i {
+	display: inline-block;
+	position: absolute;
+	top: 7px;
+	left: 8px;
+	background: url(/res/images/TravelNotes/TravelNotes.png);
+	margin-right: 5px;
+}
+.ctd-TravelMain-list .listItem .count-line .icon-pic i {
+	background-position: -20px -300px;
+	width: 16px;
+	height: 16px;
+}
+.ctd-TravelMain-list .listItem .count-line .icon-comment i {
+	background-position: -40px -300px;
+	width: 16px;
+	height: 16px;
+}
+.ctd-TravelMain-list .listItem .count-line .icon-view {
+	padding-left: 35px;
+}
+.ctd-TravelMain-list .listItem .count-line .icon-view i {
+	background-position: -60px -300px;
+	width: 21px;
+	height: 16px;
+}
+/* 游记列表页======================================================================== */
+/* 游记框架 */
+.ctd-TravelNotes-body {
+	padding: 10px 0;
+}
+.ctd-TravelNotes-body .ctd-side {
+	width: 260px;
+	float: right;
+}
+.ctd-TravelNotes-body .ctd-main {
+	width: 900px;
+	float: left;
+}
+/* 游记列表-主 */
+.ctd-TravelNotes-list h4 {
+	font-size: 22px;
+	color: #333;
+	height: 40px;
+	font-weight: normal;
+	position: relative;
+	padding-bottom: 1px;
+}
+.ctd-TravelNotes-list h4 .more {
+	float: right;
+	color: #666;
+	font-size: 14px;
+	padding-top: 10px;
+}
+.ctd-TravelNotes-list .listItem {
+	width: 100%;
+}
+.ctd-TravelNotes-list li {
+	padding: 15px;
+	margin-bottom: 15px;
+	height: 180px;
+	background: #FFF;
+}
+.ctd-TravelNotes-list .listItem li:hover {
+	-webkit-box-shadow: 0 0 10px #ededed;
+	-moz-box-shadow: 0 0 10px #fededed;
+	box-shadow: 0 0 10px #ededed;
+	background: #fafafa;
+}
+.ctd-TravelNotes-list .listItem li:hover h3 {
+	color: #ff9c00;
+}
+.ctd-TravelNotes-list .listItem .pic {
+	width: 250px;
+	height: 180px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.ctd-TravelNotes-list .listItem .info {
+	padding-left: 270px;
+	position: relative;
+	font-size: 14px;
+	color: #999;
+}
+.ctd-TravelNotes-list .listItem .pic img {
+	height: 180px;
+}
+.ctd-TravelNotes-list .listItem .info h3 {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+.ctd-TravelNotes-list .listItem .info h3 a {
+	color: #444;
+}
+.ctd-TravelNotes-list .listItem h3 a:hover {
+	color: #1ba8df;
+	text-decoration: none;
+}
+.ctd-TravelNotes-list .listItem .user-con {
+	height: 60px;
+	line-height: 20px;
+	overflow: hidden;
+	color: #666666;
+}
+.ctd-TravelNotes-list .listItem .user-con span {
+	color: #999999;
+	margin-right: 3px;
+}
+.ctd-TravelNotes-list .listItem .user-line {
+	color: #666;
+	padding-bottom: 5px;
+}
+.ctd-TravelNotes-list .listItem .user-line span {
+	padding: 0 5px;
+}
+.ctd-TravelNotes-list .listItem .user-line a {
+	color: #666;
+}
+.ctd-TravelNotes-list .listItem .user-line a:hover {
+	color: #1ba8df;
+	text-decoration: none;
+}
+.ctd-TravelNotes-list .listItem .count-line {
+	padding-top: 15px;
+}
+.ctd-TravelNotes-list .listItem .count-line span {
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	padding: 0 20px 0 30px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ff9a00;
+	color: #8f8f8f;
+	display: inline-block;
+	border-radius: 15px;
+}
+.ctd-TravelNotes-list .listItem .count-line i {
+	display: inline-block;
+	position: absolute;
+	top: 7px;
+	left: 8px;
+	background: url(../images/TravelNotes.png);
+	margin-right: 5px;
+}
+.ctd-TravelNotes-list .listItem .count-line .icon-pic i {
+	background-position: -20px -300px;
+	width: 16px;
+	height: 16px;
+}
+.ctd-TravelNotes-list .listItem .count-line .icon-comment i {
+	background-position: -40px -300px;
+	width: 16px;
+	height: 16px;
+}
+.ctd-TravelNotes-list .listItem .count-line .icon-view {
+	padding-left: 35px;
+}
+.ctd-TravelNotes-list .listItem .count-line .icon-view i {
+	background-position: -60px -300px;
+	width: 21px;
+	height: 16px;
+}
+/* 门票 侧边======================================================================== */
+
+.side-box {
+	background: #FFF;
+	margin-bottom: 10px;
+}
+.side-border {
+	background: #FFF;
+	border: 1px solid #e5e5e5;
+	margin-bottom: 10px;/* 侧边-带边框 */
+}
+.side-About {
+	background: #FFF;
+	margin-bottom: 10px;
+	height: 110px;
+}
+.side-About .wy-notice-img {
+	padding: 10px 0 0 10px;
+	color: #999;
+	position: relative;
+}
+.side-About .wy-notice-img i {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	background: url(/res/images/TravelNotes/TravelNotes.png) no-repeat 0 -370px;
+}
+.side-About .wy-notice-img span {
+	font-size: 24px;
+	color: #F60;
+	padding: 0 5px 0 35px;
+}
+.side-About .wy-notice-btns {
+	padding-top: 10px;
+}
+.side-About .wy-notice-btns a {
+	width: 115px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	float: left;
+	margin-left: 11px;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 3px;
+	text-decoration: none;
+	background: #FF8800;
+	font-size: 16px;
+}
+.side-About .wy-notice-btns a:hover {
+	background: #FF6600;
+}
+.side-About .wy-notice-btns .icon {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url(/res/images/TravelNotes/TravelNotes.png) no-repeat;
+}
+.side-About .wy-notice-btns a .icon-publish {
+	background-position: -0px -338px;
+}
+.side-About .wy-notice-btns a .icon-comments {
+	background-position: -23px -338px;
+}
+.sid-Recommend h4 {
+	font-size: 18px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: normal;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 150px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+.sid-Recommend ul {
+	padding: 10px 10px 0 10px;
+}
+.sid-Recommend li {
+	height: 70px;
+	border-bottom: 1px dotted #CCC;
+	margin-bottom: 10px
+}
+.sid-Recommend li{*border-bottom-style:expression(this.nextSibling==null?'none':'solid'); /** 解决ie问题 **/}
+.sid-Recommend li:last-child{border-bottom-style:none;}
+.sid-Recommend .note-img {
+	float: left;
+	width: 90px;
+	height: 60px;
+	overflow: hidden;
+}
+.sid-Recommend .note-img img {
+	width: 90px;
+	height: 60px;
+}
+.sid-Recommend .note-con {
+	padding-left: 100px;
+}
+.sid-Recommend .note-con h5 {
+	font-size: 14px;
+	line-height: 20px;
+	height: 40px;
+	color: #646464;text-overflow: ellipsis;overflow: hidden;
+}
+.sid-Recommend .note-name {
+	font-size: 12px;
+	color: #999;
+	margin-top: 5px;
+}
+.sid-Recommend .note-name span {
+	color: #0087dd;
+}
+/* 游记详情页======================================================================== */
+/* 游记 框架 */
+.ctd-Travel-body {
+	width: 1180px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+.ctd-Travel-nav {
+	float: left;
+	width: 150px;
+	height: 433px;
+}
+.Travel-article {
+	background: #FFF;
+	float: left;
+	border-left: 2px solid #ddd;
+	border-right: 1px solid #ddd;
+	width: 750px;
+}
+.Travel-sider {
+	float: right;
+	width: 260px;
+}
+.TicketM-Tit {
+	display: block;
+	cursor: default;
+}
+.TicketM-Tit span {
+	height: 48px;
+	display: block;
+	line-height: 48px;
+}
+.TicketM-Tit i {
+	display: block;
+	float: left;
+	width: 80px;
+	height: 48px;
+	padding-left: 48px;
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+}
+.TicketM-Tit .detail-icon-t {
+	background: url(../../images/aittoTravel-ico.png) no-repeat 0 -400px;
+}
+i.detail-icon-1, i.detail-icon-2, i.detail-icon-3, i.detail-icon-4 {
+	background: url(../../images/aittoTravel-ico.png) no-repeat #11a1de;
+}
+.TicketM-Tit i.detail-icon-1 {
+	background-position: -155px -500px;
+}
+.TicketM-Tit i.detail-icon-2 {
+	background-position: -155px -540px
+}
+.TicketM-Tit i.detail-icon-3 {
+	background-position: -155px -580px
+}
+.TicketM-Tit i.detail-icon-4 {
+	background-position: -155px -620px;
+}
+/* 游记头部 */
+.ctd-head-travelNotes {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+.ctd-mask {
+	position: absolute;
+	bottom: 0px;
+	z-index: 555;
+	width: 100%;
+	width: 1180px;
+	height: 120px;
+	background: #000;
+	filter: Alpha(opacity=50);
+ *zoom: 1;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+.ctd-info {
+	position: absolute;
+	bottom: 0px;
+	z-index: 888;
+	width: 100%;
+}
+.ctd-info .user-img {
+	position: absolute;
+	bottom: 10px;
+	left: 15px;
+}
+.ctd-info .user-img img {
+	width: 100px;
+	margin-left: 10px;
+	height: 100px;
+	border-radius: 100%;
+}
+.ctd-info .user-info h2 {
+	color: #FFF;
+	font-size: 35px;
+}
+.ctd-info .user-info {
+	position: absolute;
+	bottom: 25px;
+	left: 150px;
+}
+.ctd-info .user-bot .user-data {
+	font-size: 24px;
+	color: #FFF;
+}
+.ctd-info .user-bot .user-l, .ctd-info .user-bot .user-r {
+	float: left;
+}
+.user-r {
+	margin-left: 30px;
+	margin-top: 7px;
+}
+.user-bot .user-name, .user-bot .user-lv, .user-bot .user-num {
+	font-size: 14px;
+	color: #FFF;
+	margin-left: 10px;
+}
+.link-box a {
+	color: #FFF;
+	padding-left: 30px;
+	float: left;
+	margin-right: 20px;
+	position: relative;
+}
+.link-box i {
+	width: 30px;
+	height: 27px;
+	position: absolute;
+	background: url(../images/TravelNotes.png) no-repeat;
+	top: -5px;
+	left: 0;
+	display: inline-block;
+}
+.link-share i {
+	background-position: -0px 0px;
+}
+.link-like i {
+	background-position: -80px 0px;
+}
+.link-comment i {
+	background-position: -160px 0px;
+}
+.link-browse i {
+	background-position: -240px 0px;
+}
+/* 游记 导航菜单 */
+.sideToolbar {
+	margin-top: 30px;
+	width: 150px;
+}
+.sideCatalog {
+	position: relative;
+	width: 150px;
+}
+.sideCatalog-catalog {
+	text-align: right;
+	width: 150px;
+	height: 133px;
+	overflow: hidden;
+	padding-right: 10px;
+	position: relative;
+	padding-bottom: 10px;
+}
+.sideCatalog-absolute {
+	position: absolute;
+	bottom: 0;
+}
+.sideCatalog-fixed {
+	margin-top: 47px;
+	position: fixed;
+	top: 60px;
+	left: auto;
+}
+.sideCatalog-catalog dl {
+	margin-bottom: 15px;
+	position: relative;
+}
+.sideCatalog-catalog .CatalogSd-main {
+	font-size: 14px;
+	height: 18px;
+	line-height: 12px;
+	text-align: right;
+	margin-top: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 140px;
+}
+.sideCatalog-catalog a {
+	color: #999;
+	display: inline-block;
+	height: 16px;
+	overflow: hidden;
+}
+.sideCatalog-catalog .CatalogSd-main a {
+	color: #333;
+}
+.sideCatalog-catalog dd.current a {
+	color: #ff9900
+}
+.sideCatalog-catalog .CatalogSd-child {
+	color: #999;
+	font-size: 12px;
+	height: 20px;
+	line-height: 18px;
+	text-align: right;
+	padding: 3px 0;
+	padding-right: 10px;
+}
+.ctd-content {
+	padding: 0 30px;
+}
+.ebma-preface {
+	padding-bottom: 20px;
+}
+.ebma-chapter {
+	position: relative;
+	padding-bottom: 25px;
+}
+.chapter-main {
+	border-top: 1px dotted #ccc;
+}
+.ebma-anchor0 {
+	position: absolute;
+	display: block;
+	top: -50px;
+	height: 1px;
+}
+.ebma-anchor1 {
+	position: absolute;
+	display: block;
+	top: -80px;
+	height: 1px;
+}
+.ebn-Catalog {
+	width: 100px;
+	height: 30px;
+	background: url(../images/TravelNotes.png) no-repeat -226px -270px;
+	margin-left: 70px;
+}
+.ebn-button-box {
+	bottom: -80px;
+	display: none;
+	height: 50px;
+	position: absolute;
+	right: 10px;
+	width: 25px;
+}
+.ebn-tip-bottom {
+	bottom: 0;
+}
+.ebn-tip {
+	margin-right: -14px;
+	padding-right: 10px;
+	position: absolute;
+	right: 10px;
+	text-align: right;
+	width: 140px;
+}
+.ebnt-point i {
+	display: inline-block;
+	background-image: url(http://pic.lvmama.com/img/v6/travels/travel-icon.png);
+	background-position: 236px -61px;
+	height: 10px;
+	width: 10px;
+	margin-left: 130px;
+	margin-right: 3px;
+}
+.ebn-tip-bottom .ebnt-day {
+	padding-bottom: 20px;
+}
+.ebnt-day {
+	font-size: 14px;
+	height: 25px;
+	overflow: hidden;
+	text-align: right;
+	color: #666;
+}
+.ebn-button {
+	display: block;
+	height: 25px;
+	width: 25px;
+}
+.sideCatalog-up-disable {
+	display: block;
+	height: 25px;
+	width: 25px;
+	background-image: url(../images/TravelNotes.png);
+	background-position: 0px -440px;
+}
+.sideCatalog-up-enable {
+	display: block;
+	height: 25px;
+	width: 25px;
+	background-image: url(../images/TravelNotes.png);
+	background-position: -40px -440px;
+}
+.sideCatalog-down-disable {
+	display: block;
+	height: 25px;
+	width: 25px;
+	background-image: url(../images/TravelNotes.png);
+	background-position: 0 -465px;
+}
+.sideCatalog-down-enable {
+	display: block;
+	height: 25px;
+	width: 25px;
+	background-image: url(../images/TravelNotes.png);
+	background-position: -40px -465px;
+}
+/* 游记内容 */
+.ctd-content .CatalogHd-main {
+	margin: 30px 0px 0px;
+	font-size: 26px;
+	line-height: 34px;
+	color: #333;
+	font-weight: normal;
+	position: relative;
+	padding-left: 14px;
+	width: 650px;
+	max-height: 72px;
+	overflow: hidden;
+}
+
+.ctd-content .CatalogHd-child {
+	background: #eee;
+	color: #00a7e1;
+	height: 30px;
+	line-height: 30px;
+	margin: 10px 0 10px 20px;
+	padding-left: 20px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.ctd-content h4 i {
+	display: inline-block;
+ *display: inline;
+ *zoom: 1;
+	width: 4px;
+	height: 34px;
+	background: #ff9900;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.ctd-content p {
+	font-size: 16px;
+	padding-left: 20px;
+	line-height: 32px;
+	word-break: break-all;
+	margin-top: 20px;
+}
+.ctd-content img {
+	max-width: 670px;
+	display: block;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.ebma-preface .Survey {
+	padding-left: 20px;
+	margin-top: 20px;
+}
+.ebma-preface .Survey li {
+	height: 30px;
+	line-height: 30px;
+	color: #444;
+	position: relative;
+}
+.ebma-preface .Survey i {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background: url(../images/TravelNotes.png) no-repeat;
+	position: absolute;
+	top: 8px;
+}
+.ebma-preface .Survey span {
+	padding-left: 30px
+}
+.ebma-preface .Survey .time i {
+	background-position: 0px -110px;
+}
+.ebma-preface .Survey .day i {
+	background-position: -40px -110px;
+}
+.ebma-preface .Survey .cost i {
+	background-position: -80px -110px;
+}
+.ebma-preface .Survey .people i {
+	background-position: -120px -110px;
+}
+.ebma-preface .Survey .jingqu i {
+	background-position: -160px -110px;
+}
+.ctd-theend {
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	width: 100%;
+	height: 83px;
+	margin: 0 auto;
+	background: url(../images/TravelNotes.png) no-repeat;
+	background-position: center -180px;
+	display: block;
+}
+/* 游记 内容 右边 */
+
+
+.Travel-sider .notes-box {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 260px;
+}
+.notes-box-fixed {
+	position: fixed;
+	top: 70px;
+	width: 260px;
+}
+.notes-box-absolute {
+	position: absolute;
+	bottom: 0;right: 0;
+}
+
+
+/* 游记 浮动导航 */
+.travelFloat-nav {
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 66px;
+	background: rgba(255,255,255,0.95);
+	border-bottom: solid 1px #E4E4E4;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	z-index: 999;
+}
+.travelFloat-nav .nav-warp {
+	width: 1180px;
+	margin: 0 auto;
+	position: relative;
+}
+.nav-title .home {
+	background: #11a1de;
+	width: 66px;
+	height: 66px;
+	display: block;
+	float: left;
+}
+.nav-title .home em {
+	margin: 0 auto;
+	margin-top: 25px;
+	display: block;
+	background: url(../images/TravelNotes.png) no-repeat -0px -80px;
+	width: 16px;
+	height: 16px;
+}
+.nav-title .home a {
+	display: block;
+}
+.nav-title .nav-h2 {
+	font-size: 20px;
+	padding-left: 20px;
+	float: left;
+	font-weight: normal;
+	height: 66px;
+	line-height: 66px;
+	color: #333;
+}
+.ui-navArea-btn {
+	width: 301px;
+	float: right;
+	border-right: 1px dotted #ccc;
+}
+.ui-navArea-btn a {
+	display: block;
+	height: 66px;
+}
+.ui-navArea-btn .ui-btn {
+	position: relative;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	padding: 0;
+}
+.ui-navArea-btn .ui-btn-inner {
+	display: block;
+	position: relative;
+	min-width: .75em;
+	font-size: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	zoom: 1;
+}
+.ui-navArea-btn li {
+	border-left: 1px dotted #ccc;
+	margin-left: -1px;
+	width: 75px;
+	display: inline-block;
+	height: 66px;
+	float: left;
+}
+.ui-navArea-btn i {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	margin-left: -15px;
+	width: 40px;
+	height: 22px;
+}
+.ui-navArea-btn .ui-btn-text {
+	display: block;
+	padding-top: 35px;
+	font-size: 14px;
+}
+.ui-navArea-btn li.link-like b {
+	font-size: 12px;
+	font-weight: normal;
+	color: #2db2ff;
+}
+.ui-navArea-btn li.link-comment b {
+	font-size: 12px;
+	font-weight: normal;
+	color: #8bd406;
+}
+.ui-navArea-btn li.link-browse b {
+	font-size: 12px;
+	font-weight: normal;
+	color: #19d881;
+}
+.ui-navArea-btn li.link-like:hover b {
+	color: #fff;
+}
+.ui-navArea-btn li.link-comment:hover b {
+	color: #fff;
+}
+.ui-navArea-btn li.link-browse:hover b {
+	color: #fff;
+}
+.ui-navArea-btn a:hover {
+	color: #FFF;
+}
+.ui-navArea-btn li.link-share:hover {
+	background: #ff7356;
+}
+.ui-navArea-btn li.link-like:hover {
+	background: #31b3ff;
+}
+.ui-navArea-btn li.link-comment:hover {
+	background: #abdf4b;
+}
+.ui-navArea-btn li.link-browse:hover {
+	background: #06d577;
+}
+.ui-navArea-btn li i {
+	background: url(../images/TravelNotes.png) no-repeat;
+}
+.ui-navArea-btn li.link-share i {
+	background-position: 0 -40px;
+}
+.ui-navArea-btn li.link-like i {
+	background-position: -80px -40px;
+}
+.ui-navArea-btn li.link-comment i {
+	background-position: -160px -40px;
+}
+.ui-navArea-btn li.link-browse i {
+	background-position: -240px -40px;
+}
+.ui-navArea-btn li.link-share i {
+	background-position: 0 -40px;
+}
+.ui-navArea-btn li.link-share:hover i {
+	background-position: 0 -5px;
+}
+.ui-navArea-btn li.link-like:hover i {
+	background-position: -80px -5px;
+}
+.ui-navArea-btn li.link-comment:hover i {
+	background-position: -160px -5px;
+}
+.ui-navArea-btn li.link-browse:hover i {
+	background-position: -240px -5px;
+}

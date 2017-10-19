@@ -1,0 +1,113 @@
+/* 目的地首页 */
+.page-list-body{padding:0 10px 10px 10px;margin-right: auto;margin-left: auto; margin-bottom:.5rem;background: #FFF;}
+.page-list-body .ntd-theme-title{position:relative; margin-bottom:5px;}
+.page-list-body .ntd-theme-title i{position:absolute; top:-.2rem; display:block; width:2.1rem; height:2.1rem;}
+.page-list-body .ntd-theme-title a.in-page{ position:absolute; display:block; right:.5rem; width:1.8rem; height:1.8rem; background:url(/phone/public/images/20170301/in-page.png); background-size:1.8rem;}
+.page-list-body .ntd-theme-title i.Hebei-Tour{background:url(/phone/public/images/20170301/tit-ico01.png); background-size:2.1rem;}
+.page-list-body .ntd-theme-title i.Hebei-Raid{background:url(/phone/public/images/20170301/tit-ico02.png); background-size:2.1rem;}
+.page-list-body .ntd-theme-title i.Hebei-Note{background:url(/phone/public/images/20170301/tit-ico03.png); background-size:2.1rem;}
+.page-list-body .ntd-theme-title span{display:block; padding-left:2.5rem;}
+.page-list-body .ntd-theme-title span.tit-big{ height:1.1rem; line-height:1.1rem;font-size:1.1rem;}
+.page-list-body .ntd-theme-title span.tit-small{height:.7rem; line-height:.7rem;font-size:.6rem; color:#da4d01;}
+
+.page-list-body .ntd-Hebei-Raid li{position:relative; margin-top:.5rem;}
+.page-list-body .ntd-Hebei-Raid .Raid-img{position:relative;}
+.page-list-body .ntd-Hebei-Raid .Raid-img img{ width:100%;}
+.page-list-body .ntd-Hebei-Raid .Raid-tip{position:absolute; top:10px; right:10px;z-index:999;}
+.page-list-body .ntd-Hebei-Raid .Raid-tip span{display:block; font-size:1rem; color: #FFF; text-shadow: 1px 1px 0px #333;}
+.page-list-body .ntd-Hebei-Raid .Raid-tip i{font-size:1.5rem; font-style:normal;}
+.page-list-body .ntd-Hebei-Raid .Raid-tit{position:absolute; z-index:999;bottom:.2rem; width:100%; padding:10px; font-size:1.1rem;white-space: nowrap;text-overflow: ellipsis;overflow: hidden; color:#FFF;text-shadow: 1px 1px 0px #333;}
+
+.page-list-body .ntd-Hebei-Note li{position:relative; margin-top:.5rem;}
+.page-list-body .ntd-Hebei-Note .Note-img{position:relative;}
+.page-list-body .ntd-Hebei-Note .Note-img img{ width:100%;}
+.page-list-body .ntd-Hebei-Note .Note-tit{position:absolute; top:.5rem; width:100%; padding:10px; font-size:1.1rem; color:#FFF;z-index:999;
+text-shadow: 1px 1px 0px #333;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.page-list-body .ntd-Hebei-Note .Note-tip {color: #FFF;margin-right:.5rem; margin-top:.5rem;font-size:.9rem;text-shadow: 1px 1px 0px #333;}
+.page-list-body .ntd-Hebei-Note .Note-tip span{ margin-right:.3rem;}
+.page-list-body .ntd-Hebei-Note .Note-tip span.data{ margin-left:.3rem;}
+.page-list-body .ntd-Hebei-Note .user-name{position: absolute; bottom:3.7rem; width:100%; color:#FFF; z-index:999; font-size:1rem; text-align:center;text-shadow: 1px 1px 0px #333;}
+.page-list-body .ntd-Hebei-Note .user-info{position: absolute; bottom:.5rem; left:50%; margin-left:-1.5rem;z-index:999;}
+.page-list-body .ntd-Hebei-Note .user-info .user-img{width:3rem; height:3rem; border-radius:3rem; color:#FFF; overflow:hidden;}
+.page-list-body .ntd-Hebei-Note .user-info .user-img img{width:3rem; height:3rem; border-radius:3rem;border:2px solid #FFF;}
+
+
+/* 游记/攻略 内容页 */
+.ctd-page-head .head-info{position:relative;}
+.ctd-page-head .head-pic img{ width:100%;}
+.ctd-page-head .head-data{position:absolute; top:.8rem; right:.8rem;}
+.ctd-page-head .head-data span{display:block ;color: #FFF; font-size:1.2rem; text-shadow: 1px 1px 0px #333;}
+.ctd-page-head .head-data i{font-size:2rem; font-style:normal;}
+
+.ctd-page-head .user-name{position: absolute; bottom:4rem; width:100%; color:#FFF; text-align:center;text-shadow: 1px 1px 0px #333;}
+.ctd-page-head .user-img{position: absolute; bottom:-.5rem;border:1px solid #FFF; left:50%; margin-left:-2rem;}
+.ctd-page-head .user-img{width:4rem; height:4rem; border-radius:4rem; color:#FFF; overflow:hidden;}
+
+.ctd-head-title.headTitle-fixed{ position:fixed; top:0; left:0; width:100%; box-shadow: 0px 3px 5px #e3e3e3; z-index:999;}
+.ctd-head-title .head-title{padding:.7rem; color:#594200; font-size:1.1rem;background:#fdbf0e;}
+.ctd-head-title.headTitle-fixed .head-title{white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden}
+.ctd-head-title .head-title-user{ position:relative; display:none; padding:.7rem; background-color:rgba(254,234,166,0.9);}
+.ctd-head-title .head-title-user .img{ position:absolute; top:.3rem; left:1rem; width:2.5rem; height:2.5rem;  border-radius:2.5rem; color:#FFF; overflow:hidden;}
+.ctd-head-title .head-title-user .img img{width:2.5rem; height:2.5rem; border-radius:2.5rem;border:2px solid #FFF;}
+.ctd-head-title .head-title-user span{color:#5c4400; font-size:1.1rem;}
+.ctd-head-title .head-title-user span.name{ padding-left:3rem;}
+.ctd-head-title .head-title-user span.data{ float:right; padding-right:10px;}
+
+.ctd-page-body{ padding:1rem 1.2rem;}
+.ctd-page-body .ntd-chapter {position: relative; padding-bottom:1rem;}
+.ctd-page-body .chapterHd-main{ position:relative; padding-left:2.5rem; font-size:1.2rem; font-weight: 800; margin-bottom:1rem;}
+.ctd-page-body .chapterHd-main i{ position:absolute; left:-.2rem; top:-.3rem; width:2.2rem; height:2.2rem; background:url(/phone/public/images/20170301/tit-ico07.png) no-repeat; background-size:2.2rem;}
+.ctd-page-body .chapterHd-main i.techan{background:url(/phone/public/images/20170301/tit-ico11.png) no-repeat; background-size:2.8rem;}
+.ctd-page-body .chapterHd-child{ font-size:1rem;margin:.5rem 0;  background:#b7daff;  color:#006ad8;padding:.2rem .5rem; border-radius:10px;}
+
+.ctd-page-body .ntd-chapter img{ margin:.5rem 0;}
+.ctd-page-body .chapter-area {position: relative;line-height:1.7rem;}
+.ctd-page-body .chapter-area p{  line-height:1.7rem;  }
+.ctd-page-body .anchor {position: absolute;	display: block;	top:-100px;	height: 1px;}
+
+.ctd-page-info{ position:fixed; bottom:1rem; right:0; height: 2.8rem; border-radius:2.8rem 0 0 2.8rem; background: rgba(253,191,14,0.8);}
+.ctd-page-info .user-link{ padding-left:10px;}
+.ctd-page-info .user-link li{ position:relative; float:left; line-height:2.8rem; border-right:1px solid #FFF;padding: 0px 5px;margin: 0px 5px; }
+.ctd-page-info .user-link li:last-child{ border-right:none;}
+.ctd-page-info .user-link i{ position:absolute; left:.2rem; top:.6rem; width:1.4rem; height:2.8rem; }
+.ctd-page-info .user-link a{ padding:0 .5rem 0 1.5rem; color:#FFF;}
+.ctd-page-info .user-link .link-like i{ background:url(/phone/public/images/20170301/tit-ico10.png) no-repeat;background-size:1.4rem;}
+.ctd-page-info .user-link .link-like i.on{ background:url(/phone/public/images/20170301/tit-ico10-on.png) no-repeat;background-size:1.4rem;}
+.ctd-page-info .user-link .link-comment i{ background:url(/phone/public/images/20170301/tit-ico08.png) no-repeat;background-size:1.4rem;}
+.ctd-page-info .user-link .link-browse i{ background:url(/phone/public/images/20170301/tit-ico09.png) no-repeat;background-size:1.4rem;}
+
+/* 游记/攻略 底部 */
+.ctd-catalog-bot{position: fixed; bottom:1rem; left: 10px; width: 2.8rem; height: 2.8rem; cursor: pointer; background: url(/phone/public/images/20170301/ico-01.png) no-repeat #F30; background-size: 2.8rem; border-radius: 2.8rem; border: 1px solid #ccc;}
+.ctd-catalog{position: fixed; width:55%; height:100%; top:0; left:-55%; background:rgba(0,0,0,0.9);
+transition:left .3s;
+-moz-transition:left .3s; /* Firefox 4 */
+-webkit-transition:left .3s; /* Safari and Chrome */
+-o-transition:left .3s; /* Opera */
+z-index:9999; overflow:scroll;}
+.ctd-catalog h2{position:relative; font-size:1.3rem; line-height:2.8rem;padding-left:3.5rem; color:#f4c02a; border-bottom:1px dotted #fbc628; padding-bottom:.8rem; margin:.5rem;}
+.ctd-catalog h2 i{position:absolute; left:0; width:2.8rem; height:2.8rem; background:url(/phone/public/images/20170301/tit-ico12.png) no-repeat; background-size:2.8rem;}
+
+.ctd-catalog ul{padding:0 .5rem; margin-bottom:1rem;}
+.ctd-catalog li a{ position:relative; display:block; width:100%;color:#FFF; font-size:1rem;}
+.ctd-catalog li span{ display:block; padding:.3rem 0 .3rem 1.2rem ;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.ctd-catalog li i.main-dot{ position:absolute; top:.5rem; width:1rem; height:1rem; background: url(/phone/public/images/20170301/dot-main.png) no-repeat; background-size:1rem;}
+
+.ctd-catalog .NavList ul.nav { position: relative; margin-left:.5rem;border-left:1px dotted #FFFFFF;}
+.ctd-catalog .NavList ul.nav span{padding:.6rem 0 0 1rem ;}
+.ctd-catalog .NavList ul.nav li i.small-dot{ position:absolute; top:.9rem; left:0rem; z-index:999; width:1rem; height:1rem; background: url(/phone/public/images/20170301/dot-small.png) no-repeat; background-size:1rem;}
+.ctd-catalog .NavList ul.nav li:last-child i.small-dot{ position:absolute; top:.9rem; left:0rem; z-index:999; width:1rem; height:1rem; background: url(/phone/public/images/20170301/dot-small1.png) no-repeat; background-size:1rem;}
+.ctd-catalog .NavList ul.nav li{position: relative; margin-left:-1rem; }
+.ctd-catalog .NavList ul.nav li a{font-size:.9rem;}
+
+/*******/
+.Survey-h2{}
+.Survey-h2 li{ position:relative; font-size:.9rem;border-bottom: 1px solid #ddd; padding:5px 0px 5px 10px ;}
+.Survey-h2 span{ color:#999; padding:0 10px;}
+.Survey-h2 i{ position:absolute; top:2px; left:0;width: 25px; height:25px;}
+.Survey-h2 .ico12{background: url(/phone/public/images/20170301/ico-13.png) 0 6px no-repeat; background-size:16px;}
+.Survey-h2 .ico13{background: url(/phone/public/images/20170301/ico-12.png) 0 6px no-repeat; background-size:16px;}
+.Survey-h2 .ico14{background: url(/phone/public/images/20170301/ico-14.png) 0 6px no-repeat; background-size:16px;}
+.Survey-h2 .ico15{background: url(/phone/public/images/20170301/ico-15.png) 0 6px no-repeat; background-size:16px;}
+.Survey-h2 .ico16{background: url(/phone/public/images/20170301/ico-16.png) 0 6px no-repeat; background-size:16px;}

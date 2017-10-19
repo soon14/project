@@ -1,0 +1,345 @@
+@charset "utf-8";
+/*登录页*/
+.login-page-box{
+	max-width:45rem;
+	min-height:100%;
+	margin:0 auto;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background:url(../images/login-page-bg.jpg) no-repeat;
+	background-size:100% 100%}
+.login-page-con{
+	display:table;
+	width:100%;
+	height:100%}
+.login-page-mid{
+	display:table-cell;
+	vertical-align:middle}
+.logo-box{
+	text-align:center}
+.logo-box img{
+	width:20%}
+.user-account{
+	padding:1rem 2rem 0}
+.user-account .zh,
+.user-account .pd{
+	display:-webkit-box;
+	height:3rem;
+	margin-top:1.5rem;
+	background:rgba(255,255,255,.4);
+	border-radius:2rem}
+.user-account .zh i,
+.user-account .pd i{
+	display:inline-block;
+	width:2rem;
+	height:100%;
+	margin:0 1rem}
+.user-account .zh i{
+	background:url(../images/user-zh-ico.png) no-repeat center;
+	background-size:80% auto}
+.user-account .pd i{
+	background:url(../images/user-pd-ico.png) no-repeat center;
+	background-size:80% auto}
+.user-account .zh input,
+.user-account .pd input{
+	color:#fff;
+	display:block;
+	height:100%;
+	line-height:100%;
+	-webkit-box-flex:1;
+	font-size:1rem;
+	background:none}
+.user-account .zh input::-webkit-input-placeholder,
+.user-account .pd input::-webkit-input-placeholder{
+    color:#fff}
+.user-account .login-btn{
+	display:block;
+	color:#fff;
+	padding:0.7rem 0;
+	margin-top:1.5rem;
+	font-size:1rem;
+	text-align:center;
+	background:#f96332;
+	border-radius:2rem}
+.user-account .forget-pd{
+	display:block;
+	color:#fff;
+	margin-top:1rem;
+	text-align:right;
+	font-size:1rem}
+/*账号资料*/
+.account-show-box{
+	padding:1rem}
+.account-show-box p{
+	display:-webkit-box;
+	padding:0.3rem 0.8rem;
+	margin-bottom:0.8rem;
+	border:1px solid #e5e5e5;
+	background:#fff}
+.account-show-box p strong{
+	color:#333;
+	display:block;
+	line-height:2.5rem;
+	-webkit-box-flex:1;
+	font-size:1rem;
+	font-weight:500}
+.account-show-box p span{
+	display:block;
+	color:#a0a0a0;
+	height:2.5rem;
+	line-height:2.5rem;
+	-webkit-box-flex:1;
+	text-align:right}
+.account-show-box p span img{
+	width:2.5rem;
+	height:2.5rem;
+	border-radius:50%}
+.account-show-box p span i{
+	display:block;
+	float:right;
+	width:1rem;
+	height:2.5rem;
+	background:url(../images/more-ico.png) no-repeat center;
+	background-size:70% auto}
+.account-show-box .account-bowout-btn{
+	display:block;
+	color:#e60012;
+	padding:0.8rem 0;
+	text-align:center;
+	font-size:1rem;
+	background:#fff}
+/*找回密码*/
+.revise-pd-box{
+	padding:1rem}
+.revise-pd-box p{
+	margin-bottom:1rem}
+.revise-pd-box p input{
+	display:block;
+	width:100%;
+	padding:0.7rem 0.5rem;
+	font-size:1rem;
+	border:1px solid #e5e5e5;
+	border-radius:0.2rem}
+.revise-pd-box .confirm-btn{
+	display:block;
+	color:#fff;
+	font-size:1rem;
+	padding:0.7rem 0;
+	text-align:center;
+	border-radius:1.5rem;
+	background:#ec5726}
+/*验单记录*/
+.mark-list-box{
+	padding:0}
+.search-tc-box{
+	display:-webkit-box;
+	padding:0.5rem 1rem;
+	font-size:1rem;
+	background:#c9c8cd}
+.search-tc-box input{
+	display:block;
+	-webkit-box-flex:2;
+	padding:0.5rem 0.5rem 0.5rem 2.2rem;
+	font-size:1rem;
+	border-radius:0.3rem;
+	background:url(../images/Supplier-ico.png) no-repeat 0.7rem -4rem #fff;
+	background-size:1.4rem auto}
+.search-tc-box span{
+	display:block;
+	color:#666;
+	padding:0.5rem 0;
+	margin-left:1rem;}
+.mark-list-con{}
+.mark-list-con li{
+	margin-top:0.8rem;
+	background:#fff;
+	position:relative}
+.mark-list-con li .badge-before,
+.mark-list-con li .badge-after{
+	position:absolute;
+	right:1rem;
+	top:50%;
+	display:block;
+	width:6rem;
+	height:6rem;
+	margin-top:-3rem;}
+.mark-list-con li .badge-before{
+	background:url(../images/wxf-ico.png) center no-repeat;
+	background-size:contain}
+.mark-list-con li .badge-after{
+	background:url(../images/yxf-ico.png) center no-repeat;
+	background-size:contain}
+.mark-list-con li .num,
+.mark-list-con li .nr{
+	display:-webkit-box;
+	padding:0.8rem 1rem;
+	border-bottom:1px solid #eff0f4}
+.mark-list-con li .num span{
+	color:#333;
+	display:block;
+	-webkit-box-flex:1;
+	font-size:1rem}
+.mark-list-con li .num em{
+	color:#ff9727;
+	padding:0.3rem;
+	background:#ffedd8;
+	border-radius:0.3rem}
+.mark-list-con li .nr .pic{
+	width:7rem;
+	height:7rem;
+	overflow:hidden}
+.mark-list-con li .nr .pic img{
+	width:100%}
+.mark-list-con li .nr .txt{
+	-webkit-box-flex:1;
+	color:#333;
+	width:15rem;
+	line-height:1.4rem;
+	margin-left:1rem;}
+.mark-list-con li .nr .txt .order{
+	margin-top:1rem;
+	font-size:0.8rem}
+.mark-list-con li .nr .txt .sz{
+	margin-top:1rem;
+	font-family:Arial, Helvetica, sans-serif}
+.mark-list-con li .nr .jg{
+	-webkit-box-flex:1;
+	display:block;
+	width:7rem;
+	margin-left:1rem;
+	text-align:right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1rem}
+.mark-list-con li .nr .jg strong{
+	display:block;
+	font-weight:500}
+.mark-list-con li .nr .jg span{
+	color:#999;
+	display:block}
+.mark-list-con li .hj{
+	padding:0.8rem 1rem;
+	font-size:1rem;
+	text-align:right;}
+.mark-list-con li .hj span{
+	color:#f96332;
+	font-family:Arial, Helvetica, sans-serif}
+
+.mark-list-con li .cp,
+.mark-list-con li .sl{
+	padding:0.8rem 1rem;
+	border-bottom:1px solid #eff0f4}
+.mark-list-con li .cp p,
+.mark-list-con li .sl p{
+	padding:0.2rem 0}
+.mark-list-con li .sl p .people{
+	color:#999}
+
+.mark-list-con  .confirm-btn{
+	display:block;
+	color:#fff;
+	font-size:1rem;
+	padding:0.7rem 0;
+	margin:1rem;
+	text-align:center;
+	border-radius:0.5rem;
+	background:#ec5726}
+
+/*用户中心*/
+.user-center-box{
+	position:relative;}
+.user-center-box .yz-label-before,
+.user-center-box .yz-label-after{
+	position:absolute;
+	right:1rem;
+	top:1rem;
+	color:#fff;
+	font-size:1rem;
+	padding:0.1rem 0.5rem;
+	border-radius:0.5rem}
+.user-center-box .yz-label-before{
+	background:#c8c8c8;}
+.user-center-box .yz-label-after{
+	top:3rem;
+	padding-left:2.3rem;
+	background:url(../images/tg-yz-ico.png) no-repeat 0.5rem center #f00}
+.user-center-top{
+	display:table;
+	width:100%;
+	height:18rem;
+	background:url(../images/user-center-bg.jpg) center no-repeat;
+	background-size:cover}
+.user-center-top .con{
+	color:#fff;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center}
+.user-center-top .con p{
+	margin:0.5rem 0}
+.user-center-top .con .tx img{
+	display:inline-block;
+	width:8rem;
+	height:8rem;
+	border-radius:50%;
+	border:0.3rem solid #fff;}
+.user-center-top .con .zl a{
+	color:#fff;
+	display:inline-block;
+	padding:0.4rem 2rem;
+	background:rgba(255,255,255,.3);
+	border:1px solid #fff;
+	border-radius:1.5rem}
+
+.user-center-con{
+	padding:1rem}
+.user-center-con .iwant-yd-btn,
+.user-center-con .note-yd-btn{
+	display:block;
+	color:#fff;
+	font-size:1rem;
+	padding:0.7rem 0;
+	margin:1rem 0;
+	text-align:center;
+	position:relative;
+	border-radius:0.5rem;
+	border:0.125rem solid #fff;
+	background:#ec5726}
+.user-center-con .iwant-yd-btn:before,
+.user-center-con .note-yd-btn:before{
+	content:' ';
+	position:absolute;
+	left:25%;
+	top:50%;
+	display:block;
+	width:1.7rem;
+	height:1.7rem;
+	margin-top:-0.85rem}
+.user-center-con .iwant-yd-btn:before{
+	background:url(../images/iwant-yz-ico.png) no-repeat center;
+	background-size:contain}
+.user-center-con .note-yd-btn:before{
+	background:url(../images/note-yd-ico.png) no-repeat center;
+	background-size:contain}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

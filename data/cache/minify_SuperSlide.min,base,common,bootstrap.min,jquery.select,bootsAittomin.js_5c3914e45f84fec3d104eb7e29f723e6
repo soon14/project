@@ -1,0 +1,985 @@
+/*!
+ * SuperSlide v2.1.1 
+ * 轻松解决网站大部分特效展示问题
+ * 详尽信息请看官网：http://www.SuperSlide2.com/
+ *
+ * Copyright 2011-2013, 大话主席
+ *
+ * 请尊重原创，保留头部版权
+ * 在保留版权的前提下可应用于个人或商业用途
+
+ * v2.1.1：修复当调用多个SuperSlide，并设置returnDefault:true 时返回defaultIndex索引错误
+
+ */
+
+!function(a){a.fn.slide=function(b){return a.fn.slide.defaults={type:"slide",effect:"fade",autoPlay:!1,delayTime:500,interTime:2500,triggerTime:150,defaultIndex:0,titCell:".hd li",mainCell:".bd",targetCell:null,trigger:"mouseover",scroll:1,vis:1,titOnClassName:"on",autoPage:!1,prevCell:".prev",nextCell:".next",pageStateCell:".pageState",opp:!1,pnLoop:!0,easing:"swing",startFun:null,endFun:null,switchLoad:null,playStateCell:".playState",mouseOverStop:!0,defaultPlay:!0,returnDefault:!1},this.each(function(){var c=a.extend({},a.fn.slide.defaults,b),d=a(this),e=c.effect,f=a(c.prevCell,d),g=a(c.nextCell,d),h=a(c.pageStateCell,d),i=a(c.playStateCell,d),j=a(c.titCell,d),k=j.size(),l=a(c.mainCell,d),m=l.children().size(),n=c.switchLoad,o=a(c.targetCell,d),p=parseInt(c.defaultIndex),q=parseInt(c.delayTime),r=parseInt(c.interTime);parseInt(c.triggerTime);var Q,t=parseInt(c.scroll),u=parseInt(c.vis),v="false"==c.autoPlay||0==c.autoPlay?!1:!0,w="false"==c.opp||0==c.opp?!1:!0,x="false"==c.autoPage||0==c.autoPage?!1:!0,y="false"==c.pnLoop||0==c.pnLoop?!1:!0,z="false"==c.mouseOverStop||0==c.mouseOverStop?!1:!0,A="false"==c.defaultPlay||0==c.defaultPlay?!1:!0,B="false"==c.returnDefault||0==c.returnDefault?!1:!0,C=0,D=0,E=0,F=0,G=c.easing,H=null,I=null,J=null,K=c.titOnClassName,L=j.index(d.find("."+K)),M=p=-1==L?p:L,N=p,O=p,P=m>=u?0!=m%t?m%t:t:0,R="leftMarquee"==e||"topMarquee"==e?!0:!1,S=function(){a.isFunction(c.startFun)&&c.startFun(p,k,d,a(c.titCell,d),l,o,f,g)},T=function(){a.isFunction(c.endFun)&&c.endFun(p,k,d,a(c.titCell,d),l,o,f,g)},U=function(){j.removeClass(K),A&&j.eq(N).addClass(K)};if("menu"==c.type)return A&&j.removeClass(K).eq(p).addClass(K),j.hover(function(){Q=a(this).find(c.targetCell);var b=j.index(a(this));I=setTimeout(function(){switch(p=b,j.removeClass(K).eq(p).addClass(K),S(),e){case"fade":Q.stop(!0,!0).animate({opacity:"show"},q,G,T);break;case"slideDown":Q.stop(!0,!0).animate({height:"show"},q,G,T)}},c.triggerTime)},function(){switch(clearTimeout(I),e){case"fade":Q.animate({opacity:"hide"},q,G);break;case"slideDown":Q.animate({height:"hide"},q,G)}}),B&&d.hover(function(){clearTimeout(J)},function(){J=setTimeout(U,q)}),void 0;if(0==k&&(k=m),R&&(k=2),x){if(m>=u)if("leftLoop"==e||"topLoop"==e)k=0!=m%t?(0^m/t)+1:m/t;else{var V=m-u;k=1+parseInt(0!=V%t?V/t+1:V/t),0>=k&&(k=1)}else k=1;j.html("");var W="";if(1==c.autoPage||"true"==c.autoPage)for(var X=0;k>X;X++)W+="<li>"+(X+1)+"</li>";else for(var X=0;k>X;X++)W+=c.autoPage.replace("$",X+1);j.html(W);var j=j.children()}if(m>=u){l.children().each(function(){a(this).width()>E&&(E=a(this).width(),D=a(this).outerWidth(!0)),a(this).height()>F&&(F=a(this).height(),C=a(this).outerHeight(!0))});var Y=l.children(),Z=function(){for(var a=0;u>a;a++)Y.eq(a).clone().addClass("clone").appendTo(l);for(var a=0;P>a;a++)Y.eq(m-a-1).clone().addClass("clone").prependTo(l)};switch(e){case"fold":l.css({position:"relative",width:D,height:C}).children().css({position:"absolute",width:E,left:0,top:0,display:"none"});break;case"top":l.wrap('<div class="tempWrap" style="overflow:hidden; position:relative; height:'+u*C+'px"></div>').css({top:-(p*t)*C,position:"relative",padding:"0",margin:"0"}).children().css({height:F});break;case"left":l.wrap('<div class="tempWrap" style="overflow:hidden; position:relative; width:'+u*D+'px"></div>').css({width:m*D,left:-(p*t)*D,position:"relative",overflow:"hidden",padding:"0",margin:"0"}).children().css({"float":"left",width:E});break;case"leftLoop":case"leftMarquee":Z(),l.wrap('<div class="tempWrap" style="overflow:hidden; position:relative; width:'+u*D+'px"></div>').css({width:(m+u+P)*D,position:"relative",overflow:"hidden",padding:"0",margin:"0",left:-(P+p*t)*D}).children().css({"float":"left",width:E});break;case"topLoop":case"topMarquee":Z(),l.wrap('<div class="tempWrap" style="overflow:hidden; position:relative; height:'+u*C+'px"></div>').css({height:(m+u+P)*C,position:"relative",padding:"0",margin:"0",top:-(P+p*t)*C}).children().css({height:F})}}var $=function(a){var b=a*t;return a==k?b=m:-1==a&&0!=m%t&&(b=-m%t),b},_=function(b){var c=function(c){for(var d=c;u+c>d;d++)b.eq(d).find("img["+n+"]").each(function(){var b=a(this);if(b.attr("src",b.attr(n)).removeAttr(n),l.find(".clone")[0])for(var c=l.children(),d=0;d<c.size();d++)c.eq(d).find("img["+n+"]").each(function(){a(this).attr(n)==b.attr("src")&&a(this).attr("src",a(this).attr(n)).removeAttr(n)})})};switch(e){case"fade":case"fold":case"top":case"left":case"slideDown":c(p*t);break;case"leftLoop":case"topLoop":c(P+$(O));break;case"leftMarquee":case"topMarquee":var d="leftMarquee"==e?l.css("left").replace("px",""):l.css("top").replace("px",""),f="leftMarquee"==e?D:C,g=P;if(0!=d%f){var h=Math.abs(0^d/f);g=1==p?P+h:P+h-1}c(g)}},ab=function(a){if(!A||M!=p||a||R){if(R?p>=1?p=1:0>=p&&(p=0):(O=p,p>=k?p=0:0>p&&(p=k-1)),S(),null!=n&&_(l.children()),o[0]&&(Q=o.eq(p),null!=n&&_(o),"slideDown"==e?(o.not(Q).stop(!0,!0).slideUp(q),Q.slideDown(q,G,function(){l[0]||T()})):(o.not(Q).stop(!0,!0).hide(),Q.animate({opacity:"show"},q,function(){l[0]||T()}))),m>=u)switch(e){case"fade":l.children().stop(!0,!0).eq(p).animate({opacity:"show"},q,G,function(){T()}).siblings().hide();break;case"fold":l.children().stop(!0,!0).eq(p).animate({opacity:"show"},q,G,function(){T()}).siblings().animate({opacity:"hide"},q,G);break;case"top":l.stop(!0,!1).animate({top:-p*t*C},q,G,function(){T()});break;case"left":l.stop(!0,!1).animate({left:-p*t*D},q,G,function(){T()});break;case"leftLoop":var b=O;l.stop(!0,!0).animate({left:-($(O)+P)*D},q,G,function(){-1>=b?l.css("left",-(P+(k-1)*t)*D):b>=k&&l.css("left",-P*D),T()});break;case"topLoop":var b=O;l.stop(!0,!0).animate({top:-($(O)+P)*C},q,G,function(){-1>=b?l.css("top",-(P+(k-1)*t)*C):b>=k&&l.css("top",-P*C),T()});break;case"leftMarquee":var c=l.css("left").replace("px","");0==p?l.animate({left:++c},0,function(){l.css("left").replace("px","")>=0&&l.css("left",-m*D)}):l.animate({left:--c},0,function(){l.css("left").replace("px","")<=-(m+P)*D&&l.css("left",-P*D)});break;case"topMarquee":var d=l.css("top").replace("px","");0==p?l.animate({top:++d},0,function(){l.css("top").replace("px","")>=0&&l.css("top",-m*C)}):l.animate({top:--d},0,function(){l.css("top").replace("px","")<=-(m+P)*C&&l.css("top",-P*C)})}j.removeClass(K).eq(p).addClass(K),M=p,y||(g.removeClass("nextStop"),f.removeClass("prevStop"),0==p&&f.addClass("prevStop"),p==k-1&&g.addClass("nextStop")),h.html("<span>"+(p+1)+"</span>/"+k)}};A&&ab(!0),B&&d.hover(function(){clearTimeout(J)},function(){J=setTimeout(function(){p=N,A?ab():"slideDown"==e?Q.slideUp(q,U):Q.animate({opacity:"hide"},q,U),M=p},300)});var bb=function(a){H=setInterval(function(){w?p--:p++,ab()},a?a:r)},cb=function(a){H=setInterval(ab,a?a:r)},db=function(){z||(clearInterval(H),bb())},eb=function(){(y||p!=k-1)&&(p++,ab(),R||db())},fb=function(){(y||0!=p)&&(p--,ab(),R||db())},gb=function(){clearInterval(H),R?cb():bb(),i.removeClass("pauseState")},hb=function(){clearInterval(H),i.addClass("pauseState")};if(v?R?(w?p--:p++,cb(),z&&l.hover(hb,gb)):(bb(),z&&d.hover(hb,gb)):(R&&(w?p--:p++),i.addClass("pauseState")),i.click(function(){i.hasClass("pauseState")?gb():hb()}),"mouseover"==c.trigger?j.hover(function(){var a=j.index(this);I=setTimeout(function(){p=a,ab(),db()},c.triggerTime)},function(){clearTimeout(I)}):j.click(function(){p=j.index(this),ab(),db()}),R){if(g.mousedown(eb),f.mousedown(fb),y){var ib,jb=function(){ib=setTimeout(function(){clearInterval(H),cb(0^r/10)},150)},kb=function(){clearTimeout(ib),clearInterval(H),cb()};g.mousedown(jb),g.mouseup(kb),f.mousedown(jb),f.mouseup(kb)}"mouseover"==c.trigger&&(g.hover(eb,function(){}),f.hover(fb,function(){}))}else g.click(eb),f.click(fb)})}}(jQuery),jQuery.easing.jswing=jQuery.easing.swing,jQuery.extend(jQuery.easing,{def:"easeOutQuad",swing:function(a,b,c,d,e){return jQuery.easing[jQuery.easing.def](a,b,c,d,e)},easeInQuad:function(a,b,c,d,e){return d*(b/=e)*b+c},easeOutQuad:function(a,b,c,d,e){return-d*(b/=e)*(b-2)+c},easeInOutQuad:function(a,b,c,d,e){return(b/=e/2)<1?d/2*b*b+c:-d/2*(--b*(b-2)-1)+c},easeInCubic:function(a,b,c,d,e){return d*(b/=e)*b*b+c},easeOutCubic:function(a,b,c,d,e){return d*((b=b/e-1)*b*b+1)+c},easeInOutCubic:function(a,b,c,d,e){return(b/=e/2)<1?d/2*b*b*b+c:d/2*((b-=2)*b*b+2)+c},easeInQuart:function(a,b,c,d,e){return d*(b/=e)*b*b*b+c},easeOutQuart:function(a,b,c,d,e){return-d*((b=b/e-1)*b*b*b-1)+c},easeInOutQuart:function(a,b,c,d,e){return(b/=e/2)<1?d/2*b*b*b*b+c:-d/2*((b-=2)*b*b*b-2)+c},easeInQuint:function(a,b,c,d,e){return d*(b/=e)*b*b*b*b+c},easeOutQuint:function(a,b,c,d,e){return d*((b=b/e-1)*b*b*b*b+1)+c},easeInOutQuint:function(a,b,c,d,e){return(b/=e/2)<1?d/2*b*b*b*b*b+c:d/2*((b-=2)*b*b*b*b+2)+c},easeInSine:function(a,b,c,d,e){return-d*Math.cos(b/e*(Math.PI/2))+d+c},easeOutSine:function(a,b,c,d,e){return d*Math.sin(b/e*(Math.PI/2))+c},easeInOutSine:function(a,b,c,d,e){return-d/2*(Math.cos(Math.PI*b/e)-1)+c},easeInExpo:function(a,b,c,d,e){return 0==b?c:d*Math.pow(2,10*(b/e-1))+c},easeOutExpo:function(a,b,c,d,e){return b==e?c+d:d*(-Math.pow(2,-10*b/e)+1)+c},easeInOutExpo:function(a,b,c,d,e){return 0==b?c:b==e?c+d:(b/=e/2)<1?d/2*Math.pow(2,10*(b-1))+c:d/2*(-Math.pow(2,-10*--b)+2)+c},easeInCirc:function(a,b,c,d,e){return-d*(Math.sqrt(1-(b/=e)*b)-1)+c},easeOutCirc:function(a,b,c,d,e){return d*Math.sqrt(1-(b=b/e-1)*b)+c},easeInOutCirc:function(a,b,c,d,e){return(b/=e/2)<1?-d/2*(Math.sqrt(1-b*b)-1)+c:d/2*(Math.sqrt(1-(b-=2)*b)+1)+c},easeInElastic:function(a,b,c,d,e){var f=1.70158,g=0,h=d;if(0==b)return c;if(1==(b/=e))return c+d;if(g||(g=.3*e),h<Math.abs(d)){h=d;var f=g/4}else var f=g/(2*Math.PI)*Math.asin(d/h);return-(h*Math.pow(2,10*(b-=1))*Math.sin((b*e-f)*2*Math.PI/g))+c},easeOutElastic:function(a,b,c,d,e){var f=1.70158,g=0,h=d;if(0==b)return c;if(1==(b/=e))return c+d;if(g||(g=.3*e),h<Math.abs(d)){h=d;var f=g/4}else var f=g/(2*Math.PI)*Math.asin(d/h);return h*Math.pow(2,-10*b)*Math.sin((b*e-f)*2*Math.PI/g)+d+c},easeInOutElastic:function(a,b,c,d,e){var f=1.70158,g=0,h=d;if(0==b)return c;if(2==(b/=e/2))return c+d;if(g||(g=e*.3*1.5),h<Math.abs(d)){h=d;var f=g/4}else var f=g/(2*Math.PI)*Math.asin(d/h);return 1>b?-.5*h*Math.pow(2,10*(b-=1))*Math.sin((b*e-f)*2*Math.PI/g)+c:.5*h*Math.pow(2,-10*(b-=1))*Math.sin((b*e-f)*2*Math.PI/g)+d+c},easeInBack:function(a,b,c,d,e,f){return void 0==f&&(f=1.70158),d*(b/=e)*b*((f+1)*b-f)+c},easeOutBack:function(a,b,c,d,e,f){return void 0==f&&(f=1.70158),d*((b=b/e-1)*b*((f+1)*b+f)+1)+c},easeInOutBack:function(a,b,c,d,e,f){return void 0==f&&(f=1.70158),(b/=e/2)<1?d/2*b*b*(((f*=1.525)+1)*b-f)+c:d/2*((b-=2)*b*(((f*=1.525)+1)*b+f)+2)+c},easeInBounce:function(a,b,c,d,e){return d-jQuery.easing.easeOutBounce(a,e-b,0,d,e)+c},easeOutBounce:function(a,b,c,d,e){return(b/=e)<1/2.75?d*7.5625*b*b+c:2/2.75>b?d*(7.5625*(b-=1.5/2.75)*b+.75)+c:2.5/2.75>b?d*(7.5625*(b-=2.25/2.75)*b+.9375)+c:d*(7.5625*(b-=2.625/2.75)*b+.984375)+c},easeInOutBounce:function(a,b,c,d,e){return e/2>b?.5*jQuery.easing.easeInBounce(a,2*b,0,d,e)+c:.5*jQuery.easing.easeOutBounce(a,2*b-e,0,d,e)+.5*d+c}});
+;function AutoScroll(obj){$(obj).find("ul:first").animate({marginTop:"-35px"},500,function(){$(this).css({marginTop:"0px"}).find("li:first").appendTo(this);});}
+$(document).ready(function(){var myar=setInterval('AutoScroll(".scroll-order")',5000)
+$(".scroll-order").hover(function(){clearInterval(myar)},function(){myar=setInterval('AutoScroll(".scroll-order")',5000)});})
+$(function(){var topNavToggle=$('.top-login dl')
+topNavToggle.hover(function(){$(this).css({background:'#fff',border:'1px solid #eee'});$(this).children('dd').slideDown(100)},function(){$(this).css({background:'none',border:'1px solid #f9f7f6','border-bottom':'0'});$(this).children('dd').slideUp(100)})
+$('.st-dh-con').hover(function(){$(this).children('h3').addClass('hover').next('.st-dh-item').show()},function(){$(this).children('h3').removeClass('hover').next('.st-dh-item').hide()})});(function($){var ST={};var Util={openWin:function(url){window.open(url);},dateDiff:function(sDate1,sDate2){var arrDate,arrdate2,objDate1,objDate2,intDays;arrDate=sDate1.split("-");objDate1=new Date(arrDate[0],arrDate[1]-1,arrDate[2]);var arrDate2=sDate2.split("-");objDate2=new Date(arrDate2[0],arrDate2[1]-1,arrDate2[2]);intDays=Number(Math.abs(objDate1-objDate2)/1000/60/60/24);return intDays;},createFade:function(){$('body').append('<div class="fade"></div>');$('.fade').fadeIn();},closeFade:function(){$('.fade').remove();}}
+var STMath={add:function(a,b){var c,d,e;try{c=a.toString().split(".")[1].length;}catch(f){c=0;}
+try{d=b.toString().split(".")[1].length;}catch(f){d=0;}
+return e=Math.pow(10,Math.max(c,d)),(this.mul(a,e)+this.mul(b,e))/e;},sub:function(a,b){var c,d,e;try{c=a.toString().split(".")[1].length;}catch(f){c=0;}
+try{d=b.toString().split(".")[1].length;}catch(f){d=0;}
+return e=Math.pow(10,Math.max(c,d)),(this.mul(a,e)-this.mul(b,e))/e;},mul:function(a,b){var c=0,d=a.toString(),e=b.toString();try{c+=d.split(".")[1].length;}catch(f){}
+try{c+=e.split(".")[1].length;}catch(f){}
+return Number(d.replace(".",""))*Number(e.replace(".",""))/Math.pow(10,c);},div:function(a,b){var c,d,e=0,f=0;try{e=a.toString().split(".")[1].length;}catch(g){}
+try{f=b.toString().split(".")[1].length;}catch(g){}
+return c=Number(a.toString().replace(".","")),d=Number(b.toString().replace(".","")),this.mul(c/d,Math.pow(10,f-e));}}
+ST.Util=Util;ST.Math=STMath;window.ST=ST;})(jQuery)
+$.fn.hoverDelay=function(fnOver,fnOut,timeIn,timeOut){var timeIn=timeIn||200,timeOut=timeOut||200,fnOut=fnOut||fnOver;var inTimer=[],outTimer=[];return this.each(function(i){$(this).mouseenter(function(){var that=this;clearTimeout(outTimer[i]);inTimer[i]=setTimeout(function(){fnOver.apply(that);},timeIn);}).mouseleave(function(){var that=this;clearTimeout(inTimer[i]);outTimer[i]=setTimeout(function(){fnOut.apply(that)},timeOut);});})}
+;/*!
+* Bootstrap.js by @fat & @mdo
+* Copyright 2013 Twitter, Inc.
+* http://www.apache.org/licenses/LICENSE-2.0.txt
+*/
+!function(e){"use strict";e(function(){e.support.transition=function(){var e=function(){var e=document.createElement("bootstrap"),t={WebkitTransition:"webkitTransitionEnd",MozTransition:"transitionend",OTransition:"oTransitionEnd otransitionend",transition:"transitionend"},n;for(n in t)if(e.style[n]!==undefined)return t[n]}();return e&&{end:e}}()})}(window.jQuery),!function(e){"use strict";var t='[data-dismiss="alert"]',n=function(n){e(n).on("click",t,this.close)};n.prototype.close=function(t){function s(){i.trigger("closed").remove()}var n=e(this),r=n.attr("data-target"),i;r||(r=n.attr("href"),r=r&&r.replace(/.*(?=#[^\s]*$)/,"")),i=e(r),t&&t.preventDefault(),i.length||(i=n.hasClass("alert")?n:n.parent()),i.trigger(t=e.Event("close"));if(t.isDefaultPrevented())return;i.removeClass("in"),e.support.transition&&i.hasClass("fade")?i.on(e.support.transition.end,s):s()};var r=e.fn.alert;e.fn.alert=function(t){return this.each(function(){var r=e(this),i=r.data("alert");i||r.data("alert",i=new n(this)),typeof t=="string"&&i[t].call(r)})},e.fn.alert.Constructor=n,e.fn.alert.noConflict=function(){return e.fn.alert=r,this},e(document).on("click.alert.data-api",t,n.prototype.close)}(window.jQuery),!function(e){"use strict";var t=function(t,n){this.$element=e(t),this.options=e.extend({},e.fn.button.defaults,n)};t.prototype.setState=function(e){var t="disabled",n=this.$element,r=n.data(),i=n.is("input")?"val":"html";e+="Text",r.resetText||n.data("resetText",n[i]()),n[i](r[e]||this.options[e]),setTimeout(function(){e=="loadingText"?n.addClass(t).attr(t,t):n.removeClass(t).removeAttr(t)},0)},t.prototype.toggle=function(){var e=this.$element.closest('[data-toggle="buttons-radio"]');e&&e.find(".active").removeClass("active"),this.$element.toggleClass("active")};var n=e.fn.button;e.fn.button=function(n){return this.each(function(){var r=e(this),i=r.data("button"),s=typeof n=="object"&&n;i||r.data("button",i=new t(this,s)),n=="toggle"?i.toggle():n&&i.setState(n)})},e.fn.button.defaults={loadingText:"loading..."},e.fn.button.Constructor=t,e.fn.button.noConflict=function(){return e.fn.button=n,this},e(document).on("click.button.data-api","[data-toggle^=button]",function(t){var n=e(t.target);n.hasClass("btn")||(n=n.closest(".btn")),n.button("toggle")})}(window.jQuery),!function(e){"use strict";var t=function(t,n){this.$element=e(t),this.$indicators=this.$element.find(".carousel-indicators"),this.options=n,this.options.pause=="hover"&&this.$element.on("mouseenter",e.proxy(this.pause,this)).on("mouseleave",e.proxy(this.cycle,this))};t.prototype={cycle:function(t){return t||(this.paused=!1),this.interval&&clearInterval(this.interval),this.options.interval&&!this.paused&&(this.interval=setInterval(e.proxy(this.next,this),this.options.interval)),this},getActiveIndex:function(){return this.$active=this.$element.find(".item.active"),this.$items=this.$active.parent().children(),this.$items.index(this.$active)},to:function(t){var n=this.getActiveIndex(),r=this;if(t>this.$items.length-1||t<0)return;return this.sliding?this.$element.one("slid",function(){r.to(t)}):n==t?this.pause().cycle():this.slide(t>n?"next":"prev",e(this.$items[t]))},pause:function(t){return t||(this.paused=!0),this.$element.find(".next, .prev").length&&e.support.transition.end&&(this.$element.trigger(e.support.transition.end),this.cycle(!0)),clearInterval(this.interval),this.interval=null,this},next:function(){if(this.sliding)return;return this.slide("next")},prev:function(){if(this.sliding)return;return this.slide("prev")},slide:function(t,n){var r=this.$element.find(".item.active"),i=n||r[t](),s=this.interval,o=t=="next"?"left":"right",u=t=="next"?"first":"last",a=this,f;this.sliding=!0,s&&this.pause(),i=i.length?i:this.$element.find(".item")[u](),f=e.Event("slide",{relatedTarget:i[0],direction:o});if(i.hasClass("active"))return;this.$indicators.length&&(this.$indicators.find(".active").removeClass("active"),this.$element.one("slid",function(){var t=e(a.$indicators.children()[a.getActiveIndex()]);t&&t.addClass("active")}));if(e.support.transition&&this.$element.hasClass("slide")){this.$element.trigger(f);if(f.isDefaultPrevented())return;i.addClass(t),i[0].offsetWidth,r.addClass(o),i.addClass(o),this.$element.one(e.support.transition.end,function(){i.removeClass([t,o].join(" ")).addClass("active"),r.removeClass(["active",o].join(" ")),a.sliding=!1,setTimeout(function(){a.$element.trigger("slid")},0)})}else{this.$element.trigger(f);if(f.isDefaultPrevented())return;r.removeClass("active"),i.addClass("active"),this.sliding=!1,this.$element.trigger("slid")}return s&&this.cycle(),this}};var n=e.fn.carousel;e.fn.carousel=function(n){return this.each(function(){var r=e(this),i=r.data("carousel"),s=e.extend({},e.fn.carousel.defaults,typeof n=="object"&&n),o=typeof n=="string"?n:s.slide;i||r.data("carousel",i=new t(this,s)),typeof n=="number"?i.to(n):o?i[o]():s.interval&&i.pause().cycle()})},e.fn.carousel.defaults={interval:5e3,pause:"hover"},e.fn.carousel.Constructor=t,e.fn.carousel.noConflict=function(){return e.fn.carousel=n,this},e(document).on("click.carousel.data-api","[data-slide], [data-slide-to]",function(t){var n=e(this),r,i=e(n.attr("data-target")||(r=n.attr("href"))&&r.replace(/.*(?=#[^\s]+$)/,"")),s=e.extend({},i.data(),n.data()),o;i.carousel(s),(o=n.attr("data-slide-to"))&&i.data("carousel").pause().to(o).cycle(),t.preventDefault()})}(window.jQuery),!function(e){"use strict";var t=function(t,n){this.$element=e(t),this.options=e.extend({},e.fn.collapse.defaults,n),this.options.parent&&(this.$parent=e(this.options.parent)),this.options.toggle&&this.toggle()};t.prototype={constructor:t,dimension:function(){var e=this.$element.hasClass("width");return e?"width":"height"},show:function(){var t,n,r,i;if(this.transitioning||this.$element.hasClass("in"))return;t=this.dimension(),n=e.camelCase(["scroll",t].join("-")),r=this.$parent&&this.$parent.find("> .accordion-group > .in");if(r&&r.length){i=r.data("collapse");if(i&&i.transitioning)return;r.collapse("hide"),i||r.data("collapse",null)}this.$element[t](0),this.transition("addClass",e.Event("show"),"shown"),e.support.transition&&this.$element[t](this.$element[0][n])},hide:function(){var t;if(this.transitioning||!this.$element.hasClass("in"))return;t=this.dimension(),this.reset(this.$element[t]()),this.transition("removeClass",e.Event("hide"),"hidden"),this.$element[t](0)},reset:function(e){var t=this.dimension();return this.$element.removeClass("collapse")[t](e||"auto")[0].offsetWidth,this.$element[e!==null?"addClass":"removeClass"]("collapse"),this},transition:function(t,n,r){var i=this,s=function(){n.type=="show"&&i.reset(),i.transitioning=0,i.$element.trigger(r)};this.$element.trigger(n);if(n.isDefaultPrevented())return;this.transitioning=1,this.$element[t]("in"),e.support.transition&&this.$element.hasClass("collapse")?this.$element.one(e.support.transition.end,s):s()},toggle:function(){this[this.$element.hasClass("in")?"hide":"show"]()}};var n=e.fn.collapse;e.fn.collapse=function(n){return this.each(function(){var r=e(this),i=r.data("collapse"),s=e.extend({},e.fn.collapse.defaults,r.data(),typeof n=="object"&&n);i||r.data("collapse",i=new t(this,s)),typeof n=="string"&&i[n]()})},e.fn.collapse.defaults={toggle:!0},e.fn.collapse.Constructor=t,e.fn.collapse.noConflict=function(){return e.fn.collapse=n,this},e(document).on("click.collapse.data-api","[data-toggle=collapse]",function(t){var n=e(this),r,i=n.attr("data-target")||t.preventDefault()||(r=n.attr("href"))&&r.replace(/.*(?=#[^\s]+$)/,""),s=e(i).data("collapse")?"toggle":n.data();n[e(i).hasClass("in")?"addClass":"removeClass"]("collapsed"),e(i).collapse(s)})}(window.jQuery),!function(e){"use strict";function r(){e(".dropdown-backdrop").remove(),e(t).each(function(){i(e(this)).removeClass("open")})}function i(t){var n=t.attr("data-target"),r;n||(n=t.attr("href"),n=n&&/#/.test(n)&&n.replace(/.*(?=#[^\s]*$)/,"")),r=n&&e(n);if(!r||!r.length)r=t.parent();return r}var t="[data-toggle=dropdown]",n=function(t){var n=e(t).on("click.dropdown.data-api",this.toggle);e("html").on("click.dropdown.data-api",function(){n.parent().removeClass("open")})};n.prototype={constructor:n,toggle:function(t){var n=e(this),s,o;if(n.is(".disabled, :disabled"))return;return s=i(n),o=s.hasClass("open"),r(),o||("ontouchstart"in document.documentElement&&e('<div class="dropdown-backdrop"/>').insertBefore(e(this)).on("click",r),s.toggleClass("open")),n.focus(),!1},keydown:function(n){var r,s,o,u,a,f;if(!/(38|40|27)/.test(n.keyCode))return;r=e(this),n.preventDefault(),n.stopPropagation();if(r.is(".disabled, :disabled"))return;u=i(r),a=u.hasClass("open");if(!a||a&&n.keyCode==27)return n.which==27&&u.find(t).focus(),r.click();s=e("[role=menu] li:not(.divider):visible a",u);if(!s.length)return;f=s.index(s.filter(":focus")),n.keyCode==38&&f>0&&f--,n.keyCode==40&&f<s.length-1&&f++,~f||(f=0),s.eq(f).focus()}};var s=e.fn.dropdown;e.fn.dropdown=function(t){return this.each(function(){var r=e(this),i=r.data("dropdown");i||r.data("dropdown",i=new n(this)),typeof t=="string"&&i[t].call(r)})},e.fn.dropdown.Constructor=n,e.fn.dropdown.noConflict=function(){return e.fn.dropdown=s,this},e(document).on("click.dropdown.data-api",r).on("click.dropdown.data-api",".dropdown form",function(e){e.stopPropagation()}).on("click.dropdown.data-api",t,n.prototype.toggle).on("keydown.dropdown.data-api",t+", [role=menu]",n.prototype.keydown)}(window.jQuery),!function(e){"use strict";var t=function(t,n){this.options=n,this.$element=e(t).delegate('[data-dismiss="modal"]',"click.dismiss.modal",e.proxy(this.hide,this)),this.options.remote&&this.$element.find(".modal-body").load(this.options.remote)};t.prototype={constructor:t,toggle:function(){return this[this.isShown?"hide":"show"]()},show:function(){var t=this,n=e.Event("show");this.$element.trigger(n);if(this.isShown||n.isDefaultPrevented())return;this.isShown=!0,this.escape(),this.backdrop(function(){var n=e.support.transition&&t.$element.hasClass("fade");t.$element.parent().length||t.$element.appendTo(document.body),t.$element.show(),n&&t.$element[0].offsetWidth,t.$element.addClass("in").attr("aria-hidden",!1),t.enforceFocus(),n?t.$element.one(e.support.transition.end,function(){t.$element.focus().trigger("shown")}):t.$element.focus().trigger("shown")})},hide:function(t){t&&t.preventDefault();var n=this;t=e.Event("hide"),this.$element.trigger(t);if(!this.isShown||t.isDefaultPrevented())return;this.isShown=!1,this.escape(),e(document).off("focusin.modal"),this.$element.removeClass("in").attr("aria-hidden",!0),e.support.transition&&this.$element.hasClass("fade")?this.hideWithTransition():this.hideModal()},enforceFocus:function(){var t=this;e(document).on("focusin.modal",function(e){t.$element[0]!==e.target&&!t.$element.has(e.target).length&&t.$element.focus()})},escape:function(){var e=this;this.isShown&&this.options.keyboard?this.$element.on("keyup.dismiss.modal",function(t){t.which==27&&e.hide()}):this.isShown||this.$element.off("keyup.dismiss.modal")},hideWithTransition:function(){var t=this,n=setTimeout(function(){t.$element.off(e.support.transition.end),t.hideModal()},500);this.$element.one(e.support.transition.end,function(){clearTimeout(n),t.hideModal()})},hideModal:function(){var e=this;this.$element.hide(),this.backdrop(function(){e.removeBackdrop(),e.$element.trigger("hidden")})},removeBackdrop:function(){this.$backdrop&&this.$backdrop.remove(),this.$backdrop=null},backdrop:function(t){var n=this,r=this.$element.hasClass("fade")?"fade":"";if(this.isShown&&this.options.backdrop){var i=e.support.transition&&r;this.$backdrop=e('<div class="modal-backdrop '+r+'" />').appendTo(document.body),this.$backdrop.click(this.options.backdrop=="static"?e.proxy(this.$element[0].focus,this.$element[0]):e.proxy(this.hide,this)),i&&this.$backdrop[0].offsetWidth,this.$backdrop.addClass("in");if(!t)return;i?this.$backdrop.one(e.support.transition.end,t):t()}else!this.isShown&&this.$backdrop?(this.$backdrop.removeClass("in"),e.support.transition&&this.$element.hasClass("fade")?this.$backdrop.one(e.support.transition.end,t):t()):t&&t()}};var n=e.fn.modal;e.fn.modal=function(n){return this.each(function(){var r=e(this),i=r.data("modal"),s=e.extend({},e.fn.modal.defaults,r.data(),typeof n=="object"&&n);i||r.data("modal",i=new t(this,s)),typeof n=="string"?i[n]():s.show&&i.show()})},e.fn.modal.defaults={backdrop:!0,keyboard:!0,show:!0},e.fn.modal.Constructor=t,e.fn.modal.noConflict=function(){return e.fn.modal=n,this},e(document).on("click.modal.data-api",'[data-toggle="modal"]',function(t){var n=e(this),r=n.attr("href"),i=e(n.attr("data-target")||r&&r.replace(/.*(?=#[^\s]+$)/,"")),s=i.data("modal")?"toggle":e.extend({remote:!/#/.test(r)&&r},i.data(),n.data());t.preventDefault(),i.modal(s).one("hide",function(){n.focus()})})}(window.jQuery),!function(e){"use strict";var t=function(e,t){this.init("tooltip",e,t)};t.prototype={constructor:t,init:function(t,n,r){var i,s,o,u,a;this.type=t,this.$element=e(n),this.options=this.getOptions(r),this.enabled=!0,o=this.options.trigger.split(" ");for(a=o.length;a--;)u=o[a],u=="click"?this.$element.on("click."+this.type,this.options.selector,e.proxy(this.toggle,this)):u!="manual"&&(i=u=="hover"?"mouseenter":"focus",s=u=="hover"?"mouseleave":"blur",this.$element.on(i+"."+this.type,this.options.selector,e.proxy(this.enter,this)),this.$element.on(s+"."+this.type,this.options.selector,e.proxy(this.leave,this)));this.options.selector?this._options=e.extend({},this.options,{trigger:"manual",selector:""}):this.fixTitle()},getOptions:function(t){return t=e.extend({},e.fn[this.type].defaults,this.$element.data(),t),t.delay&&typeof t.delay=="number"&&(t.delay={show:t.delay,hide:t.delay}),t},enter:function(t){var n=e.fn[this.type].defaults,r={},i;this._options&&e.each(this._options,function(e,t){n[e]!=t&&(r[e]=t)},this),i=e(t.currentTarget)[this.type](r).data(this.type);if(!i.options.delay||!i.options.delay.show)return i.show();clearTimeout(this.timeout),i.hoverState="in",this.timeout=setTimeout(function(){i.hoverState=="in"&&i.show()},i.options.delay.show)},leave:function(t){var n=e(t.currentTarget)[this.type](this._options).data(this.type);this.timeout&&clearTimeout(this.timeout);if(!n.options.delay||!n.options.delay.hide)return n.hide();n.hoverState="out",this.timeout=setTimeout(function(){n.hoverState=="out"&&n.hide()},n.options.delay.hide)},show:function(){var t,n,r,i,s,o,u=e.Event("show");if(this.hasContent()&&this.enabled){this.$element.trigger(u);if(u.isDefaultPrevented())return;t=this.tip(),this.setContent(),this.options.animation&&t.addClass("fade"),s=typeof this.options.placement=="function"?this.options.placement.call(this,t[0],this.$element[0]):this.options.placement,t.detach().css({top:0,left:0,display:"block"}),this.options.container?t.appendTo(this.options.container):t.insertAfter(this.$element),n=this.getPosition(),r=t[0].offsetWidth,i=t[0].offsetHeight;switch(s){case"bottom":o={top:n.top+n.height,left:n.left+n.width/2-r/2};break;case"top":o={top:n.top-i,left:n.left+n.width/2-r/2};break;case"left":o={top:n.top+n.height/2-i/2,left:n.left-r};break;case"right":o={top:n.top+n.height/2-i/2,left:n.left+n.width}}this.applyPlacement(o,s),this.$element.trigger("shown")}},applyPlacement:function(e,t){var n=this.tip(),r=n[0].offsetWidth,i=n[0].offsetHeight,s,o,u,a;n.offset(e).addClass(t).addClass("in"),s=n[0].offsetWidth,o=n[0].offsetHeight,t=="top"&&o!=i&&(e.top=e.top+i-o,a=!0),t=="bottom"||t=="top"?(u=0,e.left<0&&(u=e.left*-2,e.left=0,n.offset(e),s=n[0].offsetWidth,o=n[0].offsetHeight),this.replaceArrow(u-r+s,s,"left")):this.replaceArrow(o-i,o,"top"),a&&n.offset(e)},replaceArrow:function(e,t,n){this.arrow().css(n,e?50*(1-e/t)+"%":"")},setContent:function(){var e=this.tip(),t=this.getTitle();e.find(".tooltip-inner")[this.options.html?"html":"text"](t),e.removeClass("fade in top bottom left right")},hide:function(){function i(){var t=setTimeout(function(){n.off(e.support.transition.end).detach()},500);n.one(e.support.transition.end,function(){clearTimeout(t),n.detach()})}var t=this,n=this.tip(),r=e.Event("hide");this.$element.trigger(r);if(r.isDefaultPrevented())return;return n.removeClass("in"),e.support.transition&&this.$tip.hasClass("fade")?i():n.detach(),this.$element.trigger("hidden"),this},fixTitle:function(){var e=this.$element;(e.attr("title")||typeof e.attr("data-original-title")!="string")&&e.attr("data-original-title",e.attr("title")||"").attr("title","")},hasContent:function(){return this.getTitle()},getPosition:function(){var t=this.$element[0];return e.extend({},typeof t.getBoundingClientRect=="function"?t.getBoundingClientRect():{width:t.offsetWidth,height:t.offsetHeight},this.$element.offset())},getTitle:function(){var e,t=this.$element,n=this.options;return e=t.attr("data-original-title")||(typeof n.title=="function"?n.title.call(t[0]):n.title),e},tip:function(){return this.$tip=this.$tip||e(this.options.template)},arrow:function(){return this.$arrow=this.$arrow||this.tip().find(".tooltip-arrow")},validate:function(){this.$element[0].parentNode||(this.hide(),this.$element=null,this.options=null)},enable:function(){this.enabled=!0},disable:function(){this.enabled=!1},toggleEnabled:function(){this.enabled=!this.enabled},toggle:function(t){var n=t?e(t.currentTarget)[this.type](this._options).data(this.type):this;n.tip().hasClass("in")?n.hide():n.show()},destroy:function(){this.hide().$element.off("."+this.type).removeData(this.type)}};var n=e.fn.tooltip;e.fn.tooltip=function(n){return this.each(function(){var r=e(this),i=r.data("tooltip"),s=typeof n=="object"&&n;i||r.data("tooltip",i=new t(this,s)),typeof n=="string"&&i[n]()})},e.fn.tooltip.Constructor=t,e.fn.tooltip.defaults={animation:!0,placement:"top",selector:!1,template:'<div class="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>',trigger:"hover focus",title:"",delay:0,html:!1,container:!1},e.fn.tooltip.noConflict=function(){return e.fn.tooltip=n,this}}(window.jQuery),!function(e){"use strict";var t=function(e,t){this.init("popover",e,t)};t.prototype=e.extend({},e.fn.tooltip.Constructor.prototype,{constructor:t,setContent:function(){var e=this.tip(),t=this.getTitle(),n=this.getContent();e.find(".popover-title")[this.options.html?"html":"text"](t),e.find(".popover-content")[this.options.html?"html":"text"](n),e.removeClass("fade top bottom left right in")},hasContent:function(){return this.getTitle()||this.getContent()},getContent:function(){var e,t=this.$element,n=this.options;return e=(typeof n.content=="function"?n.content.call(t[0]):n.content)||t.attr("data-content"),e},tip:function(){return this.$tip||(this.$tip=e(this.options.template)),this.$tip},destroy:function(){this.hide().$element.off("."+this.type).removeData(this.type)}});var n=e.fn.popover;e.fn.popover=function(n){return this.each(function(){var r=e(this),i=r.data("popover"),s=typeof n=="object"&&n;i||r.data("popover",i=new t(this,s)),typeof n=="string"&&i[n]()})},e.fn.popover.Constructor=t,e.fn.popover.defaults=e.extend({},e.fn.tooltip.defaults,{placement:"right",trigger:"click",content:"",template:'<div class="popover"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>'}),e.fn.popover.noConflict=function(){return e.fn.popover=n,this}}(window.jQuery),!function(e){"use strict";function t(t,n){var r=e.proxy(this.process,this),i=e(t).is("body")?e(window):e(t),s;this.options=e.extend({},e.fn.scrollspy.defaults,n),this.$scrollElement=i.on("scroll.scroll-spy.data-api",r),this.selector=(this.options.target||(s=e(t).attr("href"))&&s.replace(/.*(?=#[^\s]+$)/,"")||"")+" .nav li > a",this.$body=e("body"),this.refresh(),this.process()}t.prototype={constructor:t,refresh:function(){var t=this,n;this.offsets=e([]),this.targets=e([]),n=this.$body.find(this.selector).map(function(){var n=e(this),r=n.data("target")||n.attr("href"),i=/^#\w/.test(r)&&e(r);return i&&i.length&&[[i.position().top+(!e.isWindow(t.$scrollElement.get(0))&&t.$scrollElement.scrollTop()),r]]||null}).sort(function(e,t){return e[0]-t[0]}).each(function(){t.offsets.push(this[0]),t.targets.push(this[1])})},process:function(){var e=this.$scrollElement.scrollTop()+this.options.offset,t=this.$scrollElement[0].scrollHeight||this.$body[0].scrollHeight,n=t-this.$scrollElement.height(),r=this.offsets,i=this.targets,s=this.activeTarget,o;if(e>=n)return s!=(o=i.last()[0])&&this.activate(o);for(o=r.length;o--;)s!=i[o]&&e>=r[o]&&(!r[o+1]||e<=r[o+1])&&this.activate(i[o])},activate:function(t){var n,r;this.activeTarget=t,e(this.selector).parent(".active").removeClass("active"),r=this.selector+'[data-target="'+t+'"],'+this.selector+'[href="'+t+'"]',n=e(r).parent("li").addClass("active"),n.parent(".dropdown-menu").length&&(n=n.closest("li.dropdown").addClass("active")),n.trigger("activate")}};var n=e.fn.scrollspy;e.fn.scrollspy=function(n){return this.each(function(){var r=e(this),i=r.data("scrollspy"),s=typeof n=="object"&&n;i||r.data("scrollspy",i=new t(this,s)),typeof n=="string"&&i[n]()})},e.fn.scrollspy.Constructor=t,e.fn.scrollspy.defaults={offset:10},e.fn.scrollspy.noConflict=function(){return e.fn.scrollspy=n,this},e(window).on("load",function(){e('[data-spy="scroll"]').each(function(){var t=e(this);t.scrollspy(t.data())})})}(window.jQuery),!function(e){"use strict";var t=function(t){this.element=e(t)};t.prototype={constructor:t,show:function(){var t=this.element,n=t.closest("ul:not(.dropdown-menu)"),r=t.attr("data-target"),i,s,o;r||(r=t.attr("href"),r=r&&r.replace(/.*(?=#[^\s]*$)/,""));if(t.parent("li").hasClass("active"))return;i=n.find(".active:last a")[0],o=e.Event("show",{relatedTarget:i}),t.trigger(o);if(o.isDefaultPrevented())return;s=e(r),this.activate(t.parent("li"),n),this.activate(s,s.parent(),function(){t.trigger({type:"shown",relatedTarget:i})})},activate:function(t,n,r){function o(){i.removeClass("active").find("> .dropdown-menu > .active").removeClass("active"),t.addClass("active"),s?(t[0].offsetWidth,t.addClass("in")):t.removeClass("fade"),t.parent(".dropdown-menu")&&t.closest("li.dropdown").addClass("active"),r&&r()}var i=n.find("> .active"),s=r&&e.support.transition&&i.hasClass("fade");s?i.one(e.support.transition.end,o):o(),i.removeClass("in")}};var n=e.fn.tab;e.fn.tab=function(n){return this.each(function(){var r=e(this),i=r.data("tab");i||r.data("tab",i=new t(this)),typeof n=="string"&&i[n]()})},e.fn.tab.Constructor=t,e.fn.tab.noConflict=function(){return e.fn.tab=n,this},e(document).on("click.tab.data-api",'[data-toggle="tab"], [data-toggle="pill"]',function(t){t.preventDefault(),e(this).tab("show")})}(window.jQuery),!function(e){"use strict";var t=function(t,n){this.$element=e(t),this.options=e.extend({},e.fn.typeahead.defaults,n),this.matcher=this.options.matcher||this.matcher,this.sorter=this.options.sorter||this.sorter,this.highlighter=this.options.highlighter||this.highlighter,this.updater=this.options.updater||this.updater,this.source=this.options.source,this.$menu=e(this.options.menu),this.shown=!1,this.listen()};t.prototype={constructor:t,select:function(){var e=this.$menu.find(".active").attr("data-value");return this.$element.val(this.updater(e)).change(),this.hide()},updater:function(e){return e},show:function(){var t=e.extend({},this.$element.position(),{height:this.$element[0].offsetHeight});return this.$menu.insertAfter(this.$element).css({top:t.top+t.height,left:t.left}).show(),this.shown=!0,this},hide:function(){return this.$menu.hide(),this.shown=!1,this},lookup:function(t){var n;return this.query=this.$element.val(),!this.query||this.query.length<this.options.minLength?this.shown?this.hide():this:(n=e.isFunction(this.source)?this.source(this.query,e.proxy(this.process,this)):this.source,n?this.process(n):this)},process:function(t){var n=this;return t=e.grep(t,function(e){return n.matcher(e)}),t=this.sorter(t),t.length?this.render(t.slice(0,this.options.items)).show():this.shown?this.hide():this},matcher:function(e){return~e.toLowerCase().indexOf(this.query.toLowerCase())},sorter:function(e){var t=[],n=[],r=[],i;while(i=e.shift())i.toLowerCase().indexOf(this.query.toLowerCase())?~i.indexOf(this.query)?n.push(i):r.push(i):t.push(i);return t.concat(n,r)},highlighter:function(e){var t=this.query.replace(/[\-\[\]{}()*+?.,\\\^$|#\s]/g,"\\$&");return e.replace(new RegExp("("+t+")","ig"),function(e,t){return"<strong>"+t+"</strong>"})},render:function(t){var n=this;return t=e(t).map(function(t,r){return t=e(n.options.item).attr("data-value",r),t.find("a").html(n.highlighter(r)),t[0]}),t.first().addClass("active"),this.$menu.html(t),this},next:function(t){var n=this.$menu.find(".active").removeClass("active"),r=n.next();r.length||(r=e(this.$menu.find("li")[0])),r.addClass("active")},prev:function(e){var t=this.$menu.find(".active").removeClass("active"),n=t.prev();n.length||(n=this.$menu.find("li").last()),n.addClass("active")},listen:function(){this.$element.on("focus",e.proxy(this.focus,this)).on("blur",e.proxy(this.blur,this)).on("keypress",e.proxy(this.keypress,this)).on("keyup",e.proxy(this.keyup,this)),this.eventSupported("keydown")&&this.$element.on("keydown",e.proxy(this.keydown,this)),this.$menu.on("click",e.proxy(this.click,this)).on("mouseenter","li",e.proxy(this.mouseenter,this)).on("mouseleave","li",e.proxy(this.mouseleave,this))},eventSupported:function(e){var t=e in this.$element;return t||(this.$element.setAttribute(e,"return;"),t=typeof this.$element[e]=="function"),t},move:function(e){if(!this.shown)return;switch(e.keyCode){case 9:case 13:case 27:e.preventDefault();break;case 38:e.preventDefault(),this.prev();break;case 40:e.preventDefault(),this.next()}e.stopPropagation()},keydown:function(t){this.suppressKeyPressRepeat=~e.inArray(t.keyCode,[40,38,9,13,27]),this.move(t)},keypress:function(e){if(this.suppressKeyPressRepeat)return;this.move(e)},keyup:function(e){switch(e.keyCode){case 40:case 38:case 16:case 17:case 18:break;case 9:case 13:if(!this.shown)return;this.select();break;case 27:if(!this.shown)return;this.hide();break;default:this.lookup()}e.stopPropagation(),e.preventDefault()},focus:function(e){this.focused=!0},blur:function(e){this.focused=!1,!this.mousedover&&this.shown&&this.hide()},click:function(e){e.stopPropagation(),e.preventDefault(),this.select(),this.$element.focus()},mouseenter:function(t){this.mousedover=!0,this.$menu.find(".active").removeClass("active"),e(t.currentTarget).addClass("active")},mouseleave:function(e){this.mousedover=!1,!this.focused&&this.shown&&this.hide()}};var n=e.fn.typeahead;e.fn.typeahead=function(n){return this.each(function(){var r=e(this),i=r.data("typeahead"),s=typeof n=="object"&&n;i||r.data("typeahead",i=new t(this,s)),typeof n=="string"&&i[n]()})},e.fn.typeahead.defaults={source:[],items:8,menu:'<ul class="typeahead dropdown-menu"></ul>',item:'<li><a href="#"></a></li>',minLength:1},e.fn.typeahead.Constructor=t,e.fn.typeahead.noConflict=function(){return e.fn.typeahead=n,this},e(document).on("focus.typeahead.data-api",'[data-provide="typeahead"]',function(t){var n=e(this);if(n.data("typeahead"))return;n.typeahead(n.data())})}(window.jQuery),!function(e){"use strict";var t=function(t,n){this.options=e.extend({},e.fn.affix.defaults,n),this.$window=e(window).on("scroll.affix.data-api",e.proxy(this.checkPosition,this)).on("click.affix.data-api",e.proxy(function(){setTimeout(e.proxy(this.checkPosition,this),1)},this)),this.$element=e(t),this.checkPosition()};t.prototype.checkPosition=function(){if(!this.$element.is(":visible"))return;var t=e(document).height(),n=this.$window.scrollTop(),r=this.$element.offset(),i=this.options.offset,s=i.bottom,o=i.top,u="affix affix-top affix-bottom",a;typeof i!="object"&&(s=o=i),typeof o=="function"&&(o=i.top()),typeof s=="function"&&(s=i.bottom()),a=this.unpin!=null&&n+this.unpin<=r.top?!1:s!=null&&r.top+this.$element.height()>=t-s?"bottom":o!=null&&n<=o?"top":!1;if(this.affixed===a)return;this.affixed=a,this.unpin=a=="bottom"?r.top-n:null,this.$element.removeClass(u).addClass("affix"+(a?"-"+a:""))};var n=e.fn.affix;e.fn.affix=function(n){return this.each(function(){var r=e(this),i=r.data("affix"),s=typeof n=="object"&&n;i||r.data("affix",i=new t(this,s)),typeof n=="string"&&i[n]()})},e.fn.affix.Constructor=t,e.fn.affix.defaults={offset:0},e.fn.affix.noConflict=function(){return e.fn.affix=n,this},e(window).on("load",function(){e('[data-spy="affix"]').each(function(){var t=e(this),n=t.data();n.offset=n.offset||{},n.offsetBottom&&(n.offset.bottom=n.offsetBottom),n.offsetTop&&(n.offset.top=n.offsetTop),t.affix(n)})})}(window.jQuery);
+;(function($){var selects=$('select');for(var i=0;i<selects.length;i++){createSelect(selects[i],i);}
+function createSelect(select_container,index){var tag_select=$('<div></div>');tag_select.attr('class','select_box');tag_select.insertBefore(select_container);var select_showbox=$('<div></div>');select_showbox.css('cursor','pointer').attr('class','select_showbox').appendTo(tag_select);var ul_option=$('<ul></ul>');ul_option.attr('class','select_option');ul_option.appendTo(tag_select);createOptions(index,ul_option);tag_select.toggle(function(){ul_option.show();ul_option.parent().find(".select_showbox").addClass("active");},function(){ul_option.hide();ul_option.parent().find(".select_showbox").removeClass("active");});var li_option=ul_option.find('li');li_option.on('click',function(){$(this).addClass('selected').siblings().removeClass('selected');var value=$(this).text();select_showbox.text(value);ul_option.hide();});li_option.hover(function(){$(this).addClass('hover').siblings().removeClass('hover');},function(){li_option.removeClass('hover');});}
+function createOptions(index,ul_list){var options=selects.eq(index).find('option'),selected_option=options.filter(':selected'),selected_index=selected_option.index(),showbox=ul_list.prev();showbox.text(selected_option.text());for(var n=0;n<options.length;n++){var tag_option=$('<li></li>'),txt_option=options.eq(n).text();var dataid=options.eq(n).attr('data-id');var dataurl=options.eq(n).attr('data-url');tag_option.attr('data-id',dataid);tag_option.attr('data-url',dataurl);tag_option.attr('onClick','optionChecked(this);');tag_option.text(txt_option).appendTo(ul_list);if(n==selected_index){tag_option.attr('class','selected');}}}})(jQuery)
+;/* =====顶部登陆下拉 函数===================================================================*/
+$(document).ready(function() {
+    $(".drop-trigger").mouseover(function() {
+        $(this).addClass("hover");
+        $(this).children(".dropdown").show()
+    });
+    $(".drop-trigger").mouseout(function() {
+        $(this).removeClass("hover");
+        $(this).children(".dropdown").hide()
+    });
+});
+
+/* =====同时多个选项卡组件 函数===================================================================*/
+$(document).ready(function() {
+    //导航下三角	 
+    var tag_select = "<span class='down-arrow'></span>";
+    $(".J-con-nav .current").append(tag_select);
+	
+
+    //导航选项卡	 	    
+    function activeTabs() {
+
+        //导航选项卡	 
+        $(this).children().remove(".down-arrow");
+        $(this).addClass("current").siblings().removeClass("current");
+        $(this).append(tag_select).siblings().children().remove(".down-arrow");
+
+        //内容切换 判断/调用
+        var ConObjID = $(this).parent().attr('data-target');
+        if (ConObjID) {
+            var ConIndex = $(this).index();
+            FindTabCon(ConObjID, ConIndex);
+        } else {
+            return false;
+        }
+
+    };
+
+    //内容选项卡	
+    function FindTabCon(ConObjID, ConIndex) {
+        var ConObjID = "#" + ConObjID;
+        tabCon = $(ConObjID).children(".tab-pane");
+        $(tabCon).eq(ConIndex).addClass("active").siblings().removeClass("active");
+    };
+
+    // 导航切换 函数调用
+    // ===============		
+    $(document).on('click', '[data-toggle="tabs"] > li', activeTabs);
+
+});
+
+
+/* =====区域选择 函数===================================================================*/
+$(document).ready(function() {
+    $(".show-con ul").css("height", "25px");
+    $(document).on("click", ".top-category span.crumb-select-item",
+    function(event) {
+        if (event.type == 'mouseenter') {
+            $(this).addClass("crumb-select-itemon");
+        } else {
+            $(this).removeClass("crumb-select-itemon");
+        }
+    });
+
+    $(document).on("click", ".top-category span.crumb-select-item",
+    function(event) {
+       // $(this).remove();
+        var TTR = $(this).find("em").text();
+        $(".show-con a").each(function() {
+            var TT = $(this).text();
+            THI = $(this);
+            THIPP = $(this).parent().parent().parents("tr");
+            if (TTR == TT) {
+                THI.removeClass("nzw12");
+                THI.parent().removeClass("current");
+
+            }
+        })
+    });
+    $(".show-con a").click(function(event) {
+        event.preventDefault();
+        THIP = $(this).parents("tr");
+        if ($(this).hasClass("nzw12")) {} else {
+            $(this).addClass("nzw12");
+            $(this).parent().addClass("current");
+            var zhiclass = $(this).parent().parent().parent().prev().text();
+            zhicon = $(this).text();
+            tianjaneir = "<span class='crumb-select-item'><a href='/'><b>" + zhiclass + "</b>：<em>" + zhicon + "</em><i class='icon-remove'></i></a></span>";
+			$(".top-category").children().last().after(tianjaneir);
+
+        }
+    });
+
+    //$(".del-all").click(function() {
+    //    $(".crumb-select-item").remove();
+    //    $(".show-con li").removeClass("current");
+    //});
+
+    $(".more-category span").click(function() {
+        var ticon = $(this).siblings("i");
+        tspan = $(this);
+        if ($(this).hasClass("mk")) {
+            $(this).parent().parent().parent().parent().parent().prev().addClass("hide").removeClass("show");
+            ticon.removeClass("icon-angle-up");
+            ticon.addClass("icon-angle-down");
+            tspan.html("高级选项搜索");
+            $(this).removeClass("mk")
+        } else {
+            $(this).parent().parent().parent().parent().parent().prev().addClass("show").removeClass("hide");
+            ticon.removeClass("icon-angle-down");
+            ticon.addClass("icon-angle-up");
+            tspan.html("收起");
+            $(this).addClass("mk")
+        }
+        $(this).parent().prev().show();
+
+    });
+    $(".show-more").click(function(event) {
+        event.preventDefault();
+        var ticon = $(this).find("i");
+        tspan = $(this).find("span");
+        if ($(this).hasClass("zk")) {
+            $(this).siblings("ul").css("height", "25px");
+            ticon.removeClass("icon-angle-up");
+            ticon.addClass("icon-angle-down");
+            tspan.html("更多");
+            $(this).removeClass("zk")
+        } else {
+            $(this).siblings("ul").css("height", "auto");
+            ticon.removeClass("icon-angle-down");
+            ticon.addClass("icon-angle-up");
+            tspan.html("收起");
+            $(this).addClass("zk")
+        }
+    });
+    $("#sxbtn").click(function(event) {
+        event.preventDefault();
+        var xicon = $(this).find("span i");
+        xspan = $(this).find("span em");
+        if ($(this).hasClass("zkon")) {
+            xspan.text("收起筛选");
+            xicon.removeClass("icon-angle-down");
+            xicon.addClass("icon-angle-up");
+            $(".sxcon").slideDown();
+            $(this).removeClass("zkon")
+        } else {
+            xspan.text("查看筛选");
+            xicon.removeClass("icon-angle-up");
+            xicon.addClass("icon-angle-down");
+            $(".sxcon").slideUp();
+            $(this).addClass("zkon")
+        }
+    })
+
+});
+
+/* =====文档 置顶函数===================================================================*/
+$(document).ready(function() {
+
+    function ToolbarScroll() {
+        WindowHeight = $(window).height();
+        ScrollTopHeight = $(document).scrollTop();
+        DocumentHeight = $(document).height();
+        DocumentHeight = DocumentHeight - WindowHeight - 200;
+        if (ScrollTopHeight > WindowHeight) {
+            if (ScrollTopHeight < DocumentHeight) {
+                $('.toolbar-item-top').show();
+                $('.mfw-toolbar').removeClass('toolbar-item-b').addClass("toolbar-item-a");
+            } else {
+                $('.toolbar-item-top').show();
+                $('.mfw-toolbar').addClass("toolbar-item-b").removeClass('toolbar-item-a');
+            }
+        } else {
+            $('.toolbar-item-top').hide().removeClass("toolbar-item-bottom");
+        }
+    }
+
+    $('._j_code').hover(function() {
+        $(this).attr('id', 'code_hover');
+        $('.code-box').show();
+    },
+    function() {
+        $(this).attr('id', 'code');
+        $('.code-box').hide();
+    })
+
+    $(window).scroll(function(e) {
+        ToolbarScroll();
+        $('.toolbar-item-top').click(function() {
+            $(document).scrollTop(0);
+        })
+    })
+});
+
+
+
+//相册 控制 代码
+(function($) {
+    var connector = function(itemNavigation, carouselStage) {
+        return carouselStage.jcarousel('items').eq(itemNavigation.index());
+    };
+
+    $(function() {
+        // Setup the carousels. Adjust the options for both carousels here.
+        var carouselStage = $('.carousel-stage').jcarousel();
+        var carouselNavigation = $('.carousel-navigation').jcarousel();
+
+        // We loop through the items of the navigation carousel and set it up
+        // as a control for an item from the stage carousel.
+        carouselNavigation.jcarousel('items').each(function() {
+            var item = $(this);
+
+            // This is where we actually connect to items.
+            var target = connector(item, carouselStage);
+
+            item.on('jcarouselcontrol:active',
+            function() {
+                carouselNavigation.jcarousel('scrollIntoView', this);
+                item.addClass('active');
+            }).on('jcarouselcontrol:inactive',
+            function() {
+                item.removeClass('active');
+            }).jcarouselControl({
+                target: target,
+                carousel: carouselStage
+            });
+        });
+
+        // Setup controls for the stage carousel
+        $('.prev-stage').on('jcarouselcontrol:inactive',
+        function() {
+            $(this).addClass('inactive');
+        }).on('jcarouselcontrol:active',
+        function() {
+            $(this).removeClass('inactive');
+        }).jcarouselControl({
+            target: '-=1'
+        });
+
+        $('.next-stage').on('jcarouselcontrol:inactive',
+        function() {
+            $(this).addClass('inactive');
+        }).on('jcarouselcontrol:active',
+        function() {
+            $(this).removeClass('inactive');
+        }).jcarouselControl({
+            target: '+=1'
+        });
+
+        // Setup controls for the navigation carousel
+        $('.prev-navigation').on('jcarouselcontrol:inactive',
+        function() {
+            $(this).addClass('inactive');
+        }).on('jcarouselcontrol:active',
+        function() {
+            $(this).removeClass('inactive');
+        }).jcarouselControl({
+            target: '-=1'
+        });
+
+        $('.next-navigation').on('jcarouselcontrol:inactive',
+        function() {
+            $(this).addClass('inactive');
+        }).on('jcarouselcontrol:active',
+        function() {
+            $(this).removeClass('inactive');
+        }).jcarouselControl({
+            target: '+=1'
+        });
+    });
+})(jQuery);
+
+//jCarousel插件函数代码
+(function(t) {
+    "use strict";
+    var i = t.jCarousel = {};
+    i.version = "0.3.0";
+    var s = /^([+\-]=)?(.+)$/;
+    i.parseTarget = function(t) {
+        var i = !1,
+        e = "object" != typeof t ? s.exec(t) : null;
+        return e ? (t = parseInt(e[2], 10) || 0, e[1] && (i = !0, "-=" === e[1] && (t *= -1))) : "object" != typeof t && (t = parseInt(t, 10) || 0),
+        {
+            target: t,
+            relative: i
+        }
+    },
+    i.detectCarousel = function(t) {
+        for (var i; t.length > 0;) {
+            if (i = t.filter("[data-jcarousel]"), i.length > 0) return i;
+            if (i = t.find("[data-jcarousel]"), i.length > 0) return i;
+            t = t.parent()
+        }
+        return null
+    },
+    i.base = function(s) {
+        return {
+            version: i.version,
+            _options: {},
+            _element: null,
+            _carousel: null,
+            _init: t.noop,
+            _create: t.noop,
+            _destroy: t.noop,
+            _reload: t.noop,
+            create: function() {
+                return this._element.attr("data-" + s.toLowerCase(), !0).data(s, this),
+                !1 === this._trigger("create") ? this: (this._create(), this._trigger("createend"), this)
+            },
+            destroy: function() {
+                return ! 1 === this._trigger("destroy") ? this: (this._destroy(), this._trigger("destroyend"), this._element.removeData(s).removeAttr("data-" + s.toLowerCase()), this)
+            },
+            reload: function(t) {
+                return ! 1 === this._trigger("reload") ? this: (t && this.options(t), this._reload(), this._trigger("reloadend"), this)
+            },
+            element: function() {
+                return this._element
+            },
+            options: function(i, s) {
+                if (0 === arguments.length) return t.extend({},
+                this._options);
+                if ("string" == typeof i) {
+                    if (s === void 0) return this._options[i] === void 0 ? null: this._options[i];
+                    this._options[i] = s
+                } else this._options = t.extend({},
+                this._options, i);
+                return this
+            },
+            carousel: function() {
+                return this._carousel || (this._carousel = i.detectCarousel(this.options("carousel") || this._element), this._carousel || t.error('Could not detect carousel for plugin "' + s + '"')),
+                this._carousel
+            },
+            _trigger: function(i, e, r) {
+                var n, o = !1;
+                return r = [this].concat(r || []),
+                (e || this._element).each(function() {
+                    n = t.Event((s + ":" + i).toLowerCase()),
+                    t(this).trigger(n, r),
+                    n.isDefaultPrevented() && (o = !0)
+                }),
+                !o
+            }
+        }
+    },
+    i.plugin = function(s, e) {
+        var r = t[s] = function(i, s) {
+            this._element = t(i),
+            this.options(s),
+            this._init(),
+            this.create()
+        };
+        return r.fn = r.prototype = t.extend({},
+        i.base(s), e),
+        t.fn[s] = function(i) {
+            var e = Array.prototype.slice.call(arguments, 1),
+            n = this;
+            return "string" == typeof i ? this.each(function() {
+                var r = t(this).data(s);
+                if (!r) return t.error("Cannot call methods on " + s + " prior to initialization; " + 'attempted to call method "' + i + '"');
+                if (!t.isFunction(r[i]) || "_" === i.charAt(0)) return t.error('No such method "' + i + '" for ' + s + " instance");
+                var o = r[i].apply(r, e);
+                return o !== r && o !== void 0 ? (n = o, !1) : void 0
+            }) : this.each(function() {
+                var e = t(this).data(s);
+                e instanceof r ? e.reload(i) : new r(this, i)
+            }),
+            n
+        },
+        r
+    }
+})(jQuery),
+function(t, i) {
+    "use strict";
+    var s = function(t) {
+        return parseFloat(t) || 0
+    };
+    t.jCarousel.plugin("jcarousel", {
+        animating: !1,
+        tail: 0,
+        inTail: !1,
+        resizeTimer: null,
+        lt: null,
+        vertical: !1,
+        rtl: !1,
+        circular: !1,
+        underflow: !1,
+        relative: !1,
+        _options: {
+            list: function() {
+                return this.element().children().eq(0)
+            },
+            items: function() {
+                return this.list().children()
+            },
+            animation: 400,
+            transitions: !1,
+            wrap: null,
+            vertical: null,
+            rtl: null,
+            center: !1
+        },
+        _list: null,
+        _items: null,
+        _target: null,
+        _first: null,
+        _last: null,
+        _visible: null,
+        _fullyvisible: null,
+        _init: function() {
+            var t = this;
+            return this.onWindowResize = function() {
+                t.resizeTimer && clearTimeout(t.resizeTimer),
+                t.resizeTimer = setTimeout(function() {
+                    t.reload()
+                },
+                100)
+            },
+            this
+        },
+        _create: function() {
+            this._reload(),
+            t(i).on("resize.jcarousel", this.onWindowResize)
+        },
+        _destroy: function() {
+            t(i).off("resize.jcarousel", this.onWindowResize)
+        },
+        _reload: function() {
+            this.vertical = this.options("vertical"),
+            null == this.vertical && (this.vertical = this.list().height() > this.list().width()),
+            this.rtl = this.options("rtl"),
+            null == this.rtl && (this.rtl = function(i) {
+                if ("rtl" === ("" + i.attr("dir")).toLowerCase()) return ! 0;
+                var s = !1;
+                return i.parents("[dir]").each(function() {
+                    return /rtl/i.test(t(this).attr("dir")) ? (s = !0, !1) : void 0
+                }),
+                s
+            } (this._element)),
+            this.lt = this.vertical ? "top": "left",
+            this.relative = "relative" === this.list().css("position"),
+            this._list = null,
+            this._items = null;
+            var i = this._target && this.index(this._target) >= 0 ? this._target: this.closest();
+            this.circular = "circular" === this.options("wrap"),
+            this.underflow = !1;
+            var s = {
+                left: 0,
+                top: 0
+            };
+            return i.length > 0 && (this._prepare(i), this.list().find("[data-jcarousel-clone]").remove(), this._items = null, this.underflow = this._fullyvisible.length >= this.items().length, this.circular = this.circular && !this.underflow, s[this.lt] = this._position(i) + "px"),
+            this.move(s),
+            this
+        },
+        list: function() {
+            if (null === this._list) {
+                var i = this.options("list");
+                this._list = t.isFunction(i) ? i.call(this) : this._element.find(i)
+            }
+            return this._list
+        },
+        items: function() {
+            if (null === this._items) {
+                var i = this.options("items");
+                this._items = (t.isFunction(i) ? i.call(this) : this.list().find(i)).not("[data-jcarousel-clone]")
+            }
+            return this._items
+        },
+        index: function(t) {
+            return this.items().index(t)
+        },
+        closest: function() {
+            var i, e = this,
+            r = this.list().position()[this.lt],
+            n = t(),
+            o = !1,
+            l = this.vertical ? "bottom": this.rtl && !this.relative ? "left": "right";
+            return this.rtl && this.relative && !this.vertical && (r += this.list().width() - this.clipping()),
+            this.items().each(function() {
+                if (n = t(this), o) return ! 1;
+                var a = e.dimension(n);
+                if (r += a, r >= 0) {
+                    if (i = a - s(n.css("margin-" + l)), !(0 >= Math.abs(r) - a + i / 2)) return ! 1;
+                    o = !0
+                }
+            }),
+            n
+        },
+        target: function() {
+            return this._target
+        },
+        first: function() {
+            return this._first
+        },
+        last: function() {
+            return this._last
+        },
+        visible: function() {
+            return this._visible
+        },
+        fullyvisible: function() {
+            return this._fullyvisible
+        },
+        hasNext: function() {
+            if (!1 === this._trigger("hasnext")) return ! 0;
+            var t = this.options("wrap"),
+            i = this.items().length - 1;
+            return i >= 0 && (t && "first" !== t || i > this.index(this._last) || this.tail && !this.inTail) ? !0 : !1
+        },
+        hasPrev: function() {
+            if (!1 === this._trigger("hasprev")) return ! 0;
+            var t = this.options("wrap");
+            return this.items().length > 0 && (t && "last" !== t || this.index(this._first) > 0 || this.tail && this.inTail) ? !0 : !1
+        },
+        clipping: function() {
+            return this._element["inner" + (this.vertical ? "Height": "Width")]()
+        },
+        dimension: function(t) {
+            return t["outer" + (this.vertical ? "Height": "Width")](!0)
+        },
+        scroll: function(i, s, e) {
+            if (this.animating) return this;
+            if (!1 === this._trigger("scroll", null, [i, s])) return this;
+            t.isFunction(s) && (e = s, s = !0);
+            var r = t.jCarousel.parseTarget(i);
+            if (r.relative) {
+                var n, o, l, a, h, u, c, f, d = this.items().length - 1,
+                _ = Math.abs(r.target),
+                p = this.options("wrap");
+                if (r.target > 0) {
+                    var v = this.index(this._last);
+                    if (v >= d && this.tail) this.inTail ? "both" === p || "last" === p ? this._scroll(0, s, e) : t.isFunction(e) && e.call(this, !1) : this._scrollTail(s, e);
+                    else if (n = this.index(this._target), this.underflow && n === d && ("circular" === p || "both" === p || "last" === p) || !this.underflow && v === d && ("both" === p || "last" === p)) this._scroll(0, s, e);
+                    else if (l = n + _, this.circular && l > d) {
+                        for (f = d, h = this.items().get( - 1); l > f++;) h = this.items().eq(0),
+                        u = this._visible.index(h) >= 0,
+                        u && h.after(h.clone(!0).attr("data-jcarousel-clone", !0)),
+                        this.list().append(h),
+                        u || (c = {},
+                        c[this.lt] = this.dimension(h), this.moveBy(c)),
+                        this._items = null;
+                        this._scroll(h, s, e)
+                    } else this._scroll(Math.min(l, d), s, e)
+                } else if (this.inTail) this._scroll(Math.max(this.index(this._first) - _ + 1, 0), s, e);
+                else if (o = this.index(this._first), n = this.index(this._target), a = this.underflow ? n: o, l = a - _, 0 >= a && (this.underflow && "circular" === p || "both" === p || "first" === p)) this._scroll(d, s, e);
+                else if (this.circular && 0 > l) {
+                    for (f = l, h = this.items().get(0); 0 > f++;) {
+                        h = this.items().eq( - 1),
+                        u = this._visible.index(h) >= 0,
+                        u && h.after(h.clone(!0).attr("data-jcarousel-clone", !0)),
+                        this.list().prepend(h),
+                        this._items = null;
+                        var g = this.dimension(h);
+                        c = {},
+                        c[this.lt] = -g,
+                        this.moveBy(c)
+                    }
+                    this._scroll(h, s, e)
+
+                } else this._scroll(Math.max(l, 0), s, e)
+            } else this._scroll(r.target, s, e);
+            return this._trigger("scrollend"),
+            this
+        },
+        moveBy: function(t, i) {
+            var e = this.list().position(),
+            r = 1,
+            n = 0;
+            return this.rtl && !this.vertical && (r = -1, this.relative && (n = this.list().width() - this.clipping())),
+            t.left && (t.left = e.left + n + s(t.left) * r + "px"),
+            t.top && (t.top = e.top + n + s(t.top) * r + "px"),
+            this.move(t, i)
+        },
+        move: function(i, s) {
+            s = s || {};
+            var e = this.options("transitions"),
+            r = !!e,
+            n = !!e.transforms,
+            o = !!e.transforms3d,
+            l = s.duration || 0,
+            a = this.list();
+            if (!r && l > 0) return a.animate(i, s),
+            void 0;
+            var h = s.complete || t.noop,
+            u = {};
+            if (r) {
+                var c = a.css(["transitionDuration", "transitionTimingFunction", "transitionProperty"]),
+                f = h;
+                h = function() {
+                    t(this).css(c),
+                    f.call(this)
+                },
+                u = {
+                    transitionDuration: (l > 0 ? l / 1e3: 0) + "s",
+                    transitionTimingFunction: e.easing || s.easing,
+                    transitionProperty: l > 0 ?
+                    function() {
+                        return n || o ? "all": i.left ? "left": "top"
+                    } () : "none",
+                    transform: "none"
+                }
+            }
+            o ? u.transform = "translate3d(" + (i.left || 0) + "," + (i.top || 0) + ",0)": n ? u.transform = "translate(" + (i.left || 0) + "," + (i.top || 0) + ")": t.extend(u, i),
+            r && l > 0 && a.one("transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd", h),
+            a.css(u),
+            0 >= l && a.each(function() {
+                h.call(this)
+            })
+        },
+        _scroll: function(i, s, e) {
+            if (this.animating) return t.isFunction(e) && e.call(this, !1),
+            this;
+            if ("object" != typeof i ? i = this.items().eq(i) : i.jquery === void 0 && (i = t(i)), 0 === i.length) return t.isFunction(e) && e.call(this, !1),
+            this;
+            this.inTail = !1,
+            this._prepare(i);
+            var r = this._position(i),
+            n = this.list().position()[this.lt];
+            if (r === n) return t.isFunction(e) && e.call(this, !1),
+            this;
+            var o = {};
+            return o[this.lt] = r + "px",
+            this._animate(o, s, e),
+            this
+        },
+        _scrollTail: function(i, s) {
+            if (this.animating || !this.tail) return t.isFunction(s) && s.call(this, !1),
+            this;
+            var e = this.list().position()[this.lt];
+            this.rtl && this.relative && !this.vertical && (e += this.list().width() - this.clipping()),
+            this.rtl && !this.vertical ? e += this.tail: e -= this.tail,
+            this.inTail = !0;
+            var r = {};
+            return r[this.lt] = e + "px",
+            this._update({
+                target: this._target.next(),
+                fullyvisible: this._fullyvisible.slice(1).add(this._visible.last())
+            }),
+            this._animate(r, i, s),
+            this
+        },
+        _animate: function(i, s, e) {
+            if (e = e || t.noop, !1 === this._trigger("animate")) return e.call(this, !1),
+            this;
+            this.animating = !0;
+            var r = this.options("animation"),
+            n = t.proxy(function() {
+                this.animating = !1;
+                var t = this.list().find("[data-jcarousel-clone]");
+                t.length > 0 && (t.remove(), this._reload()),
+                this._trigger("animateend"),
+                e.call(this, !0)
+            },
+            this),
+            o = "object" == typeof r ? t.extend({},
+            r) : {
+                duration: r
+            },
+            l = o.complete || t.noop;
+            return s === !1 ? o.duration = 0 : t.fx.speeds[o.duration] !== void 0 && (o.duration = t.fx.speeds[o.duration]),
+            o.complete = function() {
+                n(),
+                l.call(this)
+            },
+            this.move(i, o),
+            this
+        },
+        _prepare: function(i) {
+            var e, r, n, o, l = this.index(i),
+            a = l,
+            h = this.dimension(i),
+            u = this.clipping(),
+            c = this.vertical ? "bottom": this.rtl ? "left": "right",
+            f = this.options("center"),
+            d = {
+                target: i,
+                first: i,
+                last: i,
+                visible: i,
+                fullyvisible: u >= h ? i: t()
+            };
+            if (f && (h /= 2, u /= 2), u > h) for (;;) {
+                if (e = this.items().eq(++a), 0 === e.length) {
+                    if (!this.circular) break;
+                    if (e = this.items().eq(0), i.get(0) === e.get(0)) break;
+                    if (r = this._visible.index(e) >= 0, r && e.after(e.clone(!0).attr("data-jcarousel-clone", !0)), this.list().append(e), !r) {
+                        var _ = {};
+                        _[this.lt] = this.dimension(e),
+                        this.moveBy(_)
+                    }
+                    this._items = null
+                }
+                if (o = this.dimension(e), 0 === o) break;
+                if (h += o, d.last = e, d.visible = d.visible.add(e), n = s(e.css("margin-" + c)), u >= h - n && (d.fullyvisible = d.fullyvisible.add(e)), h >= u) break
+            }
+            if (!this.circular && !f && u > h) for (a = l;;) {
+                if (0 > --a) break;
+                if (e = this.items().eq(a), 0 === e.length) break;
+                if (o = this.dimension(e), 0 === o) break;
+                if (h += o, d.first = e, d.visible = d.visible.add(e), n = s(e.css("margin-" + c)), u >= h - n && (d.fullyvisible = d.fullyvisible.add(e)), h >= u) break
+            }
+            return this._update(d),
+            this.tail = 0,
+            f || "circular" === this.options("wrap") || "custom" === this.options("wrap") || this.index(d.last) !== this.items().length - 1 || (h -= s(d.last.css("margin-" + c)), h > u && (this.tail = h - u)),
+            this
+        },
+        _position: function(t) {
+            var i = this._first,
+            s = i.position()[this.lt],
+            e = this.options("center"),
+            r = e ? this.clipping() / 2 - this.dimension(i) / 2 : 0;
+            return this.rtl && !this.vertical ? (s -= this.relative ? this.list().width() - this.dimension(i) : this.clipping() - this.dimension(i), s += r) : s -= r,
+            !e && (this.index(t) > this.index(i) || this.inTail) && this.tail ? (s = this.rtl && !this.vertical ? s - this.tail: s + this.tail, this.inTail = !0) : this.inTail = !1,
+            -s
+        },
+        _update: function(i) {
+            var s, e = this,
+            r = {
+                target: this._target || t(),
+                first: this._first || t(),
+                last: this._last || t(),
+                visible: this._visible || t(),
+                fullyvisible: this._fullyvisible || t()
+            },
+            n = this.index(i.first || r.first) < this.index(r.first),
+            o = function(s) {
+                var o = [],
+                l = [];
+                i[s].each(function() {
+                    0 > r[s].index(this) && o.push(this)
+                }),
+                r[s].each(function() {
+                    0 > i[s].index(this) && l.push(this)
+                }),
+                n ? o = o.reverse() : l = l.reverse(),
+                e._trigger(s + "in", t(o)),
+                e._trigger(s + "out", t(l)),
+                e["_" + s] = i[s]
+            };
+            for (s in i) o(s);
+            return this
+        }
+    })
+} (jQuery, window),
+function(t) {
+    "use strict";
+    t.jcarousel.fn.scrollIntoView = function(i, s, e) {
+        var r, n = t.jCarousel.parseTarget(i),
+        o = this.index(this._fullyvisible.first()),
+        l = this.index(this._fullyvisible.last());
+        if (r = n.relative ? 0 > n.target ? Math.max(0, o + n.target) : l + n.target: "object" != typeof n.target ? n.target: this.index(n.target), o > r) return this.scroll(r, s, e);
+        if (r >= o && l >= r) return t.isFunction(e) && e.call(this, !1),
+        this;
+        for (var a, h = this.items(), u = this.clipping(), c = this.vertical ? "bottom": this.rtl ? "left": "right", f = 0;;) {
+            if (a = h.eq(r), 0 === a.length) break;
+            if (f += this.dimension(a), f >= u) {
+                var d = parseFloat(a.css("margin-" + c)) || 0;
+                f - d !== u && r++;
+                break
+            }
+            if (0 >= r) break;
+            r--
+        }
+        return this.scroll(r, s, e)
+    }
+} (jQuery),
+function(t) {
+    "use strict";
+    t.jCarousel.plugin("jcarouselControl", {
+        _options: {
+            target: "+=1",
+            event: "click",
+            method: "scroll"
+        },
+        _active: null,
+        _init: function() {
+            this.onDestroy = t.proxy(function() {
+                this._destroy(),
+                this.carousel().one("jcarousel:createend", t.proxy(this._create, this))
+            },
+            this),
+            this.onReload = t.proxy(this._reload, this),
+            this.onEvent = t.proxy(function(i) {
+                i.preventDefault();
+                var s = this.options("method");
+                t.isFunction(s) ? s.call(this) : this.carousel().jcarousel(this.options("method"), this.options("target"))
+            },
+            this)
+        },
+        _create: function() {
+            this.carousel().one("jcarousel:destroy", this.onDestroy).on("jcarousel:reloadend jcarousel:scrollend", this.onReload),
+            this._element.on(this.options("event") + ".jcarouselcontrol", this.onEvent),
+            this._reload()
+        },
+        _destroy: function() {
+            this._element.off(".jcarouselcontrol", this.onEvent),
+            this.carousel().off("jcarousel:destroy", this.onDestroy).off("jcarousel:reloadend jcarousel:scrollend", this.onReload)
+        },
+        _reload: function() {
+            var i, s = t.jCarousel.parseTarget(this.options("target")),
+            e = this.carousel();
+            if (s.relative) i = e.jcarousel(s.target > 0 ? "hasNext": "hasPrev");
+            else {
+                var r = "object" != typeof s.target ? e.jcarousel("items").eq(s.target) : s.target;
+                i = e.jcarousel("target").index(r) >= 0
+            }
+            return this._active !== i && (this._trigger(i ? "active": "inactive"), this._active = i),
+            this
+        }
+    })
+} (jQuery),
+function(t) {
+    "use strict";
+    t.jCarousel.plugin("jcarouselPagination", {
+        _options: {
+            perPage: null,
+            item: function(t) {
+                return '<a href="#' + t + '">' + t + "</a>"
+            },
+            event: "click",
+            method: "scroll"
+        },
+        _pages: {},
+        _items: {},
+        _currentPage: null,
+        _init: function() {
+            this.onDestroy = t.proxy(function() {
+                this._destroy(),
+                this.carousel().one("jcarousel:createend", t.proxy(this._create, this))
+            },
+            this),
+            this.onReload = t.proxy(this._reload, this),
+            this.onScroll = t.proxy(this._update, this)
+        },
+        _create: function() {
+            this.carousel().one("jcarousel:destroy", this.onDestroy).on("jcarousel:reloadend", this.onReload).on("jcarousel:scrollend", this.onScroll),
+            this._reload()
+        },
+        _destroy: function() {
+            this._clear(),
+            this.carousel().off("jcarousel:destroy", this.onDestroy).off("jcarousel:reloadend", this.onReload).off("jcarousel:scrollend", this.onScroll)
+        },
+        _reload: function() {
+            var i = this.options("perPage");
+            if (this._pages = {},
+            this._items = {},
+            t.isFunction(i) && (i = i.call(this)), null == i) this._pages = this._calculatePages();
+            else for (var s, e = parseInt(i, 10) || 0, r = this.carousel().jcarousel("items"), n = 1, o = 0;;) {
+                if (s = r.eq(o++), 0 === s.length) break;
+                this._pages[n] = this._pages[n] ? this._pages[n].add(s) : s,
+                0 === o % e && n++
+            }
+            this._clear();
+            var l = this,
+            a = this.carousel().data("jcarousel"),
+            h = this._element,
+            u = this.options("item");
+            t.each(this._pages,
+            function(i, s) {
+                var e = l._items[i] = t(u.call(l, i, s));
+                e.on(l.options("event") + ".jcarouselpagination", t.proxy(function() {
+                    var t = s.eq(0);
+                    if (a.circular) {
+                        var e = a.index(a.target()),
+                        r = a.index(t);
+                        parseFloat(i) > parseFloat(l._currentPage) ? e > r && (t = "+=" + (a.items().length - e + r)) : r > e && (t = "-=" + (e + (a.items().length - r)))
+                    }
+                    a[this.options("method")](t)
+                },
+                l)),
+                h.append(e)
+            }),
+            this._update()
+        },
+        _update: function() {
+            var i, s = this.carousel().jcarousel("target");
+            t.each(this._pages,
+            function(t, e) {
+                return e.each(function() {
+                    return s.is(this) ? (i = t, !1) : void 0
+                }),
+                i ? !1 : void 0
+            }),
+            this._currentPage !== i && (this._trigger("inactive", this._items[this._currentPage]), this._trigger("active", this._items[i])),
+            this._currentPage = i
+        },
+        items: function() {
+            return this._items
+        },
+        _clear: function() {
+            this._element.empty(),
+            this._currentPage = null
+        },
+        _calculatePages: function() {
+            for (var t, i = this.carousel().data("jcarousel"), s = i.items(), e = i.clipping(), r = 0, n = 0, o = 1, l = {};;) {
+                if (t = s.eq(n++), 0 === t.length) break;
+                l[o] = l[o] ? l[o].add(t) : t,
+                r += i.dimension(t),
+                r >= e && (o++, r = 0)
+            }
+            return l
+        }
+    })
+} (jQuery),
+function(t) {
+    "use strict";
+    t.jCarousel.plugin("jcarouselAutoscroll", {
+        _options: {
+            target: "+=1",
+            interval: 3e3,
+            autostart: !0
+        },
+        _timer: null,
+        _init: function() {
+            this.onDestroy = t.proxy(function() {
+                this._destroy(),
+                this.carousel().one("jcarousel:createend", t.proxy(this._create, this))
+            },
+            this),
+            this.onAnimateEnd = t.proxy(this.start, this)
+        },
+        _create: function() {
+            this.carousel().one("jcarousel:destroy", this.onDestroy),
+            this.options("autostart") && this.start()
+        },
+        _destroy: function() {
+            this.stop(),
+            this.carousel().off("jcarousel:destroy", this.onDestroy)
+        },
+        start: function() {
+            return this.stop(),
+            this.carousel().one("jcarousel:animateend", this.onAnimateEnd),
+            this._timer = setTimeout(t.proxy(function() {
+                this.carousel().jcarousel("scroll", this.options("target"))
+            },
+            this), this.options("interval")),
+            this
+        },
+        stop: function() {
+            return this._timer && (this._timer = clearTimeout(this._timer)),
+            this.carousel().off("jcarousel:animateend", this.onAnimateEnd),
+            this
+        }
+    })
+} (jQuery);

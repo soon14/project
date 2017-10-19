@@ -1,0 +1,361 @@
+body {
+}
+.order-head1 {
+	position: fixed; width:100%;
+	font-size: 1.1em;
+	height: 45px;
+	line-height: 45px;
+	background: #f9f9f9;
+	text-align: center;
+	color: #FFF;
+	border-bottom: 1px solid #e1e3e8;
+	color: #4f4f4f; top:0; z-index:999;
+}
+.order-head1 a {
+	display: block;
+}
+.order-head1 .back-home {
+	position: absolute;
+	height: 30px;
+	left: 10px;
+	top: 10px;
+	width: 30px;
+	background: url(/res/images/phone/back2.png) no-repeat 0px 0px;
+	background-size: 25px 25px;
+}
+.search-but {
+	background: #2577e3;
+	border: 1px solid #054caa;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 5px;
+	line-height: 30px;
+	float: left;
+	-moz-border-radius: 5px;      /* Gecko browsers */
+	-webkit-border-radius: 5px;   /* Webkit browsers */
+	border-radius: 5px
+}
+.search-but a {
+	color: #FFF;
+	font-size: .8em;
+	display: block;
+	padding: 0 10px;
+}
+.search-but a:link {
+	color: #fff;
+	text-decoration: none;
+}
+.search-but a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+.search-but a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.search-but a:active {
+	color: #fff;
+	text-decoration: none;
+	;
+}
+.seach-input {/* 顺序:左上角/右上角/右下角/左下角 */
+	border: 1px solid #e1e3e8;
+	float: left;
+	background: url(/res/images/phone/search.png) no-repeat 3px 5px #FFF;
+	background-size: 20px 20px;
+	margin-left: 40px;
+	margin-top: 7px;
+	padding-left: 25px;
+	height: 30px;
+	line-height: 30px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size: .9em;
+	border-radius: 5px;
+	width: 78%;
+	color: #999;
+}
+.hot-seach { position:fixed; z-index:999; width:100%; top:45px;
+	margin-bottom: 10px;
+}
+.hot-seach ul {
+	width: 100%;
+	background: #FFF;
+	border-top: 1px solid #d8d8d8;
+	margin: 0;
+	list-style-type: none;
+}
+.hot-seach h2 {
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	padding-left: 10px;
+	margin-top: 10px;
+	color: #999999;
+}
+.hot-seach li {
+	float: left;
+	width: 20%;
+	overflow: hidden;
+	list-style-type: none;
+}
+.hot-seach a {
+	padding: 5px;
+	display: block;
+	border-right: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}
+/* Link */
+.hot-seach a:link {
+	color: #454545;
+	text-decoration: none;
+}
+.hot-seach a:visited {
+	color: #454545;
+	text-decoration: none;
+}
+.hot-seach a:hover {
+	background: #f0f0f0;
+	color: #454545;
+	text-decoration: none;
+}
+.hot-seach a:active {
+	color: #454545;
+	text-decoration: none;
+}
+/*对比 */
+.classify {	
+	width: 100%;
+	font-size: 1em;
+	height: 100%;
+	margin: 0 auto;
+	position: fixed;	
+	z-index: 999;
+
+}
+
+.classify #tabs001 li {background:#FFF;border-bottom: 1px solid #dedede;
+	float: left;
+	color: #666;
+	text-align: center;
+	width: 33%;
+	border-right: 1px solid #dddddd;
+	height: 40px;
+	line-height: 40px;
+}
+.classify #tabs002 li {background:#FFF;border-bottom: 1px solid #dedede;
+	float: left;
+	color: #666;
+	text-align: center;
+	width: 50%;
+	
+	height: 40px;
+	line-height: 40px;
+}
+.classify #tabs002 li a{ display:block;border-right: 1px solid #dddddd;}
+.classify .nav li i {
+	width: 10px;
+	display: inline-block;
+	height: 7px;
+	color: #F60;
+	background: url(/res/images/phone/down.png) no-repeat;
+	margin-left: 5px;
+}
+/* Link */
+.classify a:link {
+	color: #454545;
+	text-decoration: none;
+}
+.classify a:visited {
+	color: #454545;
+	text-decoration: none;
+}
+.classify a:hover {
+	color: #454545;
+	text-decoration: none;
+}
+.classify a:active {
+	color: #454545;
+	text-decoration: none;
+}
+.search-down {
+	width: 100%; 
+	
+
+}
+.search-down li {
+	height: 40px;
+	line-height: 40px; 
+	padding-left: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.search-down ul {
+	padding:0;
+	background: #FFF;
+}
+/** 通用导航+Tab 开始 **/
+.nav ul {background: #FFF;
+	margin: 0;
+	padding: 0;
+}
+.nav ul li {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+.nav ul li a {
+	display: block;
+}
+.nav ul li a:hover {
+	text-decoration: none;
+}
+.nav li.current>a {
+	color: #2577e3;
+	background: #f4f4f4;
+	text-decoration: none; 
+}
+.sjz-seach{background: #f8f7f8; height:40px; line-height:40px; padding-left:10px; border-bottom:1px solid #e6e6e6;}
+.sjz-seach a{color: #a3a3a3; paddin-left:5px; font-size:.9em;
+	display:block;
+	text-decoration: none;}
+.nav li.current .on {
+	width: 10px;
+	display: inline-block;
+	height: 7px;
+	color: #F60;
+	background: url(/res/images/phone/down1.png) no-repeat;
+	margin-left: 5px;
+}
+.nav li.current>i {
+	width: 10px; 
+	display: inline-block;
+	height: 7px;
+	color: #F60;
+	background: url(/res/images/phone/down1.png) no-repeat;
+	margin-left: 5px;
+}
+.nav li.hover>a:hover {
+	background: #f4f4f4;
+	text-decoration: none;
+}
+.tab-content {display: none; position:fixed; width:100%; height:100%;background: rgba(0, 0, 0, 0.70) none repeat scroll 0% 0%;
+
+}
+.tab-content>.active {
+	display: block;
+}
+.tab-pane {
+	display: none;	
+	font-size: 1em;
+	
+}
+.search-down a:link {
+	color: #454545;
+	text-decoration: none;
+}
+.search-down a:visited {
+	color: #454545;
+	text-decoration: none;
+}
+.search-down a:hover {
+	color: #454545;
+	text-decoration: none;
+}
+.search-down a:active {
+	color: #454545;
+	text-decoration: none;
+}
+/* 单图片*/
+.listLR-item { position:absolute; width:100%;
+}
+.no-content { position:absolute; width:100%; padding-top:15px;
+}
+.listLR-item ul {
+	margin-top: 10px;
+}
+.listLR-item li {
+	background: #FFF;
+	margin-bottom: 10px;
+	padding: 5px 5px 10px 5px;
+}
+.listLR-item .img-item img {
+	width: 100%;
+	height: 100px;
+}
+.listLR-item .img-item {
+	float: left;
+	width: 40%;
+	height: 100px;
+	overflow: hidden;
+}
+.listLR-item .txt-item {
+	float: right;
+	width: 58%;
+	position: relative;
+	height: 100px;
+}
+.listLR-item .txt-item h2 {
+	font-size: 1em;
+	height: 25px;
+	line-height: 25px;
+	overflow: hidden;
+}
+.listLR-item .txt-item a {
+	color: #474747;
+}
+.listLR-item .title-item span {
+	font-weight: normal;
+	font-size: 1em;
+	color: #000;
+	display: block;
+	word-break: break-all;
+	white-space: normal;
+	max-height: 60px;
+	line-height: 30px;
+	overflow: hidden;
+}
+.listLR-item .title-item a:hover {
+	color: #cd0001;
+}
+.listLR-item .about-item {
+	margin: 5px 0;
+}
+.about-item i {
+	font-size: 1.1em;
+	color: #F30;
+	display: inline-block;
+	font-style: normal;
+}
+.about-item dfn {
+	font-size: 1.1em;
+	color: #F30;
+	font-style: normal;
+}
+.about-item del {
+	font-size: .8em;
+	color: #999;
+	margin-left: 10px;
+}
+.about-item span {
+	float: right;
+	font-size: .8em;
+	color: #999;
+	padding-top: 3px
+}
+.listLR-item .address {
+	position: absolute;
+	bottom: 5px;
+	padding: 3px 3px 3px 25px;
+	font-size: .8em;
+	color: #999;
+	background: url(/res/images/phone/address.png) -5px -2px no-repeat;
+	background-size: 25px;
+}
+.city-box {
+	padding: 10px 0;
+	background: #FFF;
+}

@@ -1,0 +1,112 @@
+
+/* 门票 内容页 */
+.ctd-hotel-head .head-info{position:relative;}
+.ctd-hotel-head .head-pic img{ width:100%;}
+
+.ctd-head-title.headTitle-fixed{ position:fixed; top:0; left:0; width:100%; box-shadow: 0px 3px 5px #e3e3e3; z-index:999;}
+.ctd-head-title .head-title{padding:.7rem; color:#594200; font-size:1.1rem;background:#fdbf0e;}
+
+
+.ctd-hotel-info{padding:0 10px; position:relative; margin-bottom:.5rem; background: #FFF;border:none;border-bottom: 1px solid #e6e6e6;}
+.ctd-hotel-info .hotel_add{ position:relative;font-size:.8rem; height:35px; line-height:35px; margin-top:.5rem; padding-left:30px;overflow: hidden}
+.ctd-hotel-info .hotel_add i{ position:absolute; left:0;  top:.5rem; display:inline-block; width:20px; height:20px; background: url(/phone/public/images/20170301/ico-add.png); background-size:20px;}
+.ctd-hotel-info .hotel_price {color: #666; font-size:.8rem;height:35px; line-height:35px;}
+.ctd-hotel-info .hotel_price strong{font-size:1.3rem; margin: 0 2px; font-weight: 400; color: #ff7d13;}
+.ctd-hotel-info .hotel_price dfn{vertical-align: 8px; color: #ff7d13;vertical-align: 0;font-style: normal;}
+.ctd-hotel-info .t_info{ position:absolute; right:.5rem;font-size:.8rem;}/*20170505 封 去掉 top:48*/
+.ctd-hotel-info .t_info span{ margin-left:5px;  padding:2px 5px; border-radius:5px; }
+.ctd-hotel-info .t_info span.a-sales{border:1px solid #59a5f4; color:#59a5f4;}
+.ctd-hotel-info .t_info span.a-score{border:1px solid #59a5f4; color:#59a5f4;}
+.ctd-hotel-info .t_info span.a-judge{border:1px solid #59a5f4; color:#59a5f4;}
+.ctd-hotel-info .hotel_tel{ position:relative;font-size:.8rem;color:#666;padding-left:25px; height:35px; margin-top:5px; line-height:35px; background:#f9f9f9;}
+.ctd-hotel-info .hotel_tel i{ position:absolute; left:2px; top:10px; display:inline-block; width:16px; height:16px; background: url(/phone/public/images/20170301/ico-tel.png); background-size:16px;}
+
+.ctd-hotel-price{border-top: 1px solid #e6e6e6; background:#FFF; }
+.ctd-hotel-price .hotel-title{position:relative; padding-left:35px;  height:20px; line-height:20px; font-size:1rem; margin:10px 0;}
+.ctd-hotel-price .hotel-title i{ position:absolute; display:block; left:5px; top:-2px; width:25px; height:25px; background: url(/phone/public/images/20170301/tit-ico13.png); background-size:25px;}
+.ctd-hotel-price .hotel-list li{ position:relative; border:1px solid #ebebeb;border-bottom:1px solid #ebebeb; padding:5px 10px;margin-bottom:10px; }
+.ctd-hotel-price .hotel-list .hotel-name{ color:#333; font-size:.8rem;}
+.ctd-hotel-price .hotel-list .hotel-time{ position:relative; padding-left:20px; font-size:.8rem; color:#59a5f4;}
+.ctd-hotel-price .hotel-list .hotel-time i{ position:absolute; display:block; left:0; top:2px; width:15px; height:15px; background: url(/phone/public/images/20170301/ico-dui.png); background-size:15px;}
+.ctd-hotel-price .hotel-list .hotel_price {color: #e2ba65; font-size:.8rem; margin:5px 0;}
+.ctd-hotel-price .hotel-list .hotel_info{margin:5px 0;}
+.ctd-hotel-price .hotel-list .hotel_info span.tip-p{font-size:.8rem; background:#f2dfb8; color:#bf9232; padding:2px 5px; border-radius:3px; margin-right:5px;}
+.ctd-hotel-price .hotel-list .hotel_price strong{font-size:1.1rem; margin: 0 2px; font-weight: 400; color: #ff7d13;}
+.ctd-hotel-price .hotel-list .hotel_price dfn{vertical-align: 8px; color: #ff7d13;vertical-align: 0;font-style: normal;}
+.ctd-hotel-price .hotel-list .order_btn{ position:absolute; right:.5rem; top:.8rem; background:#f5484c; border-radius:100%;width:3rem; height:3rem;-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+box-shadow: 0 6px 12px rgba(0,0,0,.175);}
+.ctd-hotel-price .hotel-list .order_btn a{ line-height:1rem; color:#FFF; display:block; text-align:center; font-size:.8rem;}
+.ctd-hotel-price .hotel-list .order_btn a span{ display:block; padding-top:.4rem;}
+.ctd-nav-seat{height:45px;}
+.ctd-nav-items{border-top: 1px solid #e6e6e6; background:#FFF; }
+.ctd-nav-items .hotel-nav{ height:45px;   background:#fbfbfb;}
+.ctd-nav-items.navFixed{position: fixed;top: 40px; left:0; width:100%;z-index: 9999;}
+.ctd-nav-items .hotel-nav li{ width:33.333%;line-height:43px; float:left;}
+.ctd-nav-items .hotel-nav a{ display:block; text-align:center; border-bottom:1px solid #e6e6e6;  border-right:1px solid #e6e6e6;}
+.ctd-nav-items .hotel-nav li:last a{border-right: none;}
+.ctd-nav-items .hotel-nav li.current a{ color:#fff; background:#2299ee;border-right: none;}
+.ctd-nav-items.navFixed{border:none;box-shadow: 0px 3px 5px #e3e3e3;}
+.ctd-nav-items.navFixed li{line-height:44px;}
+/* 章节*/
+.article-body{position: relative; padding:1rem 0; background:#FFF;}
+.article-body .chapter{position: relative; padding:0 1rem; margin-bottom:10px;  }
+.article-body .chapter .panel-hd{ position:relative;}
+.article-body .chapter .panel-hd span{background:#11a1de; display: inline-block; height:2rem; line-height:2rem; margin-bottom:10px; margin-left:-20px; color:#FFF; padding:0 1rem 0 2.5rem; }
+.article-body .chapter p{line-height:24px; font-size:.8rem; margin-bottom:10px;}
+
+.article-body .chapter-area { margin-left:-1rem;}
+.article-body .anchor0{position: absolute;display: block;top: -100px;height: 1px;}
+.article-body .chapter .panel-hd i { position:absolute; left:-1rem;
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+}
+.article-body .chapter .panel-hd i.detail-icon-1 {
+    background: url(/phone/public/images/20170301/detail-icon-3.jpg) no-repeat center; background-size:1.5rem;
+}
+.article-body .chapter .panel-hd i.detail-icon-2 {
+    background: url(/phone/public/images/20170301/detail-icon-2.jpg) no-repeat center; background-size:1.5rem;
+}
+.article-body .chapter .panel-hd i.detail-icon-3 {
+    background: url(/phone/public/images/20170301/detail-icon-1.jpg) no-repeat center; background-size:1.5rem;
+}
+.article-body .chapter .panel-hd i.detail-icon-4 {
+    background: url(/phone/public/images/20170301/detail-icon-4.jpg) no-repeat center; background-size:1.5rem;
+}
+
+.ctd-hotel-body .ntd-chapter {position: relative;border-left:1px solid #60a9f5; padding-bottom:1rem; margin-left:1rem;}
+.ctd-hotel-body .chapterHd-main{ position:relative; font-size:1.2rem; font-weight: 800; margin-bottom:.5rem; padding-left:2.8rem;}
+.ctd-hotel-body .chapterHd-main i{ position:absolute; left:-.2rem; top:-.5rem; width:2.2rem; height:2.2rem; background:url(/phone/public/images/20170301/tit-ico07.png) no-repeat; background-size:2.2rem;}
+.ctd-hotel-body .chapterHd-main i.techan{background:url(/phone/public/images/20170301/tit-ico11.png) no-repeat; background-size:2.8rem;}
+.ctd-hotel-body .chapterHd-child{ font-size:1rem;margin:.5rem 0; margin-left:2.5rem; background:#b7daff;  color:#006ad8;padding:.2rem .5rem; border-radius:10px;}
+
+
+
+
+
+/* 门票 列表页 */
+.hotel_list_body { margin-top:10px; padding:10px;background:#FFF;}
+.hotel_list li{padding-bottom:10px; margin-bottom:10px;border-bottom: 1px solid #eaeaea;}
+.hotel_list .hotel-pic{ position:relative; width:160px; height:100px; float: left;}
+.hotel_list .hotel-pic .hotel-txt{ position:absolute; bottom:0; width:100%; height:25px; line-height:25px; color:#FFF; text-align:center; background-color:rgba(0,0,0,0.3);}
+.hotel_list .hotel-pic .tip {
+    position: absolute;
+    top: 0;
+    left: .5rem;
+    font-size: .8rem;
+    color: #FFF;
+    background: #fe6400;
+    padding: 3px 8px;
+}
+.hotel_list .hotel-pic img{width:160px;height:100px;}
+.hotel_list .hotel-info{position:relative; padding-left:170px;}
+.hotel_list .hotel-tit{font-size:1rem;height: 24px; line-height:24px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.hotel_list .hotel-address{font-size:.8rem; color: #666;height: 24px;line-height:24px; margin-bottom:3px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.hotel_list .hotel-servicetag{margin-bottom:5px;}
+.hotel_list .hotel-servicetag span{ display:inline-block; background:#fdbf0e; height:20px; font-size:.8rem; line-height:20px; color:#FFF; padding:0 10px; border-radius:20px;}
+.hotel_list .hotel_price {color: #666; font-size:.8rem;}
+.hotel_list .hotel_price strong{font-size:1.1rem; margin: 0 2px; font-weight: 400; color: #ff7d13;}
+.hotel_list .hotel_price dfn{vertical-align: 8px; color: #ff7d13;vertical-align: 0;font-style: normal;}
+.hotel_list .hotel_price span{ margin-left:10px;}

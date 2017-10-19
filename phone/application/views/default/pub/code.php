@@ -1,0 +1,1 @@
+{$GLOBALS['cfg_m_tongjicode']}

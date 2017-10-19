@@ -1,0 +1,32 @@
+-- 表的结构：sline_photo --
+CREATE TABLE `sline_photo` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `webid` int(11) NOT NULL COMMENT '站点id',
+  `aid` int(11) unsigned DEFAULT NULL COMMENT '展示id',
+  `title` varchar(255) DEFAULT NULL COMMENT '标题',
+  `seotitle` varchar(255) DEFAULT NULL COMMENT '优化标题',
+  `litpic` varchar(200) DEFAULT NULL COMMENT '相册封面',
+  `author` varchar(50) DEFAULT NULL COMMENT '作者',
+  `content` longtext COMMENT '描述',
+  `tagword` varchar(200) DEFAULT NULL COMMENT '文章相关词',
+  `shownum` int(11) DEFAULT NULL COMMENT '浏览数',
+  `modtime` int(10) DEFAULT NULL COMMENT '修改时间',
+  `keyword` varchar(255) DEFAULT NULL COMMENT '关键词',
+  `description` varchar(255) DEFAULT NULL COMMENT '描述',
+  `kindlist` varchar(255) DEFAULT NULL COMMENT '所属目的地',
+  `themelist` varchar(255) DEFAULT NULL COMMENT '所属专题',
+  `attrid` varchar(255) DEFAULT NULL COMMENT '所属属性',
+  `headimgid` int(11) unsigned DEFAULT NULL COMMENT '弃用',
+  `addtime` int(10) NOT NULL DEFAULT '0' COMMENT '添加时间',
+  `favorite` int(10) DEFAULT '0' COMMENT '喜欢次数',
+  `ishidden` tinyint(4) DEFAULT '0' COMMENT '是否显示',
+  `templet` varchar(255) DEFAULT NULL COMMENT '模板',
+  `finaldestid` int(11) DEFAULT NULL COMMENT '终级目的地id',
+  PRIMARY KEY (`id`),
+  KEY `IDX_AID` (`aid`) USING BTREE,
+  KEY `IDX_webid` (`webid`) USING BTREE,
+  KEY `IDX_kindlist` (`kindlist`) USING BTREE,
+  KEY `IDX_attrid` (`attrid`) USING BTREE,
+  KEY `IDX_ishidden` (`ishidden`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='相册表';-- <xjx> --
+

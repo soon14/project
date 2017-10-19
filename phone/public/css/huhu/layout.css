@@ -1,0 +1,159 @@
+body {
+    width: 450px;
+   height: 800px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333; 
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* 流体框架 */
+.container-fluid {
+  position:relative;
+  width:450px; height:800px; background: url(../../images/huhu/bg.jpg) #fff no-repeat;
+
+/*  margin-right: auto;
+  margin-left: auto;*/
+}
+/* 左中右框架 */
+.gridbox-left {
+	width: 20%;
+	float: left;
+}
+.gridbox-mid {
+	width: 60%;
+	float: left;
+}
+.gridbox-right {
+	width: 20%;
+	float: right;
+}
+/* 左大右小框架 */
+.gridboxL-big {
+	width: 80%;
+	float: left;
+}
+.gridboxR-small {
+	width: 20%;
+	float: right;
+}
+/* 左小右大框架 */
+.gridboxL-small {
+	width: 20%;
+	float: left;
+}
+.gridboxR-big {
+	width: 80%;
+	float: right;
+}
+/* 分页开始 */
+.pages {
+  background:#000;
+  margin: 20px 0;
+}
+.pages #Pagination {
+  float: left;
+  overflow: hidden;
+}
+.pages #Pagination .pagination {
+  height: 40px;
+  text-align: right;
+  font-family: \u5b8b\u4f53,Arial;
+}
+.pages #Pagination .pagination a,
+.pages #Pagination .pagination span {
+  float: left; margin-right:5px;
+  display: inline; width:40px; height:40px; line-height:40px; text-align:center;
+  
+  border: 1px solid #e6e6e6;
+  background: #f6f6f6;
+  color: #666666;
+  font-family: \u5b8b\u4f53,Arial;
+  font-size: 14px;
+  cursor: pointer;
+}
+.pages #Pagination .pagination .current {
+  background: #2577e3; border:1px solid #2577e3;
+  color: #fff;
+}
+.pages #Pagination .pagination .prev,
+.pages #Pagination .pagination .next {
+  float: left;
+  width:80px;height:40px; line-height:40px;
+  border: 1px solid #e6e6e6;
+  background: #f6f6f6;
+  color: #666666;
+  cursor: pointer;
+}
+.pages #Pagination .pagination .prev i,
+.pages #Pagination .pagination .next i {
+  display: inline-block;
+  width: 4px;
+  height: 11px;
+  margin-right: 5px;
+  background: url(../../images/huhu/icon.fw.png) no-repeat;
+}
+.pages #Pagination .pagination .prev i {
+  background-position: -144px -1px;
+  *background-position: -144px -4px;
+}
+.pages #Pagination .pagination .next i {
+  background-position: -156px -1px;
+  *background-position: -156px -4px;
+}
+.pages #Pagination .pagination .pagination-break {
+  padding: 11px 5px;
+  border: none;
+  background: none;
+  cursor: default;
+}
+.pages .searchPage {
+  float: left;
+  padding: 8px 0;
+}
+.pages .searchPage .page-sum {
+  padding: 11px 13px;
+  color: #999999;
+  font-family: \u5b8b\u4f53,Arial;
+  font-size: 14px;
+}
+.pages .searchPage .page-go {
+  padding: 8px 0;
+  color: #999999;
+  font-family: \u5b8b\u4f53,Arial;
+  font-size: 14px;
+  padding: 10px 0\9;
+  *padding: 6px 0;
+}
+.pages .searchPage .page-go input {
+  width: 21px;
+  height: 20px;
+  margin: 0 5px;
+  padding-left: 5px;
+  border: 1px solid #e4e4e4;
+}
+.pages .searchPage .page-btn { 
+  margin: 9px 0 5px 5px;
+  padding: 2px 5px;
+  background: #2577e3;
+  border-radius: 2px;
+  color: #ffffff;
+  font-family: Arial, 'Microsoft YaHei';
+  font-size: 14px;
+  text-decoration: none;
+}
+/* 分页结束 */

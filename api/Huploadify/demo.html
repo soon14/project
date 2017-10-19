@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Huploadify demo</title>
+<link rel="stylesheet" type="text/css" href="Huploadify.css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.Huploadify.js"></script>
+<style type="text/css">
+</style>
+<script type="text/javascript">
+$(function(){
+	var up = $('#upload').Huploadify({
+		auto:true,
+		fileTypeExts:'*.jpg;*.png;*.jpeg',
+		multi:true,
+		fileSizeLimit:99999999,
+		breakPoints:true,
+		saveInfoLocal:true,
+		showUploadedPercent:true,//是否实时显示上传的百分比，如20%
+		showUploadedSize:true,
+		removeTimeout:9999999,
+		uploader:'upload.php',
+		onUploadStart:function(){
+			//up.settings('formData', {aaaaa:'1111111',bb:'2222'});
+			up.Huploadify('settings','formData', {aaaaa:'1111111',bb:'2222'});
+		},
+		onUploadSuccess:function(file){
+			alert(file.name);
+			//alert('上传成功');
+		},
+		onUploadComplete:function(){
+			//alert('上传完成');
+		}
+	});
+
+	$('#upload1').click(function(){
+		//$('#upload').click();
+		alert('呗点击了1');
+		$('.uploadify-button').trigger("click");
+	});
+	$('#upload2').click(function(){
+		//$('#upload').click();
+		alert('呗点击了2');
+		$('.uploadify-button').trigger("click");
+	});
+});
+</script>
+</head>
+
+<body>
+<div id="upload" style="display: none"></div>
+<div id="upload1">测试点击事件1</div>
+<br/>
+<div id="upload2">测试点击事件2</div>
+<!--<button id="btn1">stop</button>
+<button id="btn2">upload</button>
+<button id="btn3">cancel</button>
+<button id="btn4">disable</button>
+<button id="btn5">ennable</button>
+<button id="btn6">destroy</button>-->
+
+</body>
+</html>

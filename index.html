@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>河北旅游网—石家庄旅游—旅游景点大全—旅游攻略—自驾游—自助游—周边游-旅游</title>
+    <meta name="keywords" content="河北旅游网，河北旅游，北京旅游，天津旅游，石家庄旅游，保定旅游，邢台旅游，秦皇岛旅游，张家口旅游，承德旅游"/>
+      <meta name="description" content="河北旅游网，河北在线旅游预订服务商，为您提供景区门票、酒店预订、旅游攻略、自驾游、景区路线等旅游服务。覆盖河北全省，包括石家庄、张家口、保定、秦皇岛、邢台等地区。低价保障、专业服务，河北出游新选择。"/>
+    <link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css,/res/css/mycss/index/index.css" rel="stylesheet"  />
+  <script type="text/javascript"src="/min/?f=/res/js/common/jquery-1.11.3.min.js,/res/js/common/bootsAitto-min.js,/res/js/myjs/index/bootstrap-index.js"></script>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?f968b43cd6404299f54d25d87c3bbe3a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script></head>
+<body>
+<!-- 登陆代码 开始 -->
+
+<link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css" rel="stylesheet"  />
+<header>
+    <div id="commonHead">
+        <div id="commonWarp">
+            <div class="logo" style="cursor:pointer;" onclick="window.location.href='http://www.aitto.net'" ></div>
+        <div class="nav">
+                <ul>
+                    <li class="current st-menu">
+                        <a href="/">首页                        </a>
+                    </li>
+                                                            <li class="st-menu"><a href="http://www.aitto.net/destination/">目的地</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/raiders/">攻略</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/notes/">游记</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/spots/">门票</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/lines/self">自驾游</a></li>
+                                        
+                </ul>
+            </div>
+                  <div class="login-info">
+                <div class="userLogin" id="loginstatus">
+                </div>
+                <div class="head-user drop-trigger" id="-j-head-user">
+                    <a class="" href="#">
+                        <div class="user-ico"></div>
+                        <i class="icon-caret-down"></i>
+                    </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">会员中心</h2>
+                        <div class="dropdown-menu" >
+                            <ul>
+                                <li class="icon-home"><a href="/member/"><i></i>会员首页</a></li>
+                                <li class="icon-order"><a href="/member/order/all"><i></i>我的订单</a></li>
+                                <li class="icon-writenotes"><a href="/member/index/mynotes"><i></i>我的游记</a></li>
+                                <li class="icon-jifen"><a href="/member/index/jifen"><i></i>我的积分</a></li>
+                                <li class="icon-Personal"><a href="/member/index/userinfo"><i></i>个人中心</a></li>
+                                <li class="icon-traveller"><a href="/member/index/linkman"><i></i>常用旅客</a></li>
+                                <li class="icon-logout"><a href="/member/login/loginout"><i></i>退出登录</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-code drop-trigger" id="-j-head-code" > <a class="" href="#">
+                        <div class="code-ico"></div>
+                        <i class="icon-caret-down"></i> </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+                        <div class="drop-con">
+                            <div class="WeChat"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</header>
+<script type="text/javascript">
+    //JQuery
+    $(document).ready(function(){
+        $(document).on("click",
+            function(e) {
+                isActive = $(e.target).parent().attr("class");
+                var  typeid= "0";
+                if (isActive=='head-searchform') {
+                    if(typeid==101){
+                          $(".head-search-focus").css('width',"345px");
+                          $(".head-search-focus .head-searchform input").css('width',"323px");
+                    }
+                    if(typeid==5){
+                        $(".head-search-focus").css('width',"285px");
+                        $(".head-search-focus .head-searchform input").css('width',"263px");
+                    }
+                }
+                else {
+                    if(typeid==101||typeid==5){
+                        $(".head-searchform input").css('width',"108px");
+                        $(".head-search-wrapper").css('width',"130px");
+                    }
+                    $(".head-search-wrapper").removeClass("head-search-focus");
+                }
+            })
+        $("#_j_head_search_input").click(function(){
+            $(".head-search-wrapper").addClass("head-search-focus");
+        });
+    });
+</script>
+<script type="text/javascript"src="/min/?f=/res/js/SuperSlide.min.js,/res/js/base.js,/res/js/common.js,/res/js/myjs/bootstrap.min.js,/res/js/myjs/jquery.select.js,/res/js/common/bootsAitto-min.js"></script>
+<script>
+    var SITEURL = "/";
+    function optionChecked(obj){
+        var typeid = $(obj).attr('data-id');
+        var durl = $(obj).attr('data-url');
+       // alert(typeid+"["+durl);
+        $("#typename").attr('data-id',typeid);
+        $("#typename").attr('data-url',durl);
+    }
+    //====================07.05  s
+    $("a[name=myorder]").click(function(){
+        var  url1 =SITEURL+'member/order/all';//SITEURL 为 '/'
+        var  url =SITEURL+'member/login?redirecturl='+url1;
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status==0){
+                    alert("请先登录");
+                   window.location.href =url;
+                }else{
+                    window.location.href =url1;
+                }
+            }
+        })
+    });
+    //====================07.05  e
+    $(".weixin").mouseover(function(){
+        //  $(this).addClass("hover");
+        $(this).children(".dropdown1").show()
+    });
+    $(".weixin").mouseout(function(){
+        // $(this).removeClass("hover");
+        $(this).children(".dropdown1").hide()
+    });
+   //
+    $(function(){
+        var typeid  = "0";
+        $("#_j_head_search_input").keydown(function(e){
+            if(e.keyCode==13){
+                $('#_j_head_search_link').click();
+            }
+        });
+        $(".searchmodel li:first").trigger('click');
+        //search
+        $('#_j_head_search_link').click(function(){
+            var keyword = $('#_j_head_search_input').val();
+            if(keyword == ''){
+                alert("请输入内容");
+                $("#_j_head_search_link").focus();
+                return false;
+            }
+//            var typeid = $("#typename").attr('data-id');
+//            var durl = $("#typename").attr('data-url');
+//            if(typeid==0 || typeid==8){//0  是全部  8是 签证
+//                var url = SITEURL+'search/cloudsearch?keyword='+encodeURIComponent(keyword)+"&typeid="+typeid;
+//            }else{
+//                var url = "http://www.aitto.net"+durl+'all?keyword='+encodeURIComponent(keyword);
+//            }
+            if(typeid==4){
+                var url = "http://www.aitto.net"+"/raiders/"+'all?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==101){
+                var url = "http://www.aitto.net"+"/notes/list"+'?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==5){
+                var url = "http://www.aitto.net"+"/spots/"+'all?keyword='+encodeURIComponent(keyword);
+            }
+            location.href = url;
+        })
+        //导航的选中状态
+        $(".st-menu a").each(function(){
+            $(".st-menu").removeClass('current');
+            var url= window.location.href;
+            // url=url.replace('index.php','');
+            //url=url.replace('index.html','');
+            var urlArr = url.split("/");
+            var ulink=$(this).attr("href");
+            var urlLinkArr = ulink.split("/");
+             //  定义目的地拼音
+            var pinyin  ="";
+            var  sss   = urlArr[3].split("?");
+            var   p    = sss[0];
+         console.log(urlArr[3]);
+        // console.log(urlLinkArr[3]);
+            if(urlArr[3]==urlLinkArr[3])
+            {
+                $(this).parents('li').addClass('current');
+                return false;
+            }else if(pinyin==p&&urlLinkArr[3]=='destination'&&pinyin.length!=''){
+                $(this).parents('li').addClass('current');
+                return false;
+            }
+            else{
+                if(urlArr[3]!='member'){
+                    $(".st-menu").first().addClass('current');
+                }
+            }
+        })
+        //登陆状态
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status){
+                    $txt = '<a class="dl" style="padding:0" href="javascript:;">你好,</a>';
+                    $txt+= '<a class="dl" href="/member/">'+data.user.nickname+'</a>';
+                    $txt+= '<a class="dl" href="/member/login/loginout">退出</a>';
+                    //$txt+= '<a class="dl" href="/member">个人中心</a>';
+                    $txt = '您好:<a href="/member/">'+data.user.nickname+'</a>';
+                }else{
+                    //$txt = '<a class="dl" href="/member/login">登录</a>';
+                    // $txt+= '<a class="zc" href="/member/register">免费注册</a>';
+                    $txt = '&nbsp;&nbsp;&nbsp;&nbsp;<a href="/member/login">登录</a> | <a href="/member/register">注册</a>';
+                }
+                $("#loginstatus").html($txt);
+            }
+        })
+    })
+</script>
+<script>
+    var s  = 3;
+</script><!-- 登陆代码 结束 -->
+<div class="notebox"></div>
+<!-- 幻灯广告 开始 -->
+<div class="ctd-head-box carousel-items" data-slide=""><!-- slide值有 空:“” 自动:"auto" 左右切换:"x"-->
+    <ul class="slideImg-hd">
+                <li  onclick="window.location.href='http://www.aitto.net/'"><a href="http://www.aitto.net/"><img src="/new_uploads/2017/0706/126fbe550070b4caf774bc51a18e08dd.jpg" alt="" width="100%" ></a></li>
+      </ul>
+  
+  <a href="javascript:;" class="ctrl-slide Page-prev">上一张</a> <a href="javascript:;" class="ctrl-slide Page-next">下一张</a> 
+  <!-- 幻灯导航 -->
+  <div class="slideNav-bd">
+    <ul class="nav-bar">
+                  <li class="current"><em>1</em></li>
+       
+          </ul>
+  </div>
+  <!-- 搜索条 开始 -->
+  <div class="search-container">
+    <div class="search-group">
+      <div class="searchtab" id="_j_index_search_tab">
+        <ul class="clearfix">
+          <li data-index="3" class="tab-selected"><i onclick="change_css(this)" class="change_i"></i>攻略</li>
+          <li data-index="4" ><i onclick="change_css(this)" class="change_i"></i>游记</li>
+          <li data-index="2" ><i onclick="change_css(this)" class="change_i"></i>门票</li>
+          <div class="clearfix"></div>
+        </ul>
+      </div>
+      <script>
+        function change_css(th){
+         $(th).parent().addClass('tab-selected').siblings('li').removeClass('tab-selected');
+        }
+      </script>
+      <!-- 全部 begin -->
+      <div class="searchbar">
+        <div class="search-wrapper">
+          <div class="search-input">
+            <input name="q" placeholder="输入目的/景区搜索" id="-j-index-search-input-all"  type="text">
+          </div>
+        </div>
+        <div class="search-button"> <a role="button" href="javascript:"><i class="icon-search"></i></a> </div>
+      </div>
+      <!-- 全部 end -->
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <!-- 搜索条 结束 --> 
+</div>
+<!-- 幻灯广告 结束 --> 
+<!-- 广告导航 开始-->
+<div class="advbox">
+  <ul>
+    <li onclick="window.location.href='/destination/'" style="cursor: pointer"><img src="/res/images/index/ad_01.jpg"  /></li>
+    <li onclick="window.location.href='/lines/self'" style="cursor: pointer"><img src="/res/images/index/ad_02.jpg"  /></li>
+    <li onclick="window.location.href='/notes'" style="cursor: pointer"><img src="/res/images/index/ad_03.jpg"  /></li>
+    <li onclick="window.location.href='/raiders'" style="cursor: pointer"><img src="/res/images/index/ad_04.jpg"  /></li>
+    <li onclick="window.location.href='/spots'" style="cursor: pointer"><img src="/res/images/index/ad_05.jpg"  /></li>
+    <div class="clearfix"></div>
+  </ul>
+</div>
+<!-- 广告导航 结束 -->
+<div class="container ">
+  <section>
+    <div class="ctd-main-city clearfix">
+      <div class="J-con-tit">
+        <h2>带你游<span>河</span>北<span class="small-tit">了解河北从这里开始起步</span></h2>
+        <div class="more"><a href="/destination">查看更多内容</a></div>
+      </div>
+      <div class="ctd-main-bd clearfix">
+        <div class="sid-city">
+          <div class="cityNav">
+            <div class="cityNav-tit">
+              <h4>城市</h4>
+            </div>
+            <div class="city">
+              <ul>
+                                                                <li ><a href="/shijiazhuang/?param=survey">石家庄</a></li>
+                                <li ><a href="/zhangjiakou/?param=survey">张家口</a></li>
+                                <li ><a href="/qinhuangdao/?param=survey">秦皇岛</a></li>
+                                <li ><a href="/baoding/?param=survey">保定</a></li>
+                                <li ><a href="/xingtai/?param=survey">邢台</a></li>
+                                <li ><a href="/chengde/?param=survey">承德</a></li>
+                                <li ><a href="/handan/?param=survey">邯郸</a></li>
+                                <li ><a href="/tangshan/?param=survey">唐山</a></li>
+                                <li ><a href="/langfang/?param=survey">廊坊</a></li>
+                                <li ><a href="/hengshui/?param=survey">衡水</a></li>
+                                <li ><a href="/cangzhou/?param=survey">沧州</a></li>
+                                
+              </ul>
+            </div>
+          </div>
+          <br/>
+          <div class="bd-sid-city">
+<!--            <h3>带您游魅力河北</h3>-->
+<!--            <p>吃—住—行—玩</p-->
+            <img src="/res/images/index/wangmushang.jpg" alt="王母山景区"  onclick="location.href='/spots/show_42.html'" style="cursor: pointer"/>
+          </div>
+        </div>
+        <ul class="mod-proList">
+                              <li style="cursor: pointer;" onclick="window.location.href='/shijiazhuang/?param=survey'">
+            <div class="mak-box"> <img src="http://www.aitto.net/new_uploads/2017/0123/fa6eaa042a4a2892fc465d1001fc692e.jpg" alt="" />
+              <div class="msk-tit">
+                <h3>石家庄</h3>
+                <p>
+                                                     <span>赵州桥 </span>
+                                    <span>西柏坡 </span>
+                                    <span>苍岩山 </span>
+                                   
+                </p>
+                <a href="/shijiazhuang/?param=survey" class="more">查看更多</a></div>
+            </div>
+          </li>
+                    <li style="cursor: pointer;" onclick="window.location.href='/zhangjiakou/?param=survey'">
+            <div class="mak-box"> <img src="http://www.aitto.net/new_uploads/2017/0123/8584eefc691bf5e48cdad22bb87f5d10.jpg" alt="" />
+              <div class="msk-tit">
+                <h3>张家口</h3>
+                <p>
+                                                     <span>张北 </span>
+                                    <span>天路 </span>
+                                    <span>暖泉古镇 </span>
+                                   
+                </p>
+                <a href="/zhangjiakou/?param=survey" class="more">查看更多</a></div>
+            </div>
+          </li>
+                    <li style="cursor: pointer;" onclick="window.location.href='/qinhuangdao/?param=survey'">
+            <div class="mak-box"> <img src="http://www.aitto.net/new_uploads/2017/0123/7b40e9fcc874a710b95b33fe46d7de36.jpg" alt="" />
+              <div class="msk-tit">
+                <h3>秦皇岛</h3>
+                <p>
+                                                     <span>北戴河 </span>
+                                    <span>山海关 </span>
+                                    <span>老龙头 </span>
+                                   
+                </p>
+                <a href="/qinhuangdao/?param=survey" class="more">查看更多</a></div>
+            </div>
+          </li>
+                    <li style="cursor: pointer;" onclick="window.location.href='/baoding/?param=survey'">
+            <div class="mak-box"> <img src="http://www.aitto.net/new_uploads/2017/0117/478ce18310c8d9f2dd93fcf90f7ce9f4.jpg" alt="" />
+              <div class="msk-tit">
+                <h3>保定</h3>
+                <p>
+                                                     <span>野三坡 </span>
+                                    <span>白洋淀 </span>
+                                    <span>白石山 </span>
+                                   
+                </p>
+                <a href="/baoding/?param=survey" class="more">查看更多</a></div>
+            </div>
+          </li>
+                    <li style="cursor: pointer;" onclick="window.location.href='/xingtai/?param=survey'">
+            <div class="mak-box"> <img src="http://www.aitto.net/new_uploads/2017/0123/e19870fd8ba3a12e09070ef9500ba9d8.jpg" alt="" />
+              <div class="msk-tit">
+                <h3>邢台</h3>
+                <p>
+                                                     <span>天河山 </span>
+                                    <span>云梦山 </span>
+                                    <span>峡谷群 </span>
+                                   
+                </p>
+                <a href="/xingtai/?param=survey" class="more">查看更多</a></div>
+            </div>
+          </li>
+                    <li style="cursor: pointer;" onclick="window.location.href='/chengde/?param=survey'">
+            <div class="mak-box"> <img src="http://www.aitto.net/new_uploads/2017/0123/f416082138a2fab5ad2a3129357d3660.jpg" alt="" />
+              <div class="msk-tit">
+                <h3>承德</h3>
+                <p>
+                                                     <span>避暑山庄 </span>
+                                    <span>丰宁坝上 </span>
+                                   
+                </p>
+                <a href="/chengde/?param=survey" class="more">查看更多</a></div>
+            </div>
+          </li>
+                    
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-------------畅游 攻略 开始----------------->
+  <section>
+    <div class="ctd-main-Trategy clearfix">
+      <div class="J-con-tit  clearfix">
+        <h2>畅游<span>攻</span>略</h2>
+        <ul class="J-con-nav" data-toggle="tabs" data-target="tab-content1">
+                              <li class="current" data-panel = "1" onclick="tab_raiders(this)"><a href="javascript:">石家庄</a></li>
+                                        <li  data-panel = "2" onclick="tab_raiders(this)"><a href="javascript:">张家口</a></li>
+                                        <li  data-panel = "3" onclick="tab_raiders(this)"><a href="javascript:">秦皇岛</a></li>
+                                        <li  data-panel = "4" onclick="tab_raiders(this)"><a href="javascript:">保定</a></li>
+                                                                    </ul>
+        <div class="more"><a href="/raiders/all">查看更多内容</a></div>
+      </div>
+                  <div class="ctd-Trategy-List clearfix"  id="panel-1">
+        <ul>
+                              <li >            <div class="ctd-inner">
+              <div class="J-img" onclick="window.location.href='http://www.aitto.net/raiders/show_403.html'" style="cursor: pointer"><img src="http://www.aitto.net/new_uploads/2017/0629/828e37277783a1af3850b0ada6bdd294.jpg" height="100%">
+                <div class="J-title">
+                  <h2>井陉豌豆农庄一日游</h2>
+                  <p>一日游</p>
+                </div>
+              </div>
+              <div class="J-shots">
+                                                                                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_403.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0629/b32844d19af1e924a37648a22c7019b0.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_403.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0629/12b1d551f8675081bf2b235e34880e4c.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_403.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0629/c420e311528aca29e1999b2975346762.jpg" height="64">
+                </span>
+                                                <span class="bshape last-child">
+                  <a href="http://www.aitto.net/raiders/show_403.html">查看<br/>
+                详细内容</a>
+                </span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </li>
+                    <li >            <div class="ctd-inner">
+              <div class="J-img" onclick="window.location.href='http://www.aitto.net/raiders/show_402.html'" style="cursor: pointer"><img src="http://www.aitto.net/new_uploads/2017/0627/3c48dd8c2cad59a1b088336d803543af.jpg" height="100%">
+                <div class="J-title">
+                  <h2>平山石槽村一日游</h2>
+                  <p>一日游</p>
+                </div>
+              </div>
+              <div class="J-shots">
+                                                                                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_402.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0627/f10318aee7040e34766e32cba1d44803.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_402.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0627/97fafeac765f39d7664e60ab172b73b5.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_402.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0627/1f70f51455ba47a3fbccbffc0a9403b9.jpg" height="64">
+                </span>
+                                                <span class="bshape last-child">
+                  <a href="http://www.aitto.net/raiders/show_402.html">查看<br/>
+                详细内容</a>
+                </span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </li>
+                    <li >            <div class="ctd-inner">
+              <div class="J-img" onclick="window.location.href='http://www.aitto.net/raiders/show_404.html'" style="cursor: pointer"><img src="http://www.aitto.net/new_uploads/2017/0629/6885e1e92fd2306a43a2d7b024a0518c.jpg" height="100%">
+                <div class="J-title">
+                  <h2>鹿泉下聂庄村一日游</h2>
+                  <p>一日游</p>
+                </div>
+              </div>
+              <div class="J-shots">
+                                                                                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_404.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0629/2962fbf12e172276034c4a5024f48b31.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_404.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0629/88f579254b43acf5af97e1e17a937f94.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_404.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0629/dbe721570ae2a85a7d374dc69cd29248.jpg" height="64">
+                </span>
+                                                <span class="bshape last-child">
+                  <a href="http://www.aitto.net/raiders/show_404.html">查看<br/>
+                详细内容</a>
+                </span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </li>
+                    
+        </ul>
+      </div>
+                        <div class="ctd-Trategy-List clearfix" style="display:none" id="panel-2">
+        <ul>
+                              <li >            <div class="ctd-inner">
+              <div class="J-img" onclick="window.location.href='http://www.aitto.net/raiders/show_398.html'" style="cursor: pointer"><img src="http://www.aitto.net/new_uploads/2017/0622/f8b40705b7ffb1d758ceb7b7ee281306.jpg" height="100%">
+                <div class="J-title">
+                  <h2>蔚县东甸子梁、麻田岭二日游</h2>
+                  <p>二日游</p>
+                </div>
+              </div>
+              <div class="J-shots">
+                                                                                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_398.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0622/eb6632bffac4223af5594753a58168d1.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_398.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0622/e84f79aa57f3c5f29976e20d2595ac99.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_398.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0622/5a039788a5631c979c7a11d97e6ac18f.jpg" height="64">
+                </span>
+                                                <span class="bshape last-child">
+                  <a href="http://www.aitto.net/raiders/show_398.html">查看<br/>
+                详细内容</a>
+                </span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </li>
+                    <li >            <div class="ctd-inner">
+              <div class="J-img" onclick="window.location.href='http://www.aitto.net/raiders/show_13.html'" style="cursor: pointer"><img src="http://www.aitto.net/new_uploads/2017/0122/025aa55f83300f42130d1fd86fee6f60.jpg" height="100%">
+                <div class="J-title">
+                  <h2>旅游出塞 跟风去天路</h2>
+                  <p></p>
+                </div>
+              </div>
+              <div class="J-shots">
+                                                                                                                <span class="bshape last-child">
+                  <a href="http://www.aitto.net/raiders/show_13.html">查看<br/>
+                详细内容</a>
+                </span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </li>
+                    <li >            <div class="ctd-inner">
+              <div class="J-img" onclick="window.location.href='http://www.aitto.net/raiders/show_14.html'" style="cursor: pointer"><img src="http://www.aitto.net/new_uploads/2017/0122/c7d30bf515ceb8ef14a31554f1681818.jpg" height="100%">
+                <div class="J-title">
+                  <h2>鸡鸣驿、天漠的两天逃离世外休闲旅</h2>
+                  <p></p>
+                </div>
+              </div>
+              <div class="J-shots">
+                                                                                                                <span class="bshape last-child">
+                  <a href="http://www.aitto.net/raiders/show_14.html">查看<br/>
+                详细内容</a>
+                </span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </li>
+                    
+        </ul>
+      </div>
+                        <div class="ctd-Trategy-List clearfix" style="display:none" id="panel-3">
+        <ul>
+                              <li >            <div class="ctd-inner">
+              <div class="J-img" onclick="window.location.href='http://www.aitto.net/raiders/show_392.html'" style="cursor: pointer"><img src="http://www.aitto.net/new_uploads/2017/0619/a264091603fb8102a55c51d0c9c3d4df.jpg" height="100%">
+                <div class="J-title">
+                  <h2>北戴河精华二日游攻略</h2>
+                  <p>二日游</p>
+                </div>
+              </div>
+              <div class="J-shots">
+                                                                                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_392.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0619/ab309f260893fc3f12b837ccb4707f91.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_392.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0619/10de757ca01e5a9dfc895698dc5eb282.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_392.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0619/bd178e575fe25ce13b7e7bfe230f9776.jpg" height="64">
+                </span>
+                                                <span class="bshape last-child">
+                  <a href="http://www.aitto.net/raiders/show_392.html">查看<br/>
+                详细内容</a>
+                </span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </li>
+                    <li >            <div class="ctd-inner">
+              <div class="J-img" onclick="window.location.href='http://www.aitto.net/raiders/show_15.html'" style="cursor: pointer"><img src="http://www.aitto.net/new_uploads/2017/0122/0ea6423d0392f07f5edb80e56cadf6c4.jpg" height="100%">
+                <div class="J-title">
+                  <h2>北戴河旅游-我们一起去看海</h2>
+                  <p></p>
+                </div>
+              </div>
+              <div class="J-shots">
+                                                                                                                <span class="bshape last-child">
+                  <a href="http://www.aitto.net/raiders/show_15.html">查看<br/>
+                详细内容</a>
+                </span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </li>
+                    <li >            <div class="ctd-inner">
+              <div class="J-img" onclick="window.location.href='http://www.aitto.net/raiders/show_17.html'" style="cursor: pointer"><img src="http://www.aitto.net/new_uploads/2017/0122/8b326c8597dd3c4638204be83c866d48.jpg" height="100%">
+                <div class="J-title">
+                  <h2>带着你，玩转北/南戴河+山海关（含超详细攻略）</h2>
+                  <p></p>
+                </div>
+              </div>
+              <div class="J-shots">
+                                                                                                                <span class="bshape last-child">
+                  <a href="http://www.aitto.net/raiders/show_17.html">查看<br/>
+                详细内容</a>
+                </span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </li>
+                    
+        </ul>
+      </div>
+                        <div class="ctd-Trategy-List clearfix" style="display:none" id="panel-4">
+        <ul>
+                              <li >            <div class="ctd-inner">
+              <div class="J-img" onclick="window.location.href='http://www.aitto.net/raiders/show_407.html'" style="cursor: pointer"><img src="http://www.aitto.net/new_uploads/2017/0712/01663363810a5db068710afbd60d864a.jpg" height="100%">
+                <div class="J-title">
+                  <h2>保定王快水库一日游</h2>
+                  <p>一日游</p>
+                </div>
+              </div>
+              <div class="J-shots">
+                                                                                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_407.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0712/01eff856acbdb0f87b2188b4d73ecc72.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_407.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0712/fa55e1df389c3173884f5e474f42b0c4.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_407.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0712/76432713335062be90cc2062dee4c8c3.jpg" height="64">
+                </span>
+                                                <span class="bshape last-child">
+                  <a href="http://www.aitto.net/raiders/show_407.html">查看<br/>
+                详细内容</a>
+                </span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </li>
+                    <li >            <div class="ctd-inner">
+              <div class="J-img" onclick="window.location.href='http://www.aitto.net/raiders/show_406.html'" style="cursor: pointer"><img src="http://www.aitto.net/new_uploads/2017/0711/4b469e6a9055f10196695d8b09647471.jpg" height="100%">
+                <div class="J-title">
+                  <h2>狼牙山龙门湖欢乐世界一日游</h2>
+                  <p>一日游</p>
+                </div>
+              </div>
+              <div class="J-shots">
+                                                                                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_406.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0711/d655e9e0fd0f29fc57215c2ee64d89f8.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_406.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0711/2dc3f211f8e8f52ef394890397fab3cb.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_406.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0711/8a16e19e9c7cbd0af0dab2db2b145268.jpg" height="64">
+                </span>
+                                                <span class="bshape last-child">
+                  <a href="http://www.aitto.net/raiders/show_406.html">查看<br/>
+                详细内容</a>
+                </span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </li>
+                    <li >            <div class="ctd-inner">
+              <div class="J-img" onclick="window.location.href='http://www.aitto.net/raiders/show_390.html'" style="cursor: pointer"><img src="http://www.aitto.net/new_uploads/2017/0526/d989fdf7339858bce1a931f1e80833f7.jpg" height="100%">
+                <div class="J-title">
+                  <h2>保定伊祁山一日游</h2>
+                  <p>一日游</p>
+                </div>
+              </div>
+              <div class="J-shots">
+                                                                                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_390.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0526/43a950942b57ecb0c2b81d94cd7955cf.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_390.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0526/4454c53b49c34585735ebc80f4caaab6.jpg" height="64">
+                </span>
+                                                                <span class="bshape" onclick="window.location.href='http://www.aitto.net/raiders/show_390.html'" style="cursor: pointer">
+                  <img src="http://www.aitto.net/new_uploads/2017/0526/0e452347d9a8b1abef34aa6566ffe6e0.jpg" height="64">
+                </span>
+                                                <span class="bshape last-child">
+                  <a href="http://www.aitto.net/raiders/show_390.html">查看<br/>
+                详细内容</a>
+                </span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </li>
+                    
+        </ul>
+      </div>
+                                        </div>
+  </section>
+  <script>
+    //  攻略 的切换 js
+   function tab_raiders(th){
+      var panel = $(th).attr('data-panel');
+      $(".ctd-Trategy-List").css({
+       'display' : 'none'
+     })
+       $("#panel-"+panel).css({
+         'display' : 'block'
+       })
+   }
+  </script>
+  <!--------精品游记开始 ----------------------->
+  <section>
+    <div class="ctd-main-travels clearfix">
+      <div class="J-con-tit">
+        <h2>精品<span>游</span>记<span class="small-tit">记录下美好瞬间,写下美好回忆</span></h2>
+        <div class="more"><a href="/notes/list">查看更多内容</a></div>
+      </div>
+      <div class="ctd-travels">
+                <ul>
+                    <li>
+            <a href="http://www.aitto.net/notes/show_140.html">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/uploads/notes/58afd304b1aff123.jpg" width="100%" height="100%">
+<!--                <div class="J-day"><span class="num"></span><span class="day"></span></div>-->
+                <div class="user-name">白色纽扣</div>
+                <div class="user-img"><img src="/uploads/member/58afcefa97bca.jpg"></div>
+              </div>
+              <div class="J-tit">
+                <h3>闲来无事，回忆那年夏天与闺蜜的坝上草原之行 </h3>
+                <p></p>
+              </div>
+              <div class="J-report"><span class="data">发表于2017-02-24</span><span class="icon-view"><i></i>评论4</span><span class="icon-comment"><i></i>浏览822</span></div>
+            </div>
+            </a>
+          </li>
+                    <li>
+            <a href="http://www.aitto.net/notes/show_84.html">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/uploads/notes/58abdfb16ca07IMG_20170114_100549.png" width="100%" height="100%">
+<!--                <div class="J-day"><span class="num"></span><span class="day"></span></div>-->
+                <div class="user-name">月光傾城</div>
+                <div class="user-img"><img src="/uploads/member/58ace9ecbfe11.jpg"></div>
+              </div>
+              <div class="J-tit">
+                <h3>东方巨龟苑一日游 </h3>
+                <p></p>
+              </div>
+              <div class="J-report"><span class="data">发表于2017-02-23</span><span class="icon-view"><i></i>评论1</span><span class="icon-comment"><i></i>浏览663</span></div>
+            </div>
+            </a>
+          </li>
+                    <li>
+            <a href="http://www.aitto.net/notes/show_110.html">
+            <div class="J-inner">
+              <div class="J-img"><img src="http://www.aitto.net/uploads/notes/58abee1f4fc19wKgB6lSugLqAWWspABEzxjqYjB873.jpeg" width="100%" height="100%">
+<!--                <div class="J-day"><span class="num"></span><span class="day"></span></div>-->
+                <div class="user-name">山君不离</div>
+                <div class="user-img"><img src="/uploads/member/58ace96d6a502.jpg"></div>
+              </div>
+              <div class="J-tit">
+                <h3>带您玩转河北“乔家大院” </h3>
+                <p></p>
+              </div>
+              <div class="J-report"><span class="data">发表于2017-02-23</span><span class="icon-view"><i></i>评论1</span><span class="icon-comment"><i></i>浏览663</span></div>
+            </div>
+            </a>
+          </li>
+                  </ul>
+        
+      </div>
+    </div>
+  </section>
+  <!--------精品游记完 -------------->
+  <!--------自驾游  ---------------->
+  <section>
+    <div class="ctd-main-SelfDrive clearfix">
+      <div class="J-con-tit">
+        <h2>自驾<span>游</span><span class="small-tit">跟着领队领略你从没看到过的风景</span></h2>
+        <div class="more"><a href="/lines/self/all">查看更多内容</a></div>
+      </div>
+      <div class="mod-proList">
+                <ul class="clearfix">
+          <li class="sbig">
+            <div class="mod-pic"> <a href="http://www.aitto.net/lines/self_show_30.html" title="" target="_blank"><img src="http://www.aitto.net/new_uploads/2017/0712/bac0d8c295c3c26c0367b0b80a04572d.jpg" alt="" /></a>
+            
+               <div class="msk-but">
+                  <h3>特别推荐</h3>
+                </div>
+            
+              <div class="msk-tit">
+                <div class="msk-doc">
+                                    <span class="data">07/15</span><span class="md"> [平山]</span><span class="price">48元</span>
+                </div>
+                <h3>7.15海岸樱源烧烤垂钓唠嗑休闲自驾游</h3>
+                <p class="sub-title"></p>
+              </div>
+            </div>
+          </li>
+                                                  <li>
+            <div class="mod-pic"> <a href="/lines/self_show_28.html" title="" target="_blank"><img src="http://www.aitto.net/new_uploads/2017/0425/f99a3d5fa8c34d520f587a5806dce8a2.jpg" alt="" /></a>
+              <div class="msk-tit">
+                <div class="msk-doc">
+                                    <span class="data">05/06</span><span class="md"> [平山]</span><span class="price">20元</span>
+                </div>
+                <h3>5月6日 鹁鸽崖 “野”游，不来怎么知道不是你的菜</h3>
+              </div>
+            </div>
+          </li>
+                                        <li>
+            <div class="mod-pic"> <a href="/lines/self_show_27.html" title="" target="_blank"><img src="http://www.aitto.net/new_uploads/2017/0414/086cb3613ab4361093d264e876282ed3.jpg" alt="" /></a>
+              <div class="msk-tit">
+                <div class="msk-doc">
+                                    <span class="data">04/22</span><span class="md"> [平山]</span><span class="price">55元</span>
+                </div>
+                <h3>4.22自驾黑山大峡谷，全网最低价、美景赏不断</h3>
+              </div>
+            </div>
+          </li>
+                                        <li>
+            <div class="mod-pic"> <a href="/lines/self_show_26.html" title="" target="_blank"><img src="http://www.aitto.net/new_uploads/2017/0407/a18a192d8b260f373b35d13febee8b41.jpg" alt="" /></a>
+              <div class="msk-tit">
+                <div class="msk-doc">
+                                    <span class="data">04/15</span><span class="md"> [晋州]</span><span class="price">0元</span>
+                </div>
+                <h3>4月15日周家庄行摄：相约最美油菜花田，穿越千年“洋”气之旅</h3>
+              </div>
+            </div>
+          </li>
+                                        <li>
+            <div class="mod-pic"> <a href="/lines/self_show_25.html" title="" target="_blank"><img src="http://www.aitto.net/new_uploads/2017/0329/82431cc62ec252b2c549a4bc077d0fa9.jpg" alt="" /></a>
+              <div class="msk-tit">
+                <div class="msk-doc">
+                                    <span class="data">04/08</span><span class="md"> [赵县]</span><span class="price">0元</span>
+                </div>
+                <h3>4月8日免费游赵县梨花节，三生三世不忘二十里梨花</h3>
+              </div>
+            </div>
+          </li>
+                            </ul>
+        
+      </div>
+    </div>
+  </section>
+  <!--------自驾游完------------------>
+  <!--------推荐景点------------------->
+  <section>
+    <div class="ctd-main-ticket clearfix">
+      <div class="J-con-tit  clearfix">
+        <h2>推荐<span>景</span>点</h2>
+        <ul class="J-con-nav" data-toggle="tabs" data-target="tab-content1">
+                              <li class="current" data-panel = "1" onclick="tab_spots(this)"><a href="javascript:void(0)">石家庄</a></li>
+                    <li  data-panel = "2" onclick="tab_spots(this)"><a href="javascript:void(0)">张家口</a></li>
+                    <li  data-panel = "3" onclick="tab_spots(this)"><a href="javascript:void(0)">秦皇岛</a></li>
+                    <li  data-panel = "4" onclick="tab_spots(this)"><a href="javascript:void(0)">保定</a></li>
+                    
+        </ul>
+        <div class="more"><a href="/spots/all">查看更多内容</a></div>
+      </div>
+      <div class="ctd-ticket-bd clearfix">
+        <div class="sid-city">
+          <div class="cityNav">
+            <div class="cityNav-tit">
+              <h4>主题</h4>
+            </div>
+            <div class="city">
+              <ul>
+                                                <li><a href="/spots/all-0-0-45-1">游乐场</a></li>
+                                <li><a href="/spots/all-0-0-31-1">周末游</a></li>
+                                <li><a href="/spots/all-0-0-4-1">亲子</a></li>
+                                <li><a href="/spots/all-0-0-10-1">古城古镇</a></li>
+                                <li><a href="/spots/all-0-0-29-1">山水</a></li>
+                                <li><a href="/spots/all-0-0-2-1">草原</a></li>
+                                <li><a href="/spots/all-0-0-32-1">湖泊海洋</a></li>
+                                <li><a href="/spots/all-0-0-34-1">漂流</a></li>
+                                
+              </ul>
+            </div>
+          </div>
+        </div>
+                                        <div class="ctd-tickets" id="spot_1" >
+          <ul>
+                          <li onclick="location.href='http://www.aitto.net/spots/show_101.html'" style="cursor: pointer">
+              <div class="J-inner">
+                <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0712/cfa274390b8403598671adf9a9a60385.jpg">
+                  <div class="J-magazine">
+                    <div class="J-mask">
+                      <h2>石家庄</h2>
+                      <h3 title="灵寿漫山花溪谷门票" style="overflow: hidden">灵寿漫山花溪谷门票</h3>
+                  
+                    </div>
+                  </div>
+                </div>
+                <div class="J-price">
+                  <div class="price">&yen;<i>45</i><del>&yen;50</del></div>
+                  <span class="price-but">
+                    <a href="http://www.aitto.net/spots/show_101.html">
+                  <div class="but-txt">购买优惠门票</div>
+                  <div class="but-on">立即抢购</div>
+                  <div class="but-bugle"></div>
+                  </a></span></div>
+              </div>
+            </li>
+                         <li onclick="location.href='http://www.aitto.net/spots/show_100.html'" style="cursor: pointer">
+              <div class="J-inner">
+                <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0712/8ae59539e2661aefd43d0f245ee41dd5.jpg">
+                  <div class="J-magazine">
+                    <div class="J-mask">
+                      <h2>石家庄</h2>
+                      <h3 title="嶂石岩风景区门票" style="overflow: hidden">嶂石岩风景区门票</h3>
+                  
+                    </div>
+                  </div>
+                </div>
+                <div class="J-price">
+                  <div class="price">&yen;<i>60</i><del>&yen;70</del></div>
+                  <span class="price-but">
+                    <a href="http://www.aitto.net/spots/show_100.html">
+                  <div class="but-txt">购买优惠门票</div>
+                  <div class="but-on">立即抢购</div>
+                  <div class="but-bugle"></div>
+                  </a></span></div>
+              </div>
+            </li>
+                         <li onclick="location.href='http://www.aitto.net/spots/show_99.html'" style="cursor: pointer">
+              <div class="J-inner">
+                <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0426/f69b46448b8137a1129387ed873f3c53.png">
+                  <div class="J-magazine">
+                    <div class="J-mask">
+                      <h2>石家庄</h2>
+                      <h3 title="平山县老虎头森林公园门票" style="overflow: hidden">平山县老虎头森林公园门票</h3>
+                  
+                    </div>
+                  </div>
+                </div>
+                <div class="J-price">
+                  <div class="price">&yen;<i>35</i><del>&yen;50</del></div>
+                  <span class="price-but">
+                    <a href="http://www.aitto.net/spots/show_99.html">
+                  <div class="but-txt">购买优惠门票</div>
+                  <div class="but-on">立即抢购</div>
+                  <div class="but-bugle"></div>
+                  </a></span></div>
+              </div>
+            </li>
+                      </ul>
+        </div>
+                
+                                                <div class="ctd-tickets" id="spot_2" style="display:none">
+          <ul>
+                          <li onclick="location.href='http://www.aitto.net/spots/show_69.html'" style="cursor: pointer">
+              <div class="J-inner">
+                <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0315/7b3ec95652d066f282c633c5d3600019.jpg">
+                  <div class="J-magazine">
+                    <div class="J-mask">
+                      <h2>张家口</h2>
+                      <h3 title="野狐岭要塞" style="overflow: hidden">野狐岭要塞</h3>
+                  
+                    </div>
+                  </div>
+                </div>
+                <div class="J-price">
+                  <div class="price">电询</div>
+                  <span class="price-but">
+                    <a href="http://www.aitto.net/spots/show_69.html">
+                  <div class="but-txt">购买优惠门票</div>
+                  <div class="but-on">立即抢购</div>
+                  <div class="but-bugle"></div>
+                  </a></span></div>
+              </div>
+            </li>
+                         <li onclick="location.href='http://www.aitto.net/spots/show_68.html'" style="cursor: pointer">
+              <div class="J-inner">
+                <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0315/c0c63b6984565af1fa73509c3de47502.jpg">
+                  <div class="J-magazine">
+                    <div class="J-mask">
+                      <h2>张家口</h2>
+                      <h3 title="小五台山自然保护区" style="overflow: hidden">小五台山自然保护区</h3>
+                  
+                    </div>
+                  </div>
+                </div>
+                <div class="J-price">
+                  <div class="price">电询</div>
+                  <span class="price-but">
+                    <a href="http://www.aitto.net/spots/show_68.html">
+                  <div class="but-txt">购买优惠门票</div>
+                  <div class="but-on">立即抢购</div>
+                  <div class="but-bugle"></div>
+                  </a></span></div>
+              </div>
+            </li>
+                         <li onclick="location.href='http://www.aitto.net/spots/show_67.html'" style="cursor: pointer">
+              <div class="J-inner">
+                <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0315/31e0a79a21167ce8eff06bc0c62fdae8.jpg">
+                  <div class="J-magazine">
+                    <div class="J-mask">
+                      <h2>张家口</h2>
+                      <h3 title="张家口大境门" style="overflow: hidden">张家口大境门</h3>
+                  
+                    </div>
+                  </div>
+                </div>
+                <div class="J-price">
+                  <div class="price">电询</div>
+                  <span class="price-but">
+                    <a href="http://www.aitto.net/spots/show_67.html">
+                  <div class="but-txt">购买优惠门票</div>
+                  <div class="but-on">立即抢购</div>
+                  <div class="but-bugle"></div>
+                  </a></span></div>
+              </div>
+            </li>
+                      </ul>
+        </div>
+                
+                                                <div class="ctd-tickets" id="spot_3" style="display:none">
+          <ul>
+                          <li onclick="location.href='http://www.aitto.net/spots/show_72.html'" style="cursor: pointer">
+              <div class="J-inner">
+                <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0315/8721dc023406ade4cb7b5f5aab144d30.jpg">
+                  <div class="J-magazine">
+                    <div class="J-mask">
+                      <h2>秦皇岛</h2>
+                      <h3 title="祖山旅游区" style="overflow: hidden">祖山旅游区</h3>
+                  
+                    </div>
+                  </div>
+                </div>
+                <div class="J-price">
+                  <div class="price">电询</div>
+                  <span class="price-but">
+                    <a href="http://www.aitto.net/spots/show_72.html">
+                  <div class="but-txt">购买优惠门票</div>
+                  <div class="but-on">立即抢购</div>
+                  <div class="but-bugle"></div>
+                  </a></span></div>
+              </div>
+            </li>
+                         <li onclick="location.href='http://www.aitto.net/spots/show_71.html'" style="cursor: pointer">
+              <div class="J-inner">
+                <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0315/603d6735a80aa182f174d5d6ae3345dd.jpg">
+                  <div class="J-magazine">
+                    <div class="J-mask">
+                      <h2>秦皇岛</h2>
+                      <h3 title="山海关" style="overflow: hidden">山海关</h3>
+                  
+                    </div>
+                  </div>
+                </div>
+                <div class="J-price">
+                  <div class="price">电询</div>
+                  <span class="price-but">
+                    <a href="http://www.aitto.net/spots/show_71.html">
+                  <div class="but-txt">购买优惠门票</div>
+                  <div class="but-on">立即抢购</div>
+                  <div class="but-bugle"></div>
+                  </a></span></div>
+              </div>
+            </li>
+                         <li onclick="location.href='http://www.aitto.net/spots/show_70.html'" style="cursor: pointer">
+              <div class="J-inner">
+                <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0315/b695490571e24a5f6fefae1f7b363e53.jpg">
+                  <div class="J-magazine">
+                    <div class="J-mask">
+                      <h2>秦皇岛</h2>
+                      <h3 title="鸽子窝公园" style="overflow: hidden">鸽子窝公园</h3>
+                  
+                    </div>
+                  </div>
+                </div>
+                <div class="J-price">
+                  <div class="price">电询</div>
+                  <span class="price-but">
+                    <a href="http://www.aitto.net/spots/show_70.html">
+                  <div class="but-txt">购买优惠门票</div>
+                  <div class="but-on">立即抢购</div>
+                  <div class="but-bugle"></div>
+                  </a></span></div>
+              </div>
+            </li>
+                      </ul>
+        </div>
+                
+                                                <div class="ctd-tickets" id="spot_4" style="display:none">
+          <ul>
+                          <li onclick="location.href='http://www.aitto.net/spots/show_75.html'" style="cursor: pointer">
+              <div class="J-inner">
+                <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0315/aeff2f5564654aea923b1a443a2c034c.jpg">
+                  <div class="J-magazine">
+                    <div class="J-mask">
+                      <h2>保定</h2>
+                      <h3 title="百里峡" style="overflow: hidden">百里峡</h3>
+                  
+                    </div>
+                  </div>
+                </div>
+                <div class="J-price">
+                  <div class="price">电询</div>
+                  <span class="price-but">
+                    <a href="http://www.aitto.net/spots/show_75.html">
+                  <div class="but-txt">购买优惠门票</div>
+                  <div class="but-on">立即抢购</div>
+                  <div class="but-bugle"></div>
+                  </a></span></div>
+              </div>
+            </li>
+                         <li onclick="location.href='http://www.aitto.net/spots/show_74.html'" style="cursor: pointer">
+              <div class="J-inner">
+                <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0315/3bc001aa4266b8e29fc25b8e84b77604.jpg">
+                  <div class="J-magazine">
+                    <div class="J-mask">
+                      <h2>保定</h2>
+                      <h3 title="白洋淀" style="overflow: hidden">白洋淀</h3>
+                  
+                    </div>
+                  </div>
+                </div>
+                <div class="J-price">
+                  <div class="price">电询</div>
+                  <span class="price-but">
+                    <a href="http://www.aitto.net/spots/show_74.html">
+                  <div class="but-txt">购买优惠门票</div>
+                  <div class="but-on">立即抢购</div>
+                  <div class="but-bugle"></div>
+                  </a></span></div>
+              </div>
+            </li>
+                         <li onclick="location.href='http://www.aitto.net/spots/show_73.html'" style="cursor: pointer">
+              <div class="J-inner">
+                <div class="J-img"><img src="http://www.aitto.net/new_uploads/2017/0315/ddb0db792b8ee975faa827d85c834b88.jpg">
+                  <div class="J-magazine">
+                    <div class="J-mask">
+                      <h2>保定</h2>
+                      <h3 title="白石山世界地质公园" style="overflow: hidden">白石山世界地质公园</h3>
+                  
+                    </div>
+                  </div>
+                </div>
+                <div class="J-price">
+                  <div class="price">电询</div>
+                  <span class="price-but">
+                    <a href="http://www.aitto.net/spots/show_73.html">
+                  <div class="but-txt">购买优惠门票</div>
+                  <div class="but-on">立即抢购</div>
+                  <div class="but-bugle"></div>
+                  </a></span></div>
+              </div>
+            </li>
+                      </ul>
+        </div>
+                
+                      </div>
+    </div>
+  </section>
+  <!--------推荐景点 完------------------->
+  <script>
+    //  景点 的切换 js
+    function tab_spots(th){
+      var panel = $(th).attr('data-panel');
+      $(".ctd-tickets").css({
+        'display' : 'none'
+      })
+      $("#spot_"+panel).css({
+        'display' : 'block'
+      })
+    }
+  </script>
+</div>
+
+<footer>
+  <!-- 网站底部 开始-->
+  <div style="clear: both"></div>
+  <div class="footer-server">
+    <div class="J-navbar">
+      <ul>
+        <li>
+          <div class="J-btn-inner"><i class="J-ico01"></i><span class="J-btn-text">丰富品质游</span></div>
+        </li>
+        <li>
+          <div class="J-btn-inner"><i class="J-ico02"></i><span class="J-btn-text">河北领先</span></div>
+        </li>
+        <li>
+          <div class="J-btn-inner"><i class="J-ico03"></i><span class="J-btn-text">旅游一站式服务</span></div>
+        </li>
+        <li>
+          <div class="J-btn-inner"><i class="J-ico04"></i><span class="J-btn-text">价格优惠</span></div>
+        </li>
+        <li>
+          <div class="J-btn-inner"><i class="J-ico05"></i><span class="J-btn-text">资源丰富</span></div>
+        </li>
+        <div class="clearfix"></div>
+      </ul>
+    </div>
+  </div>
+  <div class="container J-top">
+    <div class="footer-box">
+      <div class="footer-about">
+        <div class="footer-logo">
+          <img src="/res/images/common/footer-logo.png" width="278" height="74" class="left">
+          <span>
+                                       <a href="http://www.aitto.net/servers/index_1.html">关于我们</a>|
+                          <a href="http://www.aitto.net/servers/index_2.html">联系我们</a>|
+                          <a href="http://www.aitto.net/servers/index_11.html">商务合作</a>|
+                          
+          </span>
+        </div>
+        <p>2004-2016 © 河北旅游网 ™ aitto.net All rights reserved. Version v5.57 冀ICP备16007967号-1 </p>
+        <p>友情链接：
+            <a href="http://www.waishizuche.com" target="_blank">杭州旅游大巴</a>
+        <a href="http://www.youdongying.net" target="_blank">日本定制游</a>
+        <a href="http://www.ysple.com/" target="_blank">野三坡自驾游攻略</a>
+        <a href="http://www.fengningbashang.com" target="_blank">丰宁坝上草原</a>
+        <a href="http://www.ula365.com" target="_blank">长沙到凤凰</a>
+        <a href="http://www.quyazhou.com" target="_blank">去亚洲</a>
+        <a href="http://www.mtu100.com" target="_blank">长沙到凤凰旅游</a>
+        <a href="http://www.xibuxing.com" target="_blank">青海旅游</a>
+        <a href="http://www.318ly.com" target="_blank">川藏旅游</a>
+        <a href="http://www.huanqiu-tour.com" target="_blank">到新疆旅游</a>
+        <a href="http://www.bscxzy.com" target="_blank">坝上草原旅游</a>
+        <a href="http://www.cqsxly.cn" target="_blank">三峡游轮</a>
+        <a href="http://www.hb-9.com" target="_blank">包团旅游</a>
+        <a href="http://www.guojilvxingshe.com" target="_blank">昆明国际旅行社</a>
+        <a href="http://www.9usz.net" target="_blank">深圳农家乐</a>
+        
+</p>
+      </div>
+      <div class="tel"><img src="/res/images/common/con-tel.png" ></div>
+    </div>
+  </div>
+  <!-- 网站底部 结束-->
+</footer>
+<!-- 网站置顶 开始-->
+<div class="mfw-toolbar toolbar-item-a" id="_j_mfwtoolbar" style="display: block;">
+  <div class="toolbar-item-code"><a class="toolbtn _j_code"> <i class="icon-code"></i> </a>
+    <div class="code-box">
+      <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+      <div class="WeChat"></div>
+    </div>
+  </div>
+  <div class="toolbar-item-top"> <a class="toolbtn _j_gotop"> <i class="icon-top"></i> </a> </div>
+</div>
+<!-- 网站置顶 结束-->
+<script>
+//登陆下拉
+$(document).ready(function(){
+  $(".drop").mouseover(function(){
+      $(this).addClass("hover");
+  $(this).next(".dropdown2").show()
+  });
+  $(".drop").mouseout(function(){
+      $(this).removeClass("hover");
+  $(this).next(".dropdown2").hide()
+  });
+});
+</script> 
+</body>
+</html>
+<script>
+  $("#-j-index-search-input-all").keydown(function(e){
+    if(e.keyCode==13){
+      $('.search-button').click();
+    }
+  });
+  $('.search-button').click(function(){
+    var keyword = $('#-j-index-search-input-all').val();
+    if(keyword == ''){
+      alert("请输入内容");
+      $("#-j-index-search-input-all").focus();
+      return false;
+    }
+    var  selected_li  = $('.tab-selected').attr('data-index');
+    var  durl ;
+    switch (selected_li){
+      case '1' : '目的地';break;
+      case '2' : durl ='spots';break;
+      case '3' : durl ='raiders';break;
+      case '4': durl ='notes';break;
+    }
+    // alert(durl);
+   // return false;
+      var url = "http://www.aitto.net/"+durl+'/all?keyword='+encodeURIComponent(keyword);
+   location.href = url;
+  });
+</script>

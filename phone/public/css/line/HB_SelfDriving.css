@@ -1,0 +1,24 @@
+/*米淘首页 幻灯*/
+.banner{margin-bottom:10px; position:relative;}
+
+.indexPage{ padding-bottom:10px;}
+
+.HB-actList{ margin-top:10px;}
+/*米淘首页 图片列表*/
+.indexPage .HB-actList-box{ position:relative; margin-bottom:10px;}
+.indexPage .HB-actList-box .actImg{position:relative;}
+.indexPage .HB-actList-box .actImg .price{position:absolute; bottom:40px; right:0; height:40px; padding:0 15px; line-height:40px; color:#fff; text-align:center; background:#ff931b;border-bottom-left-radius:25px; border-top-left-radius:25px;}
+.indexPage .HB-actList-box .actImg .price .paymoney{padding-left:15px; font-size:24px; background:url('../../images/mitao/money2.png') no-repeat 0 11px; background-size:16px auto;}
+.indexPage .HB-actList-box .actImg .price .dw{ padding-left:3px;font-size:14px;}
+.indexPage .HB-actList-box .actImg .joincnt{position:absolute; left:0; top:20px; padding:5px 15px; text-align:center; color:#fff; background:#ff931b; border-bottom-right-radius:25px; border-top-right-radius:25px;}
+.indexPage .HB-actList-box .actImg .joincnt.past{background: #f0f0f0; color: #aaa;}
+.indexPage .HB-actList-box .actCon{ background:#f0f0f0; border-bottom:1px solid #ddd; }
+.indexPage .HB-actList-box .actCon li{ float:left; width:33.333%;}
+.indexPage .HB-actList-box .actCon .price i{ padding-left:12px; background:url('../../images/mitao/money.png') no-repeat 0 6px; color:#f75934; background-size:8px auto;}
+.indexPage .HB-actList-box .actCon span{ display: block; color:#8bc53f; font-size:16px;}
+.indexPage .HB-actList-box .actCon  p{ padding:10px;border-right:1px solid #ddd; text-align:center;}
+.indexPage .HB-actList-box  h2{background: rgba(139, 197, 63, 0.8);font-size:18px; max-height:60px; line-height:25px;  position:absolute; bottom:0; left:0; width:100%;  font-weight:bold !important;}
+.indexPage .HB-actList-box  h2 span{ display:block;padding:5px 20px; color:#fff;}
+
+
+

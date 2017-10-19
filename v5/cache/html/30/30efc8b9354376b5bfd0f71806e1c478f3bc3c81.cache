@@ -1,0 +1,825 @@
+3600
+s:57476:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>看满山飞红、游天然溶洞，赢惊喜大奖，10/22自驾紫云山赏红叶！-旅游</title>
+  <script>
+    window.SITEURL = "/";
+    window.CURRENCY_SYMBOL="￥";
+</script>  <link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css,/res/css/mycss/selfDriving/SelfDriving.css" rel="stylesheet"  />
+  <script type="text/javascript"src="/min/?f=/res/js/common/jquery-1.11.3.min.js,/res/js/common/bootsAitto-min.js,/res/js/myjs/selfDriving/bootstrap-SelfDriving.js"></script>
+<style>
+  .box2{
+    display: none;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.52) none repeat scroll 0% 0%;
+    opacity: 1;
+  }
+  .login5{
+    width: 404px;
+    height: 262px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    margin: 150px auto 0px auto;
+  }
+  .login5 .close{
+    background: url(/res/images/img/login_reg.png) 0px 0px no-repeat;
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    right: 10px;
+    top: 15px;
+  }
+</style>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?f968b43cd6404299f54d25d87c3bbe3a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script></head>
+<body class="Color-fafafa">
+<!-- 登陆代码 开始 -->
+
+<link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css" rel="stylesheet"  />
+<header>
+    <div id="commonHead">
+        <div id="commonWarp">
+            <div class="logo" style="cursor:pointer;" onclick="window.location.href='http://www.aitto.net'" ></div>
+        <div class="nav">
+                <ul>
+                    <li class="current st-menu">
+                        <a href="/">首页                        </a>
+                    </li>
+                                                            <li class="st-menu"><a href="http://www.aitto.net/destination/">目的地</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/raiders/">攻略</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/notes/">游记</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/spots/">门票</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/lines/self">自驾游</a></li>
+                                        
+                </ul>
+            </div>
+                  <div class="login-info">
+                <div class="userLogin" id="loginstatus">
+                </div>
+                <div class="head-user drop-trigger" id="-j-head-user">
+                    <a class="" href="#">
+                        <div class="user-ico"></div>
+                        <i class="icon-caret-down"></i>
+                    </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">会员中心</h2>
+                        <div class="dropdown-menu" >
+                            <ul>
+                                <li class="icon-home"><a href="/member/"><i></i>会员首页</a></li>
+                                <li class="icon-order"><a href="/member/order/all"><i></i>我的订单</a></li>
+                                <li class="icon-writenotes"><a href="/member/index/mynotes"><i></i>我的游记</a></li>
+                                <li class="icon-jifen"><a href="/member/index/jifen"><i></i>我的积分</a></li>
+                                <li class="icon-Personal"><a href="/member/index/userinfo"><i></i>个人中心</a></li>
+                                <li class="icon-traveller"><a href="/member/index/linkman"><i></i>常用旅客</a></li>
+                                <li class="icon-logout"><a href="/member/login/loginout"><i></i>退出登录</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-code drop-trigger" id="-j-head-code" > <a class="" href="#">
+                        <div class="code-ico"></div>
+                        <i class="icon-caret-down"></i> </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+                        <div class="drop-con">
+                            <div class="WeChat"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</header>
+<script type="text/javascript">
+    //JQuery
+    $(document).ready(function(){
+        $(document).on("click",
+            function(e) {
+                isActive = $(e.target).parent().attr("class");
+                var  typeid= "1";
+                if (isActive=='head-searchform') {
+                    if(typeid==101){
+                          $(".head-search-focus").css('width',"345px");
+                          $(".head-search-focus .head-searchform input").css('width',"323px");
+                    }
+                    if(typeid==5){
+                        $(".head-search-focus").css('width',"285px");
+                        $(".head-search-focus .head-searchform input").css('width',"263px");
+                    }
+                }
+                else {
+                    if(typeid==101||typeid==5){
+                        $(".head-searchform input").css('width',"108px");
+                        $(".head-search-wrapper").css('width',"130px");
+                    }
+                    $(".head-search-wrapper").removeClass("head-search-focus");
+                }
+            })
+        $("#_j_head_search_input").click(function(){
+            $(".head-search-wrapper").addClass("head-search-focus");
+        });
+    });
+</script>
+<script type="text/javascript"src="/min/?f=/res/js/SuperSlide.min.js,/res/js/base.js,/res/js/common.js,/res/js/myjs/bootstrap.min.js,/res/js/myjs/jquery.select.js,/res/js/common/bootsAitto-min.js"></script>
+<script>
+    var SITEURL = "/";
+    function optionChecked(obj){
+        var typeid = $(obj).attr('data-id');
+        var durl = $(obj).attr('data-url');
+       // alert(typeid+"["+durl);
+        $("#typename").attr('data-id',typeid);
+        $("#typename").attr('data-url',durl);
+    }
+    //====================07.05  s
+    $("a[name=myorder]").click(function(){
+        var  url1 =SITEURL+'member/order/all';//SITEURL 为 '/'
+        var  url =SITEURL+'member/login?redirecturl='+url1;
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status==0){
+                    alert("请先登录");
+                   window.location.href =url;
+                }else{
+                    window.location.href =url1;
+                }
+            }
+        })
+    });
+    //====================07.05  e
+    $(".weixin").mouseover(function(){
+        //  $(this).addClass("hover");
+        $(this).children(".dropdown1").show()
+    });
+    $(".weixin").mouseout(function(){
+        // $(this).removeClass("hover");
+        $(this).children(".dropdown1").hide()
+    });
+   //
+    $(function(){
+        var typeid  = "1";
+        $("#_j_head_search_input").keydown(function(e){
+            if(e.keyCode==13){
+                $('#_j_head_search_link').click();
+            }
+        });
+        $(".searchmodel li:first").trigger('click');
+        //search
+        $('#_j_head_search_link').click(function(){
+            var keyword = $('#_j_head_search_input').val();
+            if(keyword == ''){
+                alert("请输入内容");
+                $("#_j_head_search_link").focus();
+                return false;
+            }
+//            var typeid = $("#typename").attr('data-id');
+//            var durl = $("#typename").attr('data-url');
+//            if(typeid==0 || typeid==8){//0  是全部  8是 签证
+//                var url = SITEURL+'search/cloudsearch?keyword='+encodeURIComponent(keyword)+"&typeid="+typeid;
+//            }else{
+//                var url = "http://www.aitto.net"+durl+'all?keyword='+encodeURIComponent(keyword);
+//            }
+            if(typeid==4){
+                var url = "http://www.aitto.net"+"/raiders/"+'all?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==101){
+                var url = "http://www.aitto.net"+"/notes/list"+'?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==5){
+                var url = "http://www.aitto.net"+"/spots/"+'all?keyword='+encodeURIComponent(keyword);
+            }
+            location.href = url;
+        })
+        //导航的选中状态
+        $(".st-menu a").each(function(){
+            $(".st-menu").removeClass('current');
+            var url= window.location.href;
+            // url=url.replace('index.php','');
+            //url=url.replace('index.html','');
+            var urlArr = url.split("/");
+            var ulink=$(this).attr("href");
+            var urlLinkArr = ulink.split("/");
+             //  定义目的地拼音
+            var pinyin  ="";
+            var  sss   = urlArr[3].split("?");
+            var   p    = sss[0];
+         console.log(urlArr[3]);
+        // console.log(urlLinkArr[3]);
+            if(urlArr[3]==urlLinkArr[3])
+            {
+                $(this).parents('li').addClass('current');
+                return false;
+            }else if(pinyin==p&&urlLinkArr[3]=='destination'&&pinyin.length!=''){
+                $(this).parents('li').addClass('current');
+                return false;
+            }
+            else{
+                if(urlArr[3]!='member'){
+                    $(".st-menu").first().addClass('current');
+                }
+            }
+        })
+        //登陆状态
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status){
+                    $txt = '<a class="dl" style="padding:0" href="javascript:;">你好,</a>';
+                    $txt+= '<a class="dl" href="/member/">'+data.user.nickname+'</a>';
+                    $txt+= '<a class="dl" href="/member/login/loginout">退出</a>';
+                    //$txt+= '<a class="dl" href="/member">个人中心</a>';
+                    $txt = '您好:<a href="/member/">'+data.user.nickname+'</a>';
+                }else{
+                    //$txt = '<a class="dl" href="/member/login">登录</a>';
+                    // $txt+= '<a class="zc" href="/member/register">免费注册</a>';
+                    $txt = '&nbsp;&nbsp;&nbsp;&nbsp;<a href="/member/login">登录</a> | <a href="/member/register">注册</a>';
+                }
+                $("#loginstatus").html($txt);
+            }
+        })
+    })
+</script>
+<script>
+    var s  = 3;
+</script><!-- 登陆代码 结束 -->
+<div class="notebox"></div>
+<section> 
+  <!-- 面包屑 开始 -->
+  <div  class="BreadCrumb Color-fff">
+    <ul >
+      <li><a href="/">首页<i class="icon-gt">&gt;</i></a></li>
+      <li><a href="/lines/self">自驾游<i class="icon-gt">&gt;</i></a></li>
+            <li class="current"><a href="/lines/self/shijiazhuang/">石家庄</a></li>
+          </ul>
+    <div class="clearfix"></div>
+  </div>
+  <!--  面包屑 结束 --> 
+</section>
+<section>
+  <div class="ctd-head-SelfDriving">
+    <div class="container"> 
+    <!--自驾游标题 开始 -->
+    <div class="SelfDriving-Head">
+      <h1><em></em>看满山飞红、游天然溶洞，赢惊喜大奖，10/22自驾紫云山赏红叶！</h1>
+      <div class="d-nav">
+        <ul>
+          <li class="trip-ico"><i></i><span>自驾日期：2017-10-22~2017-10-22</span></li>
+        </ul>
+      </div>
+      <div class="d-price">
+        <div class="d-priceA"></div>
+        <div class="d-priceM"><i>¥</i><b>59</b><dfn>/人起</dfn></div>
+        <div class="d-priceB"  style="padding: 0px 0px">
+          <a href="#orderID" style="padding: 20px 20px">我要<br>
+          预定</a>
+        </div>
+    </div>
+    </div>
+    <!--自驾游标题 结束 --> 
+    </div>
+  </div>
+</section>
+<div class="container">
+      <div class="SelfDriving-img">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="64%" rowspan="2" valign="top"><div class="bigimg"><img src="/new_uploads/2017/1012/3065506cc1edc54b21a915a9d1f38a17.jpg"></div></td>
+            <td width="18%"><div class="smallimg" style="margin-bottom:6px;"><img src="/new_uploads/2017/1012/384e286ede3eb69a8945e1b9976ddbbc.jpg"></div></td>
+            <td width="18%"><div class="smallimg" style="margin-bottom:6px;"><img src="/new_uploads/2017/1012/a76a1108e673749faf283964b7df14ed.jpg"></div></td>
+          </tr>
+          <tr>
+            <td><div class="smallimg"style="margin-top:6px;"><img src="/new_uploads/2017/1012/915cc250d488120694bd8b9b1256355b.jpg"></div></td>
+            <td><div class="smallimg"style="margin-top:6px;"><img src="/new_uploads/2017/1012/ebbd94ee7b079381ca6357c813fcc033.jpg"></div></td>
+          </tr>
+        </table>
+      </div>
+  <section> 
+    <!--门票内容 开始-->
+    <div  class="ctd-SelfDrive-booking" id="orderID" >
+      <div class="tab-nav">
+        <ul data-toggle="tabs">
+          <li class="current"><a href="javascript:void(0)" >预定价格</a></li>          
+        </ul>
+      </div>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+          <tr>
+            <th><div class="text-left">套餐名称</div>
+            </th>
+            <th width="15%">成人价/人</th>
+            <th width="10%">儿童价/人</th>
+            <th width="10%">老人价/人</th>
+            <th width="15%">预定 </th>
+          </tr>
+                                                  <tr>
+            <td>
+              <div class="text-left">自驾紫云山费用                <a href="javascript:;" class="TableDetail-btn" ><i></i></a>
+              </div>
+            </td>
+            <td>￥59</td>
+            <td>￥20</td>
+            <td>暂无</td>
+            <td><div class="booking-but"><a class="booking-btn one" href="javascript:;" data-suitid="48" data-lineid="39" data-endtime="2017-10-22"  data-chatime="1" >在线预定</a></div></td>
+          </tr>
+          <tr class="ticket-detail">
+            <td colspan="5" class="show-TableDetail"><div class="TableDetail-box"> <i class="arrow"></i>
+                <div class="TableDetail-pane">
+                 <p>
+                                    </p>
+                </div>
+                <div class="TableDetail-back">收起<i></i></div>
+              </div></td>
+          </tr>
+                    
+        </tbody>
+      </table>
+    </div>
+    <!--门票内容 结束--> 
+  </section>
+      <section>
+    <div class="ctd-SelfDrive-body"> 
+      <!-- 导航随屏置顶开始 -->
+      <div id="ctd-SelfDriveM-box">
+        <div class="ctdF-Case J-relative">
+          <div class="ctdF-nav" >
+            <ul data-toggle="J-tabs">
+                                          <li class="current"><a href="#p0">自驾详情</a></li>
+                                                                        <li ><a href="#p2">活动说明</a></li>
+                                                          <li ><a href="#p3">费用包含</a></li>
+                                            <li><a href="#p7">用户点评</a></li>
+            </ul>
+            <a href="#orderID" class="btn PresetBtn" >我要购买</a> </div>
+        </div>
+      </div>
+      <!-- 导航随屏置顶结束 -->
+      <div class="ctd-main"> 
+        <!--门票详情 开始-->
+        <div class="ctd-content">
+                              <div class="ctd-chapter"><a class="ctd-anchor0" id="p0"></a>
+            <div class="SelfDriveM-Tit"> <span> <i class="detail-icon-2">自驾详情 </i> <i class="detail-icon-t"> </i></span></div>
+            <div class="ctd-con">
+              <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; white-space: normal; text-align: center; line-height: 1.75em; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; color: rgb(136, 136, 136);">无论你是摄影达人</span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; white-space: normal; text-align: center; line-height: 1.75em; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; color: rgb(136, 136, 136);">还是自驾狂魔</span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; white-space: normal; text-align: center; line-height: 1.75em; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; color: rgb(136, 136, 136); font-size: 14px; line-height: 1.75em;">最不该错过的就是紫云山的秋天</span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; white-space: normal; text-align: center; line-height: 1.75em; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; color: rgb(136, 136, 136); font-size: 14px; line-height: 1.6;">这里有数不清的曼妙姿态</span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; white-space: normal; text-align: center; line-height: 1.75em; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; color: rgb(136, 136, 136); font-size: 14px; line-height: 1.6;">看不尽的漫山红遍</span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; white-space: normal; text-align: center; line-height: 1.75em; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; color: rgb(136, 136, 136); font-size: 14px; line-height: 1.6;">品不完的层林浸染</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; white-space: normal; text-align: center; line-height: 1.75em; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; color: rgb(255, 41, 65);"><strong style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; line-height: 22.4px;">10月22日</span></strong></span><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; line-height: 22.4px; color: rgb(136, 136, 136);">我们一起自驾<span style="margin: 0px; padding: 0px; max-width: 100%; line-height: 22.4px; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">紫云山</strong></span></span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; line-height: 25.6px; white-space: normal; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; color: rgb(136, 136, 136);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; line-height: 22.4px;">赏红叶、拍美景、赢大奖</span></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; line-height: 25.6px; white-space: normal; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; color: rgb(136, 136, 136);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; line-height: 22.4px;"><br/></span></span></p><p style="text-align: center;"><span style="text-align: center;">————</span>· &nbsp;活动概述 &nbsp;·<span style="text-align: center;">————</span></p><p><br/></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; line-height: 25.6px; white-space: normal; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; color: rgb(255, 41, 65); font-size: 14px; line-height: 22.4px;">看满山飞红、游天然溶洞</span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; line-height: 25.6px; white-space: normal; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; color: rgb(255, 41, 65); font-size: 14px; line-height: 22.4px;">观百丈瀑布、<span style="margin: 0px; padding: 0px; max-width: 100%; line-height: 22.4px; box-sizing: border-box !important; word-wrap: break-word !important;">望紫云缭绕</span></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; line-height: 25.6px; white-space: normal; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; color: rgb(255, 41, 65); font-size: 14px; line-height: 22.4px;"><span style="margin: 0px; padding: 0px; max-width: 100%; line-height: 22.4px; box-sizing: border-box !important; word-wrap: break-word !important;">拍绝世美景、赢惊喜大奖</span></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; line-height: 25.6px; white-space: normal; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; line-height: 22.4px; color: rgb(136, 136, 136);"><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; line-height: 25.6px; white-space: normal; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; line-height: 22.4px; color: rgb(136, 136, 136);">错过等一年的观紫云山红叶之旅</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; line-height: 25.6px; white-space: normal; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; line-height: 22.4px; color: rgb(136, 136, 136);">10月22日启程</span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; line-height: 25.6px; white-space: normal; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; color: rgb(136, 136, 136);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; line-height: 22.4px;">准备好双眼以及相机</span></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; line-height: 25.6px; white-space: normal; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; line-height: 22.4px; color: rgb(136, 136, 136);">Ready ?go！</span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; line-height: 25.6px; white-space: normal; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; line-height: 22.4px; color: rgb(136, 136, 136);"><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"/></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; line-height: 25.6px; white-space: normal; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; line-height: 22.4px; color: rgb(255, 41, 65);">59元/成人</span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; line-height: 25.6px; white-space: normal; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; line-height: 22.4px; color: rgb(255, 41, 65);">10月20日截止报名，等你来~</span></p>            </div>
+          </div>
+                                          <div class="ctd-chapter"><a class="ctd-anchor0" id="p1"></a>
+            <div class="SelfDriveM-Tit"> <span> <i class="detail-icon-2">线路特色 </i> <i class="detail-icon-t"> </i></span></div>
+            <div class="ctd-con">
+              <p style="white-space: normal; text-align: center;">​<img src="http://www.aitto.net/uploads/arcimgs/54391507791516.jpg" alt="" title=""/></p><p style="white-space: normal; text-align: center;"><span style="color: rgb(255, 0, 0); font-size: 14px;">霜叶红于二月花</span></p><p style="white-space: normal; text-align: center;"><img src="http://www.aitto.net/uploads/arcimgs/21581507791516.jpg" alt="" title=""/></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">紫云山植被颇为茂盛</span></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">松柏椿藤，山花野菊，遍布山峦</span></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">原始次生林，阵阵松涛让人浮想联翩</span></p><p style="white-space: normal; text-align: center;"><img src="http://www.aitto.net/uploads/arcimgs/11681507791516.jpg" alt="" title=""/></p><p style="white-space: normal; text-align: center;"><img src="http://www.aitto.net/uploads/arcimgs/73481507791516.jpg" alt="" title=""/></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">深秋时节的紫云山秋色正浓</span></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">漫山遍野的黄栌树，迎晖饮露</span></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">叶焕丹红，如火如荼</span></p><p style="white-space: normal; text-align: center;"><img src="http://www.aitto.net/uploads/arcimgs/18091507791516.jpg" alt="" title=""/><img src="http://www.aitto.net/uploads/arcimgs/75751507791516.jpg" alt="" title=""/></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">放眼远眺，层层叠叠，五彩斑斓</span></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">犹如漫山遍野镶嵌了朵朵团绣</span></p><p style="white-space: normal; text-align: center;"><img src="http://www.aitto.net/uploads/arcimgs/44781507791516.jpg" alt="" title=""/></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">自上而下铺来一条五颜六色的挂毯</span></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">群山在迷雾中如梦如幻</span></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">红叶绚丽得迷人眼帘</span></p><p style="white-space: normal; text-align: center;"><img src="http://www.aitto.net/uploads/arcimgs/72001507791516.jpg" alt="" title=""/><img src="http://www.aitto.net/uploads/arcimgs/15771507791516.jpg" alt="" title=""/></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">群山被红叶遮掩，水被红叶浸染</span></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">路被红叶铺成，一丛丛、一片片</span></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">红得炽热，红得诱人</span></p><p style="white-space: normal; text-align: center;"><img src="http://www.aitto.net/uploads/arcimgs/88141507791516.jpg" alt="" title=""/><img src="http://www.aitto.net/uploads/arcimgs/77171507791516.png" alt="" title=""/></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">黄灿灿如醉金落满枝头，红彤彤似晚霞醉染山谷</span></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">令人仿佛进入“十里画屏、红叶海洋”的梦幻世界</span></p><p style="white-space: normal; text-align: center;"><img src="http://www.aitto.net/uploads/arcimgs/56391507791516.jpg" alt="" title=""/></p><p style="white-space: normal; text-align: center;"><img src="http://www.aitto.net/uploads/arcimgs/47581507791516.jpg" alt="" title=""/></p><p style="white-space: normal; text-align: center;"><span style="color: rgb(255, 0, 0); font-size: 14px;">大奖来了</span></p><p style="white-space: normal; text-align: center;"><span style="font-size: 14px;">你以为收获的只有美景么？<br/></span><span style="font-size: 14px;">不，你收获的还有神秘大奖<br/></span><span style="font-size: 14px;">将你看到的紫云山美景发送到朋友圈<br/></span><span style="font-size: 14px;">就有可能赢得</span><span style="font-size: 14px; color: rgb(255, 0, 0);">价值100元</span><span style="font-size: 14px;">的礼品！<br/></span><span style="font-size: 14px;">等 等，还有<br/></span><span style="font-size: 14px;">每一辆车都会获得我们的</span><span style="font-size: 14px; color: rgb(255, 0, 0);">贴心伴手礼</span><span style="font-size: 14px;">一份<br/></span><span style="font-size: 14px;">​一车一份，车车有份</span></p><div style="text-align: center;"><img src="http://www.aitto.net/uploads/arcimgs/15951507791516.jpg" alt="" title="" style="font-size: 16px;"/></div><p><br/></p>            </div>
+          </div>
+                                          <div class="ctd-chapter"><a class="ctd-anchor0" id="p2"></a>
+            <div class="SelfDriveM-Tit"> <span> <i class="detail-icon-2">活动说明 </i> <i class="detail-icon-t"> </i></span></div>
+            <div class="ctd-con">
+              <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: 微软雅黑; white-space: normal; line-height: 2em; letter-spacing: 1.5px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">1、<span style="color: rgb(62, 62, 62); font-family: 微软雅黑; font-size: 14px; letter-spacing: 1.5px; line-height: 32px; background-color: rgb(255, 255, 255);">购买后请联系客服小游游付款</span></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: 微软雅黑; white-space: normal; line-height: 2em; letter-spacing: 1.5px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">2、山中天气较凉，当天请穿戴厚外套</span></p>            </div>
+          </div>
+                                          <div class="ctd-chapter"><a class="ctd-anchor0" id="p3"></a>
+            <div class="SelfDriveM-Tit"> <span> <i class="detail-icon-2">费用包含 </i> <i class="detail-icon-t"> </i></span></div>
+            <div class="ctd-con">
+              <p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: 微软雅黑; white-space: normal; line-height: 2em; letter-spacing: 1.5px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-size: 14px; letter-spacing: 1px; color: rgb(255, 41, 65);"><strong style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">报名费用：</strong></span><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; color: rgb(136, 136, 136); font-size: 14px; letter-spacing: 1px;"></span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: 微软雅黑; font-size: 14px; white-space: normal; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; color: rgb(136, 136, 136); letter-spacing: 1px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">成人59元/人：门票、午餐、保险费、领队服务费；</span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: 微软雅黑; font-size: 14px; white-space: normal; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; color: rgb(136, 136, 136); letter-spacing: 1px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">1.2米以上同成人；</span></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(62, 62, 62); font-family: 微软雅黑; font-size: 14px; white-space: normal; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; max-width: 100%; color: rgb(136, 136, 136); letter-spacing: 1px; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">1.2米以下儿童20元/人：含午餐、保险费、领队服务费。</span></p><p><br/></p>            </div>
+          </div>
+                                <!---------用户点评------->
+          <div class="ctd-chapter"><a class="ctd-anchor0" href="#" id="p7"></a>
+            <div class="SelfDriveM-Tit"> <span> <i class="detail-icon-4"> 用户点评 </i> <i class="detail-icon-t"> </i> </span></div>
+            <div class="ctd-comment">
+              <div class="ebmc-content">
+                <div class="ebm-title">发表评论</div>
+                <div class="nchcomments-box nch-box">
+                  <a title="" class="nchimg">
+                    <img src="/uploads/main/allimg/20150923/20150923143441.jpg">
+                  </a>
+                  <div class="nchtextarea right">
+                    <i class="tip-icon--left-sangle"></i>
+                    <textarea class="ebmc-textarea" cols="30" rows="10" placeholder="说点什么吧..."  maxlength="500" id="report_area" onkeyup="zifu(this)"></textarea>
+                    <span class="tbmac-tip tbmac-tip-normal">已输入<b><em>0</em>/500</b>字</span>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="ebmc-info">
+                  <a href="javascript:;" class="ebmc-button tj-btn">评论</a>
+                </div>
+              </div>
+              <div class="ebmc-list">
+                <ul id="result_list">
+                </ul>
+                <div class="pages Pagination" >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ctd-side">
+        <div class="side-box sid-Recommend">
+          <h4>精彩活动推荐</h4>
+          <ul>
+                        <a href="/lines/self_show_21.html">
+              <li>
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/0317/f5445dedd6a514a67966ec9f1881983c.jpg"/><div class="note-price"><strong></strong><span>￥<em>0</em></span> </div></div>
+                <div class="note-con">
+                  <h5>[乐游团]免费洞阳坡自驾一日游</h5>
+                </div>
+              </li>
+            </a>
+                        <a href="/lines/self_show_37.html">
+              <li>
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/1012/384e286ede3eb69a8945e1b9976ddbbc.jpg"/><div class="note-price"><strong></strong><span>￥<em>59</em></span> </div></div>
+                <div class="note-con">
+                  <h5>看满山飞红、游天然溶洞，赢惊喜大奖，10/22自驾紫云山赏红叶！</h5>
+                </div>
+              </li>
+            </a>
+                        <a href="/lines/self_show_38.html">
+              <li>
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/1012/874f8f7d9062f4683d4fb374ff06f527.gif"/><div class="note-price"><strong></strong><span>￥<em>49</em></span> </div></div>
+                <div class="note-con">
+                  <h5>仅需49元：回归山野、登山闯关、品尝美食，10/29滚龙沟等你来！</h5>
+                </div>
+              </li>
+            </a>
+                        <a href="/lines/self_show_28.html">
+              <li>
+                <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/0425/f99a3d5fa8c34d520f587a5806dce8a2.jpg"/><div class="note-price"><strong>出发地:石家庄</strong><span>￥<em>20</em></span> </div></div>
+                <div class="note-con">
+                  <h5>5月6日 鹁鸽崖 “野”游，不来怎么知道不是你的菜</h5>
+                </div>
+              </li>
+            </a>
+                      </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+</div>
+<div class="box2">
+  <div class="login5">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="/res/images/myimages/active_01.jpg"></td>
+      </tr>
+      <tr>
+        <td><a href="/lines/self/all"><img src="/res/images/myimages/active_02.jpg"></a></td>
+      </tr>
+    </table>
+    <a class="close"></a>
+  </div>
+</div>
+<!-----评论用到的参数-------->
+<input type="hidden" id="dockid" value="0"/>
+<input type="hidden" id="user" value=""/>
+<input type="hidden" id="productid" value="39"/>
+<!-----评论用到的参数-------->
+<!----分页----->
+<input type="hidden" name="offset" id="offset" value="">
+<input type="hidden" name="page" id="page" value="1">
+<input type='hidden' id='next1' value="">
+<!----分页------->
+
+<div style="clear: both"></div>
+<div class="footer">
+  <!-- 网站底部 开始-->
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-r">
+        <div class="code">
+          <p><img src="/res/images/erweima.jpg"></p>
+          <h3>河北旅游网微信公众号</h3>
+        </div>
+        <div class="code">
+          <p><img src="/res/images/erweima2.jpg"></p>
+          <h3>米淘亲子游微信公众号</h3>
+        </div>
+      </div>
+      <ul class="footer-l">
+        <li>
+          <h2>联系我们</h2>
+          <p>全国统一客服电话：<span>0311-87885822</span></p>
+          <p>意见邮箱：3011930149@qq.com</p>
+        </li>
+        <li class="ab-list"><h2>关于我们</h2>
+                              <a href="http://www.aitto.net/servers/index_1.html">关于我们</a>
+                    <a href="http://www.aitto.net/servers/index_2.html">联系我们</a>
+                    <a href="http://www.aitto.net/servers/index_11.html">商务合作</a>
+                    
+        <li class="dh-list"><h2>站点导航</h2>
+                              <a href="http://www.aitto.net/destination/">目的地</a>
+                    <a href="http://www.aitto.net/raiders/">攻略</a>
+                    <a href="http://www.aitto.net/notes/">游记</a>
+                    <a href="http://www.aitto.net/spots/">门票</a>
+                    <a href="http://www.aitto.net/lines/self">自驾游</a>
+                    
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <span style="color:#c2c2c2;margin-bottom: 4px;display: inline-block;">友情连接：</span>
+    <div class="footer-link">
+      <p>
+            
+</p>
+    </div>
+    <div class="footer-bottom">
+      <p>2004-2016 © 河北旅游网 ™ aitto.net All rights reserved. Version v5.57 冀ICP备16007967号-1<br />
+        营业执照新出网证（京）字242号 </p>
+    </div>
+  </div>
+  <!-- 网站底部 结束-->
+</div>
+<!-- 网站置顶 开始-->
+<div class="mfw-toolbar toolbar-item-a" id="_j_mfwtoolbar" style="display: block;">
+  <div class="toolbar-item-code"><a class="toolbtn _j_code"> <i class="icon-code"></i> </a>
+    <div class="code-box">
+      <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+      <div class="WeChat"></div>
+    </div>
+  </div>
+  <div class="toolbar-item-top"> <a class="toolbtn _j_gotop"> <i class="icon-top"></i> </a> </div>
+</div>
+<!-- 网站置顶 结束-->
+<script>
+//登陆下拉
+$(document).ready(function(){
+  $(".drop").mouseover(function(){
+      $(this).addClass("hover");
+  $(this).next(".dropdown2").show()
+  });
+  $(".drop").mouseout(function(){
+      $(this).removeClass("hover");
+  $(this).next(".dropdown2").hide()
+  });
+});
+</script> 
+</body>
+</html>
+<script type="text/javascript"src="/min/?f=/res/js/floatmenu/floatmenu.js,/res/js/myjs/jquery.jcarousel.min.js,/res/js/myjs/jcarousel.connected-carousels.js"></script>
+<link type="text/css" href="/res/js/floatmenu/floatmenu.css" rel="stylesheet" />
+<script type="text/javascript"src="/min/?f=/res/js/SuperSlide.min.js,/res/js/template.js,/res/js/scorll.img.js"></script>
+<script type="text/javascript" src="/res/js/layer/layer.js"></script>
+<script type="text/javascript">
+  function zifu(th){
+    var thisval=$(th).val().length*1;
+    var shengyu = 500-thisval;
+    if(shengyu>0) {
+      var html = "已输入<b><em>" + thisval + "</em>/" + shengyu + "</b>字";
+      $(th).next('span').html(html);
+    }else{
+      layer.msg('不能输入了', {
+        icon: 5
+      })
+      return false;
+    }
+  }
+</script>
+<script>
+  //  这段 js  是 提交评论的
+  $(function(){
+    $('.one').click(function(){
+      var cha_time  =$(this).attr("data-chatime");
+      var suitid    = $(this).attr("data-suitid");
+      var lineid    = $(this).attr("data-lineid");
+      var endtime   = $(this).attr("data-endtime");
+      if(cha_time==-1){
+         $('.box2').show();
+        // alert("活动已过期，请选择其他活动")
+       }else{
+           var url ="/lines/book/?usedate="+endtime+"&lineid="+lineid+"&suitid="+suitid;
+        window.location.href =url;
+      }
+    });
+    $(".close").click(function () {
+      $(".box2").hide();
+    });
+    //回复
+    $(".reply_btn").click(function(){
+      $("#dockid").val($(this).attr('data-replyid'));
+    })
+    //登陆状态
+    $.ajax({
+      type:"POST",
+      url:SITEURL+"member/login/ajax_is_login",
+      dataType:'json',
+      success:function(data){
+        if(data.status){
+          var txt = data.user.mid;
+        }else{
+          var txt = '';
+        }
+        $("#user").val(txt);
+      }
+    })
+    //提交问答
+    $(".tj-btn").click(function(){
+      var user      = $("#user").val();
+      var urls      = window.location.href;//获取当前页面的地址 当做重定向地址
+      if(user.length!=0){
+        var url = '/member/login/?redirecturl='+urls;//
+        window.location.href  =url ;
+      }else {
+        var articleid = $("#productid").val();
+        var dockid = $("#dockid").val();
+        var checkcode = $("#checkcode").val();
+        var typeid = 1;
+        var nickname = $("#nickname").val();
+        var content = $("#report_area").val();
+        if (content.length < 5) {
+          layer.msg('回复内容最少5个字符', {
+            icon: 5
+          })
+          return false;
+        }
+        $.ajax({
+          type: 'POST',
+          url: SITEURL + 'spot/ajax_add_comment',
+          data: {
+            articleid: articleid,
+            content: content,
+            checkcode: checkcode,
+            nickname: nickname,
+            typeid: typeid,
+            dockid: dockid
+          },
+          success: function (data) {
+            if (data == 1) {
+              layer.msg('验证码错误', {
+                icon: 5
+              })
+              //重新加载验证码
+              $("#imgcheckcode").attr('src', "/captcha?" + Math.random());
+            } else if (data == 3) {
+              layer.msg('回复成功', {
+                icon: 6,
+                time: 1500
+              });
+              location.reload();
+            } else {
+              layer.msg('回复失败,请联系管理员', {
+                icon: 5
+              })
+            }
+            $("#limit").val(1);//在每个 模块的的show 页面都要写上这个
+          }
+        })
+      }
+    })
+  });
+</script>
+<script type="text/javascript">
+  var pagesize  = 5;//0;//0;//0;//每页的页数
+  $(document).ready(function(){
+    $(function () {
+      var  s ='';
+      //第一次加载数据
+      get_data(s);
+    });
+  });
+  function get_data(s) {
+    var offset    = $("#offset").val().length==""? 0:$("#offset").val();//  每页的开始 也是 limit 第1个参数
+    var articleid = "39";//   门票的 id
+    var typeid    = 1;//  模型的 id
+    $.ajax({
+      type: "POST",
+      url: SITEURL + 'article/ajax_get_comment',
+      async:false,
+      dataType: "json",
+      data: {pagesize:pagesize,offset:offset,articled:articleid,typeid:typeid},
+      success: function(data){
+        var page1      =$("#page").val()*1;//   当前页面
+        var itemHtml = "";
+        var pages    = "";
+        $("#result_list").empty();
+        $(".Pagination").empty();
+        if(s==''){
+        }else if(s=='pre'){
+          $("#page").val(page1*1-1);
+        }else if(s=='next'){
+          $("#page").val(page1*1+1);
+        }else{
+          $("#page").val(s*1);
+        }
+//        var  page3 =  $("#page").val()*1;//   当前页面
+//        var  p    = (page3-1)*pagesize;
+        if(data.length!=0){
+          for(var i=0;i<data.length;i++){
+            itemHtml +="<li>";
+            if(data[i].litpic==null){
+              itemHtml +="<div class='user-img'><img src='/uploads/main/allimg/20150923/20150923143441.jpg'></div>";
+            }else{
+              itemHtml +="<div class='user-img'><img src='"+data[i].litpic+"'></div>";
+            }
+            if(data[i].nickname==null){
+              itemHtml +="<div class='textarea-box'> <span class='comments-name'>"+data[i].wx_nickname+"</span>";
+            }else{
+              itemHtml +="<div class='textarea-box'> <span class='comments-name'>"+data[i].nickname+"</span>";
+            }
+            itemHtml +="<span class='comments-h2'>"+data[i].content+"</span>";
+            itemHtml +="<span class='comments-time'>"+data[i].addtime+"</span></div>";
+            itemHtml +="</li>";
+          }
+        }else{
+          itemHtml +="<li>";
+          itemHtml +="没有相关数据";
+          itemHtml +="</li>";
+        }
+        var page2      =$("#page").val()*1;//   当前页面
+        //  定义 系数
+        var coefficient = Math.floor((page2-1)/pagesize);
+        //   定义 开始和结束 页面
+        var startpage    = coefficient*pagesize+1;
+        var endpage      = coefficient*pagesize+2;
+        endpage   =  endpage>data[0]['totalpage'] ? data[0]['totalpage'] : endpage;
+        if(data[0]['totalpage']!=0){
+          pages  +="<div id='Pagination'><div class='pagination'>";
+          pages  +="<a class='uPrevpage' onclick='page(1)'><i></i>首页</a>";
+          pages  += "<a class='uPrevpage' onclick='pre()'><i></i>上一页</a>";
+          for(var j=startpage;j<=endpage;j++){
+            pages  += "<a href='javascript:' onclick='page("+j+")' ";
+            if(page2==j) {
+              pages += " class='current' ";
+            }
+            pages  += ">"+j+"</a>" ;
+          }
+          pages  += "<a class='next' onclick='next()'>下一页 <i></i></a>";
+          pages  += "<a class='next' onclick='page("+data[0]['totalpage']+")'>尾页 <i></i></a>";
+          pages  += "</div></div>";
+          pages  += "<div class='searchPage'>";
+          pages  += "<span class='page-sum'>共<strong class='allPage'>"+data[0]['totalpage']+"</strong>页</span>";
+          pages  += "<span class='page-go'>跳转<input type='text'>页</span>";
+          pages  += "<a href='javascript:;' class='page-btn' data-all='"+data[0]['totalpage']+"' onclick='skip(this)'>GO</a>";
+          pages  += "</div>&nbsp;&nbsp;";
+        }
+        $("#result_list").append(itemHtml);
+        $(".Pagination").append(pages);
+        $("#next1").val(data[0]['totalpage']);
+      }
+    });
+  }
+  function page(s){
+    var offset ="";
+    offset = (s*1-1) * pagesize;//  2 位每页显示数；
+    $("#offset").val(offset);
+    get_data(s);
+  }
+  function pre(){
+    var offset ="";
+    var s   ='pre';
+    var cur_page    = $("#page").val();
+    var prepage = cur_page*1-1;
+    if(prepage==0){
+      return false;
+    }else {
+      offset = (prepage - 1) * pagesize;//  2 位每页显示数；
+      $("#offset").val(offset);
+      get_data(s);
+    }
+  }
+  function next(){
+    var offset ="";
+    var s   ='next';
+    // var cur_page    = $(".on").attr("data-page");
+    var cur_page    = $("#page").val()*1;//attr("data-page");
+    var total    = $("#next1").val()*1;//("data-total")*1;
+    var nextpage = cur_page*1+1;
+    if(total+1<=nextpage){
+      return false;
+    }else{
+      offset =(nextpage-1)*pagesize;//  2 位每页显示数；
+      $("#offset").val(offset);
+      get_data(s);
+    }
+  }
+  /*
+   跳转
+   */
+  function  skip(th){
+    var  pages =  $(th).prev('span').find('input').val()*1;
+    if(!isNaN(pages)){
+      var  allpages = $(th).attr('data-all')*1;
+      if(pages<1){layer.msg('请输入 数字', {icon: 5  }); return false;}
+      if( pages >allpages){layer.msg('请输入 数字', {icon: 5  }); return false;}
+      page(pages);
+    }else{
+      layer.msg('请输入 数字', {
+        icon: 5
+      })
+    }
+  }
+</script>";

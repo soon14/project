@@ -1,0 +1,9 @@
+
+[notify_url:(Pay_Pc_WxPay)20160810110317]
+[notify_url:20160810110317 appid=wxdf8497303505ae0d bank_type=COMM_DEBIT cash_fee=1 fee_type=CNY is_subscribe=Y mch_id=1327381201 nonce_str=zv743xq49k0tgwfclcrqo3oislr66cqu openid=oyq3hv5bo624jLfbmyqcYd4XD2gk out_trade_no=05981824515803 result_code=SUCCESS return_code=SUCCESS sign=67142390B2EA701DABA63D0D7D2E7465 time_end=20160810110317 total_fee=1 trade_type=NATIVE transaction_id=4004402001201608101001704702]
+[notify_url:(Pay_Pc_WxPay)20160810115326]
+[notify_url:20160810115326 appid=wxdf8497303505ae0d bank_type=COMM_DEBIT cash_fee=1 fee_type=CNY is_subscribe=Y mch_id=1327381201 nonce_str=1yskh4ahf05jczsn3ch1nj1fgdgtkdcf openid=oyq3hv5bo624jLfbmyqcYd4XD2gk out_trade_no=0508026968 result_code=SUCCESS return_code=SUCCESS sign=B374799E9EEBC705897D0B29C92EF1E0 time_end=20160810115326 total_fee=1 trade_type=NATIVE transaction_id=4004402001201608101005793595]
+[notify_url:(Pay_Pc_WxPay)20160810140929]
+[notify_url:20160810140929 appid=wxdf8497303505ae0d bank_type=CFT cash_fee=1 fee_type=CNY is_subscribe=Y mch_id=1327381201 nonce_str=b58aa4eqdmc3a7my6lsv078z448wt8gm openid=oyq3hvxjvrjPXkFL2g-Vgjl4OmcY out_trade_no=05093446609041 result_code=SUCCESS return_code=SUCCESS sign=63F37365FCAC274295F956DECC5F2BD3 time_end=20160810140929 total_fee=1 trade_type=NATIVE transaction_id=4002132001201608101017131221]
+[notify_url:(Pay_Pc_WxPay)20160810143115]
+[notify_url:20160810143115 appid=wxdf8497303505ae0d bank_type=COMM_DEBIT cash_fee=2 fee_type=CNY is_subscribe=Y mch_id=1327381201 nonce_str=qy59uy1pcrwriwsne9k9pfotjcsgu2tt openid=oyq3hv5bo624jLfbmyqcYd4XD2gk out_trade_no=05106538420942 result_code=SUCCESS return_code=SUCCESS sign=9DD312A916E01198460951A2E10FF96E time_end=20160810143115 total_fee=2 trade_type=NATIVE transaction_id=4004402001201608101019560099]

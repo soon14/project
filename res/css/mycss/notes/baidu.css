@@ -1,0 +1,95 @@
+.travelInfo {
+	padding: 20px
+}
+.fixed {
+	position: fixed !important;
+}
+.travelInfo .travelModeList_pic {
+	margin: 10px 0 0 110px;
+	padding: 0 0 0 40px;
+	position: relative;
+	border-left: 1px solid #ddd;
+	z-index:1;
+}
+.travelInfo .travelModeList_pic .daybox .headline-1,.travelInfo .travelModeList_pic .daybox .headline-2 { background:url(../images/dayhead.png) no-repeat;
+    height:60px;
+	margin: 10px 0;
+}
+.sideCatalog-item1, .sideCatalog-item2 {
+	margin: 0 0 6px;
+	padding: 0 7px;
+	position: relative;
+}
+.travelInfo .travelModeList_pic .daybox .headline-1 span,.travelInfo .travelModeList_pic .daybox .headline-2 span {
+	padding-left: 50px;
+	margin-right: 1em;
+	display: block;
+	font-size: 25px;
+	line-height: 40px;
+	height: 40px;
+	font-weight: 400;
+	color: #333;
+}
+.daybox_detail {
+	min-height: 200px;
+	color: #333;
+	margin-bottom: 20px;
+}
+.daybox_detail p {
+	font-size: 16px;
+	line-height: 32px;
+	word-break: break-all;
+	margin-top: 20px;
+}
+#leftightSideShow {
+	padding: 0 0;
+	position: absolute;
+	left: -186px;
+	top: -5px; z-index:999;
+}
+#sideCatalog-catalog {
+	max-height: 410px;
+	top: 0px;
+	overflow: hidden;
+	padding-left: 23px;
+	position: relative;
+	padding-bottom: 20px;
+}
+#sideCatalog-catalog dl {
+	position: relative;
+}
+#sideCatalog-catalog .sideCatalog-item1 a,#sideCatalog-catalog .sideCatalog-item2 a {
+	padding-right:35px;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	color: #333;
+	font-size: 12px;
+	text-align: right;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+#sideCatalog-catalog .sideCatalog-item1 i,#sideCatalog-catalog .sideCatalog-item2 i{
+	position: absolute;
+	top: 5px;
+	right:0;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	z-index: 9999;
+	line-height: 30px;}
+#sideCatalog-catalog .sideCatalog-item1 i {
+	background: url(../images/add01.png) no-repeat;
+}
+#sideCatalog-catalog .sideCatalog-item1.active i {
+	background: url(../images/add02.png) no-repeat;
+}
+#sideCatalog-catalog .sideCatalog-item2 i {
+	background: url(../images/add03.png) no-repeat;
+}
+#sideCatalog-catalog .sideCatalog-item2.active i {
+	background: url(../images/add04.png) no-repeat;
+}
+
+

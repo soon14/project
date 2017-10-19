@@ -1,0 +1,680 @@
+@charset "utf-8";
+/* 结伴 */
+.st-jieban-menubox{
+	float:left;
+	width:100%;
+	padding:20px 0;
+	background:#fefefe;
+	border-bottom:1px solid #ccc}
+.jb-dest-ui,
+.jb-attr-ui,
+.jb-date-ui,
+.jb-day-ui{
+	float:left;
+	height:40px;
+	margin-right:10px;
+	position:relative}
+.ui-input{
+	padding:0 15px;
+	margin:0;
+	color:#666;
+	width:180px;
+	height:38px;
+	line-height:38px;
+	font-size:14px;
+	border:1px solid #ccc}
+.bd-color{
+	border:1px solid #ffa800}
+.jb-date-ui .ui-input{
+	width:228px}
+.jb-search-btn{
+	float:right;
+	color:#fff;
+	height:40px;
+	line-height:40px;
+	padding:0 30px;
+	font-size:16px;
+	background:#ffa800;
+	border-radius:20px}
+.jb-search-btn:hover{
+	background:#ff8a00}
+
+.zt-conbox,
+.ts-conbox,
+.rp-conbox{
+  background-color:#fff;
+  border:1px solid #d5d5d5;
+  box-shadow:2px 2px 2px rgba(0,0,0,.1);
+  position:absolute;
+  z-index:10}
+.zt-conbox ul,
+.ts-conbox ul{
+	width:190px;
+	padding:0 10px}
+.rp-conbox ul{
+	width:238px;
+	padding:0 10px}
+.zt-conbox ul a,
+.ts-conbox ul a,
+.rp-conbox ul a{
+  display:block;
+  height:48px;
+  line-height:48px;
+	padding:0 10px;
+  border-bottom:1px solid #efefef;
+  color:#666;
+  font-size:14px;
+  position:relative;
+  overflow:hidden}
+.rp-conbox ul a span{
+  float:right;
+  color:#999;
+  font-size:12px}
+.rp-conbox ul a span em{
+	padding-right:3px;
+  font-style:normal;
+  font-size:18px;
+	font-family:Arial, Helvetica, sans-serif}
+.zt-conbox ul a:hover,
+.ts-conbox ul a:hover,
+.rp-conbox ul a:hover{
+	color:#ff9d00}
+
+/*首页*/
+.st-jieban-home-top{
+	float:left;
+	width:100%;
+	min-width:1200px;
+	height:380px;
+	overflow:hidden;
+	position:relative}
+.top-position-img{
+	width:1920px;
+	height:380px;
+	position:absolute;
+	left:50%;
+	margin-left:-960px}
+.jieban-home-wm{
+	width:1200px;
+	height:260px;
+	padding-top:120px;
+	margin:0 auto;
+	position:relative;
+	z-index:9999}
+.jieban-home-wm .plan,
+.jieban-home-wm .join{
+	color:#fff;
+	margin:5px 0;
+	text-align:center;
+	font-size:30px;
+	font-weight:bold}
+.jieban-home-wm .plan strong,
+.jieban-home-wm .join strong{
+	padding:0 10px;
+	font-size:50px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif}
+.jieban-home-wm .join{
+	font-size:18px}
+.jieban-home-wm .join strong{
+	font-size:30px}
+.jieban-home-wm .pub{
+	margin-top:20px}
+.jieban-home-wm .pub a{
+	display:block;
+	color:#fff;
+	width:226px;
+	height:46px;
+	line-height:46px;
+	margin:0 auto;
+	text-align:center;
+	font-size:18px;
+	border:2px solid #fff;
+	background:rgba(255,255,255,0.23)}
+.jieban-home-wm .pub a:hover{
+	background:rgba(255,255,255,0.14)}
+
+
+.st-jieban-home{
+	float:left;
+	width:1200px;
+	margin-top:40px}
+.st-jieban-home .st-jieban-home-tit{
+	float:left;
+	color:#333;
+	width:1200px;
+	font-size:26px;
+	text-align:center}
+.st-jieban-home-list,
+.st-jieban-home-list ul{
+	float:left;
+	width:1200px}
+.st-jieban-home-list ul li{
+	float:left;
+	width:250px;
+	height:424px;
+	padding:12px;
+	margin:34px 34px 0 0;
+	background:#f9f8f8}
+.st-jieban-home-list ul li:hover{
+	box-shadow:3px 3px 5px #999}
+.st-jieban-home-list ul li.mr_0{
+	margin-right:0}
+.st-jieban-home-list ul li .pic,
+.st-jieban-home-list ul li .pic a,
+.st-jieban-home-list ul li .pic a img{
+	float:left;
+	width:250px;
+	height:176px}
+.st-jieban-home-list ul li .con{
+	float:left;
+	width:250px}
+.st-jieban-home-list ul li .con a{
+	float:left;
+	color:3333;
+	width:250px;
+	height:30px;
+	line-height:30px;
+	margin-top:10px;
+	font-size:18px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis}
+.st-jieban-home-list ul li .con a:hover{
+	color:#f60}
+.st-jieban-home-list ul li .con p{
+	float:left;
+	color:#7d7d7d;
+	width:250px;
+	height:75px;
+	line-height:25px;
+	margin-top:10px;
+	font-size:14px;
+	overflow:hidden}
+.st-jieban-home-list ul li .user,
+.st-jieban-home-list ul li .day{
+	float:left;
+	width:250px;
+	margin-top:15px}
+.st-jieban-home-list ul li .user img{
+	float:left;
+	width:45px;
+	height:45px;
+	border-radius:50%}
+.st-jieban-home-list ul li .user span{
+	float:left;
+	color:#0082dd;
+	width:190px;
+	height:45px;
+	line-height:45px;
+	margin-left:15px;
+	font-size:14px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis}
+.st-jieban-home-list ul li .day p{
+	float:left;
+	color:#333;
+	width:250px;
+	height:24px;
+	line-height:24px;
+	font-size:14px}
+.st-jieban-home-list ul li .day p span{
+	color:#ff8a00;
+	font-size:20px}
+
+/*发布结伴*/
+.st-jieban-join{
+	float:left;
+	width:1120px;
+	padding:20px 40px;
+	background:#f9f8f8}
+.st-jieban-join .jieban-join-tit{
+	float:left;
+	color:#333;
+	width:1115px;
+	height:50px;
+	line-height:50px;
+	padding-left:5px;
+	font-size:18px;
+	font-weight:bold;
+	border-bottom:1px solid #dcdcdc}
+.st-jieban-join .jieban-join-box{
+	float:left;
+	width:1120px}
+.jieban-join-list{
+	float:left;
+	width:1120px;
+	margin-top:20px}
+.jieban-join-list .list-bt{
+	float:left;
+	color:#333;
+	width:100px;
+	height:37px;
+	line-height:37px;
+	padding-right:10px;
+	font-size:14px;
+	text-align:right}
+.jieban-join-list .list-bt i{
+	color:#e60012;
+	vertical-align:middle;
+	margin-right:5px;
+	font-style:normal}
+.jieban-join-list .list-con{
+	float:left;
+	width:1010px;
+	position:relative}
+.jieban-join-list .list-con .zt-conbox{
+	width:250px;
+	top:37px}
+.jieban-join-list .list-con .jb-text{
+	float:left;
+	color:#333;
+	height:35px;
+	line-height:35px;
+	padding-left:10px;
+	font-size:14px;
+	border:1px solid #e5e5e5;
+	background:#e5e5e5}
+.jieban-join-list .list-con .active{
+	border:1px solid #d6d6d6 !important;
+	background:#fff !important}
+.jieban-join-list .list-con .w500{
+	width:500px}
+.jieban-join-list .list-con .w200{
+	width:200px}
+.jieban-join-list .list-con .w240{
+	width:240px}
+.jieban-join-list .list-con .w427{
+	width:427px}
+.jieban-join-list .list-con .ml15{
+	margin-left:15px}
+.jieban-join-list .list-con .xt{
+	float:left;
+	color:#999;
+	height:37px;
+	line-height:37px;
+	margin-left:15px}
+.jieban-join-list .list-con .unit{
+	float:left;
+	height:37px;
+	line-height:37px;
+	margin-left:10px;
+	font-size:14px}
+	
+
+.jieban-join-list .list-con .jb-area{
+	float:left;
+	width:1010px}
+.jieban-join-list .list-con .jb-area textarea{
+	float:left;
+	width:1000px;
+	height:200px;
+	padding:4px;
+	border:1px solid #d6d6d6;
+	background:#fff}
+.jieban-join-list .list-con .add-pic{
+	float:left;
+	width:1010px;
+	margin-top:15px}
+.jieban-join-list .list-con .add-pic ul li{
+	float:left;
+	width:100px;
+	height:100px;
+	margin-right:15px;
+	cursor:pointer;
+	overflow:hidden}
+.jieban-join-list .list-con .add-pic ul li.add{
+	background:url(../images/jieban-add-bg.gif) left no-repeat}
+.jieban-join-list .list-con .add-pic .more-pic{
+	float:left;
+	width:1010px;
+	height:30px;
+	line-height:30px}
+.jieban-join-list .list-con .jb-join-btn{
+	float:left;
+	width:1010px;
+	margin-top:20px}
+.jieban-join-list .list-con .jb-join-btn a{
+	float:left;
+	color:#fff;
+	width:170px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	border-radius:5px;
+	background:#ffa900}
+.jieban-join-list .list-con .jb-join-btn a:hover{
+	background:#ff8a00}
+
+/*结伴详情*/
+.st-jieban-show{
+	float:left;
+	width:1200px}
+.jieban-show-con{
+	float:left;
+	width:825px;
+	padding:40px;
+	background:#f9f8f8}
+.show-top-con{
+	float:left;
+	width:825px;
+	padding-bottom:30px;
+	border-bottom:1px solid #dcdcdc}
+.show-top-con .user-msg{
+	float:left;
+	width:200px;
+	box-shadow:2px 2px 3px #dfdede;
+	background:#fff}
+.show-top-con .user-msg dl{
+	float:left}
+.show-top-con .user-msg dl dt{
+	float:left;
+	width:200px;
+	padding-top:30px;
+	text-align:center;
+	font-size:14px}
+.show-top-con .user-msg dl dt img{
+	width:75px;
+	height:75px;
+	border-radius:50%}
+.show-top-con .user-msg dl dt span{
+	display:block;
+	margin-top:5px}
+.show-top-con .user-msg dl dt .name{
+	color:#0082dd}
+.show-top-con .user-msg dl dt .dest{
+	color:#333}
+.show-top-con .user-msg dl dd{
+	float:left;
+	width:200px;
+	padding:30px 0 20px}
+.show-top-con .user-msg dl dd p{
+	display:block;
+	color:#333;
+	height:24px;
+	line-height:24px;
+	overflow:hidden;
+	padding-left:75px;
+	font-size:14px;
+	background:url(../images/jieban-ico.png) no-repeat}
+.show-top-con .user-msg dl dd .con,
+.show-top-con .user-msg dl dd .txt{
+	display:block;
+	color:#333;
+	height:72px;
+	line-height:72px;
+	font-size:14px}
+.show-top-con .user-msg dl dd p.phone{
+	background-position:50px -93px}
+.show-top-con .user-msg dl dd p.qq{
+	background-position:50px -140px}
+.show-top-con .user-msg dl dd p.wx{
+	background-position:50px -196px}
+.show-top-con .user-msg dl dd .txt{
+	text-align:center}
+.show-top-con .user-msg dl dd .txt span{
+	color:#999}
+
+.show-top-con .jieban-msg{
+	float:left;
+	width:580px;
+	margin-left:45px}
+.show-top-con .jieban-msg .msg-tit{
+	float:left;
+	width:580px}
+.show-top-con .jieban-msg .msg-tit h1{
+	float:left;
+	color:#333;
+	width:580px;
+	font-size:24px}
+.show-top-con .jieban-msg .msg-tit p{
+	float:left;
+	width:580px;
+	margin-top:10px}
+.show-top-con .jieban-msg .msg-tit p span{
+	float:left;
+	color:#999;
+	margin-right:50px;
+	font-size:14px}
+.show-top-con .jieban-msg .msg-list{
+	float:left;
+	width:580px;
+	margin-top:30px}
+.show-top-con .jieban-msg .msg-list li{
+	float:left;
+	color:#333;
+	width:260px;
+	height:45px;
+	line-height:45px;
+	padding-left:30px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	font-size:16px;
+	background:url(../images/jieban-ico.png) no-repeat}
+.show-top-con .jieban-msg .msg-list li.md{
+	background-position:0 -462px}
+.show-top-con .jieban-msg .msg-list li.cf{
+	background-position:0 -336px}
+.show-top-con .jieban-msg .msg-list li.day{
+	background-position:0 -525px}
+.show-top-con .jieban-msg .msg-list li.num{
+	background-position:0 -400px}
+.show-top-con .jieban-msg .msg-list li.date{
+	background-position:0 -590px}
+.show-top-con .jieban-msg .msg-btn{
+	float:left;
+	width:580px;
+	margin-top:20px}
+.show-top-con .jieban-msg .msg-btn a{
+	float:left;
+	color:#fff;
+	width:150px;
+	height:50px;
+	line-height:50px;
+	padding-right:20px;
+	text-align:right;
+	font-size:18px;
+	font-weight:bold;
+	background:url(../images/jieban-show-msg-btn-bg.png) left no-repeat}
+
+.show-main-con{
+	float:left;
+	color:#333;
+	width:805px;
+	line-height:24px;
+	padding:20px 10px;
+	overflow:hidden;
+	font-size:14px}
+.show-main-con p{
+	margin-top:10px;
+	font-size:14px}
+.show-main-con img{
+	max-width:100%}
+
+.jb-sign-up{
+	float:left;
+	width:825px}
+.jb-sign-up h3{
+	color:#333;
+	padding:10px 5px;
+	font-size:18px;
+	font-weight:bold;
+	border-bottom:1px solid #dcdcdc}
+.jb-sign-up .sign-up-msg{
+	margin-top:20px}
+.jb-sign-up .sign-up-msg li{
+	float:left;
+	width:825px;
+	margin-bottom:20px}
+.jb-sign-up .sign-up-msg li .mt{
+	float:left;
+	color:#333;
+	width:80px;
+	height:37px;
+	line-height:37px;
+	text-align:right;
+	font-size:14px}
+.jb-sign-up .sign-up-msg li .con{
+	float:left;
+	width:740px;
+	padding-left:5px}
+.jb-sign-up .sign-up-msg li .con .jb-text{
+  float:left;
+  color:#333;
+  height:35px;
+  line-height:35px;
+  padding-left:10px;
+  font-size:14px;
+  border:1px solid #e5e5e5;
+  background:#e5e5e5}
+.jb-sign-up .sign-up-msg li .con .need-txt{
+	float:left;
+	color:#666;
+	height:36px;
+	line-height:36px;
+	padding-left:10px}
+.jb-sign-up .sign-up-msg li .con .need-txt em{
+	color:#f00;
+	font-style:normal}
+.jb-sign-up .sign-up-msg li .con .send-yzm{
+	float:left;
+	color:3333;
+	height:35px;
+	line-height:35px;
+	padding:0 15px;
+	margin-left:10px;
+	font-size:14px;
+	cursor:pointer;
+	border-radius:3px;
+	background:#fff;
+	border:1px solid #959595}
+.jb-sign-up .sign-up-msg li .con .send-yzm:hover{
+	border:1px solid #448aca;
+	background:#e9f8ff}
+.jb-sign-up .sign-up-msg li .con .sex{
+	float:left;
+	color:#333;
+	height:37px;
+	line-height:37px;
+	font-size:14px}
+.jb-sign-up .sign-up-msg li .con .sex span{
+	margin-right:20px;
+	cursor:pointer;}
+.jb-sign-up .sign-up-msg li .con .sex span i{
+	display:inline-block;
+	width:18px;
+	height:18px;
+	vertical-align:middle;
+	margin:-3px 5px 0 0;
+	background:url(../images/jieban-ico.png) no-repeat -1px 0}
+.jb-sign-up .sign-up-msg li .con .sex span.on i{
+	background:url(../images/jieban-ico.png) no-repeat -1px -48px}
+.jb-sign-up .sign-up-msg li .con .people{
+	float:left;
+	color:#333;
+	line-height:35px;
+	margin-right:50px;
+	font-size:14px}
+.jb-sign-up .sign-up-msg li .con .people input{
+	margin-right:5px}
+.jb-sign-up .sign-up-msg li .con textarea{
+	float:left;
+	width:530px;
+	height:100px;
+	border:1px solid #dcdcdc}
+.jb-sign-up .sign-up-msg li .con .active {
+  border: 1px solid #d6d6d6 !important;
+  background: #fff !important}
+.jb-sign-up .me-join{
+	float:left;
+	color:#fff;
+	height:40px;
+	line-height:40px;
+	padding:0 30px;
+	margin-left:85px;
+	font-size:18px;
+	font-weight:bold;
+	background:#ffa800}
+.jb-sign-up .me-join:hover{
+	background:#ff8a00}
+
+.jb-side-join-user{
+	float:left;
+	width:238px;
+	padding:10px 20px;
+	border:1px solid #dcdcdc;
+	background:#f9f8f8}
+.jb-side-join-user .bm-num{
+	color:#333;
+	padding:10px 0;
+	font-size:16px;
+	text-align:center;
+	border-bottom:1px solid #dcdcdc}
+.jb-side-join-user .bm-num strong{
+	color:#ffa900;
+	padding-right:5px;
+	font-size:36px;
+	font-family:Arial, Helvetica, sans-serif}
+.jb-side-join-user .sex{
+	padding:15px 0;
+	font-size:0;
+	border-bottom:1px solid #dcdcdc}
+.jb-side-join-user .sex span{
+	display:inline-block;
+	color:#333;
+	width:50%;
+	font-size:14px;
+	text-align:center}
+.jb-side-join-user .sex span i{
+	display:inline-block;
+	width:21px;
+	height:21px;
+	margin:-3px 5px 0 0;
+	vertical-align:middle;
+	background:url(../images/jieban-ico.png) no-repeat}
+.jb-side-join-user .sex span.nan i{
+	background-position:0 -246px}
+.jb-side-join-user .sex span.nv i{
+	background-position:0 -297px}
+.jb-side-join-user .people-list
+.jb-side-join-user .people-list ul{
+	margin-top:10px;
+	font-size:0}
+.jb-side-join-user .people-list li{
+	display:inline-block;
+	width:32%;
+	margin-top:15px;
+	text-align:center;
+	overflow:hidden}
+.jb-side-join-user .people-list li img{
+	width:45px;
+	height:45px;
+	border-radius:50%}
+.jb-side-join-user .people-list li span{
+	display:block;
+	color:#333;
+	padding-top:5px;
+	font-size:12px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

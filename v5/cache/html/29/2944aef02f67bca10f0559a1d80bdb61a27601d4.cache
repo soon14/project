@@ -1,0 +1,686 @@
+3600
+s:43725:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>河北旅游攻略大全_自助游攻略_游记攻略-河北旅游网</title>
+    <meta name="keywords" content="河北旅游攻略大全,自助游攻略,游记攻略,石家庄旅游攻略"/>
+      <meta name="description" content="河北旅游网攻略,为旅游爱好者提供全面和详细的旅行攻略大全,您可以详细了解到景区攻略、游记、指南、地图、门票、美食、特产、交通等旅游信息。"/>
+   <script>
+    window.SITEURL = "/";
+    window.CURRENCY_SYMBOL="￥";
+</script>  <link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css" rel="stylesheet"  />
+  <link type="text/css" href="/min/?f=/res/css/mycss/strategy/Trategy2.css" rel="stylesheet"  />
+  <script type="text/javascript"src="/min/?f=/res/js/common/jquery-1.11.3.min.js,/res/js/common/bootsAitto-min.js,/res/js/strategy/Trategy2.js"></script>
+  <style>.ctd-sort-view {
+      height: 50px;
+      background: #FFF;
+      line-height: 50px;
+      border-bottom: 1px solid #eee;
+      margin-bottom: 10px;
+    }
+    .ctd-sort-view li {
+      float: left;
+      height: 50px;
+      line-height: 50px;
+      border-right: 1px solid #eee;
+    }
+    .ctd-sort-view .current a {
+      background: #fd8800;
+      color: #FFF;
+      padding: 15px;
+    }
+  </style>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?f968b43cd6404299f54d25d87c3bbe3a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script></head>
+<body class="Color-fafafa">
+<!-- 登陆代码 开始 -->
+
+<link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css" rel="stylesheet"  />
+<header>
+    <div id="commonHead">
+        <div id="commonWarp">
+            <div class="logo" style="cursor:pointer;" onclick="window.location.href='http://www.aitto.net'" ></div>
+        <div class="nav">
+                <ul>
+                    <li class="current st-menu">
+                        <a href="/">首页                        </a>
+                    </li>
+                                                            <li class="st-menu"><a href="http://www.aitto.net/destination/">目的地</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/raiders/">攻略</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/notes/">游记</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/spots/">门票</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/lines/self">自驾游</a></li>
+                                        
+                </ul>
+            </div>
+              <div class="head-search">
+            <div class="head-search-wrapper">
+                <div class="head-searchform">
+                    <input id="_j_head_search_input" type="text" value="" placeholder="搜索攻略">
+                    <a role="button" href="javascript:" class="icon-search" id="_j_head_search_link" onclick=""></a> </div>
+            </div>
+        </div>
+                  <div class="login-info">
+                <div class="userLogin" id="loginstatus">
+                </div>
+                <div class="head-user drop-trigger" id="-j-head-user">
+                    <a class="" href="#">
+                        <div class="user-ico"></div>
+                        <i class="icon-caret-down"></i>
+                    </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">会员中心</h2>
+                        <div class="dropdown-menu" >
+                            <ul>
+                                <li class="icon-home"><a href="/member/"><i></i>会员首页</a></li>
+                                <li class="icon-order"><a href="/member/order/all"><i></i>我的订单</a></li>
+                                <li class="icon-writenotes"><a href="/member/index/mynotes"><i></i>我的游记</a></li>
+                                <li class="icon-jifen"><a href="/member/index/jifen"><i></i>我的积分</a></li>
+                                <li class="icon-Personal"><a href="/member/index/userinfo"><i></i>个人中心</a></li>
+                                <li class="icon-traveller"><a href="/member/index/linkman"><i></i>常用旅客</a></li>
+                                <li class="icon-logout"><a href="/member/login/loginout"><i></i>退出登录</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-code drop-trigger" id="-j-head-code" > <a class="" href="#">
+                        <div class="code-ico"></div>
+                        <i class="icon-caret-down"></i> </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+                        <div class="drop-con">
+                            <div class="WeChat"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</header>
+<script type="text/javascript">
+    //JQuery
+    $(document).ready(function(){
+        $(document).on("click",
+            function(e) {
+                isActive = $(e.target).parent().attr("class");
+                var  typeid= "4";
+                if (isActive=='head-searchform') {
+                    if(typeid==101){
+                          $(".head-search-focus").css('width',"345px");
+                          $(".head-search-focus .head-searchform input").css('width',"323px");
+                    }
+                    if(typeid==5){
+                        $(".head-search-focus").css('width',"285px");
+                        $(".head-search-focus .head-searchform input").css('width',"263px");
+                    }
+                }
+                else {
+                    if(typeid==101||typeid==5){
+                        $(".head-searchform input").css('width',"108px");
+                        $(".head-search-wrapper").css('width',"130px");
+                    }
+                    $(".head-search-wrapper").removeClass("head-search-focus");
+                }
+            })
+        $("#_j_head_search_input").click(function(){
+            $(".head-search-wrapper").addClass("head-search-focus");
+        });
+    });
+</script>
+<script type="text/javascript"src="/min/?f=/res/js/SuperSlide.min.js,/res/js/base.js,/res/js/common.js,/res/js/myjs/bootstrap.min.js,/res/js/myjs/jquery.select.js,/res/js/common/bootsAitto-min.js"></script>
+<script>
+    var SITEURL = "/";
+    function optionChecked(obj){
+        var typeid = $(obj).attr('data-id');
+        var durl = $(obj).attr('data-url');
+       // alert(typeid+"["+durl);
+        $("#typename").attr('data-id',typeid);
+        $("#typename").attr('data-url',durl);
+    }
+    //====================07.05  s
+    $("a[name=myorder]").click(function(){
+        var  url1 =SITEURL+'member/order/all';//SITEURL 为 '/'
+        var  url =SITEURL+'member/login?redirecturl='+url1;
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status==0){
+                    alert("请先登录");
+                   window.location.href =url;
+                }else{
+                    window.location.href =url1;
+                }
+            }
+        })
+    });
+    //====================07.05  e
+    $(".weixin").mouseover(function(){
+        //  $(this).addClass("hover");
+        $(this).children(".dropdown1").show()
+    });
+    $(".weixin").mouseout(function(){
+        // $(this).removeClass("hover");
+        $(this).children(".dropdown1").hide()
+    });
+   //
+    $(function(){
+        var typeid  = "4";
+        $("#_j_head_search_input").keydown(function(e){
+            if(e.keyCode==13){
+                $('#_j_head_search_link').click();
+            }
+        });
+        $(".searchmodel li:first").trigger('click');
+        //search
+        $('#_j_head_search_link').click(function(){
+            var keyword = $('#_j_head_search_input').val();
+            if(keyword == ''){
+                alert("请输入内容");
+                $("#_j_head_search_link").focus();
+                return false;
+            }
+//            var typeid = $("#typename").attr('data-id');
+//            var durl = $("#typename").attr('data-url');
+//            if(typeid==0 || typeid==8){//0  是全部  8是 签证
+//                var url = SITEURL+'search/cloudsearch?keyword='+encodeURIComponent(keyword)+"&typeid="+typeid;
+//            }else{
+//                var url = "http://www.aitto.net"+durl+'all?keyword='+encodeURIComponent(keyword);
+//            }
+            if(typeid==4){
+                var url = "http://www.aitto.net"+"/raiders/"+'all?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==101){
+                var url = "http://www.aitto.net"+"/notes/list"+'?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==5){
+                var url = "http://www.aitto.net"+"/spots/"+'all?keyword='+encodeURIComponent(keyword);
+            }
+            location.href = url;
+        })
+        //导航的选中状态
+        $(".st-menu a").each(function(){
+            $(".st-menu").removeClass('current');
+            var url= window.location.href;
+            // url=url.replace('index.php','');
+            //url=url.replace('index.html','');
+            var urlArr = url.split("/");
+            var ulink=$(this).attr("href");
+            var urlLinkArr = ulink.split("/");
+             //  定义目的地拼音
+            var pinyin  ="";
+            var  sss   = urlArr[3].split("?");
+            var   p    = sss[0];
+         console.log(urlArr[3]);
+        // console.log(urlLinkArr[3]);
+            if(urlArr[3]==urlLinkArr[3])
+            {
+                $(this).parents('li').addClass('current');
+                return false;
+            }else if(pinyin==p&&urlLinkArr[3]=='destination'&&pinyin.length!=''){
+                $(this).parents('li').addClass('current');
+                return false;
+            }
+            else{
+                if(urlArr[3]!='member'){
+                    $(".st-menu").first().addClass('current');
+                }
+            }
+        })
+        //登陆状态
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status){
+                    $txt = '<a class="dl" style="padding:0" href="javascript:;">你好,</a>';
+                    $txt+= '<a class="dl" href="/member/">'+data.user.nickname+'</a>';
+                    $txt+= '<a class="dl" href="/member/login/loginout">退出</a>';
+                    //$txt+= '<a class="dl" href="/member">个人中心</a>';
+                    $txt = '您好:<a href="/member/">'+data.user.nickname+'</a>';
+                }else{
+                    //$txt = '<a class="dl" href="/member/login">登录</a>';
+                    // $txt+= '<a class="zc" href="/member/register">免费注册</a>';
+                    $txt = '&nbsp;&nbsp;&nbsp;&nbsp;<a href="/member/login">登录</a> | <a href="/member/register">注册</a>';
+                }
+                $("#loginstatus").html($txt);
+            }
+        })
+    })
+</script>
+<script>
+    var s  = 3;
+</script><!-- 登陆代码 结束 -->
+<div class="notebox"></div>
+<section> 
+  <!-- 面包屑 开始 -->
+  <div  class="BreadCrumb">
+    <ul>
+      <li><a href="/">首页<i class="icon-gt">&gt;</i></a></li>
+      <li><a href="/raiders/">攻略<i class="icon-gt">&gt;</i></a></li>
+          </ul>
+    <div class="clearfix"></div>
+  </div>
+  <!--  面包屑 结束 --> 
+</section>
+<div class="container">
+  <section> 
+    <!--区域选择 开始 -->
+    <div class="category" >
+      <div class="top-category" >
+        <span>一共
+        <dnf>24</dnf>
+        条结果&nbsp;&nbsp;您已选择:</span>
+        <span style="margin-top: -2px">
+                          <span class="crumb-select-item chooseitem"><a href="javascript:" data-url="http://www.aitto.net/raiders/all-0-1-1"><b>时间</b>：<em>三日游</em><i class=""></i></a></span>
+<!--           <strong class="chooseitem" data-url="http://www.aitto.net/raiders/all-0-1-1">三日游<i></i></strong>-->
+                     </span>
+        <a href="javascript:void(0)" class="del-all clearc" >删除全部搜索</a>
+      </div>
+      <div class="by-category">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+                        <td width="120" valign="top" class="text-right td-tit">目的地</td>
+            <td class=""><b>不限</b>
+              <ul>
+                                <li ><a href="http://www.aitto.net/raiders/shijiazhuang-9-1-1">石家庄</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/chengde-9-1-1">承德</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/qinhuangdao-9-1-1">秦皇岛</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/zhangjiakou-9-1-1">张家口</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/baoding-9-1-1">保定</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/xingtai-9-1-1">邢台</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/handan-9-1-1">邯郸</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/tangshan-9-1-1">唐山</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/langfang-9-1-1">廊坊</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/hengshui-9-1-1">衡水</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/cangzhou-9-1-1">沧州</a></li>
+                              </ul>
+            </td>
+            
+          </tr>
+                                                                                          <tr>
+            <td valign="top"  class="text-right td-tit">主题：</td>
+            <td class="">
+                                          <b>不限</b>
+              <ul>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_46-1-1">周末游</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_21-1-1">亲子</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_23-1-1">山水</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_24-1-1">湖泊海洋</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_47-1-1">漂流</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_48-1-1">划船</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_49-1-1">瀑布</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_50-1-1">游泳</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_29-1-1">草原</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_28-1-1">古镇</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_30-1-1">温泉</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_51-1-1">滑雪</a></li>
+                                
+              </ul>
+            </td>
+          </tr>
+                                                            <tr>
+            <td valign="top"  class="text-right td-tit">时间：</td>
+            <td class="">
+                                          <b>不限</b>
+              <ul>
+                                <li ><a href="http://www.aitto.net/raiders/all-7-1-1">一日游</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-8-1-1">二日游</a></li>
+                                <li class="current"><a href="http://www.aitto.net/raiders/all-9-1-1">三日游</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-44-1-1">七日游</a></li>
+                                
+              </ul>
+            </td>
+          </tr>
+                                                            <tr>
+            <td valign="top"  class="text-right td-tit">距离：</td>
+            <td class="">
+                                          <b>不限</b>
+              <ul>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_38-1-1">50km内</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_39-1-1">50~100km</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_40-1-1">100~200km</a></li>
+                                <li ><a href="http://www.aitto.net/raiders/all-9_43-1-1">200km以上</a></li>
+                                
+              </ul>
+            </td>
+          </tr>
+                                                            
+        </table>
+              </div>
+    </div>
+    <!--区域选择 结束 -->
+    <div class="clearfix"></div>
+  </section>
+  <section>
+    <div class="ctd-TrategyNotes-body">
+      <div class="ctd-main">
+        <div class="ctd-sort-view">
+          <ul class="tabs" style=" ">
+                        <li   ><a href="http://www.aitto.net/raiders/all-9-0-0" >默认排序</a></li>
+            <li class="current">
+            <a href="http://www.aitto.net/raiders/all-9-1-0" >&nbsp;最&nbsp;&nbsp;热&nbsp;<i></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="ctd-TrategyNotes-list">
+                    <ul class="listItem">
+                        <li style="cursor: pointer" onclick="window.location.href='/raiders/show_217.html'">
+                            <div class="pic"><a href="/raiders/show_217.html"><img src="/new_uploads/2016/1025/38ee4d037d5d4252fbd711f68d1621e3.jpg" alt="张家口坝上草原、闪电湖三日游" ></a></div>
+              <div class="info">
+                <h3><a href="/raiders/show_217.html">张家口坝上草原、闪电湖三日游</a></h3>
+                <p class="user-line"><a href="#" target="-blank">飒飒</a><span>|</span>发表于 2016-10-24<span>|</span>48张照片</p>
+                <p class="user-con"><span>游记简述：</span>
+                  从石家庄出发，前往丰宁坝上草原，全程580公里，用时约9小时。人均消费800元左右。第一天：路上、农家院丰宁坝上草原作为内蒙古高原的重要组成部分，是离北京最近的天然草原，又名“京北第一草原”，是中国北方旅游、休闲、避暑、度假的首选之地。第二天：白桦林、情人谷坝上的白桦树，大都是丛生的、弯曲的，别有一种风味，入秋后的白桦林，层林尽染。情人谷，因她坝上美丽的草原风光，及纯朴的乡间民风，成为众多影视作品首选的外景地。第三天：大汗行宫、闪电湖大汗行宫，是京北第一草原上规模最大的景区。它以其独特的地域文化为背景，而建设的“成吉思汗行宫”，通过景区建设过程中对蒙元历史文化的挖掘，用点滴讲述着粗犷的蒙古民族…                </p>
+                <p class="count-line"> <span class="icon-pic"><i></i>图片48</span> <span class="icon-comment"><i></i>评论0</span> <span class="icon-view"><i></i>浏览6985</span> </p>
+              </div>
+            </li>
+                        <li style="cursor: pointer" onclick="window.location.href='/raiders/show_157.html'">
+                            <div class="pic"><a href="/raiders/show_157.html"><img src="/new_uploads/2017/0111/3e97b8c3c3eb9b4377270ceab6883ae5.jpg" alt="塞北梯田、鸡鸣驿、天漠三日游" ></a></div>
+              <div class="info">
+                <h3><a href="/raiders/show_157.html">塞北梯田、鸡鸣驿、天漠三日游</a></h3>
+                <p class="user-line"><a href="#" target="-blank">飒飒</a><span>|</span>发表于 2016-10-12<span>|</span>60张照片</p>
+                <p class="user-con"><span>游记简述：</span>
+                  第一天：崇礼崇礼，距离北京大约200公里，因为2022年冬奥会的举办而名气大涨，小城内建有许多极具特色的小镇，吸引了大批游人的到来。第二天：塞北梯田、鸡鸣驿塞北梯田位于张家口崇礼县山岔村，距离市区大约40公里的路程，这里春季绿植碧波千倾，夏季鲜花五颜六色，秋季莜麦金黄唯美，冬季雪花如银龙飞舞。鸡鸣驿城位于河北省怀来县鸡鸣驿乡鸡鸣驿村，是一处建于明代的驿站，是中国邮传、军驿的宝贵遗存，具有很高的文物价值。第三天：天漠天漠位于怀来县小南辛堡镇西南部的龙宝山，距北京90公里，与八达岭长城、康西草原一线贯通，由群山、戈壁、沙漠、湖泊构成。​                </p>
+                <p class="count-line"> <span class="icon-pic"><i></i>图片60</span> <span class="icon-comment"><i></i>评论0</span> <span class="icon-view"><i></i>浏览6277</span> </p>
+              </div>
+            </li>
+                        <li style="cursor: pointer" onclick="window.location.href='/raiders/show_206.html'">
+                            <div class="pic"><a href="/raiders/show_206.html"><img src="/new_uploads/2016/1021/0ce309a9df74ba2a242b0341e2d33842.jpg" alt="承德热河文庙、魁星楼、辽河源国家森林公园三日游" ></a></div>
+              <div class="info">
+                <h3><a href="/raiders/show_206.html">承德热河文庙、魁星楼、辽河源国家森林公园三日游</a></h3>
+                <p class="user-line"><a href="#" target="-blank">飒飒</a><span>|</span>发表于 2016-10-21<span>|</span>55张照片</p>
+                <p class="user-con"><span>游记简述：</span>
+                  从石家庄出发前往承德，观热河文庙、魁星楼，游览辽河源国家森林公园，全程约520公里，自驾约7个小时。住宿两个晚上约350元左右，人均消费约700元。第一天：热河文庙、魁星楼热河文庙在承德市西大街城隍庙东。建于清乾隆四十一年至四十四年(1776-1779)。落成时，乾隆帝亲往祭奠。占地2.89万平方米，仿内地规则建造，规模宏大，仅次于曲阜孔庙。承德魁星楼是中国北方著名的道教建筑之一，魁星是汉族神话传说中主宰文章兴衰的神，在儒士学子心目中，魁星具有至高无上的地位。第二天、第三天：辽河源国家森林公园辽河源国家森林公园是以辽河源自然生态为基础，以辽代契丹文化为特色的国家AAA级景区。公园总面积1188…                </p>
+                <p class="count-line"> <span class="icon-pic"><i></i>图片55</span> <span class="icon-comment"><i></i>评论0</span> <span class="icon-view"><i></i>浏览6232</span> </p>
+              </div>
+            </li>
+                        <li style="cursor: pointer" onclick="window.location.href='/raiders/show_288.html'">
+                            <div class="pic"><a href="/raiders/show_288.html"><img src="/new_uploads/2016/1121/5a4c3e02a28f87b34baa8549fde76517.jpg" alt="秦皇岛祖山、冰糖峪、金龙温泉三日游" ></a></div>
+              <div class="info">
+                <h3><a href="/raiders/show_288.html">秦皇岛祖山、冰糖峪、金龙温泉三日游</a></h3>
+                <p class="user-line"><a href="#" target="-blank">飒飒</a><span>|</span>发表于 2016-11-21<span>|</span>35张照片</p>
+                <p class="user-con"><span>游记简述：</span>
+                  从石家庄出发前往秦皇岛冰糖峪、祖山、金龙温泉度假村，三天两夜，人均消费800元。第一天：冰糖峪景区冰糖峪位于河北省秦皇岛抚宁县大新寨镇境内，有“南有九寨沟，北有冰塘峪”之美称。第二天：祖山风景区祖山位于秦皇岛青龙县境内，其最高峰为少女峰。这里山势非常雄伟，有很多奇石都形态各异，姿态万千。第三天：金龙温泉度假村金龙温泉度假村内设有全天候天然温泉休闲中心，冲浪浴、泡泡浴、涌泉浴、水压按摩床应有尽有；还建有室内外大型特环游泳、豪华休闲厅、高档客房、健身房、乒乓球室、人工垂钓园及大型多功能厅。​                </p>
+                <p class="count-line"> <span class="icon-pic"><i></i>图片35</span> <span class="icon-comment"><i></i>评论0</span> <span class="icon-view"><i></i>浏览5320</span> </p>
+              </div>
+            </li>
+                        <li style="cursor: pointer" onclick="window.location.href='/raiders/show_289.html'">
+                            <div class="pic"><a href="/raiders/show_289.html"><img src="/new_uploads/2017/0118/59d5c7622dd8293e99804c4efb82a604.jpg" alt="赤城温泉、云顶乐园滑雪场、冰雪文化博物馆三日游" ></a></div>
+              <div class="info">
+                <h3><a href="/raiders/show_289.html">赤城温泉、云顶乐园滑雪场、冰雪文化博物馆三日游</a></h3>
+                <p class="user-line"><a href="#" target="-blank">飒飒</a><span>|</span>发表于 2016-11-23<span>|</span>39张照片</p>
+                <p class="user-con"><span>游记简述：</span>
+                  从石家庄出发前往张家口赤城温泉、云顶滑雪场以及崇礼冰雪博物馆，三天两夜，人均消费约1000元。第一天：赤城温泉赤城温泉度假村位于赤城县城西7.5公里处，是一处以天然温泉著称的山谷。第二天：云顶乐园滑雪场“云顶滑雪中心”位于河北省张家口市崇礼县境内，为中国最大的赏雪、玩雪、娱雪旅游圣地，也是您在银装素裹之中，滑雪赏冰、休闲娱乐的绝好去处。第三天：崇礼冰雪博物馆崇礼县冰雪博物馆投资4100万元，全馆建筑面积6000平米，共分为梦回远古雪域、见证滑雪发展、雪都成长实录、滑雪训练营地、领略冰雪风采、感受极致视听、冰雪体验场地、再游冰雪崇礼等八个部分。​                </p>
+                <p class="count-line"> <span class="icon-pic"><i></i>图片39</span> <span class="icon-comment"><i></i>评论0</span> <span class="icon-view"><i></i>浏览5060</span> </p>
+              </div>
+            </li>
+                        <li style="cursor: pointer" onclick="window.location.href='/raiders/show_208.html'">
+                            <div class="pic"><a href="/raiders/show_208.html"><img src="/new_uploads/2017/0111/cfb25561df86f391ca6b302de225134f.jpg" alt="﻿﻿ 承德喇嘛山、千松坝国家森林公园三日游" ></a></div>
+              <div class="info">
+                <h3><a href="/raiders/show_208.html">﻿﻿ 承德喇嘛山、千松坝国家森林公园三日游</a></h3>
+                <p class="user-line"><a href="#" target="-blank">飒飒</a><span>|</span>发表于 2016-10-24<span>|</span>50张照片</p>
+                <p class="user-con"><span>游记简述：</span>
+                  从石家庄出发，前往承德喇嘛山，全程500公里，用时约9小时。人均消费800元左右。第一天：路上、喇嘛山农家院喇嘛山风景区位于丰宁县城西北28公里处，是去往京北第一草原的必经之地。第二天：喇嘛山景区内共有大小石峰28座。极目仰眺，主峰远看似一诵经喇嘛面壁打坐，因得此名。第三天：千松坝国家森林公园千松坝国家森林公园位于河北省丰宁县西北部，京北第一草原大滩东南，是坝子草原上一座以天然次生林景观为待色的新辟旅游风景点。​                </p>
+                <p class="count-line"> <span class="icon-pic"><i></i>图片50</span> <span class="icon-comment"><i></i>评论0</span> <span class="icon-view"><i></i>浏览4087</span> </p>
+              </div>
+            </li>
+                        <li style="cursor: pointer" onclick="window.location.href='/raiders/show_207.html'">
+                            <div class="pic"><a href="/raiders/show_207.html"><img src="/new_uploads/2016/1021/5c497e8a8b002f308d045d92a6ccec25.jpg" alt="青龙桃林口水库、祖山、花果山风景区三日游" ></a></div>
+              <div class="info">
+                <h3><a href="/raiders/show_207.html">青龙桃林口水库、祖山、花果山风景区三日游</a></h3>
+                <p class="user-line"><a href="#" target="-blank">飒飒</a><span>|</span>发表于 2016-10-21<span>|</span>63张照片</p>
+                <p class="user-con"><span>游记简述：</span>
+                  从石家庄市出发，前往桃林口水库，全程560公里，约7.5小时，人均消费约600元。第一天：桃林口水库桃林口水库位于著名旅游胜地秦皇岛市西北部，是依托国家大型水利枢纽工程桃林口水库工程景观和周边自然景观、人文景观建成的风景旅游区。第二天：祖山风景区祖山位于秦皇岛市青龙县境内，由于渤海以北、燕山以东诸峰都是由它的分支绵延而成，故以“群山之祖”命名。著名诗人臧克家老先生称祖山为“画境诗天”。第三天：花果山景区花果山位于祖山黑尖顶的西侧。青山绿水之间，瀑布、石洞、花草、果树，美不胜收。​                </p>
+                <p class="count-line"> <span class="icon-pic"><i></i>图片63</span> <span class="icon-comment"><i></i>评论0</span> <span class="icon-view"><i></i>浏览3660</span> </p>
+              </div>
+            </li>
+                        <li style="cursor: pointer" onclick="window.location.href='/raiders/show_186.html'">
+                            <div class="pic"><a href="/raiders/show_186.html"><img src="/uploads/2016/1017/15844b5c1804b392a0118226064302bf.jpg" alt="唐山滦州古城、清东陵、景忠山三日游" ></a></div>
+              <div class="info">
+                <h3><a href="/raiders/show_186.html">唐山滦州古城、清东陵、景忠山三日游</a></h3>
+                <p class="user-line"><a href="#" target="-blank">飒飒</a><span>|</span>发表于 2016-10-17<span>|</span>67张照片</p>
+                <p class="user-con"><span>游记简述：</span>
+                  从石家庄出发去唐山，主要景点有滦州古城、景忠山、清东陵，约500公里，开车约6个小时。适合自驾游，三天两夜。人均消费大概八九百元。第一天：出发前往滦州古城第一天去滦州古城，一个经历了千年文化滋养的历史名城，同时也是契丹、鲜卑、女真、蒙古、满、汉多民族聚集地。滦州古城整体建筑以盛清建筑风格为主基调，共同展现北方古镇的地域特色。第二天：景忠山景忠山，海拔610米，清康熙帝曾御题“天下名山”。景区面积15平方公里，有四帅殿、三道茶棚、碧霞元君庙、东佛阁等大小景点30余处。第三天：清东陵清东陵坐落在河北省唐山市的遵化市境内，占地78平方公里，是我国现存规模最宏大、体系最完整、布局最得体的帝王陵墓建筑群…                </p>
+                <p class="count-line"> <span class="icon-pic"><i></i>图片67</span> <span class="icon-comment"><i></i>评论0</span> <span class="icon-view"><i></i>浏览3352</span> </p>
+              </div>
+            </li>
+                        <li style="cursor: pointer" onclick="window.location.href='/raiders/show_184.html'">
+                            <div class="pic"><a href="/raiders/show_184.html"><img src="/uploads/2016/1017/54971038870d38b2cfc95f77203a8252.jpg" alt="草原天路三日游" ></a></div>
+              <div class="info">
+                <h3><a href="/raiders/show_184.html">草原天路三日游</a></h3>
+                <p class="user-line"><a href="#" target="-blank">飒飒</a><span>|</span>发表于 2016-10-17<span>|</span>47张照片</p>
+                <p class="user-con"><span>游记简述：</span>
+                  从石家庄出发前往张北，观军事要塞，体会天路豪迈，全程约460公里，自驾约5.5个小时。野狐岭门票20元，安固里草原门票20元，滦河神韵景区门票要60元，住宿两个晚上约350元左右，人均消费约600元。第一天：野狐岭、安固里草原野狐岭要塞与苏蒙联军烈士陵园、蒙金大战古战场遗址、六代长城古遗址共同构成了大军事旅游区。野狐岭要塞是中国北线的第一堡垒，是祖国的北大门，其地下钢铁长城更是堪称中国北的“马奇诺防线”矗立的碉堡、神秘的地道、燃烧的战火、弥漫的硝烟，全新的军事体验。第二天：草原天路，沽源“草原天路”全长132.7公里，2011年底由张家口市张北县投资3.2亿元，于2012年9月底建成通车。公路…                </p>
+                <p class="count-line"> <span class="icon-pic"><i></i>图片47</span> <span class="icon-comment"><i></i>评论0</span> <span class="icon-view"><i></i>浏览2308</span> </p>
+              </div>
+            </li>
+                        <li style="cursor: pointer" onclick="window.location.href='/raiders/show_163.html'">
+                            <div class="pic"><a href="/raiders/show_163.html"><img src="/uploads/2016/1013/c2f5e4e1ea514c828bd78747854e77b3.jpg" alt="昌黎渔岛、翡翠岛、黄金海岸三日游" ></a></div>
+              <div class="info">
+                <h3><a href="/raiders/show_163.html">昌黎渔岛、翡翠岛、黄金海岸三日游</a></h3>
+                <p class="user-line"><a href="#" target="-blank">飒飒</a><span>|</span>发表于 2016-10-12<span>|</span>38张照片</p>
+                <p class="user-con"><span>游记简述：</span>
+                  第一天：渔岛渔岛海洋温泉度假村位于秦皇岛市北戴河新区，居中国最美的八大海岸之一黄金海岸中部。因盛产鱼、虾、参、贝等海产品故名渔岛。是国家级农业休闲、度假娱乐、温泉养生综合性度假景区。第二天：翡翠岛昌黎翡翠岛是在昌黎县黄金海岸旅游区南端，秦皇岛至京唐港沿海公路东侧，距河北著名风景旅游区北戴河海滨40公里的小岛，这里沙山连绵起伏，陡坡交错，若偶然登上沙山远跳，山下片片槐林苍翠欲滴，就像镶嵌在金色沙山上的悲翠一样迷人。第三天：昌黎黄金海岸昌黎黄金海岸，位于河北省秦皇岛市昌黎县东南面的渤海岸边，海岸线全长52.1公里，具有沙细、滩软、水清、潮平的特点，是海水浴、阳光浴、沙浴、森林浴、空气浴的乐园。​                </p>
+                <p class="count-line"> <span class="icon-pic"><i></i>图片38</span> <span class="icon-comment"><i></i>评论1</span> <span class="icon-view"><i></i>浏览2271</span> </p>
+              </div>
+            </li>
+                      </ul>
+          <!--分页 结束 -->
+          <div class="pages">
+            
+<div id="Pagination">
+    <div class="pagination">
+                                            
+                    
+                        <a title="1" href="/raiders/all-9-1" class="current">1</a>
+
+                    
+            
+                    
+                        <a title="2" href="/raiders/all-9-1-2">2</a>
+
+                    
+            
+                    
+                        <a title="3" href="/raiders/all-9-1-3">3</a>
+
+                    
+                    
+        
+            <a class="next" title="下一页" href="/raiders/all-9-1-2" style="width: 40px">下页</a>
+
+                
+            <a class="" title="最后一页" href="/raiders/all-9-1-3">尾页</a>
+
+        
+    </div>
+</div>
+<div class="searchPage">
+    <span class="page-sum">共
+        <strong class="allPage">3</strong>页
+    </span>
+    <span class="page-go">跳转
+            <input type="text">
+            页
+    </span>
+    <a href="javascript:;" class="page-btn">GO</a>
+</div>
+<script>
+    $(".page-btn").click(function(){
+        var value = $(this).prev('span').find('input').val();
+            value =value*1;
+        var total =  "3";
+            total =total*1;
+        var url  = "/raiders/all-9-1-2";
+        var urlarr  = url.split('-');
+        urlarr.pop();
+
+        if(value.length!=0){
+
+            urlarr.push(value);
+           var newurl = urlarr.join("-");
+            if(value<=total){
+                window.location.href =newurl;
+            }
+
+        }
+
+
+
+        //  window.location.href = url;
+    })
+</script>          </div>
+          <!--分页 结束 -->
+                    
+        </div>
+      </div>
+      <div class="ctd-side">
+        <div class="side-box side-About">
+          <div class="wy-notice-img"><i></i><span>24</span>篇攻略</div>
+          <div class="wy-notice-btns">
+            <a href="/notes/WRITE" class="Publish-Travels" rel="nofollow" target="-blank">
+              <i class="icon icon-publish"></i>写游记
+            </a>
+<!--            <a href="javascript:" target="-blank" rel="nofollow">-->
+<!--              <i class="icon icon-comments"></i>写点评-->
+<!--            </a>-->
+          </div>
+        </div>
+        <div class="side-box sid-Recommend">
+          <h4>热门攻略推荐</h4>
+          <ul>
+                                    <li style="cursor: pointer" onclick="window.location.href='/raiders/show_326.html'">
+              <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/0122/753750dc22114b9471641f89b6f8c420.gif" title="赞皇白草坪水库一日游"/></div>
+              <div class="note-con">
+                <h5 style="overflow: hidden">赞皇白草坪水库一日游</h5>
+                <div class="note-name"><span>Andy</span> 2017-01-22</div>
+              </div>
+            </li>
+                                                <li style="cursor: pointer" onclick="window.location.href='/raiders/show_170.html'">
+              <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/0111/74949aba198710fc57cd1c55440ea047.jpg" title="赵州桥一日游"/></div>
+              <div class="note-con">
+                <h5 style="overflow: hidden">赵州桥一日游</h5>
+                <div class="note-name"><span>艾小漠</span> 2016-10-13</div>
+              </div>
+            </li>
+                                                <li style="cursor: pointer" onclick="window.location.href='/raiders/show_157.html'">
+              <div class="note-img"><img src="http://www.aitto.net/new_uploads/2017/0111/3e97b8c3c3eb9b4377270ceab6883ae5.jpg" title="塞北梯田、鸡鸣驿、天漠三日游"/></div>
+              <div class="note-con">
+                <h5 style="overflow: hidden">塞北梯田、鸡鸣驿、天漠三日游</h5>
+                <div class="note-name"><span>飒飒</span> 2016-10-12</div>
+              </div>
+            </li>
+                                                <li style="cursor: pointer" onclick="window.location.href='/raiders/show_217.html'">
+              <div class="note-img"><img src="http://www.aitto.net/new_uploads/2016/1025/38ee4d037d5d4252fbd711f68d1621e3.jpg" title="张家口坝上草原、闪电湖三日游"/></div>
+              <div class="note-con">
+                <h5 style="overflow: hidden">张家口坝上草原、闪电湖三日游</h5>
+                <div class="note-name"><span>飒飒</span> 2016-10-24</div>
+              </div>
+            </li>
+                                                                                                                                                                                  </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+</div>
+
+<div style="clear: both"></div>
+<div class="footer">
+  <!-- 网站底部 开始-->
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-r">
+        <div class="code">
+          <p><img src="/res/images/erweima.jpg"></p>
+          <h3>河北旅游网微信公众号</h3>
+        </div>
+        <div class="code">
+          <p><img src="/res/images/erweima2.jpg"></p>
+          <h3>米淘亲子游微信公众号</h3>
+        </div>
+      </div>
+      <ul class="footer-l">
+        <li>
+          <h2>联系我们</h2>
+          <p>全国统一客服电话：<span>0311-87885822</span></p>
+          <p>意见邮箱：3011930149@qq.com</p>
+        </li>
+        <li class="ab-list"><h2>关于我们</h2>
+                              <a href="http://www.aitto.net/servers/index_1.html">关于我们</a>
+                    <a href="http://www.aitto.net/servers/index_2.html">联系我们</a>
+                    <a href="http://www.aitto.net/servers/index_11.html">商务合作</a>
+                    
+        <li class="dh-list"><h2>站点导航</h2>
+                              <a href="http://www.aitto.net/destination/">目的地</a>
+                    <a href="http://www.aitto.net/raiders/">攻略</a>
+                    <a href="http://www.aitto.net/notes/">游记</a>
+                    <a href="http://www.aitto.net/spots/">门票</a>
+                    <a href="http://www.aitto.net/lines/self">自驾游</a>
+                    
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <span style="color:#c2c2c2;margin-bottom: 4px;display: inline-block;">友情连接：</span>
+    <div class="footer-link">
+      <p>
+            
+</p>
+    </div>
+    <div class="footer-bottom">
+      <p>2004-2016 © 河北旅游网 ™ aitto.net All rights reserved. Version v5.57 冀ICP备16007967号-1<br />
+        营业执照新出网证（京）字242号 </p>
+    </div>
+  </div>
+  <!-- 网站底部 结束-->
+</div>
+<!-- 网站置顶 开始-->
+<div class="mfw-toolbar toolbar-item-a" id="_j_mfwtoolbar" style="display: block;">
+  <div class="toolbar-item-code"><a class="toolbtn _j_code"> <i class="icon-code"></i> </a>
+    <div class="code-box">
+      <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+      <div class="WeChat"></div>
+    </div>
+  </div>
+  <div class="toolbar-item-top"> <a class="toolbtn _j_gotop"> <i class="icon-top"></i> </a> </div>
+</div>
+<!-- 网站置顶 结束-->
+<script>
+//登陆下拉
+$(document).ready(function(){
+  $(".drop").mouseover(function(){
+      $(this).addClass("hover");
+  $(this).next(".dropdown2").show()
+  });
+  $(".drop").mouseout(function(){
+      $(this).removeClass("hover");
+  $(this).next(".dropdown2").hide()
+  });
+});
+</script> 
+</body>
+</html>
+<script>
+  //清空筛选条件
+  $('.clearc').click(function(){
+    var url = SITEURL+'raiders/all/';
+    window.location.href = url;
+  })
+  //删除已选
+  $(".chooseitem").find('i').click(function(){
+    var url = $(this).parent().attr('data-url');
+    window.location.href = url;
+  })
+</script>
+";

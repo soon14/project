@@ -1,0 +1,4 @@
+﻿plugins/supplier/application/classes/controller/pc/qualify.php
+plugins/supplier/application/views/default/pc/qualify/step.php
+plugins/supplier/public/default/pc/css/style.css
+plugins/supplier/public/default/pc/images/verify-zt-ico.png

@@ -1,0 +1,50 @@
+/* 目的地首页 */
+.Dest-index-head{margin-bottom:.5rem;:}
+.Dest-index-head .head-img img{ width:100%;}
+.slide{ text-align:center;}
+.Page-next1{ opacity:.2;}
+.Dest-index-body .ntd-theme-title{position:relative; margin-bottom:5px;}
+.Dest-index-body .ntd-theme-title i{position:absolute; top:-.3rem; display:block; width:2.1rem; height:2.1rem;}
+.Dest-index-body .ntd-theme-title a.in-page{ position:absolute; display:block; right:.5rem; width:1.8rem; height:1.8rem; background:url(/phone/public/images/20170301/in-page.png); background-size:1.8rem;}
+.Dest-index-body .ntd-theme-title i.Hebei-Tour{background:url(/phone/public/images/20170301/tit-ico01.png); background-size:2.1rem;}
+.Dest-index-body .ntd-theme-title i.Hebei-Raid{background:url(/phone/public/images/20170301/tit-ico02.png); background-size:2.1rem;}
+.Dest-index-body .ntd-theme-title i.Hebei-Note{background:url(/phone/public/images/20170301/tit-ico03.png); background-size:2.1rem;}
+.Dest-index-body .ntd-theme-title span{display:block; padding-left:2.5rem;}
+.Dest-index-body .ntd-theme-title span.tit-big{ height:1.1rem; margin-top:.5rem; line-height:1.1rem;font-size:1.1rem;}
+.Dest-index-body .ntd-theme-title span.tit-small{height:.7rem; line-height:.7rem; margin-top:.3rem;font-size:.6rem; color:#da4d01;}
+
+.Dest-index-body .ntd-Hebei-Tour li{ float:left;width:33.33%;}
+.Dest-index-body .ntd-Hebei-Tour span{display:block; padding:5px;}
+.Dest-index-body .slideImg-hd { position:relative;}
+.Dest-index-body .Page-prev{ position:absolute; right:25px; top:-20px; width: 20px; height: 20px;  background: url(/phone/public/images/20170301/pageprev.png) no-repeat; background-size:20px;}
+.Dest-index-body .Page-next{ position:absolute; right:5px; top:-20px; width: 20px; height: 20px; background: url(/phone/public/images/20170301/pagenext.png) no-repeat; background-size:20px;}
+
+
+.Dest-index-body .ntd-Hebei-Raid li{position:relative; margin-top:1rem;}
+.Dest-index-body .ntd-Hebei-Raid .Raid-img{position:relative;}
+.Dest-index-body .ntd-Hebei-Raid .Raid-img img{ width:100%;}
+.Dest-index-body .ntd-Hebei-Raid .Raid-tip{position:absolute; top:10px; right:10px;z-index:999;}
+.Dest-index-body .ntd-Hebei-Raid .Raid-tip span{display:block; font-size:1rem; color: #FFF; text-shadow: 1px 1px 0px #333;}
+.Dest-index-body .ntd-Hebei-Raid .Raid-tip i{font-size:1.5rem; font-style:normal;}
+.Dest-index-body .ntd-Hebei-Raid .Raid-tit{position:absolute; z-index:999;bottom:.2rem; width:100%; padding:10px; font-size:1.2rem;white-space: nowrap;text-overflow: ellipsis;overflow: hidden; color:#FFF;text-shadow: 1px 1px 0px #333;}
+
+.Dest-index-body .ntd-Hebei-Note li{position:relative; margin-top:1rem;}
+.Dest-index-body .ntd-Hebei-Note .Note-img{position:relative;}
+.Dest-index-body .ntd-Hebei-Note .Note-img img{ width:100%;}
+.Dest-index-body .ntd-Hebei-Note .Note-tit{position:absolute; top:.5rem; width:100%; padding:10px; font-size:1.2rem; color:#FFF;z-index:999;
+text-shadow: 1px 1px 0px #333;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.Dest-index-body .ntd-Hebei-Note .Note-tip {color: #FFF;margin-right:.5rem; margin-top:.5rem;font-size:.9rem;text-shadow: 1px 1px 0px #333;}
+.Dest-index-body .ntd-Hebei-Note .Note-tip span{ margin-right:.3rem;}
+.Dest-index-body .ntd-Hebei-Note .Note-tip span.data{ margin-left:.3rem;}
+.Dest-index-body .ntd-Hebei-Note .user-name{position: absolute; bottom:3.7rem; width:100%; color:#FFF; z-index:999; font-size:1rem; text-align:center;text-shadow: 1px 1px 0px #333;}
+.Dest-index-body .ntd-Hebei-Note .user-info{position: absolute; bottom:.5rem; left:50%; margin-left:-1.5rem;z-index:999;}
+.Dest-index-body .ntd-Hebei-Note .user-info .user-img{width:3rem; height:3rem; border-radius:3rem; color:#FFF; overflow:hidden;}
+.Dest-index-body .ntd-Hebei-Note .user-info .user-img img{width:3rem; height:3rem; border-radius:3rem;border:2px solid #FFF;}
+.ctrl-slide {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    
+}

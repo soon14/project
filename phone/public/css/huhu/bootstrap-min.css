@@ -1,0 +1,157 @@
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	margin: 0;
+	font-family: "微软雅黑";
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+/* Link */
+a {
+	background-color: transparent;
+}
+a:active, a:hover {
+	outline: 0;
+}
+a:link {
+	text-decoration: none;
+	cursor: pointer
+}
+a:visited {
+	text-decoration: none;
+	cursor: pointer
+}
+a:hover {
+	text-decoration: none;
+	cursor: pointer
+}
+a:active {
+	text-decoration: none;
+	cursor: pointer
+}
+div, form, img, ul, ol, li, dl, dt, dd {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: left;
+}
+img {
+	vertical-align: top;
+	border-width: 0;
+}
+input, textarea, select {
+	font-family: "微软雅黑";
+	font-family: Arial, Helvetica, sans-serif;
+}
+ul ul, ol ul, ul ol, ol ol {
+	margin-bottom: 0;
+}
+ul, ol {
+	padding-left: 0;
+	list-style-type: none;
+}
+li {
+	list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	text-align: left;
+	font-family: "Microsoft YaHei"
+}
+p {
+	margin: 0 0 10px;
+}
+em {
+	font-style: normal;
+	font-weight: normal;
+}
+b, strong {
+	font-weight: bold;
+}
+hr {
+	height: 0;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+pre {
+	overflow: auto;
+}
+code, kbd, pre, samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+textarea {
+	overflow: auto;
+}
+dl {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+dt, dd {
+	line-height: 1.42857143;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-left: 0;
+}
+table, td, tr, tt {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	background-color: transparent;
+}
+caption {
+	text-align: left;
+}
+th {
+	padding: 0;
+	text-align: left;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.show {
+	display: block !important;
+}
+.hidden {
+	display: none !important;
+}
+.clearfix {
+	clear: both;
+	zoom: 1;
+}
+.clearfix::after {
+	content: ".";
+	display: block;
+	clear: both;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	overflow: hidden;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.text-center {
+	text-align: center;
+}

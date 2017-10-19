@@ -1,0 +1,230 @@
+/** 公共按钮 **/
+.ui-btn{text-align: center; border: 1px solid transparent; white-space: nowrap; vertical-align: middle; cursor: pointer;}
+/** 页面头部 **/
+.ui-page-header{position: relative; z-index: 9999; width:100%; height: 4.5rem; background: #fff;border-bottom:1px solid #e8e8e8; margin-bottom:-1px;}
+.ui-page-header h1{height: 4.5rem; font-size: 1.8rem; line-height: 4.5rem; text-align: center;}
+
+/** 页面头部 功能按钮 **/
+.ui-page-back{position: absolute; top: 50%; left: 1rem; width: 2rem; height: 2rem; margin-top: -1rem; background: url(/phone/public/images/mitao/ui-page-back.png) no-repeat; background-size: 2rem;}
+.ui-page-del{float: right;height: 30px;margin:9px 9px 0 0;line-height: 30px; font-size:16px; }
+.ui-page-del span{color:#99da45;}
+
+/** 页面 遮罩 **/
+.ui-page-mask{position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 1090; display:none; background: rgba(0,0,0,.15);}
+
+/** 米淘 个人中心 首页 头部**/
+.pagePerson-index .ui-personal-header{ height:150px; padding-top:20px; background: url(/phone/public/images/mitao/person-bg.png) #8cc641 bottom; background-size:100% auto;}
+.pagePerson-index .ui-personal-header .ui-userImg{text-align: center;}
+.pagePerson-index .ui-personal-header .ui-userImg span{display: inline-block; width: 7rem; height: 7rem; overflow: hidden; background: #e8e8e8; border-radius: 7rem;}
+.pagePerson-index .ui-personal-header .ui-username{height: 2.5rem; font-size: 1.6rem; line-height: 2.5rem; color: #FFF; text-align: center;}
+
+/** 米淘 个人中心 首页 信息**/
+.pagePerson-index .ui-personal-info{background: #fff;}
+.pagePerson-index .ui-personal-info .titlebar{ font-size:14px;border-bottom: 1px solid #eee; height: 40px; line-height: 40px; padding:0 15px; background:#4f8c19; color:#FFF; }
+.pagePerson-index .ui-personal-info .titlebar .more{ float:right; padding-right:20px; background:url(/phone/public/images/mitao/ui-page-in.png) no-repeat right 12px; background-size:18px; color:#FFF;}
+.pagePerson-index .ui-personal-info ul{padding: 1rem 0;}
+.pagePerson-index .ui-personal-info li{float: left; width: 25%;}
+.pagePerson-index .ui-personal-info .info-inner{border-left: 1px solid #e8e8e8; text-align:center;}
+.pagePerson-index .ui-personal-info .info-inner .icon{ width:30px; height:30px;  display:inline-block;}
+.pagePerson-index .ui-personal-info .info-inner .icon01{ background:url(/phone/public/images/mitao/daifukuan.png) no-repeat; background-size:30px;}
+.pagePerson-index .ui-personal-info .info-inner .icon02{ background:url(/phone/public/images/mitao/weichuxing.png) no-repeat; background-size:30px;}
+.pagePerson-index .ui-personal-info .info-inner .icon03{ background:url(/phone/public/images/mitao/daipingjia.png) no-repeat; background-size:30px;}
+.pagePerson-index .ui-personal-info .info-inner .icon04{ background:url(/phone/public/images/mitao/tuikuandingdan.png) no-repeat; background-size:30px;}
+.pagePerson-index .ui-personal-info li{float: left; width: 25%;}
+.pagePerson-index .ui-personal-info .info-inner i{ color:#ffaf44; padding-left:5px;}
+.pagePerson-index .ui-personal-info li:first-child .info-inner{border: none;}
+.pagePerson-index .ui-personal-info span{display: block; text-align: center;}
+
+/** 米淘 个人中心 首页 菜单**/
+.pagePerson-index .ui-personal-nav{margin-top: 1rem; background: #FFF; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8;}
+.pagePerson-index .ui-personal-nav a{ display:block;}
+.pagePerson-index .ui-personal-nav ul li{position: relative; padding: 1.2rem 0 1.2rem 5rem; font-size: 1.5rem; border-top: 1px solid #e8e8e8;}
+.pagePerson-index .ui-personal-nav ul li:first-child{border: none;}
+.pagePerson-index .ui-personal-nav span.ui-page-in{display: inline-block; float: right; width: 2rem; height: 2rem; margin-right: 1rem; background: url(/phone/public/images/mitao/ui-page-in.png) no-repeat; background-size: 2rem;}
+.pagePerson-index .ui-personal-nav ul li i{position: absolute; top: 50%; left: 1rem; display: inline-block; width: 3rem; height: 3rem; margin-top: -1.5rem; border-radius: 3rem;}
+.pagePerson-index .ui-personal-nav li.ui-about i{background: url(/phone/public/images/mitao/icon_about.png) no-repeat 50%; background-size: 2.5rem;}
+.pagePerson-index .ui-personal-nav li.ui-customer i{background: url(/phone/public/images/mitao/icon_customer.png) no-repeat 50% ; background-size: 2.5rem;}
+.pagePerson-index .ui-personal-nav li.ui-fav i{background: url(/phone/public/images/mitao/icon_fav.png) no-repeat 50% ; background-size: 2.5rem;}
+.pagePerson-index .ui-personal-nav li.ui-info i{background: url(/phone/public/images/mitao/icon_info.png) no-repeat 50% ; background-size: 2.5rem;}
+
+/** 米淘 个人中心 基本信息 **/
+.pagePerson-myadmin .ui-btn-save{width:90%; display:block; margin: 0 auto; margin-top:10px;  padding: .6rem 1rem; border-radius: .3rem; color: #fff; font-size: 1.8rem; background-color: #ffa541;}
+.pagePerson-myadmin .form-group{position:relative; margin-top:-1px;border: 1px solid #e8e8e8; background:#fff;}
+.pagePerson-myadmin .form-group label{position: absolute; left: 1rem; top: 0; display: block; width: 6rem; height: 4.5rem; line-height:4.5rem;font-weight:normal;}
+.pagePerson-myadmin .form-group input{width: 95%; border:none; padding-right:1rem; height: 4.5rem; text-indent: 6rem; text-align:left;}
+
+.pagePerson-myadmin .ui-myAdmin-set{margin-top: 1rem; margin-bottom: 1rem; background: #FFF; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8;}
+.pagePerson-myadmin .ui-myAdmin-set ul li{position: relative; padding: 1.2rem; font-size: 1.5rem; border-top: 1px solid #e8e8e8;}
+.pagePerson-myadmin .ui-myAdmin-set ul li:first-child{border: none;}
+.pagePerson-myadmin .ui-myAdmin-set span{ margin-left:10px;}
+.pagePerson-myadmin .ui-myAdmin-set .ico-pageIn{display: inline-block; float: right; width: 2rem; height: 2rem; background: url(/phone/public/images/mitao/ui-page-in.png) no-repeat ; background-size: 2rem;}
+.pagePerson-myadmin .ui-myAdmin-set .ui-info{display: inline-block; float: right; margin-top:.2rem; margin-right:.2rem; font-size: 1.4rem; color: #999;}
+
+.pagePerson-myadmin .ui-myAdmin-name .form-group{ margin-bottom:10px;}
+
+.pagePerson-myadmin .ui-myAdmin-sex { margin-top:5px;}
+.pagePerson-myadmin .ui-myAdmin-sex ul{border-top: 1px solid #e8e8e8;}
+.pagePerson-myadmin .ui-myAdmin-sex ul li{position: relative; padding: 1.2rem; font-size: 1.5rem; border-bottom: 1px solid #e8e8e8; background:#FFF; }
+.pagePerson-myadmin .ui-myAdmin-sex ul li a{ display:block; text-align:center;}
+.pagePerson-myadmin .ui-myAdmin-sex ul li.active{ background:#99da45; }
+.pagePerson-myadmin .ui-myAdmin-sex ul li.active a{ color:#FFF;}
+
+.pagePerson-myadmin .ui-myAdmin-tel .userTel{height: 45px; line-height:45px;text-indent: 2rem; background:#99da45; color:#FFF;}
+.pagePerson-myadmin .ui-myAdmin-tel .tel-step{height: 4.5rem; line-height:45px; text-align:center; font-size:16px;}
+.pagePerson-myadmin .ui-myAdmin-tel .tel-step .active{ color:#ffa541;}
+.pagePerson-myadmin .ui-myAdmin-tel .tel-step span{ margin:0 10px;}
+.pagePerson-myadmin .ui-myAdmin-tel .userCode{ margin-bottom:10px;}
+.pagePerson-myadmin .ui-myAdmin-tel  input{width: 100%;margin-top:-1px; height: 4.5rem; text-indent: 2rem; border-top: 1px solid #e8e8e8;}
+.pagePerson-myadmin .ui-myAdmin-tel .ui-VerificationCode{ position:absolute; top:0; right:0; width:120px; border-left: 1px solid #e8e8e8;text-align:center; background:#f0f0f0;height: 44px; line-height:44px;}
+
+
+.pagePerson-refun .ui-refun-top{ margin-bottom: 1rem; background: #FFF; border-bottom: 1px solid #e8e8e8;}
+.pagePerson-refun .ui-refun-top ul li{position: relative; padding: 1.2rem; font-size: 1.5rem; border-top: 1px solid #e8e8e8;}
+.pagePerson-refun .ui-refun-top ul li:first-child{border: none;}
+.pagePerson-refun .ui-refun-top span{ margin-left:20px;}
+.pagePerson-refun .ui-refun-top span.money{ color:#F00;}
+
+.pagePerson-refun .title {  padding:0 10px; margin-bottom:10px;
+    font-size: 16px;
+    color: #8cc641;
+}
+.pagePerson-refun .aply-btn{ position:fixed; left:0;height: 50px;line-height:50px; bottom:-1px; z-index:1; width:100%; overflow:hidden;background:#ffa541; color:#FFF; text-align:center; font-size:18px;}
+
+.pagePerson-refun .ui-refun-box{ margin-bottom: 1rem; background: #FFF; border-bottom: 1px solid #e8e8e8;border-top: 1px solid #e8e8e8;}
+.pagePerson-refun .ui-refun-box ul li{position: relative; padding: 1.2rem;  font-size: 1.5rem; border-top: 1px solid #e8e8e8;}
+.pagePerson-refun .ui-refun-box ul li:first-child{border: none;}
+.pagePerson-refun .ui-refun-box li.check {background:url(/phone/public/images/mitao/ico_refun.png) no-repeat 98%; background-size:20px;}
+.pagePerson-refun .ui-refun-box li.check-on {background:url(/phone/public/images/mitao/ico_refun_on.png) no-repeat 98%; background-size:20px;}
+.pagePerson-refun .ui-refun-box span.money{ color:#F00;}
+
+.pagePerson-refun .ui-refun-step{ margin-bottom: 1rem; background: #FFF;border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8;}
+.pagePerson-refun .ui-refun-step ul{ margin:10px 20px;  }
+.pagePerson-refun .ui-refun-step li{ padding-bottom:10px; padding-left:20px;position:relative;border-left:1px solid #e8e8e8;}
+.pagePerson-refun .ui-refun-step .step-i{ position:absolute; top:2px; left:-10px; width:20px; height:20px; border-radius:20px; background:#f2f2f2; border:1px solid #d7d7d7;}
+.pagePerson-refun .ui-refun-step li:last-child{ border-left:0;}
+.pagePerson-refun .ui-refun-step h2{ font-size:16px; font-weight:bold;}
+.pagePerson-refun .ui-refun-step p{ color:#999;}
+.pagePerson-refun .ui-refun-step .active h2{ color:#ffa541}
+.pagePerson-refun .ui-refun-step .active .step-i{  background:#ffa541; border:1px solid #f88e19;}
+
+/** 米淘 个人中心 关于我们 **/
+.pagePerson-about .ui-page-about{ padding:15px 20px; background:#FFF;}
+.pagePerson-about .ui-page-about p{ line-height:26px; margin-bottom:10px;}
+
+/** 米淘 个人中心 联系我们 **/
+.pagePerson-customer .ui-page-customer{ padding:10px 0px; background:#FFF;}
+.pagePerson-customer .ui-page-customer .desc-code{text-align:center;}
+.pagePerson-customer .ui-page-customer .desc-code img{ width:80%;}
+.pagePerson-customer .ui-page-customer .desc-code-tip{ height:30px; line-height:30px; text-align:center; font-size:18px; color:#ffa541;}
+.pagePerson-customer .ui-page-customer .desc-tel{ position:relative; background:#a6d26b; background-size:30px; line-height:30px; border-radius:20px; margin:10px auto; width:80%; color:#FFF; display:block; font-size:18px;}
+.pagePerson-customer .ui-page-customer .desc-tel i{ position:absolute; width:30px; height:30px; display:inline-block; background: url(/phone/public/images/mitao/ui-tel.png) no-repeat; background-size:30px;}
+.pagePerson-customer .ui-page-customer .desc-tel span{ padding-left:35px;}
+
+/** 米淘 个人中心 我的订单 **/
+.pagePerson-order .ui-order-list{margin-top:10px;}
+.pagePerson-order .ui-order-list .actbox_small{overflow: hidden; position: relative;border-top: 1px solid #eee; border-bottom: 1px solid #eee; height: 140px; background: #fff; padding: 15px;background:#FFF; margin-bottom:10px;}
+.pagePerson-order .ui-order-list .actbox_small img{float: left; width: 120px; height: 100px; margin-right: 10px;}
+.pagePerson-order .ui-order-list .actbox_small h2{ max-height:44px; overflow:hidden;line-height: 22px; font-size: 16px; margin-bottom:5px; font-weight:600;}
+.pagePerson-order .ui-order-list .actbox_small .btn{position: absolute;right:20px;bottom:10px; background:#FFF; border:1px solid #ffaf44; color:#ffaf44; width:80px; }
+.pagePerson-order .ui-order-list .actbox_small .btn.btn1{ background: #99da45;}
+@media (max-width:375px){
+.pagePerson-order .ui-order-list .actbox_small h2{ height:22px;line-height: 22px; font-size: 16px; margin-bottom:5px; font-weight:600;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+
+}
+.pagePerson-order .ui-order-list .actbox_small .price .paymoney{color:#f75934;font-size:20px;background:url('/phone/public/images/mitao/money.png') no-repeat left 6px;padding-left:12px;background-size:14px;font-weight:bold;}
+.pagePerson-order .ui-order-list .actbox_small p{ font-size:14px;}
+.pagePerson-order .ui-order-list .actbox_small i.wait-pay{ color:#fff; padding:0 5px;color:#a7d92e;}
+.pagePerson-order .ui-order-list .actbox_small i.wait-use{ color:#fff; padding:0 5px;color:#ff931b;}
+.pagePerson-order .ui-order-list .actbox_small i.wait-com{ color:#fff; padding:0 5px;color:#00d2ff;}
+
+/** 米淘 个人中心 选项卡 **/
+.pagePerson-order .ui-order-list .mt_order_tabs{background:#FFF; border-top:1px solid #eee; border-bottom:1px solid #eee; margin-bottom:10px;}
+.pagePerson-order .ui-order-list .mt_order_tabs li{float:left; width:20%;}
+.pagePerson-order .ui-order-list .mt_order_tabs li a{display:block; padding:10px 0px; border-right:1px solid #eee; text-align:center;}
+.pagePerson-order .ui-order-list .mt_order_tabs li a:hover{color:#666;}
+.pagePerson-order .ui-order-list .mt_order_tabs li.active>a{position:relative; color:#99da45; border-bottom:2px solid #99da45;}
+.pagePerson-order .ui-order-list .mt_desc_con .tab-pane{display:none;}
+.pagePerson-order .ui-order-list .mt_desc_con .active{display:block;}
+
+/** 米淘 个人中心 我的收藏 **/
+.pagePerson-collection .ui-collection-list{margin-top:10px;}
+.pagePerson-collection .ui-collection-list .actbox_small{overflow: hidden; position: relative;border-top: 1px solid #eee; border-bottom: 1px solid #eee; height: 140px; background: #fff; padding: 15px;background:#FFF; margin-bottom:10px;}
+.pagePerson-collection .ui-collection-list .actbox_small img{float: left; width: 110px; height: 110px; margin-right: 10px;}
+.pagePerson-collection .ui-collection-list .actbox_small h2{line-height: 22px; font-size: 16px; margin-bottom:5px; font-weight:600;}
+.pagePerson-collection .ui-collection-list .actbox_small .price{position: absolute;right:20px;bottom:10px;text-align:right;}
+.pagePerson-collection .ui-collection-list .actbox_small .price .paymoney{color:#f75934;font-size:25px;background:url('/phone/public/images/mitao/money.png') no-repeat left 8px;padding-left:14px;background-size:17px;font-weight:bold;}
+.pagePerson-collection .ui-collection-list .actbox_small p{ font-size:14px;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.pagePerson-collection .ui-collection-list .actbox_small .Choice{display:block; background:url(/phone/public/images/mitao/ico_del.png) no-repeat; background-size:25px; float:left; margin-right:10px;  width:25px; height:25px; margin-top:42px; }
+.pagePerson-collection .ui-collection-list .actbox_small .Choice-on{ display:block; background:url(/phone/public/images/mitao/ico_del_on.png) no-repeat; background-size:25px;  }
+.pagePerson-collection .ui-collection-list .leiji{ margin-left:10px; color:#95d542; }
+.pagePerson-collection .bot-btn{position:fixed; left:0;height: 50px;line-height:50px; bottom:-1px; z-index:1; width:100%; overflow:hidden;}
+.pagePerson-collection .evaluate-btn{ background:#ffa541; color:#FFF; text-align:center; font-size:18px; }
+
+/* 米淘 个人中心 订单详情 */
+.ui-Person-detail .mt_order_head{padding:10px; background:#8cc641;}
+.ui-Person-detail .mt_order_head h2{font-size:18px;font-weight:bold !important; color:#FFF;}
+.ui-Person-detail .mt_order_head .active-time{color:#FFF;}
+.ui-Person-detail .title{ padding:1rem; font-size:1.4rem; color:#8cc641;}
+.ui-Person-detail .mt_tags{ color:#333; padding:0 15px; background:#fff; border-top:solid 1px #eee; border-bottom:solid 1px #eee;}
+.ui-Person-detail .mt_tags .botl{border-bottom:solid 1px #eee;}
+.ui-Person-detail .mt_tags .ico{height:40px; line-height:40px; padding-left:30px; background-repeat:no-repeat; background-position:0  center; background-size:20px 20px;}
+.ui-Person-detail .mt_tags .ic_time{background-image:url(/phone/public/images/mitao/ic_time.png);}
+.ui-Person-detail .mt_tags .ic_add{background-image:url(/phone/public/images/mitao/ic_didian.png);}
+.ui-Person-detail .mt-order-box{ background:#FFF;border-top: 1px solid #e8e8e8;}
+.ui-Person-detail .mt-order-box ul{padding:0; margin:0;}
+.ui-Person-detail .mt-order-box li{ padding:0 15px;height:40px; line-height:40px;border-bottom: 1px solid #e8e8e8;}
+.ui-Person-detail .mt_num{border-top: 1px solid #eee;  background: #fff; }
+.ui-Person-detail .mt_num table{ width:100%;}
+.ui-Person-detail .mt_num td{ padding:0 15px; height:40px; line-height:40px; text-align:center;border-bottom: 1px solid #eee;}
+.ui-Person-detail .total{ text-align:right; padding-right:10px;}
+.ui-Person-detail .total .money{padding:0px 4px 0 15px; font-size:25px; color:#f75934; font-weight:bold; background:url('/phone/public/images/mitao/money.png') no-repeat left 11px; background-size:16px auto;}
+
+.ui-Person-detail .mt_Voucher{ position:relative;background:#FFF;border-top: 1px solid #e8e8e8;border-bottom: 1px solid #e8e8e8; margin-top:10px; padding:10px; }
+.ui-Person-detail .mt_Voucher .code{ color:#979797; font-size:16px; border-top:1px solid #eee; padding-top:10px;}
+.ui-Person-detail .mt_Voucher .code .tt{float:right;display:inline-block; padding:0 10px; color:#f75934; height:20px;line-height:20px;  border-radius:20px; font-size:14px;}
+.ui-Person-detail .mt_Voucher .code .ta{float:right;display:inline-block; padding:0 10px; color:#f75934; height:20px;line-height:20px;  border-radius:20px; font-size:14px;}
+.ui-Person-detail .mt_Voucher .code .tb{ float:right;display:inline-block; padding:0 10px; color:#f75934; height:20px;line-height:20px;  border-radius:20px; font-size:14px;}
+.ui-Person-detail .mt_Voucher .code .tc{float:right;display:inline-block; padding:0 10px; color:#ccc; height:20px;line-height:20px;  border-radius:20px; font-size:14px;}
+
+.ui-Person-detail .mt_Voucher .see-btn{ position:absolute; display:inline-block; right:20px; top:10px; border:1px solid #ffa541; font-size:14px; padding:0 10px; color:#ffa541; height:25px; line-height:25px;border-radius:25px;}
+.ui-Person-detail .mt_Voucher .tip{ background:url(/phone/public/images/mitao/icon-warm.png) #ffa541 no-repeat 5px center; background-size:20px; display:inline-block; padding:0 20px 0 30px; height:25px; line-height:25px;  border-radius:30px; color:#FFF; font-size: 12px;}
+.ui-Person-detail .mt_Voucher .Voucher-title{ margin-bottom:10px;}
+.ui-Person-detail .mt_Voucher .Voucher-title img{ height:30px;}
+.ui-Person-detail .mt_Voucher .backPay-btn{ position:absolute; right:20px; top:10px; font-size:16px; background:#ffaf44; color:#fff; padding:0 10px; height:30px; line-height:30px; border-radius:5px; }
+
+.pagePerson-detail .evaluate-btn{ background:#ffa541; color:#FFF; text-align:center; font-size:18px; }
+.pagePerson-detail .overdue-btn{ background:#eee; color:#ccc; text-align:center; font-size:18px; border-top:1px solid #ddd;}
+
+.pagePerson-detail .mt-code{ margin-top:10px;}
+.pagePerson-detail .mt-code h2{ font-size:20px; text-align:center; height:40px; line-height:40px;}
+.pagePerson-detail .mt-code p{ text-align:center;}
+.pagePerson-detail .mt-code p img{ width:60%;}
+/* 米淘 个人中心 订单详情 按钮 */
+.pagePerson-detail .bot-btn{position:fixed; left:0;height: 50px;line-height:50px; bottom:-1px; z-index:1; width:100%; overflow:hidden;}
+.pagePerson-detail .bot-btn .btnl{width:60%; float:left;background-color:rgba(20,20,20,0.9); color:#fff;}
+.pagePerson-detail .bot-btn .btnr{width:40%; float:right; background: #ffaf44; font-size:20px; color:#fff; text-align:center;}
+.pagePerson-detail .bot-btn .btnl i{float:left;}
+.pagePerson-detail .bot-btn .btnl .total{padding-left:10px; font-size:18px;}
+.pagePerson-detail .bot-btn .btnl .totalprice{font-size:18px;color: #ff931b;margin-left: 10px;background-image: url(/phone/public/images/mitao/money2.png); background-repeat:no-repeat;background-size: 12px; padding-left:15px; background-position:0 18px;}
+/* 米淘 个人中心 修改姓名 */
+.pagePerson-setname .ui-page-setname{padding:10px; background:#fff;}
+
+
+/* 米淘 个人中心 用户评价 */
+.ui-Person-evaluate{margin-top: 1rem; padding:1.5rem; background: #FFF; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8;}
+.ui-Person-evaluate .ui-evaluate-top{ padding:1rem 0; height:2rem; margin-bottom:2rem; line-height:2rem; }
+.ui-Person-evaluate .ui-evaluate-text .ui-text{ width:100%; height:10rem; background:#fcfcfc; border:1px solid #e8e8e8;}
+.ui-Person-evaluate a.ui-btn-evaluate{display:block; width:50%; height: 4rem; margin-top: 1rem; overflow: hidden;  text-align:center; line-height: 4rem; font-size: 1.6rem; color: #fff; background: #ffaf44; border-radius:.3rem;}
+.ui-Person-evaluate a.ui-btn-evaluate:hover{background: #ffaf44;}
+.ui-Person-evaluate .ui-evaluate-title{ font-size:16px;}
+.ui-Person-evaluate #ui-star-items{ position: relative;}
+.ui-Person-evaluate #ui-star-items span{height: 2rem;line-height: 2rem;}
+.ui-Person-evaluate #ui-star-items ul{display: inline;}
+.ui-Person-evaluate #ui-star-items ul li{float: left;width: 2.2rem;cursor: pointer;text-indent: -9999px;background: url(/phone/public/images/mitao/star.png) no-repeat;}
+.ui-Person-evaluate #ui-star-items li.on{background-position: 0 -28px;}
+.ui-evaluate-img{ margin-top:10px;}
+.ui-evaluate-img ul{ margin-left:-10px;}
+.ui-evaluate-img li{ float:left; margin-left:10px;}
+.ui-evaluate-img .imgPic{ padding:2px; border:1px solid #ddd;}
+.ui-evaluate-img img{ width:70px; height:70px;}
+.ui-evaluate-img .addImg-btn{ display:block; width:70px; height:70px; background:#f0f0f0; border:1px solid #ddd; }

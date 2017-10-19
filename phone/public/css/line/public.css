@@ -1,0 +1,26 @@
+/* 公用 public CSS 文件 */
+html{font-size: 10px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+body{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px;padding: 0 0 50px 0; line-height: 1.42857143; color: #333;background: #f8f8f8;}
+a{color: #337ab7; text-decoration: none;}
+a:hover,a:focus{color: #23527c; background:transparent; text-decoration: none;}
+/* 流体框架 */
+.container-fluid{padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
+i{display: inline-block; font-style: normal;}
+
+.topl{border-top: solid 1px #eee;}
+.botl{border-bottom: solid 1px #eee;}
+.bgf{background-color: #fff;}
+.c9{color: #999 !important;}
+.red{color: #f75934;}
+.mt10{margin-top:10px;}
+.green{color: #8ac43e !important;}
+
+/*米淘前端页面 公共头部*/
+.mt_header_warp{position: static;}
+.mt_header_warp{height: 48px;background: #1f1f1f;}
+.mt_header_warp .header_home{float: left;width: 30px;height: 30px;margin:9px 0 0 9px;line-height: 30px;background: url('/phone/public/images/mitao/mt_home.png') no-repeat left center;background-size: 30px 30px;}
+.mt_header_warp .header_person{float: right;width: 30px;height: 30px;margin:9px 9px 0 0;line-height: 30px;background: url('/phone/public/images/mitao/personal.png') no-repeat right center;background-size: 30px 30px;}
+.mt_header_warp .header_logo{position: absolute;left: 0;right: 0;width: 200px;background: url('/phone/public/images/mitao/mt_logo.png') no-repeat center;background-size: auto 40px;margin:5px auto 0 auto;height: 40px;color: #fff;}
+
+/*米淘前端页面 公共置顶*/
+.mt-totop{position: fixed; bottom: 60px; right: 10px;z-index: 99;width: 50px; height: 50px; background: url('/phone/public/images/mitao/top.png') no-repeat; background-size: auto auto; background-size: 50px;}

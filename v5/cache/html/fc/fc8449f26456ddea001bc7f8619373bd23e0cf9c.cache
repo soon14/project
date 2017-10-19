@@ -1,0 +1,847 @@
+3600
+s:58573:"<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>龙山蜡像馆、海岸樱源休闲游-旅游</title>
+  <link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css" rel="stylesheet"  />
+  <link type="text/css" href="/min/?f=/res/css/mycss/strategy/TravelNotes.css" rel="stylesheet"  />
+  <script type="text/javascript"src="/min/?f=/res/js/common/jquery-1.11.3.min.js,/res/js/common/bootsAitto-min.js,/res/js/strategy/TravelNotes.js"></script>
+  <style>
+  </style>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?f968b43cd6404299f54d25d87c3bbe3a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script></head>
+<body class="Color-fafafa" >
+<!-- 登陆代码 开始 -->
+
+<link type="text/css" href="/min/?f=/res/css/common/bootstrap-min.css,/res/css/common/public.css" rel="stylesheet"  />
+<header>
+    <div id="commonHead">
+        <div id="commonWarp">
+            <div class="logo" style="cursor:pointer;" onclick="window.location.href='http://www.aitto.net'" ></div>
+        <div class="nav">
+                <ul>
+                    <li class="current st-menu">
+                        <a href="/">首页                        </a>
+                    </li>
+                                                            <li class="st-menu"><a href="http://www.aitto.net/destination/">目的地</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/raiders/">攻略</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/notes/">游记</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/spots/">门票</a></li>
+                                        <li class="st-menu"><a href="http://www.aitto.net/lines/self">自驾游</a></li>
+                                        
+                </ul>
+            </div>
+              <div class="head-search">
+            <div class="head-search-wrapper">
+                <div class="head-searchform">
+                    <input id="_j_head_search_input" type="text" value="" placeholder="搜索游记">
+                    <a role="button" href="javascript:" class="icon-search" id="_j_head_search_link" onclick=""></a> </div>
+            </div>
+        </div>
+                  <div class="login-info">
+                <div class="userLogin" id="loginstatus">
+                </div>
+                <div class="head-user drop-trigger" id="-j-head-user">
+                    <a class="" href="#">
+                        <div class="user-ico"></div>
+                        <i class="icon-caret-down"></i>
+                    </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">会员中心</h2>
+                        <div class="dropdown-menu" >
+                            <ul>
+                                <li class="icon-home"><a href="/member/"><i></i>会员首页</a></li>
+                                <li class="icon-order"><a href="/member/order/all"><i></i>我的订单</a></li>
+                                <li class="icon-writenotes"><a href="/member/index/mynotes"><i></i>我的游记</a></li>
+                                <li class="icon-jifen"><a href="/member/index/jifen"><i></i>我的积分</a></li>
+                                <li class="icon-Personal"><a href="/member/index/userinfo"><i></i>个人中心</a></li>
+                                <li class="icon-traveller"><a href="/member/index/linkman"><i></i>常用旅客</a></li>
+                                <li class="icon-logout"><a href="/member/login/loginout"><i></i>退出登录</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-code drop-trigger" id="-j-head-code" > <a class="" href="#">
+                        <div class="code-ico"></div>
+                        <i class="icon-caret-down"></i> </a>
+                    <div class="dropdown">
+                        <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+                        <div class="drop-con">
+                            <div class="WeChat"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</header>
+<script type="text/javascript">
+    //JQuery
+    $(document).ready(function(){
+        $(document).on("click",
+            function(e) {
+                isActive = $(e.target).parent().attr("class");
+                var  typeid= "101";
+                if (isActive=='head-searchform') {
+                    if(typeid==101){
+                          $(".head-search-focus").css('width',"345px");
+                          $(".head-search-focus .head-searchform input").css('width',"323px");
+                    }
+                    if(typeid==5){
+                        $(".head-search-focus").css('width',"285px");
+                        $(".head-search-focus .head-searchform input").css('width',"263px");
+                    }
+                }
+                else {
+                    if(typeid==101||typeid==5){
+                        $(".head-searchform input").css('width',"108px");
+                        $(".head-search-wrapper").css('width',"130px");
+                    }
+                    $(".head-search-wrapper").removeClass("head-search-focus");
+                }
+            })
+        $("#_j_head_search_input").click(function(){
+            $(".head-search-wrapper").addClass("head-search-focus");
+        });
+    });
+</script>
+<script type="text/javascript"src="/min/?f=/res/js/SuperSlide.min.js,/res/js/base.js,/res/js/common.js,/res/js/myjs/bootstrap.min.js,/res/js/myjs/jquery.select.js,/res/js/common/bootsAitto-min.js"></script>
+<script>
+    var SITEURL = "/";
+    function optionChecked(obj){
+        var typeid = $(obj).attr('data-id');
+        var durl = $(obj).attr('data-url');
+       // alert(typeid+"["+durl);
+        $("#typename").attr('data-id',typeid);
+        $("#typename").attr('data-url',durl);
+    }
+    //====================07.05  s
+    $("a[name=myorder]").click(function(){
+        var  url1 =SITEURL+'member/order/all';//SITEURL 为 '/'
+        var  url =SITEURL+'member/login?redirecturl='+url1;
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status==0){
+                    alert("请先登录");
+                   window.location.href =url;
+                }else{
+                    window.location.href =url1;
+                }
+            }
+        })
+    });
+    //====================07.05  e
+    $(".weixin").mouseover(function(){
+        //  $(this).addClass("hover");
+        $(this).children(".dropdown1").show()
+    });
+    $(".weixin").mouseout(function(){
+        // $(this).removeClass("hover");
+        $(this).children(".dropdown1").hide()
+    });
+   //
+    $(function(){
+        var typeid  = "101";
+        $("#_j_head_search_input").keydown(function(e){
+            if(e.keyCode==13){
+                $('#_j_head_search_link').click();
+            }
+        });
+        $(".searchmodel li:first").trigger('click');
+        //search
+        $('#_j_head_search_link').click(function(){
+            var keyword = $('#_j_head_search_input').val();
+            if(keyword == ''){
+                alert("请输入内容");
+                $("#_j_head_search_link").focus();
+                return false;
+            }
+//            var typeid = $("#typename").attr('data-id');
+//            var durl = $("#typename").attr('data-url');
+//            if(typeid==0 || typeid==8){//0  是全部  8是 签证
+//                var url = SITEURL+'search/cloudsearch?keyword='+encodeURIComponent(keyword)+"&typeid="+typeid;
+//            }else{
+//                var url = "http://www.aitto.net"+durl+'all?keyword='+encodeURIComponent(keyword);
+//            }
+            if(typeid==4){
+                var url = "http://www.aitto.net"+"/raiders/"+'all?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==101){
+                var url = "http://www.aitto.net"+"/notes/list"+'?keyword='+encodeURIComponent(keyword);
+            }else if(typeid==5){
+                var url = "http://www.aitto.net"+"/spots/"+'all?keyword='+encodeURIComponent(keyword);
+            }
+            location.href = url;
+        })
+        //导航的选中状态
+        $(".st-menu a").each(function(){
+            $(".st-menu").removeClass('current');
+            var url= window.location.href;
+            // url=url.replace('index.php','');
+            //url=url.replace('index.html','');
+            var urlArr = url.split("/");
+            var ulink=$(this).attr("href");
+            var urlLinkArr = ulink.split("/");
+             //  定义目的地拼音
+            var pinyin  ="";
+            var  sss   = urlArr[3].split("?");
+            var   p    = sss[0];
+         console.log(urlArr[3]);
+        // console.log(urlLinkArr[3]);
+            if(urlArr[3]==urlLinkArr[3])
+            {
+                $(this).parents('li').addClass('current');
+                return false;
+            }else if(pinyin==p&&urlLinkArr[3]=='destination'&&pinyin.length!=''){
+                $(this).parents('li').addClass('current');
+                return false;
+            }
+            else{
+                if(urlArr[3]!='member'){
+                    $(".st-menu").first().addClass('current');
+                }
+            }
+        })
+        //登陆状态
+        $.ajax({
+            type:"POST",
+            url:SITEURL+"member/login/ajax_is_login",
+            dataType:'json',
+            success:function(data){
+                if(data.status){
+                    $txt = '<a class="dl" style="padding:0" href="javascript:;">你好,</a>';
+                    $txt+= '<a class="dl" href="/member/">'+data.user.nickname+'</a>';
+                    $txt+= '<a class="dl" href="/member/login/loginout">退出</a>';
+                    //$txt+= '<a class="dl" href="/member">个人中心</a>';
+                    $txt = '您好:<a href="/member/">'+data.user.nickname+'</a>';
+                }else{
+                    //$txt = '<a class="dl" href="/member/login">登录</a>';
+                    // $txt+= '<a class="zc" href="/member/register">免费注册</a>';
+                    $txt = '&nbsp;&nbsp;&nbsp;&nbsp;<a href="/member/login">登录</a> | <a href="/member/register">注册</a>';
+                }
+                $("#loginstatus").html($txt);
+            }
+        })
+    })
+</script>
+<script>
+    var s  = 3;
+</script><!-- 登陆代码 结束 -->
+<div class="notebox"></div>
+<section> 
+  <!-- 面包屑 开始 -->
+  <div  class="BreadCrumb">
+    <ul >
+      <li><a href="/">首页<i class="icon-gt">&gt;</i></a></li>
+      <li><a href="#">游记<i class="icon-gt">&gt;</i></a></li>
+      <li class="current"><a href="#">游记正文</a></li>
+    </ul>
+    <div class="clearfix"></div>
+  </div>
+  <!--  面包屑 结束 --> 
+</section>
+<div class="travelFloat-nav">
+  <div class="nav-warp">
+    <div class="nav-title"> <span class="home"><a href="#"><em></em></a></span> <span class="nav-h2">龙山蜡像馆、海岸樱源休闲游</span> </div>
+    <div class="ui-navArea-btn">
+      <ul>
+        <li class="link-share bdsharebuttonbox" data-tag="share_1"><a href="javascript:;" class="ui-btn bds_more" title="一键分享" rel="nofollow" style="cursor:auto" data-cmd="more" onclick="shareStyle(this)" onmouseout="reStyle(this)" onmouseover="shareStyle(this)">&nbsp;分享</a></li>
+        <li class="link-like"><a href="javascript:" class="ui-btn link_like" data-link="2" data-id="193"><i></i><span class="ui-btn-text">喜欢<b>(0)</b></span></a></li>
+        <li class="link-comment" onclick="$('#report_area').focus();" ><a href="###" class="ui-btn"><i></i><span class="ui-btn-text">评论<b>()</b></span></a></li>
+        <li class="link-browse"><a href="#" class="ui-btn"><i></i><span class="ui-btn-text">浏览<b>(70)</b></span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+  //  设置 页面的  划词 和图片分享
+  /*
+   百度 分享bdUrl 里面的地址不能拿带 http://www
+   亲测  火狐下 将按这个地址 跳转
+   */
+  window._bd_share_config={
+    common:{
+               bdText : "龙山蜡像馆、海岸樱源休闲游",
+               bdDesc : "这游记写得太棒了！",
+               bdUrl  : "aitto.net/notes/show_193.html",
+               bdPic  : "aitto.net/new_uploads/2017/0829/59a4badd629b0IMG_20170816_161932.jpg",
+               bdMini :2,
+               "onBeforeClick" :function(cmd,config){
+                       //  user 在用户点击分享按钮时执行代码，更改配置。
+                       //  cmd为分享目标id，config为当前设置，返回值为更新后的设置。
+               },
+               "onAfterClick" : function(cmd){
+                       //在用户点击分享按钮后执行代码，cmd为分享目标id。可用于统计等
+               }
+     },
+    share:[{
+        tag : "share_1",
+            bdCustomStyle:"/res/css/mycss/strategy/TravelNotes2.css"
+      }
+    ],
+    image:{
+      viewList:'',
+      viewText:"分享到：",
+      viewSize:"24"},
+    selectShare:{
+      bdContainerClass:null,
+      bdSelectMiniList:["qzone","tsina","tqq","renren","weixin"]
+    }
+  };
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+ function shareStyle(th){
+   $(th).css({
+   'padding-left': '2px',
+   'width': '66px',
+    'height':"100%",
+    'margin' :"0px 0px",
+     'color' : 'white',
+   'float': 'left',
+   'font-size': '13px',
+   'line-height': '89px',
+   'background-image': 'url(/res/images/TravelNotes/travelNotes2.png)',
+   'background-repeat': 'no-repeat',
+   'background-position-x':  '28px',
+   'background-position-y': '5px'
+   })
+ }
+ function reStyle(th){
+    $(th).css({
+      'padding-left': '2px',
+      'width': '66px',
+      'height':"100%",
+      'margin' :"0px 0px",
+      'color' : '#666',
+      'float': 'left',
+      'font-size': '13px',
+      'line-height': '89px',
+      'background-image': 'url(/res/images/TravelNotes/travelNotes2.png)',
+      'background-repeat': 'no-repeat',
+      'background-position-x':  '28px',
+      'background-position-y': '-30px'
+    })
+  }
+</script>
+<div class="container">
+  <section>
+    <div class="ctd-head-travelNotes"><img src="/new_uploads/2017/0829/59a4badd629b0IMG_20170816_161932.jpg" width="100%" height="100%">
+      <div class="ctd-mask"></div>
+      <div class="ctd-info">
+        <div class="user-img"><img src="/new_uploads/2017/0829/59a4badd629b0IMG_20170816_161932.jpg" ></div>
+        <div class="user-info">
+          <h2>龙山蜡像馆、海岸樱源休闲游</h2>
+          <div class="user-bot">
+            <div class="user-l"><span class="user-data">29/Aug.2017</span><span class="user-name">瘾与深巷</span><span class="user-lv">LV 1</span><span class="user-num">1篇游记</span></div>
+            <div class="user-r">
+              <span class="link-box">
+<!--                <a class="link-share bds_more" href="javascript:;" data-cmd="more"><i></i>分享 </a>-->
+                <a class="link-like link_like" href="javascript:;"  data-id="193"  title="喜欢就点击一下"> <i></i>喜欢<span>0</span> </a>
+                <a class="link-comment" href="javascript:;" onclick="$('#report_area').focus();"  title="我要评论" ><i></i>评论<span></span></a>
+                <a class="link-browse" href="javascript:;"> <i></i> 浏览 <span>70</span> </a> </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="ctd-Travel-body">
+      <div class="ctd-Travel-nav">
+        <div class="sideToolbar">
+          <div class="sideCatalog">
+            <div class="ebn-button-box" style="display: block;"> <a class="ebn-button ebn-button-up sideCatalog-up-disable" target="_self" href="javascript:;"></a> <a class="ebn-button ebn-button-down sideCatalog-down-enable" target="_self" href="javascript:;"></a> </div>
+           <div class="ebn-Catalog"></div>
+            <div class="sideCatalog-catalog">
+              <dl>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Travel-article">
+        <div class="ctd-content">
+          <div class="ebma-chapter ebma-preface"> <a class="ebma-anchor0" href="#" id="p0"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">旅游概况</span></h4>
+            <ul class="Survey">
+              <li class="time"><i></i><span>目的地： 石家庄</span></li>
+                                          <li class="day"><i></i><span>出行天数：  1天</span></li>
+              <li class="cost"><i></i><span>人均花费：50元</span></li>
+              <li class="people"><i></i><span>出行人物： 陈、朱、王、付</span></li>
+              <li class="jingqu"><i></i><span>出行方式： 自驾</span> </li>
+              <li class="day"><i></i><span>出发日期：2017-8-16</span></li>
+              <div class="clearfix"></div>
+            </ul>
+          </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p1"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">前言篇</span></h4>
+          </div>
+          <div><p>
+                            <span style="font-family:sans-serif;font-size:16px;line-height:normal;">最近几次乘坐公交车总会听到龙山蜡像馆的广告，很是好奇，石家庄啥时候也开了个蜡像馆？虽然我个人对蜡像馆之类的场馆不感兴趣，但谁让我是一个好奇宝宝呢。就这样在好奇心的驱使下，吃过午饭，从单位开溜，一睹龙山蜡像馆真容。</span>
+                                              </p>
+          </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p2"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">行程篇</span></h4>
+          </div>
+          <div><p>
+                            <p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">龙山蜡像馆位于石家庄鹿泉区东鲍庄村，距市区大约30公里，沿着石清路一路向西就可以到，非常好找。老司机开车40分钟就能到，新手那就没准了。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/a74afe751ae62087b86ccc21020583a0.png" alt="" title="" _src="/new_uploads/2017/0828/a74afe751ae62087b86ccc21020583a0.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">不得不说，自从石清路修好之后，路况好多了，记得去年走这条路去平山的时候那叫一个痛苦，坑坑洼洼、颠颠簸簸，最头疼的是堵堵堵，那叫一个窝火。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">自驾出去游玩，我的一贯原则就是车上可劲补觉，下车使劲折腾。所以路上发生了什么我根本不知道，我只知道我睡醒的时候就已经到景区了。<br></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">景区停车场背靠大山，山上有一个红色的龙的图案，越看越像plus版的剪纸。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/a60a4017ddcdee79654dc565f15f2abc.JPG" alt="" title="" _src="/new_uploads/2017/0828/a60a4017ddcdee79654dc565f15f2abc.JPG"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">售票中心，我们从网上团购的门票，通票50元，直接到窗口兑换纸质门票就可以，非常方便。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/64935946e9eebaddc5538476727332b7.JPG" alt="" title="" _src="/new_uploads/2017/0828/64935946e9eebaddc5538476727332b7.JPG"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">进入景区大门，左手边是景区餐厅，两层小白楼，由于我们是吃过饭才过来的所以没有进去参观。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/153a613358effe58d87d8b924b748ddf.JPG" alt="" title="" _src="/new_uploads/2017/0828/153a613358effe58d87d8b924b748ddf.JPG"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">右手边有一小段楼梯连接一条桥，穿过就正式进入园区。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/b8b2b779a68d43891b8bb0ddfa80c598.JPG" alt="" title="" _src="/new_uploads/2017/0828/b8b2b779a68d43891b8bb0ddfa80c598.JPG"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">桥的右边就是大名鼎鼎的滑草区，说是滑草，其实铺的是假的草坪，不过丝毫不影响游玩的乐趣。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/9b858d39bc0b1a4ab2f840aa0469546d.JPG" alt="" title="" _src="/new_uploads/2017/0828/9b858d39bc0b1a4ab2f840aa0469546d.JPG"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">穿过桥有一个指示牌，告诉游客不同游乐项目的具体位置。由于天气太热，所以我们计划先去参观室内的蜡像馆，然后再游玩室外的项目。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/83a0d403ec58b7bdaf4047cc06adb44b.JPG" alt="" title="" _src="/new_uploads/2017/0828/83a0d403ec58b7bdaf4047cc06adb44b.JPG"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">两边郁郁葱葱的小树遮住了刺眼的太阳，走在树下有点小凉爽。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/ab171e6ac23da321130a13acbe4c4924.JPG" alt="" title="" _src="/new_uploads/2017/0828/ab171e6ac23da321130a13acbe4c4924.JPG"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">往前走直接到达燕赵历史名人画廊，里边讲述了25位燕赵历史名人的故事，绝对寓教于乐的好地方。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/84c35c2635fdd608eb1015cfa9f591b1.JPG" alt="" title="" _src="/new_uploads/2017/0828/84c35c2635fdd608eb1015cfa9f591b1.JPG"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">长长的走廊一眼望不到头，走廊两边种有杏、核桃、柿子等各种果树，有兴趣的话可以过来采摘。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/9d74e1a8cdbc2157da4c478956deb570.JPG" alt="" title="" _src="/new_uploads/2017/0828/9d74e1a8cdbc2157da4c478956deb570.JPG"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">燕赵历史名人之扁鹊的故事，首先想到四个字：望闻问切，至于其余的，就不要再问我这个学渣了。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/6282d2a94f43126d5fd5bb89e913b48f.JPG" alt="" title="" _src="/new_uploads/2017/0828/6282d2a94f43126d5fd5bb89e913b48f.JPG"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">路边的石头上写有各种名人名言，真是抓住一切机会对我们进行教育啊~</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/281dc0a00797fa8b4ad6444d134da8ed.JPG" alt="" title="" _src="/new_uploads/2017/0828/281dc0a00797fa8b4ad6444d134da8ed.JPG"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">穿过国学走廊就到了名人民俗蜡像馆，看名字就知道肯定是和民俗相关的，那些想看冰冰、凡凡、峰峰、炅炅等蜡像的人就不要过来了。<br></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/7280b86ba6030a8e804992299887b749.JPG" alt="" title="" _src="/new_uploads/2017/0828/7280b86ba6030a8e804992299887b749.JPG"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">进入场馆，首先看到这一名白衣红裙的汉美人蜡像，这是一个高仿真机器人迎宾小姐，全天候为游客迎宾、讲解。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/f573c76cd1f9aedaab5784da2562dfb0.png" alt="" title="" _src="/new_uploads/2017/0828/f573c76cd1f9aedaab5784da2562dfb0.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">这个门设计的有意思，刚开始吓我一跳，怎么刚进来就无路可走了，走过去才发现是声控的，中间的石头自动滑向两边，然后你就穿越啦。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/8c62486e80e0030352bb965465d64d6e.png" alt="" title="" _src="/new_uploads/2017/0828/8c62486e80e0030352bb965465d64d6e.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">蜡像馆内的所有蜡像都取材于中华传统文化的远古传说、经典故事、励志成语，有“开天辟地”创世宫、“孝感动天”孝道馆、“一诺千金”诚信阁等6个主题分馆，展现了女娲造人、卧冰求鲤、韩信报恩、梁祝化蝶、匡衡破墙借光等经典历史故事。&nbsp;</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/9a8b6459e5079972d2bf3ae89769f945.png" alt="" title="" _src="/new_uploads/2017/0828/9a8b6459e5079972d2bf3ae89769f945.png"><img src="http://www.aitto.net/new_uploads/2017/0828/b7171b33836bf73ba3fe4976de0b83c6.png" alt="" title="" _src="/new_uploads/2017/0828/b7171b33836bf73ba3fe4976de0b83c6.png"><img src="http://www.aitto.net/new_uploads/2017/0828/e5c603566441162ca1e79efa4ecd40bd.png" alt="" title="" _src="/new_uploads/2017/0828/e5c603566441162ca1e79efa4ecd40bd.png"><img src="http://www.aitto.net/new_uploads/2017/0828/8ad274427c1a9669bca6de28ea132f6b.png" alt="" title="" _src="/new_uploads/2017/0828/8ad274427c1a9669bca6de28ea132f6b.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">欣欣同学你不要太调皮，这背篓都能够把你装进去了。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/26dc7ffb6d9b99f19f1f7d47af9644ea.png" alt="" title="" _src="/new_uploads/2017/0828/26dc7ffb6d9b99f19f1f7d47af9644ea.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">出蜡像馆向左走能到国学大讲堂，我对这些事是一点点兴趣都没有，远观一下就可以了。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/9ad7d9f18263054a5708ee6a0d880c31.png" alt="" title="" _src="/new_uploads/2017/0828/9ad7d9f18263054a5708ee6a0d880c31.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">紧挨着蜡像馆的是青少年拓展中心，里边的拓展项目超级刺激，至少我没有勇气上去挑战。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/2382d6737b2003862bb64c3f331a44cd.png" alt="" title="" _src="/new_uploads/2017/0828/2382d6737b2003862bb64c3f331a44cd.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">右边类似于变形金刚的黄蓝灰的建筑物还没有建好，建好之后是VR体验馆，至于什么是VR我就不多做解释，相信你们比我懂。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/1e16257b3a93f0807691545f29ee40b5.png" alt="" title="" _src="/new_uploads/2017/0828/1e16257b3a93f0807691545f29ee40b5.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">拓展区里边的装备区，头盔、安全绳一样都不能少。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/99648cb70c975853aad59372e1ce803e.png" alt="" title="" _src="/new_uploads/2017/0828/99648cb70c975853aad59372e1ce803e.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">拓展中心可谓是充分利用了空间，上边是拓展项目，下边则是适合小不点玩的游乐园。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/52f223c43a86a17558cd37f11060c9af.png" alt="" title="" _src="/new_uploads/2017/0828/52f223c43a86a17558cd37f11060c9af.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/8a79e638c8d57f77b7038eb2ede735f4.png" alt="" title="" _src="/new_uploads/2017/0828/8a79e638c8d57f77b7038eb2ede735f4.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">从拓展中心出来，顺着山路往上走进入室外项目区。首先看到的就是重走长征路，看似简单，但要想走完全程可就难了。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/0599c4ac25cd3dcc65aa48e31350c0df.png" alt="" title="" _src="/new_uploads/2017/0828/0599c4ac25cd3dcc65aa48e31350c0df.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">重走长征路中最简单的一截——吊起来的木板。我承认我是怂的，只上去走了一步就果断放弃了。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/e013eb8426d18a630da37b05eb3f71fa.png" alt="" title="" _src="/new_uploads/2017/0828/e013eb8426d18a630da37b05eb3f71fa.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">山路的另一边有一个八卦迷宫阵，走进去绕了半天才绕出来，真有种把篱笆墙拆了的冲动，我这暴脾气啊。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/0ff75d7941583f9c22b7842455f360b0.png" alt="" title="" _src="/new_uploads/2017/0828/0ff75d7941583f9c22b7842455f360b0.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">心心念念的疯狂大滑梯，走到跟前还真有点害怕了，左边黄色、绿色的是给小朋友玩的，右边三个滑道给成人玩，果断选择成人里边坡度最小的滑道，右边那两个滑道估计能吓屎宝宝。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/fc131be488c445b5af93e0eba1d985eb.png" alt="" title="" _src="/new_uploads/2017/0828/fc131be488c445b5af93e0eba1d985eb.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">射箭场地，本宝宝投了三次，一次都没有投在靶上，丢人丢到家了。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/14b7a3ca6248fd443db390913218dd4b.png" alt="" title="" _src="/new_uploads/2017/0828/14b7a3ca6248fd443db390913218dd4b.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">射箭场对面是一块空旷的小树林，有秋千还有供游人休息的小木凳。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/183fad3a6bb8380fea7adf6f2b84a0cb.png" alt="" title="" _src="/new_uploads/2017/0828/183fad3a6bb8380fea7adf6f2b84a0cb.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">穿过小广场，顺着山路往上走，就到了民俗文化园。大家猜猜下边的家伙什叫什么？反正它认识我，我不认识它~</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/cd95295e0d01743597d5a199561e7d25.png" alt="" title="" _src="/new_uploads/2017/0828/cd95295e0d01743597d5a199561e7d25.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">这两人彻底玩嗨了，这是要推着下地么~</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/88d992a949d1b4c0c0d772ee94a582d1.png" alt="" title="" _src="/new_uploads/2017/0828/88d992a949d1b4c0c0d772ee94a582d1.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">民俗馆房顶上挂的这块蓝印花布是我的最爱，好想扯一块回家。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/be198fdb315bc89232d189c4dbd3cc2f.png" alt="" title="" _src="/new_uploads/2017/0828/be198fdb315bc89232d189c4dbd3cc2f.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">从民俗文化园出来直奔滑草区，在尖叫刺激中我们的龙山蜡像馆之游正式结束。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/53551e672f57e3ba17aae70a3c14a6ea.png" alt="" title="" _src="/new_uploads/2017/0828/53551e672f57e3ba17aae70a3c14a6ea.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">从蜡像馆出来才四点多，时间尚早，正好再去海岸樱源转一圈。海岸樱源距离龙山蜡像馆也就5公里左右，开车十多分钟到达，非常便利。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/e1ac3a5b3b494fcbaab394eaae12ae3a.png" alt="" title="" _src="/new_uploads/2017/0828/e1ac3a5b3b494fcbaab394eaae12ae3a.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">水边的小树林，好多人都过来这里烧烤露营。<br></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/2d26a32e826c36c93cefa7fba8d6a5a1.png" alt="" title="" _src="/new_uploads/2017/0828/2d26a32e826c36c93cefa7fba8d6a5a1.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">水边草丛里的帐篷，在这里露营估计要被蚊子咬死吧。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/a3ea2f2ee5809ab444955531b46c0370.png" alt="" title="" _src="/new_uploads/2017/0828/a3ea2f2ee5809ab444955531b46c0370.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">岸边有一大片的浅水区，脱掉鞋直接进去嗨，假装去海边。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/1fa33f69c104ecfb8887a58a9a1a7b53.png" alt="" title="" _src="/new_uploads/2017/0828/1fa33f69c104ecfb8887a58a9a1a7b53.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">造型一定要凹一个，一望无际的水面，是不是很壮观。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/0fcdbba8082e89e9d40325e0d22c29d0.png" alt="" title="" _src="/new_uploads/2017/0828/0fcdbba8082e89e9d40325e0d22c29d0.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">停在水边的游艇，150块钱一圈，在水面上兜一圈，想想也很爽。</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/790b46cedc937b5cc962a93936fec72a.png" alt="" title="" _src="/new_uploads/2017/0828/790b46cedc937b5cc962a93936fec72a.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">虽为单身狗，但仍是要秀一把，你牵着我，我牵着你，真爱啊！</p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;"><img src="http://www.aitto.net/new_uploads/2017/0828/bc511185debb4f3658943e9701ae94b9.png" alt="" title="" _src="/new_uploads/2017/0828/bc511185debb4f3658943e9701ae94b9.png"><img src="http://www.aitto.net/new_uploads/2017/0828/a92591b0f9f908e3368c3965cf31f3ea.png" alt="" title="" _src="/new_uploads/2017/0828/a92591b0f9f908e3368c3965cf31f3ea.png"></p><p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; font-size: 16px; line-height: normal;">大约下午五点开始往回走，不上班出去嗨的感觉果真很爽，下次继续出来嗨。</p>                            </p>
+          </div>
+                              <div class="ebma-chapter chapter-main"> <a class="ebma-anchor0" href="#" id="p3"></a>
+            <h4 class="CatalogHd-main"><i></i><span class="head-con">总结篇</span></h4>
+          </div>
+          <div><p>
+                            <span style="font-family: sans-serif; font-size: 16px; line-height: normal;">总之，除了有点热，有点晒之外，整个行程还是比较愉悦的。去之前还在想，自己对龙山蜡像馆可能会一点兴趣都没有，结果却大大出乎我的意料，竟然如此有趣，尤其适合家长带小朋友过来游玩，既可以了解我国历史文化知识又能够强身健体，寓教于乐。</span>                            </p>
+          </div>
+                              <div class="ctd-theend"></div>
+        </div>
+        <div class="ctd-comment">
+          <div class="TicketM-Tit"> <span> <i class="detail-icon-4"> 用户点评 </i> <i class="detail-icon-t"> </i> </span></div>
+          <div class="ebmc-content">
+            <div class="ebm-title">发表评论</div>
+            <div class="nchcomments-box"> <a title="" class="nchimg"><img src="/uploads/main/allimg/20150923/20150923143441.jpg"></a>
+              <div class="nchtextarea right"> <i class="tip-icon--left-sangle"></i>
+                <textarea class="ebmc-textarea" cols="30" rows="10" placeholder="喜欢这篇游记吗？说点什么吧..." id="report_area" onkeyup="zifu(this)"></textarea>
+                <span class="tbmac-tip tbmac-tip-normal">已输入<b><em>0</em>/500</b>字</span> </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="ebmc-info"> <a href="javascript:;" class="ebmc-button tj-btn">评论</a> </div>
+          </div>
+          <div class="ebmc-list">
+            <ul id="result_list">
+            </ul>
+            <div class="pages Pagination" >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Travel-sider">
+        <div class="notes-box">
+          <div class="side-box side-About">
+            <div class="wy-notice-img"><i></i><span>14</span>篇游记</div>
+            <div class="wy-notice-btns">
+              <a href="/notes/WRITE" class="Publish-Travels" rel="nofollow" target="-blank"><i class="icon icon-publish"></i>发游记</a>
+              <a href="javascript:"  rel="nofollow" id="com"><i class="icon icon-comments"></i>写点评</a> </div>
+          </div>
+          <div class="side-box sid-Recommend">
+            <h4>热门游记推荐</h4>
+            <ul>
+                                          <li>
+                <div class="note-img"><img src="http://www.aitto.net/uploads/notes/58afd304b1aff123.jpg"/></div>
+                <div class="note-con">
+                  <h5 title="闲来无事，回忆那年夏天与闺蜜的坝上草原之行" style="overflow: hidden">闲来无事，回忆那年夏天与闺蜜的坝上草原之行</h5>
+                  <div class="note-name"><span>白色纽扣&nbsp;&nbsp;&nbsp;&nbsp;</span>2017-10-11 </div>
+                </div>
+              </li>
+                                          <li>
+                <div class="note-img"><img src="http://www.aitto.net/uploads/notes/58abdfb16ca07IMG_20170114_100549.png"/></div>
+                <div class="note-con">
+                  <h5 title="东方巨龟苑一日游" style="overflow: hidden">东方巨龟苑一日游</h5>
+                  <div class="note-name"><span>月光傾城&nbsp;&nbsp;&nbsp;&nbsp;</span>2017-02-23 </div>
+                </div>
+              </li>
+                                          <li>
+                <div class="note-img"><img src="http://www.aitto.net/uploads/notes/58abee1f4fc19wKgB6lSugLqAWWspABEzxjqYjB873.jpeg"/></div>
+                <div class="note-con">
+                  <h5 title="带您玩转河北“乔家大院”" style="overflow: hidden">带您玩转河北“乔家大院”</h5>
+                  <div class="note-name"><span>山君不离&nbsp;&nbsp;&nbsp;&nbsp;</span>2017-02-23 </div>
+                </div>
+              </li>
+                                          <li>
+                <div class="note-img"><img src="http://www.aitto.net/uploads/notes/58be53e57a2b2123.jpg"/></div>
+                <div class="note-con">
+                  <h5 title="邂逅之旅，意料之外的英谈美景" style="overflow: hidden">邂逅之旅，意料之外的英谈美景</h5>
+                  <div class="note-name"><span>掌心温差&nbsp;&nbsp;&nbsp;&nbsp;</span>2017-03-07 </div>
+                </div>
+              </li>
+                          </ul>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+</div>
+
+<div style="clear: both"></div>
+<div class="footer">
+  <!-- 网站底部 开始-->
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-r">
+        <div class="code">
+          <p><img src="/res/images/erweima.jpg"></p>
+          <h3>河北旅游网微信公众号</h3>
+        </div>
+        <div class="code">
+          <p><img src="/res/images/erweima2.jpg"></p>
+          <h3>米淘亲子游微信公众号</h3>
+        </div>
+      </div>
+      <ul class="footer-l">
+        <li>
+          <h2>联系我们</h2>
+          <p>全国统一客服电话：<span>0311-87885822</span></p>
+          <p>意见邮箱：3011930149@qq.com</p>
+        </li>
+        <li class="ab-list"><h2>关于我们</h2>
+                              <a href="http://www.aitto.net/servers/index_1.html">关于我们</a>
+                    <a href="http://www.aitto.net/servers/index_2.html">联系我们</a>
+                    <a href="http://www.aitto.net/servers/index_11.html">商务合作</a>
+                    
+        <li class="dh-list"><h2>站点导航</h2>
+                              <a href="http://www.aitto.net/destination/">目的地</a>
+                    <a href="http://www.aitto.net/raiders/">攻略</a>
+                    <a href="http://www.aitto.net/notes/">游记</a>
+                    <a href="http://www.aitto.net/spots/">门票</a>
+                    <a href="http://www.aitto.net/lines/self">自驾游</a>
+                    
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <span style="color:#c2c2c2;margin-bottom: 4px;display: inline-block;">友情连接：</span>
+    <div class="footer-link">
+      <p>
+            
+</p>
+    </div>
+    <div class="footer-bottom">
+      <p>2004-2016 © 河北旅游网 ™ aitto.net All rights reserved. Version v5.57 冀ICP备16007967号-1<br />
+        营业执照新出网证（京）字242号 </p>
+    </div>
+  </div>
+  <!-- 网站底部 结束-->
+</div>
+<!-- 网站置顶 开始-->
+<div class="mfw-toolbar toolbar-item-a" id="_j_mfwtoolbar" style="display: block;">
+  <div class="toolbar-item-code"><a class="toolbtn _j_code"> <i class="icon-code"></i> </a>
+    <div class="code-box">
+      <h2 class="drop-tit">扫二维码 关注官方微信</h2>
+      <div class="WeChat"></div>
+    </div>
+  </div>
+  <div class="toolbar-item-top"> <a class="toolbtn _j_gotop"> <i class="icon-top"></i> </a> </div>
+</div>
+<!-- 网站置顶 结束-->
+<script>
+//登陆下拉
+$(document).ready(function(){
+  $(".drop").mouseover(function(){
+      $(this).addClass("hover");
+  $(this).next(".dropdown2").show()
+  });
+  $(".drop").mouseout(function(){
+      $(this).removeClass("hover");
+  $(this).next(".dropdown2").hide()
+  });
+});
+</script> 
+<input type="hidden" id="articleid" value="193">
+<input type="hidden" id="user" value=""/>
+<!----分页----->
+<input type="hidden" name="offset" id="offset" value="">
+<input type="hidden" name="page" id="page" value="1">
+<input type='hidden' id='next1' value="">
+<!----分页------->
+</body>
+</html>
+<script type="text/javascript" src="/res/js/layer/layer.js"></script>
+<script>
+  //  点击 评论
+  $("#com").click(function () {
+    $("#report_area").focus();
+  });
+  /******
+   *  评论  是 按照  文章的id
+   *  喜欢是 按照 文章 的aid
+   */
+  $(".link_like").click(function(){
+    var  th  = this;
+    $.ajax({
+      type:"POST",
+      url:SITEURL+"member/login/ajax_is_login",
+      dataType:'json',
+      success:function(data){
+        if(data.status){//已经 登录
+          addlike(th);
+        }else{  //没有登录
+          layer.confirm('是否登录，将游记添加到收藏？', {
+            btn: ['是','否'] //按钮
+          }, function(){
+            var url  = window.location.href;//获取当前页面的地址
+            var login_url  =SITEURL+"member/login/?redirecturl="+url; //www.aitto.net/member/login/?redirecturl=
+            window.location.href=login_url;
+          }, function(){
+            // addlike(th);
+          });
+        }
+      }
+    })
+  });
+  function addlike(th){
+    var i  = 1 ;
+    var infoid  = $(th).attr("data-id");
+    var this_link = $(th).attr("data-link");
+    //  alert(infoid);
+    if(this_link=='2'){
+      var s  = $(th).find("span").find('b').text().replace('(',"").replace(")","");
+    }else{
+      var s  = $(th).find("span").text();
+    }
+    var arid = $("#articleid").val();
+    //alert(arid);
+    $.ajax({
+      type: "POST",
+      url: SITEURL+"article/ajax_add_like",
+      dataType:'json',
+      data: {l_num:s,arId:arid,infoid:infoid,typeid:'101'},
+      success:function(data){
+        if(this_link=='2'){
+          if(data.status){
+            layer.msg(data.msg);
+            // $(th).html("<i></i>取消喜欢<span>"+data.likenum+"</span>");
+            $(th).html("<i></i><span class='ui-btn-text'>取消喜欢<b>("+data.likenum+")</b></span>");
+          }else{
+            layer.msg(data.msg);
+            // $(th).html("<i></i>喜欢<span>"+data.likenum+"</span>");
+            $(th).html("<i></i><span class='ui-btn-text'>喜欢<b>("+data.likenum+")</b></span>");
+          }
+        }else{
+          if(data.status){
+            layer.msg(data.msg);
+            $(th).html("<i></i>取消喜欢<span>"+data.likenum+"</span>");
+          }else{
+            layer.msg(data.msg);
+            $(th).html("<i></i>喜欢<span>"+data.likenum+"</span>");
+          }
+        }
+      }
+    });
+  }
+  //提交问答
+  $(".tj-btn").click(function(){
+    var user      = $("#user").val();
+    // return false;
+    var urls      = window.location.href;//获取当前页面的地址 当做重定向地址
+    if(user.length==0){
+      var url = '/member/login/?redirecturl='+urls;//
+      window.location.href  =url ;
+    }else {
+      var articleid = "193";
+      var dockid = $("#dockid").val();
+      //var checkcode = $("#checkcode").val();
+      var typeid = 101;
+      //var nickname = $("#nickname").val();
+      var content = $("#report_area").val();
+      if (content.length < 5) {
+        if(content.length==0){
+          layer.msg('回复内容不能为空', {
+            icon: 5
+          })
+          return false;
+        }else{
+          layer.msg('至少五个字符', {
+            icon: 5
+          })
+          return false;
+        }
+      }
+      $.ajax({
+        type: 'POST',
+        url: SITEURL + 'article/ajax_add_comment',
+        data: {
+          articleid: articleid,
+          content: content,
+          typeid: typeid,
+          dockid: dockid
+        },
+        success: function (data) {
+          if (data == 1) {
+            layer.msg('验证码错误', {
+              icon: 5
+            })
+            //重新加载验证码
+            $("#imgcheckcode").attr('src', "/captcha?" + Math.random());
+          } else if (data == 3) {
+            layer.msg('回复成功', {
+              icon: 6,
+              time: 1500
+            });
+            location.reload();
+          } else {
+            layer.msg('回复失败,请联系管理员', {
+              icon: 5
+            })
+          }
+        }
+      })
+    }
+  })
+</script>
+<script>
+  function zifu(th){
+    var thisval=$(th).val().length*1;
+    var shengyu = 500-thisval;
+    if(shengyu>0) {
+      var html = "已输入<b><em>" + thisval + "</em>/" + shengyu + "</b>字";
+      $(th).next('span').html(html);
+    }else{
+      layer.msg('不能输入了', {
+        icon: 5
+      })
+      return false;
+    }
+  }
+</script>
+<script type="text/javascript">
+  var pagesize  = 5;//0;//0;//0;//每页的页数
+  $(document).ready(function(){
+    $(function () {
+      var  s ='';
+      //第一次加载数据
+      get_data(s);
+    });
+  });
+  function get_data(s) {
+    var offset    = $("#offset").val().length==""? 0:$("#offset").val();//  每页的开始 也是 limit 第1个参数
+    var articleid = "193";//    攻略 的 id
+    var typeid    = "101";//  模型的 id
+    $.ajax({
+      type: "POST",
+      url: SITEURL + 'article/ajax_get_comment',
+      async:false,
+      dataType: "json",
+      data: {pagesize:pagesize,offset:offset,articled:articleid,typeid:typeid},
+      success: function(data){
+        var page1      =$("#page").val()*1;//   当前页面
+        var itemHtml = "";
+        var pages    = "";
+        $("#result_list").empty();
+        $(".Pagination").empty();
+        if(s==''){
+        }else if(s=='pre'){
+          $("#page").val(page1*1-1);
+        }else if(s=='next'){
+          $("#page").val(page1*1+1);
+        }else{
+          $("#page").val(s*1);
+        }
+//        var  page3 =  $("#page").val()*1;//   当前页面
+//        var  p    = (page3-1)*pagesize;
+        if(data.length!=0){
+          for(var i=0;i<data.length;i++){
+            itemHtml +="<li>";
+            if(data[i].userlitpic==null){
+              itemHtml +="<div class='user-img'><img src='/uploads/main/allimg/20150923/20150923143441.jpg'></div>";
+            }else{
+              itemHtml +="<div class='user-img'><img src='"+data[i].userlitpic+"'></div>";
+            }
+            if(data[i].nickname==null){
+              itemHtml +="<div class='textarea-box'> <span class='comments-name'>"+data[i].wx_nickname+"</span>";
+            }else{
+              itemHtml +="<div class='textarea-box'> <span class='comments-name'>"+data[i].nickname+"</span>";
+            }
+            itemHtml +="<span class='comments-h2'>"+data[i].content+"</span>";
+            itemHtml +="<span class='comments-time'>"+data[i].addtime+"</span></div>";
+            itemHtml +="</li>";
+          }
+        }else{
+          itemHtml +="<li>";
+          itemHtml +="没有相关数据";
+          itemHtml +="</li>";
+        }
+        var page2      =$("#page").val()*1;//   当前页面
+        //  定义 系数
+        var coefficient = Math.floor((page2-1)/pagesize);
+        //   定义 开始和结束 页面
+        var startpage    = coefficient*pagesize+1;
+        var endpage      = coefficient*pagesize+2;
+        endpage   =  endpage>data[0]['totalpage'] ? data[0]['totalpage'] : endpage;
+        if(data[0]['totalpage']!=0){
+          pages  +="<div id='Pagination'><div class='pagination'>";
+          pages  +="<a class='uPrevpage' onclick='page(1)'><i></i>首页</a>";
+          pages  += "<a class='uPrevpage' onclick='pre()'><i></i>上一页</a>";
+          for(var j=startpage;j<=endpage;j++){
+            pages  += "<a href='javascript:' onclick='page("+j+")' ";
+            if(page2==j) {
+              pages += " class='current' ";
+            }
+            pages  += ">"+j+"</a>" ;
+          }
+          pages  += "<a class='next' onclick='next()'>下一页 <i></i></a>";
+          pages  += "<a class='next' onclick='page("+data[0]['totalpage']+")'>尾页 <i></i></a>";
+          pages  += "</div></div>";
+          pages  += "<div class='searchPage'>";
+          pages  += "<span class='page-sum'>共<strong class='allPage'>"+data[0]['totalpage']+"</strong>页</span>";
+          pages  += "<span class='page-go'>跳转<input type='text'>页</span>";
+          pages  += "<a href='javascript:;' class='page-btn' data-all='"+data[0]['totalpage']+"' onclick='skip(this)'>GO</a>";
+          pages  += "</div>&nbsp;&nbsp;";
+        }
+        $("#result_list").append(itemHtml);
+        $(".Pagination").append(pages);
+        $("#next1").val(data[0]['totalpage']);
+      }
+    });
+  }
+  function page(s){
+    var offset ="";
+    offset = (s*1-1) * pagesize;//  2 位每页显示数；
+    $("#offset").val(offset);
+    get_data(s);
+  }
+  function pre(){
+    var offset ="";
+    var s   ='pre';
+    var cur_page    = $("#page").val();
+    var prepage = cur_page*1-1;
+    if(prepage==0){
+      return false;
+    }else {
+      offset = (prepage - 1) * pagesize;//  2 位每页显示数；
+      $("#offset").val(offset);
+      get_data(s);
+    }
+  }
+  function next(){
+    var offset ="";
+    var s   ='next';
+    // var cur_page    = $(".on").attr("data-page");
+    var cur_page    = $("#page").val()*1;//attr("data-page");
+    var total    = $("#next1").val()*1;//("data-total")*1;
+    var nextpage = cur_page*1+1;
+    if(total+1<=nextpage){
+      return false;
+    }else{
+      offset =(nextpage-1)*pagesize;//  2 位每页显示数；
+      $("#offset").val(offset);
+      get_data(s);
+    }
+  }
+  /*
+   跳转
+   */
+  function  skip(th){
+    var  pages =  $(th).prev('span').find('input').val()*1;
+    if(!isNaN(pages)){
+      var  allpages = $(th).attr('data-all')*1;
+      if(pages<1){layer.msg('请输入 数字', {icon: 5  }); return false;}
+      if( pages >allpages){layer.msg('请输入 数字', {icon: 5  }); return false;}
+      page(pages);
+    }else{
+      layer.msg('请输入 数字', {
+        icon: 5
+      })
+    }
+  }
+</script>
+";

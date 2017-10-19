@@ -1,0 +1,153 @@
+/* CSS通用样式库 */
+html {
+	font-family: sans-serif;font-family: "Microsoft YaHei" ! important;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	margin: 0; 
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+	display: block;
+}
+audio, canvas, progress, video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+div, form, img, ul, ol, li, dl, dt, dd {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: left;
+}
+img {
+	vertical-align: top;
+	border-width: 0;
+}
+input, textarea, select {
+	font-family: arial;
+}
+table, td, tr, tt {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+ul, ol {
+	padding-left: 0;
+	list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	text-align: left;
+}
+p {
+    margin: 0 0 10px;
+}
+em {
+	font-style: normal;
+	font-weight: normal;
+}
+i{font-style: normal; margin:0; padding:0;}
+dfn{font-style: normal; margin:0; padding:0;}
+b{font-style: normal; margin:0; padding:0;}
+/* Link */
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #ff9a00;
+	text-decoration: none;
+}
+a:active {
+	color: #666;
+	text-decoration: none;
+}
+/** 容器框架 开始 **/
+.container {
+	width:1180px;
+	margin-right: auto;
+	margin-left: auto; zoom:1;
+}
+
+
+/** 容器框架 结束 **/
+
+
+/** 浮动 **/
+.left {
+  float: left !important;
+}
+.right {
+  float: right !important;
+}
+/** 清除浮动 **/
+.clearfix{ clear:both;}
+
+.hide {
+  display: none !important;
+}
+.show { 
+  
+}
+/** 布局框架 **/
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+	background: #999;
+	overflow: hidden;
+}
+.col-md-p {
+	padding: 15px;
+}
+.col-md-1, .col-sm-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6 {
+	position: relative;
+	min-height: 1px;
+	float: left;
+}
+.col-md-6 {
+	width: 16.66666667%;
+}
+.col-md-5 {
+	width: 20%;
+}
+.col-md-4 {
+	width: 25%;
+}
+.col-md-3 {
+	width: 33.33333333%;
+}
+.col-md-2 {
+	width: 50%;
+}
+.col-md-1 {
+	width: 100%;
+}
+/** 文字定义 **/
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.text-center {
+	text-align: center;
+}
+.text-justify {
+	text-align: justify;
+}
+.text-nowrap {
+	white-space: nowrap;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}

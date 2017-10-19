@@ -1,0 +1,1 @@
+﻿plugins/supplier/application/views/default/pc/set_logo.php

@@ -1,0 +1,116 @@
+
+/* 门票 内容页 */
+.ctd-ticket-head .head-info{position:relative;}
+.ctd-ticket-head .head-pic img{ width:100%;}
+
+.ctd-head-title.headTitle-fixed{ position:fixed; top:0; left:0; width:100%; box-shadow: 0px 3px 5px #e3e3e3; z-index:999;}
+.ctd-head-title .head-title{padding:.7rem; color:#594200; font-size:1.1rem;background:#fdbf0e;}
+
+
+.ctd-ticket-info{position:relative; margin-bottom:.5rem; background: #FFF;border:none;border-bottom: 1px solid #e6e6e6;}
+.ctd-ticket-info p{}
+.ctd-ticket-info .ticket_add{ position:relative;font-size:.8rem; height:35px; line-height:35px; margin-top:.5rem; padding-left:30px;}
+.ctd-ticket-info .ticket_add i{ position:absolute; left:.5rem; top:.5rem; display:inline-block; width:20px; height:20px; background: url(/phone/public/images/20170301/ico-add.png) no-repeat 50%; background-size:20px;}
+.ctd-ticket-info .ticket_price {color: #666; padding-left:.8rem; font-size:.8rem;height:35px; line-height:35px;}
+.ctd-ticket-info .ticket_price del{ padding-left:5px;}
+.ctd-ticket-info .ticket_price strong{font-size:1.3rem; margin: 0 2px; font-weight: 400; color: #ff7d13;}
+.ctd-ticket-info .ticket_price dfn{vertical-align: 8px; color: #ff7d13;vertical-align: 0;font-style: normal;}
+.ctd-ticket-info .t_info{ position:absolute; right:.4rem; top:42px;font-size:.8rem;}
+.ctd-ticket-info .t_info span{ margin-left:5px;  padding:2px 5px; border-radius:5px; }
+.ctd-ticket-info .t_info span.a-sales{border:1px solid #59a5f4; color:#59a5f4;}
+.ctd-ticket-info .t_info span.a-score{border:1px solid #59a5f4; color:#59a5f4;}
+.ctd-ticket-info .t_info span.a-judge{border:1px solid #59a5f4; color:#59a5f4;}
+.ctd-ticket-info .ticket_time{ position:relative;font-size:.8rem;color:#666;padding-left:30px; height:35px; line-height:35px; background:#f9f9f9;}
+.ctd-ticket-info .ticket_time i{ position:absolute; left:.4rem; top:7px; display:inline-block; width:20px; height:20px; background: url(/phone/public/images/20170301/ico-time.png) no-repeat 50%; background-size:16px;}
+
+.ctd-ticket-price{border-top: 1px solid #e6e6e6; background:#FFF;margin-bottom: .5rem; }
+.ctd-ticket-price ul{ margin: 0 .5rem;}
+.ctd-ticket-price .ticket-title{position:relative; padding-left:35px;  height:20px; line-height:20px; font-size:1rem; margin:10px 0;}
+.ctd-ticket-price .ticket-title i{ position:absolute; display:block; left:5px; top:-2px; width:25px; height:25px; background: url(/phone/public/images/20170301/tit-ico13.png); background-size:25px;}
+.ctd-ticket-price .ticket-list li{ position:relative;border-bottom:1px solid #ebebeb; padding:5px 10px;margin-bottom:10px; }
+.ctd-ticket-price .ticket-list .ticket-name{ color:#333; font-size:.8rem; margin-bottom:.5rem; margin-top:.5rem;}
+.ctd-ticket-price .ticket-list .ticket-time{ position:relative; padding-left:20px; font-size:.8rem; color:#59a5f4;}
+.ctd-ticket-price .ticket-list .ticket-time i{ position:absolute; display:block; left:0; top:2px; width:15px; height:15px; background: url(/phone/public/images/20170301/ico-dui.png); background-size:15px;}
+.ctd-ticket-price .ticket-list .ticket_price {color: #e2ba65; font-size:.8rem; margin-bottom:.5rem;}
+.ctd-ticket-price .ticket-list .ticket_price span.tip-x{ background:#e2ba65; color:#FFF; padding:2px 5px; border-radius:3px; margin-left:5px;}
+.ctd-ticket-price .ticket-list .ticket_price span.tip-p{ background:#f2dfb8; color:#bf9232; padding:2px 5px; border-radius:3px; margin-left:5px;}
+.ctd-ticket-price .ticket-list .ticket_price strong{font-size:1.1rem; margin: 0 2px; font-weight: 400; color: #ff7d13;}
+.ctd-ticket-price .ticket-list .ticket_price del{ padding:0 5px;}
+.ctd-ticket-price .ticket-list .ticket_price dfn{vertical-align: 8px; color: #ff7d13;vertical-align: 0;font-style: normal;}
+.ctd-ticket-price .ticket-list .order_btn{ position:absolute; right:.5rem; top:.8rem; background:#f5484c; border-radius:100%;width:3rem; height:3rem;-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+box-shadow: 0 6px 12px rgba(0,0,0,.175);}
+.ctd-ticket-price .ticket-list .order_btn a{ line-height:1rem; color:#FFF; display:block; text-align:center; font-size:.8rem;}
+.ctd-ticket-price .ticket-list .order_btn a span{ display:block; padding-top:.6rem;}
+.ctd-nav-seat{height:45px;}
+.ctd-nav-items{border-top: 1px solid #e6e6e6; background:#FFF; }
+.ctd-nav-items .ticket-nav{ height:45px;   background:#fbfbfb;}
+.ctd-nav-items.navFixed{position: fixed;top: 40px; left:0; width:100%;z-index: 9999;}
+.ctd-nav-items .ticket-nav li{ width:25%;line-height:43px; float:left;}
+.ctd-nav-items .ticket-nav a{ display:block; text-align:center; border-bottom:1px solid #e6e6e6;  border-right:1px solid #e6e6e6;}
+.ctd-nav-items .ticket-nav li:last a{border-right: none;}
+.ctd-nav-items .ticket-nav li.current a{ color:#fff; background:#2299ee;border-right: none;}
+.ctd-nav-items.navFixed{border:none;box-shadow: 0px 3px 5px #e3e3e3;}
+.ctd-nav-items.navFixed li{line-height:44px;}
+/* 章节*/
+.article-body{position: relative; padding:1rem 0; background:#FFF;}
+.article-body .chapter{position: relative; padding:0 1rem; margin-bottom:10px;  }
+.article-body .chapter .panel-hd{ position:relative;}
+.article-body .chapter .panel-hd span{background:#11a1de; display: inline-block; height:2rem; line-height:2rem; margin-bottom:10px; margin-left:-20px; color:#FFF; padding:0 1rem 0 2.5rem; }
+.article-body .chapter p{line-height:24px; font-size:.8rem; margin-bottom:10px;}
+.article-body .chapter p img{ margin-bottom:1rem;}
+.article-body .chapter-area { margin-left:-1rem;}
+.article-body .anchor0{position: absolute;display: block;top: -100px;height: 1px;}
+.article-body .chapter .panel-hd i { position:absolute; left:-1rem;
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+}
+.article-body .chapter .panel-hd i.detail-icon-1 {
+    background: url(/phone/public/images/20170301/detail-icon-3.png) no-repeat center; background-size:1.5rem;
+}
+.article-body .chapter .panel-hd i.detail-icon-2 {
+    background: url(/phone/public/images/20170301/detail-icon-2.png) no-repeat center; background-size:1.5rem;
+}
+.article-body .chapter .panel-hd i.detail-icon-3 {
+    background: url(/phone/public/images/20170301/detail-icon-1.png) no-repeat center; background-size:1.5rem;
+}
+.article-body .chapter .panel-hd i.detail-icon-4 {
+    background: url(/phone/public/images/20170301/detail-icon-4.png) no-repeat center; background-size:1.5rem;
+}
+
+.ctd-ticket-body .ntd-chapter {position: relative;border-left:1px solid #60a9f5; padding-bottom:1rem; margin-left:1rem;}
+.ctd-ticket-body .chapterHd-main{ position:relative; font-size:1.2rem; font-weight: 800; margin-bottom:.5rem; padding-left:2.8rem;}
+.ctd-ticket-body .chapterHd-main i{ position:absolute; left:-.2rem; top:-.5rem; width:2.2rem; height:2.2rem; background:url(/phone/public/images/20170301/tit-ico07.png) no-repeat; background-size:2.2rem;}
+.ctd-ticket-body .chapterHd-main i.techan{background:url(/phone/public/images/20170301/tit-ico11.png) no-repeat; background-size:2.8rem;}
+.ctd-ticket-body .chapterHd-child{ font-size:1rem;margin:.5rem 0; margin-left:2.5rem; background:#b7daff;  color:#006ad8;padding:.2rem .5rem; border-radius:10px;}
+
+
+
+
+
+/* 门票 列表页 */
+.ticket_list_body { margin-top:10px; padding:10px;background:#FFF;}
+.ticket_list li{padding-bottom:10px; margin-bottom:10px;border-bottom: 1px solid #eaeaea;}
+.ticket_list .ticket-pic{ position:relative; width:160px; height:100px; float: left;}
+.ticket_list .ticket-pic .ticket-txt{ position:absolute; bottom:0; width:100%; height:25px; line-height:25px; color:#FFF; text-align:center; background-color:rgba(0,0,0,0.3);}
+.ticket_list .ticket-pic .tip {
+    position: absolute;
+    top: 0;
+    left: .5rem;
+    font-size: .8rem;
+    color: #FFF;
+    background: #fe6400;
+    padding: 3px 8px;
+}
+.ticket_list .ticket-pic img{width:160px;height:100px;}
+.ticket_list .ticket-info{position:relative; padding-left:170px;}
+.ticket_list .ticket-tit{font-size:1rem;height: 24px; line-height:24px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.ticket_list .ticket-address{font-size:.8rem; color: #666;height: 24px;line-height:24px; margin-bottom:3px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.ticket_list .ticket-servicetag{margin-bottom:5px;}
+.ticket_list .ticket-servicetag span{ display:inline-block; background:#fdbf0e; height:20px; font-size:.8rem; line-height:20px; color:#FFF; padding:0 10px; border-radius:20px;}
+.ticket_list .ticket_price {color: #666; font-size:.8rem;}
+.ticket_list .ticket_price strong{font-size:1.1rem; margin: 0 2px; font-weight: 400; color: #ff7d13;}
+.ticket_list .ticket_price dfn{vertical-align: 8px; color: #ff7d13;vertical-align: 0;font-style: normal;}
+.ticket_list .ticket_price span{ margin-left:10px;}

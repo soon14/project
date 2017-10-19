@@ -1,0 +1,175 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-07-22 00:14:06 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL notes/WRITE was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 111 ]
+2017-07-22 00:39:42 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL raiders/all-47-0-1 was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 01:35:04 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL raiders/all-51-1-1 was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 02:27:32 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL langfang was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 02:33:36 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL xingtai was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 02:41:43 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL chengde was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 02:47:47 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL hengshui was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 02:53:52 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL qinhuangdao was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 02:59:57 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL tangshan was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 03:08:03 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL cangzhou was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 03:14:07 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL shijiazhuang was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 03:20:12 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL handan was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 03:26:17 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL baoding was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 05:21:03 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL cangzhou was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 06:04:32 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 06:04:32 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 06:22:53 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 06:28:09 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 07:11:54 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 07:12:54 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 07:12:59 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 07:13:14 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 07:13:23 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 07:13:24 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 07:13:42 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 07:13:44 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 07:27:00 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 07:34:24 --- ERROR: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and a.isshow='1' order by addtime asc LIMIT 0,5' at line 1 [ SELECT a.*,b.ChatNick,b.headimgurl FROM `sline_comment` a left JOIN  `sline_wxusermanage` b on a.openid=b.openId WHERE a.articleid =42 and a.typeid =  and a.isshow='1' order by addtime asc LIMIT 0,5 ] ~ MODPATH/database/classes/kohana/database/mysql.php [ 194 ]
+2017-07-22 07:39:09 --- ERROR: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and a.isshow='1' order by addtime asc LIMIT 0,5' at line 1 [ SELECT a.*,b.ChatNick,b.headimgurl FROM `sline_comment` a left JOIN  `sline_wxusermanage` b on a.openid=b.openId WHERE a.articleid =39 and a.typeid =  and a.isshow='1' order by addtime asc LIMIT 0,5 ] ~ MODPATH/database/classes/kohana/database/mysql.php [ 194 ]
+2017-07-22 07:42:49 --- ERROR: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and a.isshow='1' order by addtime asc LIMIT 0,5' at line 1 [ SELECT a.*,b.ChatNick,b.headimgurl FROM `sline_comment` a left JOIN  `sline_wxusermanage` b on a.openid=b.openId WHERE a.articleid =364 and a.typeid =  and a.isshow='1' order by addtime asc LIMIT 0,5 ] ~ MODPATH/database/classes/kohana/database/mysql.php [ 194 ]
+2017-07-22 07:43:08 --- ERROR: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and a.isshow='1' order by addtime asc LIMIT 0,5' at line 1 [ SELECT a.*,b.ChatNick,b.headimgurl FROM `sline_comment` a left JOIN  `sline_wxusermanage` b on a.openid=b.openId WHERE a.articleid =399 and a.typeid =  and a.isshow='1' order by addtime asc LIMIT 0,5 ] ~ MODPATH/database/classes/kohana/database/mysql.php [ 194 ]
+2017-07-22 07:51:56 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 07:55:30 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 08:27:20 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 08:33:15 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 08:43:53 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 08:45:43 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 09:27:29 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL article/ajax_article_more_test was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 111 ]
+2017-07-22 09:27:40 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL article/ajax_article_more_test was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 111 ]
+2017-07-22 09:29:16 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 10:03:19 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 10:04:05 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 10:04:57 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 10:44:25 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 10:50:28 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 10:55:59 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 10:57:51 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 10:57:51 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 11:07:52 --- ERROR: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 33 [ SELECT a.id,
+                                a.webid,
+                                a.aid,
+                                a.title,
+                                a.seotitle,
+                                a.comefrom,
+                                a.fromsite,
+                                a.author,
+                                a.content,
+                                a.litpic,
+                                a.addtime,
+                                a.modtime,
+                                a.shownum,
+                                a.tagword,
+                                a.keyword,
+                                a.description,
+                                a.kindlist,
+                                a.gl_mdd,
+                                a.themelist,
+                                a.attrid,
+                                a.ad_productid,
+                                a.ad_kindid,
+                                a.redirecturl,
+                                a.ishidden,
+                                a.iconlist,
+                                a.templet,
+                                a.summary,
+                                a.isoffical,
+                                a.piclist,
+                                a.attachment,
+                                a.finaldestid,
+                                a.downnum,
+                                a.likeNum FROM `sline_article` a LEFT JOIN `sline_allorderlist` b ON (a.id=b.aid and b.typeid=4) WHERE a.ishidden=0 AND FIND_IN_SET(37,a.attrid) AND a.title like '%北京欢乐谷%' ORDER BY a.addtime DESC LIMIT -10,10 ] ~ MODPATH/database/classes/kohana/database/mysql.php [ 194 ]
+2017-07-22 11:33:26 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 11:39:38 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 11:40:53 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 11:45:43 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 11:55:26 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 12:00:01 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 12:01:07 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 12:35:18 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 12:48:55 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL handan was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 13:17:44 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 13:33:43 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 13:33:44 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 13:34:34 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 14:02:10 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 14:02:11 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 14:17:56 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 14:19:51 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 14:28:25 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 14:28:32 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 15:17:47 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 15:20:24 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 15:20:24 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 15:25:23 --- ERROR: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and a.isshow='1' order by addtime asc LIMIT 0,5' at line 1 [ SELECT a.*,b.ChatNick,b.headimgurl FROM `sline_comment` a left JOIN  `sline_wxusermanage` b on a.openid=b.openId WHERE a.articleid =399 and a.typeid =  and a.isshow='1' order by addtime asc LIMIT 0,5 ] ~ MODPATH/database/classes/kohana/database/mysql.php [ 194 ]
+2017-07-22 15:51:06 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 15:54:06 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 16:01:40 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 16:12:39 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 16:15:10 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 16:16:54 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 16:25:54 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 16:32:18 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 16:36:11 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 16:37:11 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 16:37:11 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 16:53:10 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL raiders/all-49-0-1 was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 17:05:54 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: lines/self_show_26.html ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 17:28:48 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 17:37:18 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 17:53:49 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 17:56:31 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 18:03:59 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL raiders/shijiazhuang-7-1-9 was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 18:21:30 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 18:40:36 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 18:41:50 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 18:44:43 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 18:46:06 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 18:49:09 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 18:51:55 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 19:10:28 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 19:23:06 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 19:37:35 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 19:41:00 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 20:01:25 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 20:05:47 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL raiders/shijiazhuang-8_39-1-1 was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 20:09:46 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 20:10:08 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 20:12:25 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 20:12:25 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 20:21:22 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 20:21:23 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 20:21:23 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 20:36:19 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL raiders/handan-8_38-1-1 was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 20:42:50 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 20:42:58 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 20:43:47 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 20:43:51 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 20:43:53 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 20:51:41 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL zhangjiakou was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 21:08:25 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 21:12:13 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 21:19:34 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 21:33:31 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 21:35:58 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 21:38:25 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 21:42:09 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL raiders/all-24_39-0-1 was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 21:44:13 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 21:49:17 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 21:55:31 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 21:57:13 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 21:58:43 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 22:02:37 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 22:06:09 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 22:06:16 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 22:16:59 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 22:17:51 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL cangzhou was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]
+2017-07-22 22:40:25 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 22:43:57 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 22:43:57 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 22:53:23 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 23:03:17 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 23:05:14 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH/classes/kohana/request.php [ 1148 ]
+2017-07-22 23:32:42 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL raiders/qinhuangdao-9_29-1-1 was not found on this server. ~ SYSPATH/classes/kohana/request/client/internal.php [ 87 ]

@@ -1,0 +1,73 @@
+.wx{
+	margin-left: 80px;
+	margin-bottom: 50px;
+}
+.wx ul li{
+	height: 56px;
+	width: 100%;
+	color: #F13C00;
+	line-height: 56px;
+}
+.wx ul li h5{
+	float: left;
+	color:#555555;
+	font-size: 11px;
+	height: 46px;
+	line-height:46px;
+}
+.wx ul li span{
+	float: left;
+	line-height:46px;
+	width:330px;
+	height: 46px;
+}
+.input{
+	height:22px;
+	width:256px;
+	margin:13px;
+}
+.sel{
+	height: 22px;
+	width : 130px;
+	margin-left: 12px;
+}
+.wx_menu{
+	height: 30px;
+
+	margin-left: 20px;
+
+}
+.wx_menu ul li{
+	float: left;
+	width: 100px;
+	height: 30px;
+}
+.wx_menu ul li a{
+	height: 30px;
+	line-height: 30px;
+	font-weight:bold;
+	padding: 0px 3px;
+}
+.wx_menu ul li a:hover{
+	background: #ccc;
+	color:#51B9DF;
+}
+.current{
+	background:#666666;
+	color: white;
+	border: 1px #666666 solid;
+	border-radius: 2px;
+}
+.radio{
+	height: 22px;
+	width: 50px;
+	margin-top: 13px;
+
+}
+.textarea{
+	width: 300px;
+	height: 50px;
+}
+#submits{
+	margin-left: 110px;
+}

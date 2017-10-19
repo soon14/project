@@ -1,0 +1,3 @@
+
+[notify_url:20160725115349]
+[notify_url:20160725115349 appid=wxdf8497303505ae0d bank_type=COMM_DEBIT cash_fee=1 fee_type=CNY is_subscribe=Y mch_id=1327381201 nonce_str=s3dc8na04nnzidcqw77220r4yy1pubpk openid=oyq3hv5bo624jLfbmyqcYd4XD2gk out_trade_no=05188055132331 result_code=SUCCESS return_code=SUCCESS sign=A0837E862C02EAE85D6CF3F6B07DBF8A time_end=20160725115348 total_fee=1 trade_type=NATIVE transaction_id=4004402001201607259731858840]

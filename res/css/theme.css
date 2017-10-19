@@ -1,0 +1,210 @@
+@charset "utf-8";
+.st-theme-head-box{
+	width:100%;
+	min-width:1200px;
+	min-height:580px;}
+	
+.st-theme-center{
+	margin-top:40px}
+.st-theme-center .con-tit{
+	color:#333;
+	font-size:24px;
+	text-align:center}
+.st-theme-center .con-txt{
+	color:#666;
+	line-height:24px;
+	padding:10px 20px;
+	margin-top:40px;
+	font-size:14px;
+	border:10px solid #eef4fd;
+	background:#fff;
+	box-shadow:1px 5px 3px rgba(0,0,0,.3)}
+
+.st-theme-cpbox{
+	margin:40px 0 20px}
+.st-theme-cpbox .cp-tit{
+	text-align:center}
+.st-theme-cpbox .cp-tit strong{
+	color:#666;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	height:40px;
+	line-height:40px;
+	padding:0 35px;
+	font-size:20px;
+	border:2px solid #666}
+.st-theme-cpbox .cp-conbox{
+	margin-top:15px;
+	padding:0 25px 25px 0;
+	background:#fff;
+	background:rgba(255,255,255,.5)}
+.st-theme-cpbox .cp-conbox:after,
+.st-theme-cpbox .cp-conbox .cp-conlist:after,
+.st-theme-cpbox .gl-conbox:after{
+	content:'.';
+	clear:both;
+	height:0;
+	display:block;
+	overflow:hidden}
+.st-theme-cpbox .cp-conbox .adv-imgbox{
+	float:left;
+	width:229px;
+	height:573px;
+	margin:25px 0 0 25px;
+	overflow:hidden}
+.st-theme-cpbox .cp-conbox .cp-conlist{
+	float:left;
+	width:921px}
+.st-theme-cpbox .cp-conbox .cp-conlist li{
+	float:left;
+	width:280px;
+	height:272px;
+	margin:25px 0 0 25px;
+	border:1px solid rgba(243,52,68,0);
+	background:#fff}
+.st-theme-cpbox .cp-conbox .cp-conlist li:hover{
+	border:1px solid rgba(243,52,68,1)}
+.st-theme-cpbox .cp-conbox .cp-conlist li .pic,
+.st-theme-cpbox .cp-conbox .cp-conlist li .pic img{
+	width:280px;
+	height:170px;}
+.st-theme-cpbox .cp-conbox .cp-conlist li .pic{
+	overflow:hidden;
+	position:relative}
+.st-theme-cpbox .cp-conbox .cp-conlist li .pic .sub{
+	position:absolute;
+	left:10px;
+	top:10px;
+	display:block;
+	height:24px;
+	background:#f33444}
+.st-theme-cpbox .cp-conbox .cp-conlist li .pic .sub em{
+	float:left;
+	color:#fff;
+	width:35px;
+	height:24px;
+	line-height:24px;
+	text-align:center;}	
+.st-theme-cpbox .cp-conbox .cp-conlist li .pic .sub strong{
+	color:#f33444;
+	float:left;
+	height:22px;
+	line-height:22px;
+	padding:0 5px;
+	border:1px solid #f33444;
+	background:#fff}
+.st-theme-cpbox .cp-conbox .cp-conlist li .bt{
+	color:#333;
+	height:40px;
+	line-height:20px;
+	margin-top:8px;
+	padding:0 12px;
+	overflow:hidden;
+	font-size:14px;}
+.st-theme-cpbox .cp-conbox .cp-conlist li a:hover .bt{
+	color:#f60}
+.st-theme-cpbox .cp-conbox .cp-conlist li .cz{
+	padding:0 12px;
+	margin-top:10px}
+.st-theme-cpbox .cp-conbox .cp-conlist li .cz .jg{
+	color:#fc6000;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	height:32px;
+	line-height:32px;
+	font-size:14px;}
+.st-theme-cpbox .cp-conbox .cp-conlist li .cz .jg:before{
+	content:' ';
+	display:inline-block;
+	width:19px;
+	height:19px;
+	vertical-align:middle;
+	margin:-10px 8px 0 0;
+	background:url(../images/miao-ico.png) left no-repeat}
+.st-theme-cpbox .cp-conbox .cp-conlist li .cz .jg b{
+	margin-right:5px;
+	font-size:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:500}
+.st-theme-cpbox .cp-conbox .cp-conlist li .cz .now-gm{
+	color:#fff;
+	float:right;
+	width:98px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	font-size:16px;
+	background:#f33444;
+	border-radius:5px;}
+.st-theme-cpbox .cp-conbox .cp-conlist li .cz .now-gm:hover{
+	background:#da2837}
+
+.st-theme-cpbox .gl-conbox{
+	margin-top:15px;
+	padding:25px 25px 25px 0;
+	background:#fff;
+	background:rgba(255,255,255,.5)}
+.st-theme-cpbox .gl-conbox li{
+	float:left;
+	width:270px;
+	height:250px;
+	margin-left:23px;
+	background:#fff}
+.st-theme-cpbox .gl-conbox li .pic,
+.st-theme-cpbox .gl-conbox li .pic img{
+	width:270px;
+	height:170px}
+.st-theme-cpbox .gl-conbox li .bt{
+	padding:0 15px;
+	color:#333;
+	height:30px;
+	line-height:30px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	font-size:14px}
+.st-theme-cpbox .gl-conbox li a:hover .bt{
+	color:#f60}
+.st-theme-cpbox .gl-conbox li .nr{
+	color:#999;
+	height:40px;
+	line-height:20px;
+	overflow:hidden;
+	padding:0 15px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

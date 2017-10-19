@@ -1,0 +1,105 @@
+.join-box{ position:relative;}
+.join-box-b{background:#e92e4d;   margin:-40px auto 10px auto; padding:0; overflow:hidden;border-radius:10px 10px 0 0; width:75%;}
+.join-box-b p{ text-align:center; color: #FFF;padding:10px 10px 0 10px; font-size:1.5em; margin-top:35px; margin-bottom:0;}
+.join-peo{ width:100px; height:100px; margin:0 auto; margin-bottom:10px; overflow: hidden; border-radius:50%; }
+.join-peo img{ width:100px;}
+
+.join-box-m{ margin-top:10px;  border-radius:5px;  }
+.join-box-m-l{ width:50%; float:left;}
+.join-box-m-l img{ width:100%;}
+.join-box-m-r{ width:45%; float:right;}
+.join-box-m-r p{ padding:5px 5px; margin:0;color:#facb57; font-size:1em;}
+
+
+.join-top{ background:#efecce; border-radius:10px; border:1px dashed #9c6000; padding:10px 20px;margin-bottom:10px; margin-top:10px;}
+.join-top .joinName{ font-size:1.3em; color:#9c6000; text-align:center; border-bottom:1px dashed #9c6000; padding-bottom:10px; margin-bottom:5px;}
+.join-top .joinJust{ font-size:1em; color:#9c6000; text-align:center; padding:5px;   }
+.join-top .joinJust span{ display:inline-block; width:30px;  }
+
+
+/** table加边样式 **/
+.join-friend{ margin-top:10px;margin-bottom:10px;}
+.join-friend table{ background:#f2ca8c;}
+.join-friend table.table-Border th{ background:#ddb372;color:#7a3919; font-size:.8em; text-align:center;
+    border:1px solid #b38236;	
+}
+.join-friend table.table-Border td{ color:#7a3919;font-size:.8em; text-align:center;
+    border:1px solid #b38236;	
+}
+.join-check{ border:2px solid #F90; width:50%; margin:10px auto; border-radius:8px; text-align:center; padding:8px 5px; background:#0d2c49;}
+.join-check a{ color:#facb57;}
+
+
+
+/*遮罩弹框*/
+.modal{display: none;}
+.modal.in{ display:block;}
+.modal-backdrop {
+	position: fixed;
+	z-index: 555;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.6);	
+}
+.modal-dialog{
+	position:fixed;
+	z-index: 999;}
+.modal-content{ 
+position: fixed;
+width:80%; background:#FFF; 
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+border: 1px solid #999;
+border: 1px solid rgba(0,0,0,.2);
+border-radius: 6px;
+outline: 0;
+-webkit-box-shadow: 0 3px 9px rgba(0,0,0,.2);
+box-shadow: 0 3px 9px rgba(0,0,0,.2);}
+
+.modal-content2{ 
+position: fixed;
+width:80%; 
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+border: 1px solid #999;
+border: 1px solid rgba(0,0,0,.2);
+border-radius: 6px;
+outline: 0;
+-webkit-box-shadow: 0 3px 9px rgba(0,0,0,.2);
+box-shadow: 0 3px 9px rgba(0,0,0,.2);}
+
+.modal-header { text-align:center;
+   
+}
+.modal-header .Close{ cursor:pointer; display:block; margin:0 auto; width:30px; height:30px; background:url(../../images/Close-ico.png) no-repeat; background-size:100%;}
+.modal-body{position: relative; font-size:1.1em;
+padding: 15px; text-align:center;}
+.modal-body .org{ color:#F60;}
+.modal-body img{ width:100%;}
+.MsgBtns {
+	padding: 10px;
+	text-align: center;
+}
+.MsgBtns .MsgBtn {
+	display: inline-block;
+	width: 80px;
+	border-radius: 3px;
+	font-family: 微软雅黑;
+	cursor: pointer;
+	border: none;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	text-align: center;
+	margin: 0px 5px;
+}
+.MsgBtns .ok {
+	background-color: #fc7169;
+	color: #fff;
+}
+.MsgBtns .Cancel {
+	background-color: #3098e1;
+	color: #fff;
+}

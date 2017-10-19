@@ -1,0 +1,24 @@
+/* 公用 public CSS 文件 */
+
+.dialog{ position:relative; top:250px; height:50px; width:400px; margin:0 auto;  padding:10px; color:#FFF;background:#233f55; border-radius:10px;}
+.dialog .user{ position:absolute; left:40%; margin-left:-100px; width:50px; height:50px; overflow:hidden; border-radius:50px;}
+.dialog .user img{width:50px; height:50px;}
+.dialog .txt{ position:absolute; left:60%; margin-left:-120px;}
+.dialog .txt p{ padding:0; margin:0;}
+.dialog .txt .mz{ font-size:1.2em;}
+.dialog .txt .mz span{font-size:1.2em; margin-left:5px;}
+.dialog .txt .yq{ font-size:1.2em;}
+
+
+.wei{ position:absolute;  bottom:95px; width:400px;left:50%; margin-left:-200px; }
+.wei p{ }
+.wei li{ width:50%; float:left; }
+.wei li img{ width:65%;}
+
+#triangle-down { position:absolute; bottom:-8px; left:50%; margin-left:-4px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #233f55;
+}

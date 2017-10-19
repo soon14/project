@@ -1,0 +1,1 @@
+<div class="st-record">{$footer}</div>

@@ -1,0 +1,86 @@
+.order-head1{ position:relative;font-size:1.1em;height:40px; line-height:40px; background:#f5f5f5; text-align:center;color:#FFF; border-bottom:1px solid #e1e3e8; color:#4f4f4f; }
+.order-head1 a{ display:block;}
+.order-head1 .back-home{ position:absolute;  height:30px; left:10px; top:5px; width:30px;  background:url(/res/images/phone/back2.png) no-repeat 0px 0px; background-size:30px 30px;}
+.search-but{background:#2577e3;border:1px solid #054caa; height:25px; margin-left:5px; margin-top:5px; line-height:25px;  float:left;-moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;  
+    border-radius:5px}
+.search-but a{ color:#FFF;font-size:.8em; display:block; padding:0 10px;}
+.search-but a:link { color:#fff; text-decoration:none;}
+.search-but a:visited {color:#fff;text-decoration:none;}
+.search-but a:hover {color:#fff;text-decoration:none;}
+.search-but a:active {color:#fff;text-decoration:none;}
+
+.seach-input{border:1px solid #e1e3e8; float:left; margin-left:50px; margin-top:5px;padding:0 5px; height:25px; line-height:25}
+
+
+.ticke-box{ background:#FFF; padding:0; width:100%; margin-top:-1px; border-top:1px solid #dddddd;}
+.ticket-name h2{ font-size:1.1em; padding:10px;border-bottom:1px solid #dedede;}
+
+
+/*对比 */
+.classify{border-bottom:1px solid #dedede; background:#FFF;font-size:1em; height:50px;line-height:50px;}
+.classify i{ color:#F60; font-style:normal;}
+.classify .area{ float:left; color:#333; text-align:center; width:50%; background:url(/res/images/phone/ico002.png) no-repeat 10px; background-size:30px;}
+.classify .city{float:left;  color:#333; text-align:center; width:50%;background:url(/res/images/phone/ico001.png) no-repeat 10px; background-size:30px;}
+.classify .area a{ display:block;border-right:1px solid #dddddd;}
+
+
+
+
+
+.listLR-item ul{ padding:5px 5px 0px 5px;}
+.listLR-item li{border-bottom:1px solid #CCC; margin-bottom:10px; padding:5px 5px 10px 5px;}
+
+
+.listLR-item .img-item img{ width:100%;height:100px;}
+.listLR-item .img-item{ float:left; width:40%;height:100px;overflow:hidden;}
+.listLR-item .txt-item{ float:right; width:58%; position:relative; height:100px;}
+.listLR-item .txt-item h2{ font-size:1em; height:30px; line-height:30px; overflow:hidden;}
+
+.listLR-item .title-item a {
+	font-weight: normal;
+    color: #000;
+    display: block;
+    word-break: break-all;
+    white-space: normal;
+    max-height:60px; line-height:30px;
+    overflow: hidden;
+}
+.listLR-item .title-item a:hover {color: #cd0001;}
+
+.listLR-item .about-item{ margin:5px 0;}
+.about-item i{font-size:1.1em;color:#F30; display:inline-block; font-style:normal;}
+.about-item dfn{ font-size:1.1em; color:#F30;font-style:normal;}
+.about-item del{ font-size:.8em; color:#999; margin-left:10px;}
+.about-item span{ float:right;font-size:.8em;color:#999; padding-top:3px}
+
+.listLR-item .address{ position:absolute; bottom:5px; padding:3px 3px 3px 25px;font-size:.8em; color:#999; background:url(/res/images/phone/address.png)-5px -2px no-repeat;background-size:25px ;}
+
+
+
+
+
+  .lubo{ width: 100%;width: 100%;clear: both; position: relative; height:200px;}
+  .lubo_box{ position: relative; width: 100%; height:200px; }
+  .lubo_box li{ float: left;position: absolute; top: 0; left: 0; width: 100%; height:200px; opacity: 0;filter:alpha(opacity=0);}
+  .lubo_box li a{ display: block;width: 100%;  height: 100%;}
+
+  .lubo_box li img{ width: 100%; height: 368px;}
+
+  /*圆点*/
+  .cir_box{ overflow: hidden; position: absolute; z-index: 100;}
+  .cir_box li{ float: left; width: 30px; height: 5px; margin:0 5px; cursor: pointer; background: #fff; opacity: 0.8;filter:alpha(opacity=80);}
+  .cir_on{ background: #000 !important;}
+
+
+.show-more{ width:100%; text-align:center; height:40px; line-height:40px; background:url(/res/images/phone/back3.png) no-repeat center  10px;  margin:0 auto; border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+.show-more a{ display:block; color:#666;}
+.play-box{ margin-bottom:5px;}
+
+.play-in{ width:20%; float:left;}
+.play-in a{ display:block; padding:5px 0; text-align:center; margin:0 auto;
+}
+
+
+
+

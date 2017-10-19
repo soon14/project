@@ -1,0 +1,628 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.st-photolist-box{
+
+    float:left;
+
+    width:1200px}
+
+.st-photolist-box .st-list-search .been-tj,
+
+.st-photolist-box .st-list-search,
+
+.st-photolist-box .st-list-search .line-search-tj,
+
+.st-photolist-box .st-list-search .line-search-tj dl{
+
+    width:1198px}
+
+.st-photolist-box .st-list-search .been-tj p,
+
+.st-photolist-box .st-list-search .line-search-tj dl dd,
+
+.st-photolist-box .st-list-search .line-search-tj dl.type dd p{
+
+    width:1115px}
+
+
+
+.photolist-con{
+
+    float:left;
+
+    width:1200px;
+
+    margin-top:20px}
+
+
+
+.st-photolist{
+
+    float:left;
+
+    width:1200px}
+
+.st-photolist li{
+
+    float:left;
+
+    width:263px;
+
+    height:220px;
+
+    padding:10px 10px 5px;
+
+    margin:0 20px 20px 0;
+
+    border:1px solid #dcdcdc}
+
+.st-photolist li:hover{
+
+    box-shadow:1px 1px 3px #d9d9d9}
+
+.st-photolist li.mr_0{
+
+    margin-right:0}
+
+.st-photolist li .pic{
+
+    float:left;
+
+    width:263px;
+
+    height:185px;
+
+    overflow:hidden;
+
+    position:relative}
+
+.st-photolist li .pic img{
+
+    float:left;
+
+    width:263px;
+
+    height:185px}
+
+.st-photolist li .pic .num{
+
+    position:absolute;
+
+    left:0;
+
+    bottom:0;
+
+    width:263px;
+
+    height:40px;
+
+    background:url(../images/repeat-bg01.png) left repeat}
+
+.st-photolist li .pic .num span{
+
+    float:right;
+
+    color:#fff;
+
+    height:40px;
+
+    line-height:40px;
+
+    margin-right:20px;
+
+    padding-left:25px;
+
+    cursor:pointer;
+
+    background:url(../images/photo-ico.png) no-repeat}
+
+.st-photolist li .pic .num .zan{
+
+    background-position:0 12px}
+
+.st-photolist li .pic .num .zan-on{
+
+    background-position:0 -34px}
+
+.st-photolist li .pic .num .pl{
+
+    background-position:0 -126px}
+
+.st-photolist li .txt{
+
+    float:left;
+
+    width:263px;
+
+    height:35px;
+
+    overflow:hidden}
+
+.st-photolist li .txt a{
+
+    float:left;
+
+    color:#333;
+
+    width:200px;
+
+    height:35px;
+
+    line-height:35px;
+
+    font-size:14px;
+
+    overflow:hidden;
+
+    white-space:nowrap;
+
+    text-overflow:ellipsis}
+
+.st-photolist li .txt a:hover{
+
+    color:#fc6000;
+
+    text-decoration:underline}
+
+.st-photolist li .txt span{
+
+    float:right;
+
+    color:#7d7d7d;
+
+    height:35px;
+
+    line-height:35px}
+
+
+
+/*相册详情*/
+
+.st-photoshow-box{
+
+    float:left;
+
+    width:1200px;
+
+    height:844px;
+
+    border:1px solid #d8d8d8}
+
+.st-photoshow-box .photo-main-con{
+
+    /*float:left;*/
+
+    width:890px;
+
+    height:844px;
+
+    margin: 0 auto;
+
+    border-right:1px solid #d8d8d8;
+
+    background:#eee}
+
+
+
+/*大图展示*/
+
+.picshow{
+
+    width:890px;
+
+    height:844px;
+
+    overflow:hidden}
+
+.picshowtop{
+
+    width:890px;
+
+    height:680px;
+
+    line-height:680px;
+
+    text-align:center;
+
+    position:relative;
+
+    z-index:1;
+
+    overflow:hidden}
+
+#pic1{
+
+    max-width:890px;
+
+    max-height:680px;
+
+    vertical-align:middle}
+
+#preArrow{left:0px;}
+
+#nextArrow{right:0px;}
+
+.contextDiv{cursor:pointer;height:100%;width:50%;position:absolute;top:0px;z-index:5;background:url("blank") repeat;}
+
+.contextDiv span{position:absolute;top:50%;margin-top:-10%;width:46px;height:80px;}
+
+#preArrow_A{left:0px;background:url('../images/left.png') 0px 0px no-repeat;display:none;}
+
+#nextArrow_A{right:0px;background:url('../images/right.png') 0px 0px no-repeat;display:none;}
+
+.picshowtxt{width:890px;height:40px;}
+
+.picshowtxt_left{float:left;width:50px; height:40px; line-height:40px; margin-left:15px; font-family:Georgia, "Times New Roman", Times, serif;}
+
+.picshowtxt_left span{color:#e55656;font-size:30px;}
+
+.picshowtxt_left i{color:#666666;font-size:20px;}
+
+.picshowtxt_right{float:left;margin-left:10px;display:inline;line-height:23px;color:#666666;font-size:14px;width:880px; font-family:"宋体";}
+
+.picshowlist{width:890px;margin-top:10px;overflow:hidden;}
+
+.picshowlist_left{float:left;width:120px;overflow:hidden;overflow:hidden;}
+
+.picleftimg{width:120px;height:80px;background:url('../images/photo.jpg') no-repeat;padding-top:9px;padding-left:5px;overflow:hidden;}
+
+.picleftimg img{
+
+    width:106px;
+
+    height:66px}
+
+.piclefttxt{
+
+    width:120px;
+
+    line-height:20px;
+
+    font-family:"宋体"}
+
+.piclefttxt a{
+
+    color:#444444;}
+
+.piclefttxt a:hover{
+
+    color:#ff5d11;
+
+    text-decoration:underline}
+
+.picshowlist_mid{
+
+    float:left;
+
+    width:860px;
+
+    margin-left:15px;
+
+    display:inline;
+
+    overflow:hidden;
+
+    height:98px}
+
+.picmidleft{
+
+    float:left;
+
+    width:24px;
+
+    height:98px;
+
+    overflow:hidden}
+
+.picmidleft a{
+
+    display:block;
+
+    width:24px;
+
+    height:98px}
+
+.picmidmid{
+
+    float:left;
+
+    width:810px;
+
+    overflow:hidden;
+
+    height:98px;
+
+    padding-left:2px}
+
+.picmidmid ul{
+
+    width:810px;
+
+    overflow:hidden;
+
+    position:relative;
+
+    height:98px}
+
+.picmidmid ul li{
+
+    float:left;
+
+    margin-left:8px;
+
+    display:inline;
+
+    width:107px;
+
+    text-align:center;
+
+    overflow:hidden;
+
+    position:relative;
+
+    height:98px}
+
+.picmidmid ul li img{
+
+    width:103px;
+
+    height:98px}
+
+.selectpic{
+
+    border:2px solid #00b7ee;
+
+    height:94px !important}
+
+.picmidright{
+
+    float:left;
+
+    width:24px;
+
+    height:98px;
+
+    overflow:hidden}
+
+.picmidright a{
+
+    display:block;
+
+    width:24px;
+
+    height:98px}
+
+.picshowlist_right{
+
+    float:left;
+
+    width:120px;
+
+    float:right;
+
+    overflow:hidden}
+
+
+
+
+
+.st-photoshow-box .photo-side-con{
+
+    float:right;
+
+    width:309px;
+
+    height:844px;
+
+    overflow-y:auto;
+
+    background:#fff}
+
+
+
+.st-photoshow-box .photo-side-con::-webkit-scrollbar{
+
+    width:5px;
+
+    height:5}
+
+.st-photoshow-box .photo-side-con::-webkit-scrollbar-button{
+
+    background:#fff}
+
+.st-photoshow-box .photo-side-con::-webkit-scrollbar-track{
+
+    background:#fff}
+
+.st-photoshow-box .photo-side-con::-webkit-scrollbar-thumb{
+
+    background:#a0a0a0;
+
+    border-radius:5px}
+
+
+
+.photo-read{
+
+    padding:15px 28px;
+
+    border-bottom:1px solid #d8d8d8}
+
+.photo-read h1{
+
+    color:#0082dd;
+
+    line-height:24px;
+
+    font-size:16px}
+
+.photo-read .photo-txt{
+
+    color:#313131;
+
+    line-height:20px;
+
+    margin-top:15px}
+
+.photo-read .photo-num{
+
+    margin-top:10px;
+
+    text-align:right}
+
+.photo-read .photo-num span{
+
+    display:inline-block;
+
+    *display:inline;
+
+    *zoom:1;
+
+    height:20px;
+
+    line-height:20px;
+
+    padding-left:25px;
+
+    margin-left:20px;
+
+    background:url(../images/photo-ico.png) no-repeat}
+
+.photo-read .photo-num span.pl{
+
+    background-position:0 -136px}
+
+.photo-read .photo-num span.gz{
+
+    background-position:0 -44px}
+
+.photo-read .photo-num span.mg{
+
+    background-position:0 2px}
+
+
+
+.photo-comment-lsit{
+
+    padding:0 28px}
+
+.photo-comment-lsit li{
+
+    margin-top:15px}
+
+.photo-comment-lsit li p.tit{
+
+    color:#0082dd;
+
+    height:20px;
+
+    line-height:20px;
+
+    overflow:hidden;
+
+    white-space:nowrap;
+
+    text-overflow:ellipsis}
+
+.photo-comment-lsit li p.txt{
+
+    color:#313131;
+
+    line-height:20px;
+
+    margin-top:3px}
+
+
+
+.photo-comment-box{
+
+    padding:0 28px;
+
+    margin:20px 0}
+
+.photo-comment-box:after,
+
+.photo-comment-box .photo-fill-out:after{
+
+    content:'.';
+
+    clear:both;
+
+    display:block;
+
+    height:0;
+
+    overflow:hidden}
+
+.photo-comment-box textarea{
+
+    width:100%;
+
+    padding:0;
+
+    height:100px;
+
+    border:1px solid #d8d8d8}
+
+.photo-comment-box .photo-fill-out{
+
+    margin-top:10px}
+
+.photo-comment-box .photo-fill-out .yzm-text{
+
+    float:left;
+
+    width:70px;
+
+    height:28px;
+
+    line-height:28px;
+
+    border:1px solid #dcdcdc}
+
+.photo-comment-box .photo-fill-out .yzm-pic{
+
+    float:left;
+
+    width:70px;
+
+    height:30px;
+
+    margin-left:5px;
+
+    cursor:pointer}
+
+.photo-comment-box .photo-fill-out .submit-up{
+
+    float:right;
+
+    color:#fff;
+
+    width:84px;
+
+    height:30px;
+
+    line-height:30px;
+
+    font-size:14px;
+
+    cursor:pointer;
+
+    text-align:center;
+
+    background:#0082dd}
+
+.photo-comment-box .photo-fill-out .submit-up:hover{
+
+    background:#0076c9}
+
+
+
+
+
+
+
+
+

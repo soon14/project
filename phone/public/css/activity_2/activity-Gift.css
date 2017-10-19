@@ -1,0 +1,173 @@
+.foot-btn { position:fixed; width:100%; bottom:0; left:0; height:50px; }
+.btn-dui{ width:60%; float:right; height:50px; line-height:50px;}
+.btn-dui a{ color:#FFF; display:block; text-align:center; font-size:1.5em; background:#f5524b; border-left:1px solid #FFF;}
+.btn-dui span{ font-size:.7em;}
+.btn-zhu{ width:40%; float:left; height:50px; font-size:1.2em; line-height:50px; text-align:center; color:#FFF;background:#02c5b5;}
+
+.btn-fin{ width:60%; float:right; height:50px; line-height:50px;}
+.btn-fin a{ color:#e6e6e6; display:block; text-align:center; font-size:1.5em; background:#b2b2b2; border-left:1px solid #FFF;}
+.btn-fin span{ font-size:.7em;}
+
+.gift-con { padding:10px;  }
+.gift-img{ position:relative; width:100%;  }
+.gift-tit{ color:#FFF; width:100%; position:absolute; bottom:0; left:0; height:40px; line-height:40px; background-color:rgba(0,0,0,0.8)}
+.gift-tit h2{ padding-left:20px; color:#FFF; font-size:18px;}
+.gift-con-b span{ color:#06c1ae; font-size:24px;}
+.gift-con-b{background:#FFF; margin-bottom:10px; overflow:hidden;}
+.gift-con-b li{ padding:5px 20px; line-height:30px; border-bottom:1px solid #CCC;}
+.gift-con-a{padding:20px;background:#FFF;}
+.gift-con-a p{ font-size:16px;  line-height:28px;}
+.gift-con img{ width:100%;border-radius:8px 8px 0 0; overflow:hidden;}
+.gift-con .price{ color:#1378c5;}
+.gift-con .price span{ font-size:1.8em; padding:0 3px;}
+
+
+/** Tab导航 开始 **/
+.tab-nav {
+	
+	height: 40px; position:fixed; width:100%; top:0; left:0; z-index:999;
+}
+.tab-nav li {
+	float: left; background:#f6f6f6;
+	height: 40px; width:50%; text-align:center;
+	line-height: 40px;
+}
+.tab-nav li a {
+	display: block;
+	color: #666;
+	padding: 0 20px;
+}
+.tab-nav a:hover {
+	text-decoration: none;
+}
+.tab-nav li.current>a {
+	color: #fff;
+	
+	background: #fa4f47;
+	text-decoration: none;
+}
+/** Tab内容 开始 **/
+.tab-content>.active {
+	display: block;
+}
+.tab-pane {
+	display: none;
+}
+
+
+.exchange{ margin-top:50px;}
+.exchange h2{ margin:10px;}
+.exchange li{ background:#f0d7b1; position:relative; border:2px dashed #8f785f; padding:5px; margin:0 10px;margin-bottom:10px; border-radius:10px; }
+.exchange .num{ width:40px; float:left; margin-top:10px;}
+.exchange .num-cicle{ width:30px; height:30px; background:#fa4f47; line-height:30px; text-align:center; font:1.2em; color: #fff; border-radius:30px; font-family:Arial, Helvetica, sans-serif; margin:0 auto;}
+.exchange .peo{width:65px; float:left;}
+.exchange .peo img{ width:50px; height:50px;border-radius:50px; border:2px solid #fdecd2; }
+.exchange .txt{width:100%; font-size:.8em; color:#532e1b; }
+.exchange .txt p{ line-height:20px; padding:0; margin:0;}
+
+
+.exchange1{ margin-top:50px;}
+.exchange1 h2{ margin:10px;}
+.exchange1 li{ background:#fff;  position:relative; border:2px dashed #8f785f; padding:0 5px; margin:0 10px;margin-bottom:15px; border-radius:10px; }
+
+
+.join-box-m{  border-radius:5px; padding:5px; position:relative;  }
+.join-box-m-l{ width:30%; float:left;}
+.join-box-m-l img{ width:100%;}
+.join-box-m-r{ width:65%; float:right;}
+.join-box-m-r p{ padding:2px 5px; margin:0;color:#532e1b; }
+
+
+
+.join-name{ font-size:1.2em;}
+.join-price{ margin:10px 0;}
+.join-price span{font-size:1.2em;color:#fa4f47; padding:0 5px; m}
+.join-l{background:#fdecd2; width:48%; color:#532e1b;padding:5px 0; border-radius:10px; text-align:center; float:left; }
+.join-r{background:#fdecd2; width:48%;  color:#532e1b;padding:5px 0; border-radius:10px; text-align:center;float:right;}
+.join-gift{ background:#fa4f47; width:50%; height:30px; margin:0 auto; color:#FFF; text-align:center; border-radius:0 0 10px 10px; }
+.join-btn{ position:absolute; top:5px; left:80%; z-index:999; padding-right:10px; z-index:555;}
+
+
+.MaskClick {
+    background: #d9534f;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+/*遮罩弹框*/
+.modal{display: none;}
+.modal.in{ display:block;}
+.modal-backdrop {
+	position: fixed;
+	z-index: 555;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.6);	
+}
+.modal-dialog{
+	position:fixed;
+	z-index: 999;}
+.modal-content{ 
+position: fixed;
+width:80%; background:#FFF; 
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+border: 1px solid #999;
+border: 1px solid rgba(0,0,0,.2);
+border-radius: 6px;
+outline: 0;
+-webkit-box-shadow: 0 3px 9px rgba(0,0,0,.2);
+box-shadow: 0 3px 9px rgba(0,0,0,.2);}
+
+.modal-header {position: relative; 
+    min-height: 16.43px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5; background:#3098e1;
+}
+.modal-header h4{text-align:center; color:#fff;}
+.modal-header .Close{position:absolute; top:10px; right:5px; cursor:pointer; display:block; width:30px; height:30px; background:url(images/Close-ico.png) no-repeat; background-size:100%;}
+
+.modal-body{position: relative; font-size:1.1em;
+padding: 15px; text-align:center;}
+.modal-body .org{ color:#F60;}
+.modal-body img{ width:100%;}
+.MsgBtns {
+	padding: 10px;
+	text-align: center;
+}
+.MsgBtns .MsgBtn {
+	display: inline-block;
+	width: 80px;
+	border-radius: 3px;
+	font-family: 微软雅黑;
+	cursor: pointer;
+	border: none;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	text-align: center;
+	margin: 0px 5px;
+}
+.MsgBtns .ok {
+	background-color: #fc7169;
+	color: #fff;
+}
+.MsgBtns .Cancel {
+	background-color: #3098e1;
+	color: #fff;
+}
+
+.login-text {
+    width: 80%;
+    font-size: 14px;
+    line-height: 18px;
+    height: 18px;
+    color: #989fa9;
+    padding: 11px 0;
+    border: 1px solid #e0e0e0; padding-left:10px;
+    border-radius: 3px;
+}

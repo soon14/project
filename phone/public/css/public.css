@@ -1,0 +1,66 @@
+/* 公用 public CSS 文件 */
+.header{ background:#f8f8f8; height: 45px; position: fixed;width:100%; z-index:999; top:0;border-bottom:1px solid #CCC;}
+.searchBar{ position:relative; width:100%;}
+.searchBar .searchInt{ padding: 0 75px 0 10px; height:30px; }
+.searchBar .btn_search { display:block;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    width: 55px;
+    height: 30px;
+    line-height: 30px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size:1em;
+    color: #fff;
+    background-color: #ff3c3c;
+}
+.searchBar .search_txt {
+    width: 100%; margin-right:10px;
+    height: 30px; margin-top:7px;
+    padding: 5px 5px 5px 30px;
+    border-radius: 14px;
+    border: 1px solid #c6c6c6;
+    background-color: #fff;
+    color: #000;
+    font-size: 1em;
+    line-height: 18px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	background:url(/phone/public/images/search.png) no-repeat; background-size:25px 25px;
+}
+.selectMeau{ height:45px; border-top:2px solid #0a56bb; border-bottom:1px solid #eaebed;position: fixed; top:45px; width:100%;z-index:999;}
+.selectMeau li{ float:left; display:inline-block;width:23%;height:45px; line-height:45px;}
+.selectMeau li:nth-child(2){
+     width:30%;
+}
+.selectMeau a{ display:block; background:#FFF;text-align:center;  color:#565656;	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;}
+	.selectMeau a:hover{}
+.selectMeau li i {
+    width: 10px;
+    display: inline-block;
+    height: 7px;
+    color: #F60;
+    background: url(/phone/public/images/down.png) no-repeat;
+    margin-left: 5px;
+}
+.selectMeau .current a{ display:block;border-bottom:2px solid #0a56bb;}
+.selectMeau .current i{
+    background: url(/phone/public/images/up.png) no-repeat;
+}
+.selectCont { position:fixed; height:100%; background-color: rgba(0,0,0,0.8); top:92px; z-index:999;width:100%; display:none;}
+.selectCont .tab-pane{ display:none;}
+.selectCont .search-down { background:#FFF; }
+.selectCont .search-down li {cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+

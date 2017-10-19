@@ -1,0 +1,223 @@
+body {
+}
+/* 公用 public CSS 文件 */
+.header{ background:#fff; height: 45px; position: fixed;width:100%; z-index:999; top:0;border-bottom:1px solid #CCC;}
+.searchBar{ position:relative; width:100%;}
+.searchBar .searchInt{ font-size:.8em; padding: 0 75px 0 10px; height:30px; }
+.searchBar .btn_search { display:block;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    width: 55px;
+    height: 30px;
+    line-height: 30px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size:1em;
+    color: #fff;
+    background-color: #ff3c3c;
+}
+.searchBar .search_txt {
+    width: 100%; margin-right:10px;
+    height: 30px; margin-top:7px;
+    padding: 5px 5px 5px 30px;
+    border-radius: 14px;
+    border: 1px solid #c6c6c6;
+    background-color: #fff;
+    color: #000;
+    font-size: 1em;
+    line-height: 18px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	background:url(../images/search.png) no-repeat 5px; background-size:20px 20px;
+}
+.selectMeau{ height:45px; border-bottom:1px solid #CCC;position: fixed; top:46px; width:100%;z-index:999;}
+.selectMeau li{ float:left; display:inline-block;width:25%;height:45px; line-height:45px;}
+.selectMeau a{ display:block; background:#FFF;text-align:center; border-right:1px solid #CCC; color:#565656;}
+.selectMeau li i {
+    width: 10px;
+    display: inline-block;
+    height: 7px;
+    color: #F60;
+    background: url(../images/down.png) no-repeat;
+    margin-left: 5px;
+}
+.selectMeau .current a{ background:#f4f4f4;color: #2577e3;}
+.selectMeau .current i{
+    background: url(../images/up.png) no-repeat;
+}
+.selectCont { position:fixed; height:100%; background-color: rgba(0,0,0,0.8); top:92px; z-index:999;width:100%; display:none;}
+.selectCont .tab-pane{ display:none;}
+.selectCont .search-down { background:#FFF; }
+.selectCont .search-down li {cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.listLR-item{ margin-top:55px;}
+/* 单图片*/
+.listLR-item ul {
+	margin-top: 10px;
+}
+.listLR-item li {
+	background: #FFF;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.listLR-item .img-item img {
+	width: 100%;
+	height: 100px;
+}
+.listLR-item .img-item {
+	float: left;
+	width: 40%;
+	height: 100px;
+	overflow: hidden;
+}
+.listLR-item .txt-item {
+	float: right;
+	width: 58%;
+	position: relative;
+	height: 100px;
+}
+.listLR-item .title-item {
+	font-weight: normal;
+	color: #666;
+	padding-left: 5px;
+	display: block;
+	font-size: 18px;
+	word-break: break-all;
+	white-space: normal;
+	max-height: 60px;
+	line-height: 30px;
+	overflow: hidden;
+}
+.address-item {
+	font-size: .8em;
+	color: #333;
+	display: inline-block;
+	padding-left: 20px;
+	font-style: normal;
+	background: url(../images/address.png) no-repeat;
+	background-size: 20px 20px;
+}
+.quick-buy span{
+	display: inline-block;
+	font-size: 18px;
+	color: #ff5500;margin-left: 5px;
+	
+}
+.quick-buy{ font-size:14px; color:#666;margin-left: 8px;}
+
+
+
+.ticke-box {
+	background: #FFF;
+	padding: 0;
+	width: 100%;
+	margin-top: -1px;
+	border-bottom: 1px solid #dedede;
+	margin-bottom: 10px;
+	border-top: 1px solid #dddddd;
+}
+.show-name h2 {
+	font-size: 1.1em;
+	padding: 10px 0px 10px 40px;
+	border-bottom: 1px solid #dedede;
+}
+.show-name1 h2 {
+	font-size: 1em; color:#ff3300;
+	padding: 10px 0; text-align:center;
+	
+}
+.show-name .ico01 {
+    background: url(../images/ico01.png) no-repeat 10px 10px;
+    background-size: 25px 25px;
+}
+.show-name .ico02 {
+    background: url(../images/ico02.png) no-repeat 10px 10px;
+    background-size: 25px 25px;
+}
+.show-name .ico03 {
+    background: url(../images/ico03.png) no-repeat 10px 10px;
+    background-size: 25px 25px;
+}
+/*首页展示图 */
+.banner {
+	position: relative;
+	height: 220px;
+	overflow: hidden;
+}
+.banner img {
+	z-index: 10px;
+}
+.ticke-tit {
+	height: 40px;
+	line-height: 40px;
+	background: #000;
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	z-index: 999;
+}
+.ticke-tit p {
+	color: #FFF;
+	position: relative;
+	font-size: 1.1em;
+	padding: 0 10px;
+}
+.fixedTabbox {
+	width: 100%;
+	margin: 5px auto;
+	font-family: '微软雅黑';
+}
+.tab-name {
+	font-size: 1.1em;
+	padding-left: 30px;
+	border-bottom: 1px dashed #06F;
+	color: #06F;
+	height: 2em;
+	line-height: 30px;
+}
+.order-ticket {
+	margin: 5px;
+}
+.table-hover i {
+	color: #F30;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+.order-ticket td {
+	padding: 5px 0;
+	font-size: 14px;
+	text-align: center;
+	font-weight: normal;
+	border-top: 1px solid #ddd;
+}
+.table-hover th {
+	font-size: 14px;
+	padding: 5px;
+	color: #3b77c7;
+	margin-bottom: 2px;
+	text-align: center;
+	font-weight: normal;
+}
+.con-box {
+	padding: 10px;
+	margin: 0;
+}
+.con-box p {
+	margin-bottom: 10px;
+	font-size: 1em;
+	line-height: 24px;
+}
+.con-box img {
+	width: 100%;
+}

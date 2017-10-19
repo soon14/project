@@ -1,0 +1,239 @@
+﻿body{ background:#f2f4f7;}
+.order-head{ ;font-size:1.1em;height:40px; line-height:40px; background:#2577e3; text-align:center;color:#FFF; border-bottom:1px solid #fff; box-shadow: 0px 2px 2px #e6e6e6;}
+.order-head a{ display:block;}
+.order-head .back-home{ position:absolute; height:30px; left:10px; top:5px; width:30px;  background:url(/res/images/phone/back.png) no-repeat 0 0px;background-size:30px 30px; }
+
+.order-box{ margin-top:-1px;  margin-bottom:10px; }
+.scenic-name{ padding:20px 10px;font-size:1.2em;background: #8cc641; color:#FFF;}
+.order-name h2{ font-size:1.2em; padding:10px;color: #8cc641;}
+.order-name i{ font-size:.8em; color:#666; font-style:normal; padding:10px;}
+
+.order-item{clear:both; font-size:1em;border-bottom:1px solid #dedede;}
+.order-item dl{ background:#FFF; clear:both;border-top:1px solid #dedede; height:40px; line-height:40px;}
+.order-item dt{ float:left; width:70px;height:40px; line-height:40px;  text-align:left; color:#666666;}
+.order-item dd{ padding-left:90px;height:40px; line-height:40px;}
+
+
+
+.p_number .add_chose {
+	width: 90px;
+	height:30px;
+	margin-top:5px;
+}
+.p_number .add_chose a {
+	float: left;
+	margin: 0;
+	display: block;
+	width:30px;
+	height:30px;
+	overflow: hidden;
+	background: url(/res/images/phone/jbtn_plus.png) no-repeat;   
+    background-size: 30px;
+}
+.p_number .add_chose a.reduce {
+	background: url(/res/images/phone/jbtn_minus_orange.png) no-repeat;background-size:30px 30px; 
+}
+.p_number .add_chose a.reduce:hover {
+	background-position: 0px 0px #099fde;
+}
+.p_number .add_chose a.disable {
+	background: url(/res/images/phone/jbtn_minus_gray.png) no-repeat;background-size:30px 30px; 
+}
+.p_number .add_chose a.add {
+	background-position: 0px 0px;
+}
+.p_number .add_chose a.add:hover {
+	background-position: 0px #000;
+}
+.p_number .add_chose input {
+	margin: 0;
+	padding: 0;
+	border: none;
+	height:30px;
+}
+.p_number .add_chose .text {
+	float: left;
+	display: inline;
+	width:30px;
+	line-height:30px;
+	text-align: center;
+	font-size: 1em;
+	color: #333;
+}
+.p_number .buy {
+	line-height: 2em;
+}
+.p_number .buy .total-font {
+	font-family: Arial;
+	font-size: 3em;
+}
+.p_number .buy .jifen {
+	margin-left: 20px;
+	color: #ACACAC;
+}
+.p_number .buy .jifen b {
+	margin: 0 3px;
+}
+.reply-price i { font-style:normal;
+    font-size: 1.2em;
+    color: #ff6600;
+}
+.reply-price dfn { font-style:normal;
+    font-size: 1.1em;
+    color: #ff6600;
+}
+.deply-input{ border: none; float:left; height:25px; line-height:25px;color:#666666; font-size:1em; margin-top:5px}
+
+/*订单展示 结束*/
+.agree-box{font-size:1em; margin-top:15px; margin-left:15px; }
+.agree-box a{ margin-left:5px; }
+.agree-box a:link { color:#0a56bb; text-decoration:none;}
+.agree-box a:visited {color:#0a56bb;text-decoration:none;}
+.agree-box a:hover {color:#0a56bb;text-decoration:none;}
+.agree-box a:active {color:#0a56bb;text-decoration:none;}
+
+
+
+.box2 { display:none;
+	width: 100%;font-size:1em; 
+	height: 100%;
+	margin: 0 auto;		
+	position: fixed; top:0; left:0;
+	background: rgba(0, 0, 0, 0.70) none repeat scroll 0% 0%;
+	z-index:999;
+}
+.login5 {
+	width: 100%;
+	height: 40px;
+	position: relative;
+}
+
+.login51 {
+	width: 100%; height:90%; overflow:scroll;	
+	margin: 0 auto;
+
+}
+.login51 p{ color:#FFF;padding:10px 20px; font-size:1em; line-height:22px;}
+.login5 .close{ float:right; margin:5px 5px 0 0; display:inline-block; height:40px; width:40px;
+	background:url(/res/images/phone/close.png) 0px 0px;background-size:40px 40px;
+}
+
+
+.pay_box{ width:100%; margin:0 auto;}
+.payto_box .btn_submit {
+	display: inline-block;
+	width: 100%;
+	height: 54px; line-height:45px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	background-color: #ffaf44;
+
+}
+
+.pay_box1{ width:100%; margin:0 auto; position:fixed; bottom:0;}
+.pay_box1 .btn_submit {
+	display: inline-block;
+	width: 100%;
+	height: 45px; line-height:45px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	background-color: #ffaf44;
+
+}
+
+.pay-item{clear:both; }
+.pay-item img{ width:150px;}
+.pay-item dl{ clear:both;border-top:1px solid #dedede;}
+.pay-item dt{ float:left; width:150px;  text-align:right; color:#666666; padding:10px 0;}
+.pay-item dd{ float:left; margin-left:10px; padding:10px 0;}
+
+
+.Booking-otes ul{ padding:5px 10px;}
+.Booking-otes li{ clear:both; width:100%; margin-bottom:10px;}
+.Booking-otes span{  float:left;width:70px;}
+
+
+
+
+/*置底导航*/
+.defray_box { position:fixed;
+	bottom: 0;
+	z-index:100;
+	width: 100%;
+	left: 0;
+	height:50px; line-height:50px;
+	background-color: #fff;
+	border-top: 1px solid #dee6ec;
+	overflow: hidden;background-color: rgba(20,20,20,0.9);
+}
+
+.defray_box .btn_submit {
+	display: inline-block;
+	width: 40%;
+	height:50px; line-height:50px;
+	text-align: center;
+	font-size:1.1em;
+	color: #fff;
+	background-color: #ffaf44;
+
+}
+.defray_box .total_price {
+	width: 58%;	
+	height:50px; line-height:50px;
+	font-size:1.1em;
+	color: #fff;
+}
+.defray_box .total_price dfn {
+	font-size:1.5em; font-style:normal;
+	color: #ff931b;
+	vertical-align: 0px;
+}
+.defray_box .total_price i {
+	font-size:1.1em; font-style:normal;
+	color: #ff931b; margin-right:5px;
+	vertical-align: 0px;
+}
+
+.p-box{ height:50px;}
+.p-box1{ height:150px;}
+
+.getnum{border:1px solid #ff931b; float:right; position:absolute; top:3px; right:5px; font-size:.8em; height:30px; line-height:30px;  background:#ffe8d5;}
+.getnum a{ display: inline-block;  padding:0 5px; color:#F30;}
+
+/*置底导航*/
+.defray_box1 {
+
+	height:50px; line-height:50px;
+	background-color: #fff;
+	
+	overflow: hidden;
+}
+
+.defray_box1 .btn_submit {
+	display: inline-block;
+	width: 40%;
+	height:50px; line-height:50px;
+	text-align: center;
+	font-size:1.1em;
+	color: #fff;
+	background-color: #ffaf44;
+
+}
+.defray_box1 .total_price {
+	width: 58%;	
+	height:50px; line-height:50px;
+	font-size:1.1em;
+	color: #767c81;
+}
+.defray_box1 .total_price dfn {
+	font-size:1.5em; font-style:normal;
+	color: #ff931b;
+	vertical-align: 0px;
+}
+.defray_box1 .total_price i {
+	font-size:1.1em; font-style:normal;
+	color: #ff931b; margin-right:5px;
+	vertical-align: 0px;
+}

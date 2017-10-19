@@ -1,0 +1,1 @@
+<?php defined('SYSPATH') or die('No direct access allowed.');class Model_Distributor_Kind extends ORM{    /**     * @return Array     * 供应商分类表     */    public static function  get_kind_list()    {        return ORM::factory('distributor_kind')            ->where("isopen=1")            ->get_all();    }}

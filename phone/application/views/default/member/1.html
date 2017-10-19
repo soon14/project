@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>无标题文档</title>
+</head>
+<script src="jquery-1.11.3.min.js"></script><!-- jQuery库 -->   
+<style type="text/css">
+/** Tab导航 开始 **/
+.tab-nav{
+    border-bottom:1px solid #CCC;
+	height:40px;
+	margin:0;
+	padding:0;	
+	}	
+.tab-nav li {
+	display:inline-block; width:50%;
+	height:40px;
+	line-height:40px;
+
+	float: left;	
+}
+.tab-nav li a {
+	display:block; 
+	color:#337ab7;
+	padding:0 20px;
+}
+.tab-nav li a:hover {
+	text-decoration: none;
+}
+.tab-nav li.current>a{ display:block;
+	color:#999; background:#FFF;
+    border-bottom: none;
+	background: #fff;
+	text-decoration: none;
+}
+.tab-nav li.hover{
+	background:#eee;
+	text-decoration: none;
+}
+/** Tab内容 开始 **/
+.tab-content{ }
+.tab-content>.active{
+    display: block;
+}
+.tab-pane{display:none}
+</style>
+<script type="text/javascript">
+//同时多个选项卡组件
+$(document).ready(function(){ 
+        //导航选项卡	 	    
+
+    function tabs(tabTit,on,tabCon){
+        $(tabTit).children().click(function(){
+            $(this).addClass(on).siblings().removeClass(on);
+            var index = $(tabTit).children().index(this);
+           	$(tabCon).eq(index).show().siblings().hide();
+    	});
+	};
+    tabs(".tabs","current",".tab-pane");
+
+
+});
+</script>
+<body>
+
+
+<section>
+    <!-- tab切换内容 开始 -->
+
+      <ul class="tabs tab-nav">
+        <li class="current"><a href="#">短信快捷登录</a></li>
+        <li><a href="#">账号密码登录</a></li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active">
+
+           1
+        </div>
+        <div class="tab-pane">
+          2
+        </div>
+      </div>
+
+    <!-- tab切换内容 结束 --> 
+    
+</section>
+</body>
+
+</html>

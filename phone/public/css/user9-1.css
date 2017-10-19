@@ -1,0 +1,108 @@
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+.user-top{ background:#2577e3; height:90px;position:relative;}
+.user-top .user-peo{ width:50px; height:50px;}
+.user-top .user-peo img{width:50px; height:50px; border:2px solid #FFF; border-radius:50%;position:absolute; top:20px; left:10px;}
+.user-top .user-name{ font-size:1em; color:#FFF; position:absolute; top:30px; left:70px;}
+.user-top .user-admin{ font-size:.9em; color:#FFF; position:absolute; top:28px; right:10px;}
+.user-top .user-admin span{ float:left;display:inline-block; height:25px; line-height:25px;}
+.user-top .user-admin i{ background:url(../images/ico-10.png);display:inline-block; width:25px; height:25px; margin-right:2px; float:left; background-size:25px;}
+.user-top .user-admin a{ display:block; color:#FFF; text-decoration: none;} 
+
+.user-list a{ display:block; color:#525252;}
+.user-list li{ background:#FFF; border-bottom:1px solid #e6e6e6; padding-left:35px;height:45px; line-height:45px; position:relative;}
+.user-list i{ display:inline-block; width:25px; height:25px; }
+.user-list .ico06{ background:url(../images/ico-06.png); background-size:25px;position:absolute; top:10px; left:5px}
+.user-list .ico07{ background:url(../images/ico-07.png); background-size:25px;position:absolute; top:10px; left:5px}
+.user-list .ico08{ background:url(../images/ico-08.png); background-size:25px;position:absolute; top:10px; left:5px}
+.user-list .ico09{ background:url(../images/ico-09.png); background-size:25px;position:absolute; top:10px; left:5px}
+.user-list .arrow{ background:url(../images/ico-11.png); background-size:25px; position:absolute;top:10px; right:10px;}
+
+
+.user-head{ background:#2577e3; height:45px; line-height:45px; color:#FFF; text-align:center;}
+
+.user-head1{ background:#2577e3; height:45px; line-height:45px; color:#FFF; padding-left:10px;}
+
+.user-form li{ background:#FFF; border-bottom:1px solid #e6e6e6; position:relative; }
+.user-form li::after {
+    content: ".";
+    display: block;
+    clear: both;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+.user-form .user-peo{ width:50px; height:50px;}
+.user-form .user-peo img{width:50px; height:50px; border:2px solid #FFF; border-radius:50%;}
+.user-form label{  display:block; padding:10px; float:left;color:#989fa9; text-align:right; width:70px; }
+.user-form span{padding:10px; float:left;color:#494949; }
+.user-form dfn{ font-size:.8em; position:absolute;bottom:10px; right:10px;font-style:normal;color:#494949;}
+.user-form dfn a{color:#2577e3;text-decoration: none;}
+
+.user-form .login-text {
+    width: 80%;
+    font-size: 14px;
+    line-height: 18px;
+    height: 20px;
+    color: #989fa9;
+
+    border:0;
+    border-radius: 3px;
+}
+
+
+
+.user-sex{ padding:10px; }
+.user-sex li{ padding:5px 10px; margin-bottom:10px; text-align:center; color:#999;cursor:pointer }
+.user-sex .user-man{ background:#eceff4; border-radius: 5px ;}
+.user-sex .user-woman{background:#eceff4; border-radius:5px;}
+.user-sex  i{ display:inline-block; width:1px; height:30px; float:left; }
+
+.user-sex .active{ background:#2577e3; color:#fff; }
+
+.user-sex .active span{}
+
+.user-btn{ width:90%;margin:0 auto;}
+.user-btn button {
+   width: 100%;
+    height: 42px; 
+    border: 0;
+    
+    line-height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: #2577e3;
+    border-radius: 5px;
+    cursor: pointer;
+    zoom: 1;
+}
+
+.peo-box{ width:180px; height:180px; overflow:hidden; margin:10px auto;border-radius:100%;  border:5px solid #FFF;}
+.peo-box img{width:180px;height:180px; }
+
+.user-tip{background:url(../images/user-tip.png) no-repeat 10px 0;padding:0 10px 10px 30px; background-size:20px; color:#F60; font-size:.75em;}
+.form-tit{position:absolute; top:6px; right:1px; padding:5px 10px; background:#e23823; border-radius:5px;  font-size:.8em;}
+.form-tit a{ display:block;color:#fff;}
+
+.user-step{ height:45px; height:45px; line-height:45px; color:#525252; text-align:center; border-bottom:1px solid #e6e6e6; margin-bottom:10px; background:#FFF; }
+.user-step .active{ color:#2577e3;}
+
+
+.modal{display: none;}
+.modal .in{ display:block;}
+.modal-backdrop {
+	position: fixed;
+	z-index: 555;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.6);	
+}
+.modal-dialog{
+	position:fixed;
+	z-index: 999; width:100%;}
+.modal-header .Close{cursor:pointer; display:block; width:30px; height:30px; margin:0  background:url(../images/Close-ico.png) no-repeat; background-size:100%;}
