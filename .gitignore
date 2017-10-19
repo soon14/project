@@ -1,0 +1,6 @@
+#configfile
+/data/common.inc.php
+*.png
+*.jpeg
+*.jpg
+
