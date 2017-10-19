@@ -7,43 +7,52 @@
 <meta name="format-detection" content="email=no" />
 <title>{$info['title']}</title>
 
-{Common::css('photoshow/bootstrap.css')}
-{Common::css('photoshow/public.css')}
-{Common::css('photoshow/layout.css')}
-
-{Common::js('jquery-1.11.3.min.js')}
-{Common::js('photoshow/bootstrap-min.js')}
+  {Common::css('photoshow/bootstrap.css')}
+  {Common::css('photoshow/layout.css')}
+  {Common::js('jquery-1.11.3.min.js')}
+  {Common::js('photoshow/bootstrap-min.js')}
 
 </head>
 <body class="ActSpecial-index">
 <!--活动 banner-->
 <div class="act-banner"><img src="{$info['litpic']}"></div>
 
-{if $info['isover']}
-     <!----已过期--->
-{else}
+  {if $info['isover']}
+  <!----已过期--->
+  {else}
     {if $isJoinAct}
-     <!-----已参与过------>
+    <!-----已参与过------>
 
     {else}
-      <a class="btn act-btn-attend">
+
+      <a class="btn act-btn-attend" href="javascript:;" onclick="joinparts()">
         <img src="/phone/public/images/photoshow/act-btn-attend.png">
       </a>
     {/if}
-{/if}
+  {/if}
+
 <div class="act-detail">
-  <h2 class="act-detail-title"><span>活动详情</span></h2>
+  <h2 class="act-detail-title2"><img src="/phone/public/images/photoshow/title02.png"></h2>
   <div class="act-detail-cnt">
     <p class="act-detail-data">活动时间：{$info['linedate']}~{$info['timeover']}</p>
     {$info['reserved1']}
   </div>
 </div>
 <div class="act-prize">
-  <h2 class="act-detail-title"><span>活动奖品</span></h2>
+  <h2 class="act-detail-title"><img src="/phone/public/images/photoshow/title01.png"></h2>
   <div class="act-prize-list clearfix">
     <ul>
-      {loop $info['piclist1'] $v}
-      <li><div class="act-prize-list-item"><img src="{$v[0]}"><p>{$v[1]}</p></div></li>
+      <?php $arr = array(1=>"一等奖",2=>"二等奖",3=>"三等奖");?>
+      {loop $info['piclist1'] $k $v}
+      <li><div class="act-prize-list-item">
+          <div class="prize-img">
+
+            <span><?php echo $arr[$k+1];?></span>
+            <img src="{$v[0]}">
+          </div>
+          <p>{$v[1]}</p>
+        </div>
+      </li>
       {/loop}
     </ul>
   </div>
@@ -59,7 +68,7 @@
 <script>
   (function ($) {
 
-
+    // 微信 浏览图片
     var imgs = $(".act-prize-list").find('img');
 
     wx_seePicture(imgs);
@@ -116,3 +125,14 @@
     //console.log(res);
   });
 </script>
+<script>
+  function joinparts(){
+
+    var  url ="/phone/photoshow/joinpart?aid={$info['aid']}";
+
+    window.location.href=url;
+
+
+
+  }
+  </script>

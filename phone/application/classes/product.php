@@ -668,6 +668,10 @@ class Product
                 $sql = "UPDATE `sline_mitao` SET shownum=shownum+1 WHERE aid='$aid'";
                 DB::query(Database::UPDATE, $sql)->execute();
                 break;
+            case '107' :
+                $sql = "UPDATE `sline_act` SET shownum=shownum+1 WHERE aid='$aid'";
+                DB::query(Database::UPDATE, $sql)->execute();
+                break;
         }
     }
 

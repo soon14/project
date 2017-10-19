@@ -182,6 +182,12 @@ class Controller_Pub extends Stourweb_Controller
         $this->display('pub/footer');
     }
 
+    public function action_photoshow_footer()
+    {
+
+        $this->display('pub/photoshow_footer');
+    }
+
     /**
      * ajax 发送验证码
      */
